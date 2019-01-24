@@ -1,0 +1,893 @@
+ i would like to find a flight from charlotte to las vegas that makes a stop in st. louis ,আমি Charlotte থেকে লা ফ্লাসে একটি ফ্লাইট খুজে বের করতে চাই যা সেন্টে স্টপ করে। লুই,O B-fromloc.city_name O O O O O O O O O O O O O I-stoploc.city_name,las vegas st.
+ on april first i need a ticket from tacoma to san jose departing before 7 am ,এপ্রিলের প্রথম দিকে টাকোমা থেকে সান জোসে যাওয়ার একটি টিকিট দরকার 7 টা আগে,B-depart_date.month_name O O B-fromloc.city_name O O I-toloc.city_name O O O O B-depart_time.time O B-depart_time.time_relative,first san am
+ on april first i need a flight going from phoenix to san diego ,এপ্রিল প্রথম আমি ফিনিক্স থেকে সান ডিয়েগো যেতে একটি ফ্লাইট প্রয়োজন,B-depart_date.month_name O O B-fromloc.city_name O O I-toloc.city_name O O O O,first san
+ i would like a flight traveling one way from phoenix to san diego on april first ,ফিনিক্স থেকে সান ডিয়েগোতে প্রথমবারের মত আমি একটি ফ্লাইট ভ্রমণ করবো,B-fromloc.city_name O O O O O O O O O O,one way san diego april first
+ i would like a flight from orlando to salt lake city for april first on delta airlines ,আমি ডেল্টা এয়ারলাইনস এ প্রথম এপ্রিল জন্য অরল্যান্ডো থেকে লবণ লেক শহর থেকে একটি ফ্লাইট চাই,O B-airline_name I-airline_name O O B-depart_date.month_name O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O O,first
+ i need a flight from toronto to newark one way leaving wednesday evening or thursday morning ,আমি টরন্টো থেকে একটি ফ্লাইট প্রয়োজন বুধবার সন্ধ্যায় বা বৃহস্পতিবার সকালে একটি উপায় newark,O B-fromloc.city_name O O O O B-depart_date.day_name B-depart_time.period_of_day O B-depart_date.day_name O O O B-toloc.city_name,one way morning
+ monday morning i would like to fly from columbus to indianapolis ,সোমবার সকালে আমি কলম্বাস থেকে ইন্ডিয়ানাপলিস পর্যন্ত উড়ে যেতে চাই,B-depart_date.day_name O O B-fromloc.city_name O B-toloc.city_name O O O O,morning
+ on wednesday april sixth i would like to fly from long beach to columbus after 3 pm ,বুধবার এপ্রিলের ছয় তারিখে আমি লম্বা সমুদ্র সৈকত থেকে কলম্বাস পর্যন্ত 3 টার পর উড়ে যেতে চাই,B-depart_date.day_name B-depart_date.month_name O O O O O I-fromloc.city_name O B-toloc.city_name O B-depart_time.time O B-depart_time.time_relative O O O,sixth long pm
+ after 12 pm on wednesday april sixth i would like to fly from long beach to columbus ,বুধবার দুপুরে দুপুর 1২ টার দিকে আমি দীর্ঘ সৈকত থেকে কলম্বাস পর্যন্ত উড়ে যেতে চাই,B-depart_date.day_name O O O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O,after 12 pm april sixth
+ are there any flights from long beach to columbus on wednesday april sixth ,বৃহস্পতিবার এপ্রিল ছয়টি দীর্ঘ সৈকত থেকে columbus কোন ফ্লাইট আছে,O B-depart_date.month_name O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O,wednesday sixth
+ find a flight from memphis to tacoma dinner ,মেমফিস থেকে টাকোমা ডিনারে ফ্লাইটটি খুঁজে নিন,B-fromloc.city_name O B-toloc.city_name B-meal_description O O O,
+ on next wednesday flight from kansas city to chicago should arrive in chicago around 7 pm return flight on thursday ,কানসাস শহর থেকে চিকোগোতে আগামী বুধবার ফ্লাইটে চিকগোতে পৌঁছানো উচিত 7 টার দিকে ফেরার ফ্লাইটে,B-fromloc.city_name I-fromloc.city_name O O O B-depart_date.day_name O B-toloc.city_name O O B-arrive_time.time O O O O,next around pm thursday
+ show flight and prices kansas city to chicago on next wednesday arriving in chicago by 7 pm ,ফ্লাইট এবং দাম কানসাস শহরের আগামীকাল বুধবার বিকেলে শিকাগো শহরে পৌঁছানোর প্রদর্শন করুন,O O O B-fromloc.city_name I-fromloc.city_name O B-depart_date.day_name O B-toloc.city_name O O O O,next by 7 pm
+ flight on american from miami to chicago arrive in chicago about 5 pm ,মেক্সিকো থেকে মেক্সিকো থেকে আমেরিকার ফ্লাইটটি বিকেল 5 টায় শিকাগো পৌঁছাবে,O O O O O O O B-arrive_time.time O B-toloc.city_name O,american miami about pm
+ find flights arriving new york city next saturday ,আগামী শনিবার নিউ ইয়র্ক শহর আগমনের ফ্লাইট খুঁজুন,O B-arrive_date.day_name B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,next
+ find nonstop flights from salt lake city to new york on saturday april ninth ,স্যাট হ্রদ শহর থেকে nonstop ফ্লাইট শনিবার এপ্রিল নববর্ষ থেকে নিউ ইয়র্ক,O I-fromloc.city_name I-fromloc.city_name O B-flight_stop O B-depart_date.day_name B-depart_date.month_name O O B-toloc.city_name I-toloc.city_name,salt ninth
+ show flights from burbank to milwaukee for today ,আজকের জন্য milwaukee থেকে burbank থেকে ফ্লাইট দেখান,O O B-toloc.city_name O B-fromloc.city_name O O O,today
+ show flights tomorrow evening from milwaukee to st. louis ,মিলওয়াকি থেকে সেন্ট থেকে আগামীকাল সন্ধ্যায় ফ্লাইট দেখান। লুই,B-fromloc.city_name O B-toloc.city_name O B-depart_date.today_relative B-depart_time.period_of_day O O I-toloc.city_name,
+ show flights saturday evening from st. louis to burbank ,সেন্ট থেকে শনিবার সন্ধ্যায় ফ্লাইট প্রদর্শন। বউবার্কে লুইস,B-fromloc.city_name O B-depart_date.day_name B-depart_time.period_of_day O O O O,louis burbank
+ show flights from burbank to st. louis on monday ,burbank থেকে সেন্ট ফ্লাইট দেখান। সোমবার লুইস,B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name O,louis
+ show flights from burbank to milwaukee on monday ,সোমবার সকাল থেকে বারব্যাংক থেকে মিলওয়াকি পর্যন্ত ফ্লাইটগুলি দেখান,B-depart_date.day_name O O O O B-toloc.city_name O O O,burbank
+ show flights tuesday evening from milwaukee to st. louis ,Milwaukee থেকে সেন্ট থেকে ফ্লাইট মঙ্গলবার সন্ধ্যায় দেখান। লুই,B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name B-depart_time.period_of_day O I-toloc.city_name,
+ show flights wednesday evening from st. louis to burbank ,সেন্ট থেকে ফ্লাইট বুধবার সন্ধ্যায় প্রদর্শন। বউবার্কে লুইস,B-fromloc.city_name O O B-depart_date.day_name B-depart_time.period_of_day O O O,louis burbank
+ which flights travel from kansas city to los angeles ,কোন ফ্লাইট কানসাস শহর থেকে লস এঞ্জেলেস ভ্রমণ,O O B-fromloc.city_name I-fromloc.city_name O O I-toloc.city_name O,los
+ what flights travel from las vegas to los angeles ,লাস ভেগাস থেকে লস এঞ্জেলস থেকে কি ফ্লাইট ভ্রমণ,B-fromloc.city_name I-fromloc.city_name O O O O O O O,los angeles
+ which flights travel from kansas city to los angeles on april ninth ,কোন ফ্লাইট এপ্রিল নব্বই তারিখে কানসাস শহর থেকে লস এঞ্জেলেস ভ্রমণ,O O B-depart_date.month_name O O B-fromloc.city_name I-fromloc.city_name O O I-toloc.city_name O,los ninth
+ which flights travel from las vegas to los angeles california and arrive on april ninth between 4 and 5 pm ,কোন ফ্লাইটগুলি লাস ভেগাস থেকে লস এঞ্জেলিস ক্যালিফোর্নিয়া পর্যন্ত ভ্রমণ করে এবং এপ্রিল 4 থেকে 5 অপরাহ্নের মধ্যে পৌছায়,O O B-fromloc.city_name I-fromloc.city_name O O O B-toloc.state_name O O O O B-arrive_date.month_name B-arrive_time.start_time O B-arrive_time.end_time O O O,los angeles ninth pm
+ which flights on us air go from orlando to cleveland ,আমাদের উপর কোন ফ্লাইট অরল্যান্ডো থেকে Cleveland যেতে,O O O O B-fromloc.city_name O B-toloc.city_name O,us air
+ which flights travel from cleveland to indianapolis on april fifth ,কোন ফ্লাইট এপ্রিল পঞ্চম নেভিগেশন Cleveland থেকে ইন্ডিয়ানাপলিস ভ্রমণ,O O B-depart_date.month_name B-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name O,
+ which flights travel from indianapolis to san diego on april fifth ,কোন ফ্লাইট এপ্রিলের পঞ্চম তারিখে ইন্ডিয়ানাপলিস থেকে সান ডিয়েগো ভ্রমণ,O O B-depart_date.month_name B-depart_date.day_number O B-fromloc.city_name O O I-toloc.city_name O,san
+ which flights go from cleveland to indianapolis on april fifth ,কোন ফ্লাইট এপ্রিল পঞ্চম নেভিগেশন Cleveland থেকে ইন্ডিয়ানাপলিস যান,O O B-depart_date.month_name B-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name O,
+ which flights travel from nashville to tacoma ,কোন ফ্লাইট ন্যাশভিল থেকে টাকোমা ভ্রমণ,O O B-fromloc.city_name O B-toloc.city_name O,
+ does tacoma airport offer transportation from the airport to the downtown area ,বিমানবন্দর থেকে বিমানবন্দর থেকে টাকোমা বিমানবন্দর অফার অফার করে,I-airport_name O O O B-airport_name O O O O,
+ which flights travel from tacoma to san jose ,যা ফ্লাইট টাকোমা থেকে সান জোসে ভ্রমণ,O O B-fromloc.city_name O O I-toloc.city_name O,san
+ what day of the week do flights from nashville to tacoma fly on ,সপ্তাহের কোন দিন ন্যাশভিল থেকে টাকোমো ফ্লাই ফ্লাইটগুলি করে,O O O B-fromloc.city_name O B-toloc.city_name O O O,
+ what are the flights from tacoma to san jose ,টাকোমা থেকে সান জোসে ফ্লাইট কি কি,B-fromloc.city_name O O I-toloc.city_name O O O,san
+ what days of the week do flights from san jose to nashville fly on ,সপ্তাহের কোন দিন সান জোসের থেকে ন্যাশভিল ফ্লাইট ফ্লাইট করবেন,O O O O O O B-toloc.city_name O O O,san jose
+ what are the flights from tacoma to san jose ,টাকোমা থেকে সান জোসে ফ্লাইট কি কি,B-fromloc.city_name O O I-toloc.city_name O O O,san
+ i need a flight that goes from boston to orlando ,আমি বোস্টন থেকে অরল্যান্ডো যা একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O O,
+ are there any flights from boston to orlando connecting in new york ,নিউ ইয়র্কে সংযুক্ত বোস্টন থেকে অরল্যান্ডো থেকে কোন ফ্লাইট আছে,B-stoploc.city_name O O B-fromloc.city_name O B-toloc.city_name O O O O,connecting york
+ are there any flights from boston to orlando connecting in columbus ,colombus সংযোগ বোস্টন থেকে অরল্যান্ডো থেকে কোন ফ্লাইট আছে,O O B-fromloc.city_name O B-toloc.city_name O O O O,connecting columbus
+ does this flight serve dinner ,এই ফ্লাইট ডিনার পরিবেশন করা হয়,O O B-meal_description O O O,
+ i need a flight from charlotte to miami ,আমি Charlotte থেকে মিয়ামি একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i need a nonstop flight from miami to toronto ,আমি মিয়ামি থেকে toronto একটি nonstop ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O B-flight_stop O O,
+ i need a nonstop flight from toronto to st. louis ,আমি toronto থেকে সেন্ট একটি nonstop ফ্লাইট প্রয়োজন। লুই,O B-fromloc.city_name O B-toloc.city_name O B-flight_stop O O I-toloc.city_name,
+ i need a flight from toronto to st. louis ,আমি toronto থেকে সেন্ট একটি ফ্লাইট প্রয়োজন। লুই,O B-fromloc.city_name O B-toloc.city_name O O O I-toloc.city_name,
+ i need a flight from st. louis to charlotte ,আমি সেন্ট থেকে একটি ফ্লাইট প্রয়োজন। চার্লট যাও louis,O B-fromloc.city_name O O O O B-toloc.city_name O I-fromloc.city_name,
+ i need a flight on united airlines from la guardia to san jose ,আমার লা গার্ডিয়া থেকে সান জোসে একত্রে বিমান সংস্থাগুলির ফ্লাইট দরকার,O B-fromloc.airport_name O O O I-toloc.city_name O O O O O,united airlines guardia san
+ i need a flight from tampa to milwaukee ,আমি টাম্পা থেকে মিলওয়াকি একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i need a flight from milwaukee to seattle ,আমি Milwaukee থেকে সিয়াটেল একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ what meals are served on american flight 811 from tampa to milwaukee ,আমেরিকান ফ্লাইট 811 টাম্পা থেকে Milwaukee থেকে কি খাবার পরিবেশন করা হয়,B-airline_name O B-flight_number B-fromloc.city_name O B-toloc.city_name O O O O O O,meals
+ what meals are served on american flight 665 673 from milwaukee to seattle ,কি খাবার আমেরিকান ফ্লাইট 665 673 Milwaukee থেকে সিয়াটেল থেকে পরিবেশিত হয়,O O B-airline_name O B-flight_number I-flight_number B-fromloc.city_name O B-toloc.city_name O O O,meals
+ i need a flight from memphis to las vegas ,আমি memphis থেকে las vegas একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O O I-toloc.city_name O O O,las
+ i need a flight from las vegas to ontario ,আমি লাস ভেগাস থেকে অন্টারিওতে একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name I-fromloc.city_name O O O O O,ontario
+ i need a flight from ontario to memphis ,আমি অন্টারিও থেকে Memphis একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ which flights go from milwaukee to tampa and stop in nashville ,কোন ফ্লাইট মিলওয়াকি থেকে টাম্পা যায় এবং ন্যাশভিলে রওনা হয়,O O B-fromloc.city_name O B-toloc.city_name O O B-stoploc.city_name O O,
+ which flights leave newark after noon next saturday and arrive in los angeles ,কোন ফ্লাইট আগামী শনিবার দুপুরের পর নিউকার ছেড়ে চলে যাবে এবং লস এঞ্জেলেসে পৌঁছাবে,O O O B-depart_date.day_name B-depart_time.period_of_day B-depart_time.time_relative O O O O O O O O,newark next los angeles
+ which flights leave detroit and arrive at st. petersburg around 9 am ,যা ফ্লাইট Detroit ছেড়ে এবং সেন্ট এ পৌঁছাতে। প্রায় 9 am petersburg,O O B-fromloc.city_name O O B-toloc.city_name O O O B-arrive_time.time I-arrive_time.time I-toloc.city_name,around
+ which flights on northwest airline leave detroit and arrive at st. petersburg ,উত্তরপশ্চিম এয়ারলাইন্সের কোন ফ্লাইটগুলি ডিট্রোইট ছাড়ে এবং সেন্ট এ পৌঁছায়। পিটার্সবার্গে,B-airline_name O O O B-fromloc.city_name O O B-toloc.city_name O O I-toloc.city_name,airline
+ which flights leave chicago next tuesday and arrive in detroit around 6 pm ,যা ফ্লাইট আগামী মঙ্গলবার Chicago ছেড়ে এবং প্রায় 6 pm কাছাকাছি Detroit এ পৌঁছাতে,O O O B-depart_date.day_name B-fromloc.city_name O O O B-arrive_time.time I-arrive_time.time O B-toloc.city_name O O,next around
+ show me round trip flights from chicago to detroit leaving next tuesday and returning the day after ,আমাকে চিকগো থেকে ডেট্রয়েট পর্যন্ত রাউন্ড ট্রিপ ফ্লাইট দেখান পরের মঙ্গলবার এবং পরে দিনটি ফেরত পাঠান,O O O B-toloc.city_name O B-round_trip I-round_trip O O B-depart_date.date_relative B-depart_date.day_name O O O O O,chicago day after
+ which round trip flights leave chicago next tuesday around 6 pm and arrive in detroit ,যা রাউন্ড ট্রিপ ফ্লাইট ছুটির দিন পরের দিন মঙ্গলবার 6 টা ছেড়ে এবং Detroit এ পৌঁছাতে,O B-round_trip I-round_trip O O O B-depart_date.date_relative O B-depart_date.day_name B-depart_time.time O O O B-toloc.city_name O O,chicago around pm
+ which round trip flights leave chicago next tuesday and arrive in detroit around 6 pm ,কোন রাউন্ড ট্রিপ ফ্লাইট আগামী মঙ্গলবার Chicico ছেড়ে এবং প্রায় 6 pm কাছাকাছি Detroit এ পৌঁছাতে,O B-round_trip I-round_trip O O B-depart_date.day_name O O O O B-arrive_time.time I-arrive_time.time O B-toloc.city_name O O,chicago next around
+ which flights leave on monday from montreal and arrive in chicago in the morning ,কোন ফ্লাইট সোমবার montreal থেকে ছেড়ে এবং সিকোয়ায় পৌঁছানোর সকালে,O O B-depart_date.day_name B-fromloc.city_name O O O O O O,chicago morning
+ which flights leave chicago on april twelfth and arrive in indianapolis in the morning ,কোন ফ্লাইট এপ্রিল 12 বার Chicago ছেড়ে এবং সকালে Indianapolis এ পৌঁছাতে,O O B-depart_date.month_name O O B-fromloc.city_name O O O B-toloc.city_name O O,twelfth morning
+ which flights leave on wednesday april thirteenth from indianapolis and arrive in montreal in the morning ,ইন্ডিয়ানাপলিস থেকে বুধবার এপ্রিল থেকে ত্রৈমাসিকে কোন ফ্লাইট ছাড়বে এবং সকালে মন্ট্রিয়ালে পৌঁছাবে,B-fromloc.city_name O B-depart_date.day_name B-depart_date.month_name O O O O O O O B-toloc.city_name O,thirteenth morning
+ which flights leave april twelfth from indianapolis and arrive in montreal around 10 pm ,কোন ফ্লাইট ইন্ডিয়ানাপলিস থেকে বারবার এপ্রিলে চলে যায় এবং প্রায় 10 টায় মন্ট্রিয়াল পৌঁছায়,O O B-fromloc.city_name O O O O O O O B-arrive_time.time O B-toloc.city_name O,april twelfth around pm
+ i'd like to go from long beach to st. louis and i'd like to stop in dallas i'd also like to have lunch during my flight ,আমি দীর্ঘ সৈকত থেকে সেন্ট যেতে চাই। লুইস এবং আমি ডালাসে থাকতে চাই  আমার ফ্লাইটের সময় লাঞ্চ করতে চাই,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O B-stoploc.city_name O O O O O B-meal_description O O,louis
+ next wednesday i would like to leave kansas city on a trip to chicago which arrives in chicago around 7 pm ,পরের দিন বুধবার সন্ধ্যা সাড়ে 7 টায় শিকাগোর কাছে যাবার পথে আমি কানসাস শহর ছেড়ে যেতে চাই।,B-depart_date.date_relative O B-depart_date.day_name O O B-arrive_time.time O B-toloc.city_name O O O O B-fromloc.city_name I-fromloc.city_name O O O,around pm
+ i would like to return from chicago around 7 pm to kansas city ,আমি সন্ধ্যা 7 টায় কানসাস শহরের কাছে শিকাগো থেকে ফিরে আসতে চাই,O O B-depart_time.time O B-toloc.city_name I-toloc.city_name O B-fromloc.city_name O O O O,around pm
+ i would like to leave this afternoon on an american flight from cincinnati to burbank ,আমি এই বিকেলে সিঙ্কিনিনাটি থেকে বারব্যাংক পর্যন্ত একটি আমেরিকান ফ্লাইটে চলে যেতে চাই,O B-depart_date.today_relative O O O O O O B-airline_name O O O O,afternoon cincinnati burbank
+ on sunday evening i would like to leave montreal quebec on a flight to san diego california ,রবিবার সন্ধ্যায় আমি সান ডিয়েগো ক্যালিফোর্নিয়াতে ফ্লাইটে মন্ট্রিয়াল ক্যুবেক ছেড়ে চলে যেতে চাই,B-depart_date.day_name B-depart_time.period_of_day O O I-toloc.city_name O O B-fromloc.city_name B-fromloc.state_name O O O O,san california
+ what are the flights on sunday from montreal quebec to san diego california ,Montreal quebec থেকে সান ডিয়েগো ক্যালিফোর্নিয়া থেকে রবিবার ফ্লাইট কি,B-fromloc.city_name B-fromloc.state_name O O I-toloc.city_name B-toloc.state_name O B-depart_date.day_name O O,san
+ on tuesday are the flights from san diego california to indianapolis indiana i would like the flight to be in the afternoon ,মঙ্গলবার সান ডিয়েগো ক্যালিফোর্নিয়া থেকে ইন্ডিয়ানাপলিস ইন্ডিয়ানা থেকে ফ্লাইটে আমি ফ্লাইট বিকালে হতে চাই,B-depart_date.day_name O I-fromloc.city_name B-fromloc.state_name O B-toloc.city_name B-toloc.state_name O O O O O O O,san afternoon
+ on thursday morning i would like a nonstop flight from indianapolis to toronto ,বৃহস্পতিবার সকালে আমি ইন্ডিয়ানাপলিস থেকে টরন্টো পর্যন্ত ননস্টপ ফ্লাইটটি চাই,B-depart_date.day_name O O B-fromloc.city_name O B-toloc.city_name O B-flight_stop O O,morning
+ on friday morning i would like to fly from toronto to montreal ,শুক্রবার সকালে আমি toronto থেকে Montreal থেকে উড়ে যেতে চাই,B-depart_date.day_name O O B-fromloc.city_name O B-toloc.city_name O O O O,morning
+ i would like an early morning flight today from los angeles to charlotte ,আমি আজ লস অ্যাঞ্জেলস থেকে Charlotte পর্যন্ত একটি প্রারম্ভিক সকাল ফ্লাইট চাই,O B-depart_date.today_relative O O O B-toloc.city_name O O O B-depart_time.period_of_day O O,early los angeles
+ on wednesday night i would like a flight from charlotte to newark ,বুধবার রাতে আমি Charlotte থেকে নিউয়ার একটি ফ্লাইট চাই,B-depart_date.day_name O O B-fromloc.city_name O O O O O,night newark
+ on friday night i would like a flight from newark to los angeles ,শুক্রবার রাতে আমি নিউকার্ক থেকে লস এঞ্জেলিসে একটি ফ্লাইট চাই,B-depart_date.day_name O O B-fromloc.city_name O O O O O O,night los angeles
+ find a flight from tampa to montreal by way of new york ,নতুন york উপায় দ্বারা tampa থেকে Montreal থেকে একটি ফ্লাইট খুঁজে,B-stoploc.city_name I-stoploc.city_name O O B-fromloc.city_name O B-toloc.city_name O O O O,
+ please find a flight from miami florida to las vegas nevada arriving before 4 o'clock pm ,মিয়ামি ফ্লোরিড থেকে লাস ভেগাস নেভাদা থেকে 4 টার দিকে পৌঁছানোর জন্য ফ্লাইটটি খুঁজুন,B-fromloc.city_name O O B-toloc.city_name I-toloc.city_name B-toloc.state_name O B-arrive_time.time O O O O O O,florida before o'clock pm
+ please find a flight from las vegas to michigan ,লাস ভেগাস থেকে michigan থেকে একটি ফ্লাইট খুঁজে দয়া করে,B-fromloc.city_name I-fromloc.city_name O B-toloc.state_name O O O O O O,
+ please find a flight from detroit michigan to st. petersburg arriving before 10 pm ,সেন্ট্রয়েট michigan থেকে একটি ফ্লাইট খুঁজে পেতে দয়া করে। পিটারসবার্গ 10 টা আগে পৌঁছেছে,O B-fromloc.state_name O O O O O O O I-toloc.city_name B-arrive_time.time O B-arrive_time.time_relative O,detroit st. pm
+ please find a flight from st. petersburg to miami on thursday ,সেন্ট থেকে একটি ফ্লাইট দয়া করে। বৃহস্পতিবার মিয়ামি Petersburg,B-fromloc.city_name O O O O O B-depart_date.day_name B-toloc.city_name I-fromloc.city_name,
+ please find a flight from san diego to toronto on alaska airlines ,আলাস্কা এয়ারলাইনস থেকে সান ডিয়েগো থেকে টরন্টো পর্যন্ত ফ্লাইটটি খুঁজুন,B-airline_name I-airline_name O O I-fromloc.city_name O B-toloc.city_name O O O,san
+ please find the flights from columbus to houston with a layover in nashville tomorrow ,আগামীকাল ন্যাশভিলের একটি লেওওভারের সাথে কলম্বাস থেকে হাউস্টন ফ্লাইটগুলি খুঁজুন,B-depart_date.today_relative B-stoploc.city_name O O O B-fromloc.city_name O B-toloc.city_name O O,
+ please give me the flights from nashville to houston nonstop with dinner served ,আমাকে ন্যাশভিল থেকে ফ্লাইট ডিনার সঙ্গে houston nonstop থেকে ফ্লাইট দয়া করে,O B-fromloc.city_name O O B-meal_description O B-toloc.city_name B-flight_stop O O O O,
+ please find flights available from kansas city to newark ,অনুগ্রহ করে কানসাস শহর থেকে নিউয়ার পাওয়া ফ্লাইটগুলি খুঁজুন,O O B-fromloc.city_name I-fromloc.city_name O O O O O,newark
+ please find a flight that goes from kansas city to newark to orlando back to kansas city ,কানসাস শহরের থেকে নিউকার্ক পর্যন্ত অ্যানল্যান্ডো পর্যন্ত ফিরে যান এমন একটি ফ্লাইট খুঁজুন,B-toloc.city_name I-toloc.city_name O B-toloc.city_name O O O O O O O O O,orlando
+ please find a flight from kansas city to newark ,অনুগ্রহ করে কানসাস শহর থেকে নিউয়ার পর্যন্ত একটি ফ্লাইট খুঁজুন,O O B-fromloc.city_name I-fromloc.city_name O O O O O O,newark
+ please find a flight from newark to orlando ,নিউল্যান্ড থেকে অরল্যান্ডো থেকে একটি ফ্লাইট খুজুন,O O B-toloc.city_name O O O O,newark
+ please find a flight from orlando to kansas city ,কানসাস শহর থেকে অরল্যান্ডো থেকে একটি ফ্লাইট খুঁজুন,B-toloc.city_name I-toloc.city_name O B-fromloc.city_name O O O O,
+ i would like to fly from columbus to phoenix through cincinnati in the afternoon ,আমি কলম্বাস থেকে ফিনিক্স থেকে বিকেলে বিকেলে সিসিননাটি মাধ্যমে উড়ে যেতে চাই,O B-fromloc.city_name O B-toloc.city_name O O O O O O O O,cincinnati afternoon
+ i would like to know what airports are in los angeles ,আমি জানতে চাই  লস এঞ্জেলসে কোন বিমানবন্দর রয়েছে,O O O O O O O O,los angeles
+ does the airport at burbank have a flight that comes in from kansas city ,burbank এ বিমানবন্দর কানসাস শহর থেকে আসে যে একটি ফ্লাইট আছে,B-toloc.city_name O O B-fromloc.city_name I-fromloc.city_name O O O O O O,
+ which flights arrive in burbank from kansas city on saturdays in the afternoon ,কোন ফ্লাইট বিকালে শনিবার কানসাস শহর থেকে burbank পৌঁছাতে,O O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O,saturdays afternoon
+ which flights arrive in burbank from las vegas on saturday april twenty third in the afternoon ,কোন ফ্লাইট বিকালে বিকেলে তৃতীয় ত্রাসে লাস ভেগাস থেকে burbank পৌঁছে,O O O O I-depart_date.day_number O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O,saturday april twenty afternoon
+ which flights are available from orlando to cleveland that arrive around 10 pm ,কোন ফ্লাইট অরল্যান্ডো থেকে Cleveland থেকে পাওয়া যায় যে প্রায় 10 বিকাল,O O B-fromloc.city_name O B-toloc.city_name O O O O O B-arrive_time.time O,around pm
+ what flights are available from indianapolis to san diego on april twenty first in the late afternoon ,ইন্ডিয়ানাপলিস থেকে সান ডিয়েগো থেকে কি ফ্লাইট বিকেল বিকালে বিশ প্রথম বিশ্রাম পাওয়া যায়,B-fromloc.city_name O O I-toloc.city_name O O O I-depart_time.period_of_day O B-depart_date.day_number O O O O,san april first late
+ what flights leave cleveland going to indianapolis on april twenty first in the morning ,কি ফ্লাইট সকালে বিশ প্রথম বিশ্রামে ইন্ডিয়ানাপলিস যাচ্ছে Cleveland ছেড়ে,O O O B-depart_date.day_number O O B-toloc.city_name O B-fromloc.city_name O,april first morning
+ which flights are available on april twenty first in the morning from nashville to tacoma ,কোন ফ্লাইট সকালে বিশ্রামে ন্যাশভিল থেকে টাকোমা পর্যন্ত পাওয়া যাবে,O O O O B-fromloc.city_name O B-toloc.city_name O O O,april twenty first morning
+ which flights are available from tacoma to san jose in the morning on april twenty second ,কোন ফ্লাইট সকাল ২0 মিনিটের মধ্যে স্যাকোজ থেকে স্যাকোজ থেকে পাওয়া যায়,O O B-depart_time.period_of_day O O O O O O O O O,tacoma san jose april twenty second
+ which flights are available from san jose to nashville leaving in the morning on april twenty three ,সান জোসের কাছ থেকে ন্যাশভিল থেকে যা ত্রিশ ত্রিশ ত্রিশ তারিখে ছাড়বে,O O O O B-toloc.city_name O O O O O O O,san jose morning april twenty three
+ what is the most expensive one way fare between detroit and westchester county ,Detroit এবং ওয়েস্টচেস্টার কাউন্টি মধ্যে সবচেয়ে ব্যয়বহুল এক উপায় ভাড়া কি,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-cost_relative I-cost_relative B-round_trip O O O,way
+ what airlines fly between detroit and westchester county ,বিমান সংস্থা Detroit এবং ওয়েস্টচেস্টার কাউন্টি মধ্যে কি ফ্লাইট,O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O,
+ what are the departure times from detroit to westchester county ,Detroit থেকে Westchester কাউন্টি প্রস্থান সময় কি কি,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O,departure times
+ what is the latest flight from baltimore to oakland that serves dinner ,ডিটেক্টর সরবরাহকারী বাল্টিমোর থেকে ওকল্যান্ড পর্যন্ত সর্বশেষ ফ্লাইট কী?,O O B-fromloc.city_name O B-toloc.city_name O O O O,latest dinner
+ what is the earliest flight between baltimore and oakland that serves breakfast ,ব্রেকফাস্ট সরবরাহ করে যে Baltimore এবং ওকল্যান্ড মধ্যে প্রথমতম ফ্লাইট কি,B-meal_description O O O B-fromloc.city_name O B-toloc.city_name O O O O,earliest
+ to what cities from boston does america west fly first class ,বোস্টন থেকে কি শহর আমেরিকা পশ্চিম ফ্লাই প্রথম বর্গ না,B-fromloc.city_name O O O B-airline_name I-airline_name O O I-class_type O,first
+ what airline flies from boston to san diego ,বিমানটি বোস্টন থেকে সান ডিয়েগো পর্যন্ত উড়ে যায়,O B-fromloc.city_name O O I-toloc.city_name O O O,san
+ what is the latest breakfast flight from dallas to tampa ,ডালাস থেকে tampa সর্বশেষ ব্রেকফাস্ট ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name O B-meal_description O O,latest
+ show me all lufthansa flights from seattle to boston with stopovers in minneapolis ,মিনিউপলিসে স্টপওভারের সাথে আমাকে সিয়াটেল থেকে বোস্টন পর্যন্ত সমস্ত লুফথানসা ফ্লাইট দেখান,O O O O B-fromloc.city_name O B-toloc.city_name O O B-airline_name O O,minneapolis
+ show me all flights from seattle to boston with stopovers in minneapolis ,মিনিয়াপলিসে স্টপওভারের সাথে আমাকে সিয়াটেল থেকে বোস্টন পর্যন্ত সমস্ত ফ্লাইট দেখান,B-stoploc.city_name O O O B-fromloc.city_name O B-toloc.city_name O O O O,
+ list philadelphia to san francisco flights with stopovers in dallas ,ডালাসে স্টপওভারের সাথে সান ফ্রান্সিস্কো ফ্লাইটে ফিলাডেলফিয়া তালিকা,B-stoploc.city_name O O O I-toloc.city_name O B-fromloc.city_name O,san
+ show me the connecting flights between boston and denver and the types of aircraft used ,আমাকে বোস্টন এবং ডেনভার এবং ব্যবহৃত বিমানগুলির ধরনগুলির মধ্যে সংযোগকারী ফ্লাইটগুলি দেখান,O B-fromloc.city_name O B-toloc.city_name O O O O O O O O,connecting
+ show me all the morning flights from philadelphia to fort worth ,ফিলাডেলফিয়া থেকে ফোর্ট মূল্যের সব সকালে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O O O O,morning worth
+ show me all the flights from kansas city to st. paul ,আমাকে ক্যানসাস শহর থেকে সেন্ট থেকে সব ফ্লাইট দেখান। পল,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O I-toloc.city_name,
+ show me northwest flight 608 from kansas city to st. paul ,আমাকে উত্তর পশ্চিম ফ্লাইট 608 থেকে ক্যানসাস শহর থেকে সেন্ট। পল,O O O O B-flight_number O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name,northwest
+ show me all the flights from indianapolis to charlotte on monday ,ইন্ডিয়ানাপলিস থেকে Charlotte পর্যন্ত সোমবার সব ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O,
+ what is the ground transportation between the charlotte airport charlotte airport and downtown charlotte ,চার্লট এয়ারপোর্ট চার্লট এয়ারপোর্ট এবং শহরতলির চার্লট মধ্যে স্থল পরিবহন কি,B-city_name I-city_name O O O O O O O O O,
+ show me all the flights from charlotte to minneapolis that leave at 2 pm or later on monday ,শার্লট থেকে মিনিয়াপলিস পর্যন্ত সব ফ্লাইট দেখান যা সোমবার দুপুর ২ টা বা তার পরে চলে যায়,B-fromloc.city_name O B-toloc.city_name O O O O O B-depart_date.day_name O O O O O O O O,2 pm later
+ show me all the flights from charlotte to minneapolis on tuesday morning ,মঙ্গলবার সকালে Charlotte থেকে Minneapolis থেকে সব ফ্লাইট দেখান,B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O,morning
+ show me the direct flights from charlotte to minneapolis on tuesday morning ,মঙ্গলবার সকালে Charlotte থেকে Minneapolis থেকে সরাসরি ফ্লাইট দেখান,B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O,direct morning
+ show me flight us 1500 on monday from charlotte to minneapolis please ,দয়া করে আমাকে ফ্লাইট দেখান 1500 সোমবার Charlotte থেকে মিনিয়াপলিস থেকে দয়া করে,O O O O O B-flight_number B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O,us
+ show me all the flights from minneapolis to indianapolis on tuesday that leave after 2 pm ,মিনিয়াপলিস থেকে ইন্ডিয়ানাপলিস থেকে সব ফ্লাইট দেখান মঙ্গলবার দুপুর ২ টা পরে যাবেন,B-fromloc.city_name O B-toloc.city_name O O O O B-depart_date.day_name O O O O O,after 2 pm
+ show me the flights from minneapolis to indiana ,আমাকে মিনিয়াপলিস থেকে ইন্ডিয়ানা ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.state_name O O,
+ show me the flights in from minneapolis to indianapolis on tuesday afternoon ,মঙ্গলবার বিকেলে মিনিয়াপলিস থেকে ইন্ডিয়ানাপলিসে ফ্লাইটগুলি দেখান,B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O,afternoon
+ show me flight us 1207 from indianapolis to charlotte on monday and flight us 1500 from charlotte to minneapolis on monday and flight twa 639 from minneapolis to indianapolis ,আমাকে সোমবার ভ্রমনের জন্য ইন্ডিয়ানাপলিস থেকে চার্লোট পর্যন্ত ফ্লাইট দেখান এবং আমাদের ফ্লাইটটি 1500 থেকে চার্লোট থেকে মিনিয়াপলিস পর্যন্ত সোমবার এবং ফ্লাইট টু 639 মিনিউপলিস থেকে ইন্ডিয়ানাপলিস পর্যন্ত,O B-depart_date.day_name O O B-toloc.city_name O B-fromloc.city_name O O O O O O B-flight_number O O O B-fromloc.city_name O O O O O B-flight_number O O O O,us 1207 twa
+ show me all the flights from las vegas to new york city ,আমাকে লাস ভেগাস থেকে নিউ ইয়র্ক শহরের সব ফ্লাইট দেখান,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,
+ which different airlines go from las vegas to new york city ,লাস ভেগাস থেকে নিউ ইয়র্ক শহরের বিভিন্ন বিমানবন্দর যাচ্ছেন,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,
+ show me all the flights on america west and twa from las vegas to jfk on a friday ,শুক্রবার ওয়েস্টার্ন ওয়েস্টার্ন এবং লাস ভেগাস থেকে জেএফকে থেকে আমার সমস্ত ফ্লাইট দেখাও,B-depart_date.day_name O O O B-fromloc.city_name I-fromloc.city_name O B-toloc.airport_code O O O O O,america west twa
+ what are the flights from tacoma to miami that leave after 6 pm tomorrow ,টাকোমা থেকে মিয়ামি থেকে আসা ফ্লাইটগুলি কি আগামীকাল 6 টা পরে চলে যাবে,B-fromloc.city_name O B-toloc.city_name O O O O B-depart_date.today_relative B-depart_time.time O O O O,after pm
+ i'd like to fly from san diego to houston on june tenth ,আমি সান ডিয়েগো থেকে হিউস্টন থেকে দশম জুনে উড়ে যেতে চাই,O O I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_number O O O O,san june
+ is there an american airlines flight from houston to newark on june tenth after 6 pm ,হুস্টন থেকে মার্কিন যুক্তরাষ্ট্রে ফ্লাইটে 6 টা পরে দশম জুনে নতুনার্কে ফ্লাইট আছে,B-fromloc.city_name O O O O B-depart_time.time O O B-depart_date.day_number O O O O,american airlines newark june after pm
+ is there an american airlines flight from houston to newark on june tenth after 3 pm ,হুস্টন থেকে মার্কিন যুক্তরাষ্ট্র এয়ারলাইন্সের ফ্লাইট 3 টা পরে জুন দশকে নিউকার্কে,B-fromloc.city_name O O O I-airline_name O B-depart_time.time O O B-depart_date.month_name O O,american newark tenth after pm
+ i need to get from cincinnati to denver on june sixth by 6 pm ,সিন্সিনটি থেকে 6 ইঞ্চি পর্যন্ত জুন ছয় সেঞ্চুরিতে ডিনভার থেকে যেতে হবে,B-fromloc.city_name O B-arrive_time.time O O B-arrive_date.month_name O O B-toloc.city_name O O O,sixth by pm
+ what's the ground transportation in denver ,Denver মধ্যে স্থল পরিবহন কি,B-city_name O O O O,
+ what's the fare for a taxi to denver ,একটি ট্যাক্সি denver জন্য ভাড়া কি,O B-transport_type B-city_name O O O,
+ what are the fares for ground transportation in denver ,Denver মধ্যে স্থল পরিবহন জন্য ভাড়া কি,B-city_name O O O O O O,
+ i need to fly from denver to westchester county on june seventh after 3 pm ,আমাকে ডানেভার থেকে ওয়েস্টারচেস্টার কাউন্টি থেকে 3 য় জুনে সপ্তম জুনে উড়ে যেতে হবে,O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-depart_time.time O O B-depart_date.day_number O O O O,june after pm
+ what's the ground transportation in westchester county ,Westchester কাউন্টি মধ্যে স্থল পরিবহন কি,B-city_name I-city_name O O O O,
+ i need to take a united airlines flight on june eighth from westchester county to cincinnati after 3 pm ,আমি ওয়েস্টার্নচেস্টার কাউন্টি থেকে সানিন্নিটি থেকে 3 ইঞ্চি জুড়ে অষ্টম জুনে একক বিমান সংস্থা ফ্লাইট নিতে হবে,O B-fromloc.city_name I-fromloc.city_name O O O B-depart_time.time O O B-depart_date.day_number O O O O O O O,united airlines june cincinnati after pm
+ what united airlines flights on june eighth go from westchester county to cincinnati ,জুন অষ্টম তারিখে কি একক বিমান সংস্থা ফ্লাইটসিন্থে থেকে ওয়েস্টচেস্টার কাউন্টি থেকে যায়,B-depart_date.month_name B-depart_date.day_number O O O O O O O B-fromloc.city_name I-fromloc.city_name O O,united airlines cincinnati
+ on june eighth what flights go from westchester county to cincinnati ,জুন অষ্টম ওয়েস্টচেস্টার কাউন্টি থেকে সিনসিনাটি যান কি,B-depart_date.month_name B-depart_date.day_number B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O,
+ does us air fly from cincinnati to denver on june sixth ,আমাদের কি সিনসিনাটি থেকে জুন ষষ্ঠে ডেনভারে উড়তে পারে?,O O B-fromloc.city_name O B-depart_date.month_name B-depart_date.day_number B-toloc.city_name O O,us air
+ list the flights from cincinnati to denver on june sixth ,সিন্ধুনাটি থেকে জুন ষষ্ঠে ডেনভার থেকে ফ্লাইট তালিকা,O O B-depart_date.month_name B-depart_date.day_number B-toloc.city_name O O O,cincinnati
+ list the flights from denver to westchester county on june seventh ,জুন সপ্তম তারিখে ডেনভার থেকে ওয়েস্টচেস্টার কাউন্টি ফ্লাইট তালিকা,B-depart_date.month_name B-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O,
+ list the flights from westchester county to cincinnati on june eighth ,ওয়েস্টারচেস্টার কাউন্টি থেকে সিনসিনাটি থেকে জুন অষ্টম তারিখে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.month_name B-depart_date.day_number O O O O,
+ list the flights from cincinnati to westchester county on june sixth ,জুন ষষ্ঠ তারিখে সিনসিনাটি থেকে ওয়েস্টচেস্টার কাউন্টি ফ্লাইট তালিকা,B-depart_date.month_name B-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O,
+ list the flights from westchester county to denver on june seventh ,ওয়েস্টারচেস্টার কাউন্টি থেকে ফ্লাইট তালিকা সপ্তম নেভিগেশন denver,B-fromloc.city_name I-fromloc.city_name O O O B-depart_date.day_number O B-toloc.city_name,june
+ list the flights from denver to cincinnati on june eighth ,জুন অষ্টম তারিখে ডিনভার থেকে সিনসিনাটি থেকে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-depart_date.month_name B-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name O O O O,
+ list the flights from denver to cincinnati on june sixth after 4 pm ,ডিনভার থেকে সান্নিনাটি থেকে ফ্লাইটের তালিকা আগামী বুধবার বিকেলে 6 ষ্ঠ তম,B-fromloc.city_name O O O O O O O O O O O,cincinnati june sixth after 4 pm
+ list the flights from cincinnati to westchester county on june seventh ,সানিন্নিটি থেকে ওয়েস্টচেস্টার কাউন্টি থেকে ফ্লাইট তালিকা সপ্তম,O O B-toloc.city_name I-toloc.city_name O O O B-depart_date.day_number,cincinnati june
+ list the flights from westchester county to cincinnati on june seventh leaving after 5 pm ,ওয়েস্টচেস্টার কাউন্টি থেকে সানচিনটি থেকে ফ্লাইটগুলি তালিকাভুক্ত করুন সপ্তম জুনে সপ্তম স্থানে থাকার পরে,B-fromloc.city_name I-fromloc.city_name O O O O O O B-depart_date.day_number O O O O O,cincinnati june after 5 pm
+ what airlines off from love field between 6 and 10 am on june sixth ,6 ই সেপ্টেম্বর সকাল 6 টায় প্রেমিকদের কাছ থেকে কি এয়ারলাইনস বন্ধ থাকে,B-depart_time.start_time O O O O O O O O O O O O,love field 10 am june sixth
+ what flights arrive at love field on june sixth ,কি ফ্লাইট জুন ষষ্ঠ প্রেম প্রেম এ পৌঁছাতে,O O B-arrive_date.month_name B-arrive_date.day_number B-toloc.airport_name O O O,field
+ list the flights from montreal to philly before 9 am ,9 টা আগে মন্ট্রিয়াল থেকে ফিলি ফ্লাইট তালিকা,B-depart_time.time O B-depart_time.time_relative B-fromloc.city_name O O O O,philly am
+ list the flights from cleveland to memphis ,Cleveland থেকে Memphis ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O,
+ list the flights from memphis to cleveland ,Cleveland থেকে Memphis থেকে ফ্লাইট তালিকা,B-toloc.city_name O B-fromloc.city_name O O O,
+ list the flights from denver to baltimore arriving on july first ,জুলাই প্রথম পৌঁছানোর বেল্টিমোর থেকে Denver থেকে ফ্লাইট তালিকা,B-arrive_date.month_name O O O O B-fromloc.city_name O O O,baltimore first
+ list the flights from dallas to baltimore arriving july first ,ডালাস থেকে জুলাই প্রথম বেল্টিমোর ফ্লাইট তালিকা,B-fromloc.city_name O B-arrive_date.month_name O O O O,baltimore first
+ list the flights from pittsburgh to baltimore arriving on july first ,পিটিসবার্গ থেকে জুলাই প্রথম আগমনের বেল্টিমোরের ফ্লাইটগুলি তালিকাভুক্ত করুন,B-fromloc.city_name O B-arrive_date.month_name O O O O O O,baltimore first
+ list the flights on canadian airlines international ,কানাডিয়ান বিমানবন্দর আন্তর্জাতিক ফ্লাইট তালিকা,B-airline_name O I-airline_name O O,airlines
+ how many canadian airlines international flights use j31 ,কত কানাডিয়ান বিমানবন্দর আন্তর্জাতিক ফ্লাইট j31 ব্যবহার,O B-airline_name O I-airline_name O B-aircraft_code O,airlines
+ how many canadian airlines international flights use aircraft 320 ,কত কানাডিয়ান বিমানবন্দর আন্তর্জাতিক ফ্লাইট বিমান ব্যবহার 320,O B-airline_name O I-airline_name O O O B-aircraft_code,airlines
+ how many canadian airlines flights use aircraft dh8 ,কত কানাডিয়ান বিমান সংস্থা বিমান dh8 বিমান ব্যবহার করে,O B-airline_name O O O O O O O,airlines dh8
+ show me the flights on american airlines which fly from st. petersburg to ontario canada with a stopover in st. louis ,সেন্ট থেকে উড়ে যা মার্কিন বিমান সংস্থা ফ্লাইট দেখান। সেন্ট পিটারসবার্গ থেকে অন্টারিও কানাডা সেন্ট স্টপওভারে। লুই,B-stoploc.city_name O O O O O O O O O I-fromloc.city_name O B-toloc.city_name B-toloc.country_name O O I-stoploc.city_name,american airlines
+ show me the flights on american airlines which go from st. petersburg to ontario california by way of st. louis ,আমাকে সেন্ট্রাল এয়ারলাইন্সের ফ্লাইট দেখান যা সেন্ট থেকে যায়। সেন্ট পিটারসবার্গ থেকে অন্টারিও ক্যালিফোর্নিয়ার সেন্ট। লুই,O O I-airline_name O O O B-stoploc.city_name O O O I-fromloc.city_name O B-toloc.city_name B-toloc.state_name O I-stoploc.city_name,american
+ which airport is closest to ontario california ,অন্টারিও ক্যালিফোর্নিয়ার সবচেয়ে কাছের বিমানবন্দর কোনটি?,B-city_name B-state_name O O O O,closest
+ show me the flights from houston to orlando ,আমাকে হাউস্টন থেকে অরল্যান্ডো ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.city_name O O,
+ show me the flights from orlando to houston ,আমাকে অরল্যান্ডো থেকে হাউস্টন পর্যন্ত ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.city_name O O O,
+ show me the flights from detroit to las vegas ,আমাকে Detroit থেকে Las Vegas ফ্লাইট দেখান,O B-fromloc.city_name O O I-toloc.city_name O O,las
+ show me the cheapest round trip coach fare from las vegas to detroit ,লাস ভেগাস থেকে detroit থেকে সস্তা প্রসঙ্গ বৃত্তাকার কোচ ভাড়া দেখান,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O B-round_trip B-class_type O O,cheapest trip
+ show me the cheapest round trip coach fare on twa from las vegas to detroit ,লাস ভেগাস থেকে ডেট্রয়েট থেকে আমাকে দুবারে সস্তা রাউন্ড ট্রিপ কোচ ভাড়াটি দেখান,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O B-round_trip I-round_trip B-class_type O O,cheapest twa
+ show me the delta flights which serve a snack to coach passengers ,কোচ যাত্রীদের একটি স্ন্যাক পরিবেশন যা আমাকে ডেল্টা ফ্লাইট দেখান,B-compartment O O B-meal_description O O O B-airline_name O O,
+ what is meal code sb ,খাবার কোড sb কি,O O B-meal_code O,
+ what meals are available on dl 468 which al arrives in san francisco at 950 am ,ডাল 468 এ কি খাবার পাওয়া যায় যা সান ফ্রান্সিস্কোতে আসে 950 এ,O B-flight_number O O O O O O O O O B-arrive_time.time O,meals dl san francisco am
+ show me the delta flights from tampa to san francisco ,টেম্পা থেকে সান ফ্রান্সিস্কো পর্যন্ত আমাকে ডেল্টা ফ্লাইট দেখান,O O O I-toloc.city_name O O B-airline_name O O,tampa san
+ show me delta flight 486 ,আমাকে ডেল্টা ফ্লাইট 486 দেখান,O B-airline_name O B-flight_number O,
+ list the tower air flights on mondays ,সোমবার টাওয়ার এয়ার ফ্লাইট তালিকা,O O I-airline_name O O,tower mondays
+ list all tower air flights with meals ,খাবার সঙ্গে সব টাওয়ার এয়ার ফ্লাইট তালিকা,O O O O I-airline_name O O,tower meals
+ what flights depart from baltimore ,বেল্টিমোর থেকে কি ফ্লাইট প্রস্থান,O O O O O,baltimore
+ what flights depart from baltimore and arrive at san francisco on a friday ,কি ফ্লাইট Baltimore থেকে প্রস্থান এবং একটি শুক্রবার সান ফ্রান্সিস্কো এ পৌঁছাতে,O O B-fromloc.city_name O O O O B-arrive_date.day_name O I-toloc.city_name O O,san
+ what flights leave from cincinnati in the morning and arrive in tampa ,সকালে সান্নিনাটি থেকে কোন ফ্লাইট চলে যায় এবং ট্যাম্পায় পৌঁছায়,O O O O O O O O B-toloc.city_name O,cincinnati morning
+ which flights depart from tampa and arrive in cincinnati in the evening ,কোন ফ্লাইট ট্যাম্পার থেকে প্রস্থান করে এবং সন্ধ্যায় সান্নিনাটিতে পৌঁছায়,O O O O O O O B-arrive_time.period_of_day O O,tampa cincinnati
+ which flights depart from tampa in the early evening and arrive in cincinnati ,কোন ফ্লাইটগুলি সন্ধ্যা সন্ধ্যায় টিম্পা থেকে প্রস্থান করে এবং সিনসিনাটি আসে,O O B-depart_time.period_of_day O O O O O O B-toloc.city_name O,tampa early
+ which flights depart from philadelphia and arrive in atlanta ,কোন ফ্লাইট ফিলাডেলফিয়া থেকে প্রস্থান এবং Atlanta এ পৌঁছাতে,O O B-fromloc.city_name O O O B-toloc.city_name O O,
+ which flights depart from a atlanta and arrive in toronto ,কোন ফ্লাইট একটি আটলান্টা থেকে প্রস্থান এবং toronto পৌঁছাতে,O O O B-fromloc.city_name O O O B-toloc.city_name O,
+ which flights depart from toronto and arrive in washington dc ,যা ফ্লাইট toronto থেকে প্রস্থান এবং ওয়াশিংটন ডিসি পৌঁছাতে,O O B-fromloc.city_name O O O B-toloc.city_name B-toloc.state_code O,
+ which flights depart from new york and arrive in los angeles after 10 am ,নিউ ইয়র্ক থেকে কোন ফ্লাইট ছাড়বে এবং 10 টা পরে লস এঞ্জেলসে পৌঁছাবে,B-fromloc.city_name I-fromloc.city_name O O O O O B-arrive_time.time O O O O O,los angeles after am
+ how far is new york's la guardia from downtown ,শহর থেকে নিউ ইয়র্ক এর লা guardia কতদূর,O O B-city_name O O B-airport_name O O,york's guardia
+ how far is toronto international from downtown ,শহর থেকে টরন্টো আন্তর্জাতিক কতদূর,O O B-airport_name I-airport_name O,
+ how far is los angeles international from downtown ,শহরতলির থেকে লস এঞ্জেলস আন্তর্জাতিক কতদূর,O O O O I-airport_name O,los angeles
+ how far is san francisco international from downtown ,শহরতলির থেকে সান ফ্রান্সিস্কো আন্তর্জাতিক কতদূর,O O O I-airport_name I-airport_name O,san
+ how much is the limousine service in boston ,Boston মধ্যে লিমোজিন সেবা কত,B-city_name O O O O,limousine
+ how much is a limousine service in la guardia ,লা Guardia একটি লিমোজিন সেবা কত,B-airport_name O O O O O,limousine guardia
+ how much is a limousine service in toronto international ,Toronto আন্তর্জাতিক একটি লিমোজিন সেবা কত,B-airport_name I-airport_name O O O O,limousine
+ how much is limousine service in los angeles ,লস এঞ্জেলস মধ্যে লিমোজিন সেবা কত,O O O O O O,limousine los angeles
+ what airlines fly between washington dc and columbus ohio ,বিমান সংস্থা ওয়াশিংটন ডিসি এবং কলম্বাস ওহিও মধ্যে উড়ে,O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-toloc.state_name O O,
+ what flights are there between washington dc and columbus ohio ,ওয়াশিংটন ডিসি এবং columbus ওহিও মধ্যে কি ফ্লাইট আছে,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-toloc.state_name O O O O,
+ what are the flights between washington dc and columbus ohio ,ওয়াশিংটন ডিসি এবং columbus ওহিও মধ্যে ফ্লাইট কি কি,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-toloc.state_name O O O O,
+ what are the fares for all flights between washington and columbus ,ওয়াশিংটন এবং columbus মধ্যে সব ফ্লাইট জন্য ভাড়া কি,B-fromloc.city_name O B-toloc.city_name O O O O O O,
+ at the charlotte airport how many different types of aircraft are there for us air ,চার্লোট এয়ারপোর্টে বিমানের বিভিন্ন ধরণের বিমান আমাদের জন্য রয়েছে,B-city_name O O O O O O O O,airport us air
+ list all us air flights arriving in charlotte on saturday at 1 pm ,শনিবার শনিবার 1 টার দিকে চার্লোটে আসার জন্য আমাদের সমস্ত বিমানের ফ্লাইটগুলি তালিকাভুক্ত করুন,B-arrive_date.day_name O B-arrive_time.time O O B-toloc.city_name O O O O O O O O,us air pm
+ what is the first class round trip airfare from india indianapolis to memphis ,ভারতের ইন্ডিয়ানাপলিস থেকে মেমফিস পর্যন্ত প্রথম শ্রেণীর বৃত্তাকার ভ্রমণ বিমানবন্দর কি,O B-fromloc.city_name O B-toloc.city_name O O I-class_type B-round_trip O O O,first trip
+ list all flights from memphis to miami ,মিয়ামি থেকে Memphis থেকে সব ফ্লাইট তালিকা,B-toloc.city_name O B-fromloc.city_name O O O O,
+ list all flights and their fares from indianapolis to memphis on a monday morning ,সোমবার সকালে ইন্ডিয়ানাপলিস থেকে মেমফিস পর্যন্ত সমস্ত ফ্লাইট এবং তাদের ভাড়াগুলি তালিকাভুক্ত করুন,B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O O O O O,morning
+ list all flights and their fares from memphis to miami on a wednesday evening ,একটি বুধবার সন্ধ্যায় মিয়ামি থেকে Memphis থেকে সব ফ্লাইট এবং তাদের ভাড়া তালিকা,O B-depart_date.day_name B-depart_time.period_of_day B-toloc.city_name O B-fromloc.city_name O O O O O O O,
+ list all flights and their fares for all flights between miami and indianapolis ,মিয়ামি এবং ইন্ডিয়ানাপলিসের মধ্যে সমস্ত ফ্লাইটের জন্য সমস্ত ফ্লাইট এবং তাদের ভাড়া তালিকা,B-fromloc.city_name O B-toloc.city_name O O O O O O O O O O,
+ list all flights from cleveland to kansas city on monday ,সোমবার কানসাস শহর থেকে Cleveland থেকে সব ফ্লাইট তালিকা,B-depart_date.day_name B-toloc.city_name I-toloc.city_name O B-fromloc.city_name O O O O,
+ list all flights from kansas city to cleveland ,কানসাস শহর থেকে Cleveland থেকে সব ফ্লাইট তালিকা,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O,
+ list all flights from cleveland to nashville ,Cleveland থেকে ন্যাশভিল থেকে সব ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O O O,
+ list all flights from nashville to cleveland on sunday ,রবিবার ন্যাশভিল থেকে Cleveland থেকে সব ফ্লাইট তালিকা,B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O O,
+ list all sunday flights from cleveland to nashville and their fares ,Cleveland থেকে ন্যাশভিল এবং তাদের ভাড়া সব রবিবার ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O O O B-depart_date.day_name O O,
+ what airlines are departing from baltimore ,এয়ারলাইনস বাল্টিমোর থেকে প্রস্থান করা হয় কি,O B-fromloc.city_name O O O O O,
+ which airlines fly from baltimore to san francisco ,বেল্টিমোর থেকে সান ফ্রান্সিস্কো পর্যন্ত যা বিমান সংস্থাগুলি উড়ছে,O O O I-toloc.city_name O O O O O,baltimore san
+ how long does a flight from baltimore to san francisco take ,বেল্টিমোর থেকে সান ফ্রান্সিস্কো পর্যন্ত একটি ফ্লাইট কতক্ষণ সময় নেয়,O O O I-toloc.city_name O O O O O O,baltimore san
+ which flights are leaving from kansas city to atlanta early monday morning ,কোন ফ্লাইট কানসাস শহর থেকে সকাল সকাল আটলান্টা থেকে চলে যাচ্ছেন,O O B-fromloc.city_name I-fromloc.city_name O B-depart_time.period_of_day O B-toloc.city_name O O O,early monday
+ which flights are leaving atlanta and arriving in st. louis close to 230 pm on tuesday ,কোন ফ্লাইটটি আটলান্টা ছাড়ছে এবং সেন্টারে পৌঁছেছে। মঙ্গলবার রাত আনুমানিক ২3 টায় লুইস,O O B-fromloc.city_name O O O O B-arrive_date.day_name O O O O O,st. louis close 230 pm
+ please list flights from st. louis to st. paul which depart after 10 am thursday morning ,সেন্ট থেকে ফ্লাইট তালিকা দয়া করে। লুইস সেন্ট। পল যা সকাল 10 টা থেকে সকাল সকাল ছাড়বে,B-toloc.city_name O O O O O O O I-toloc.city_name O B-depart_time.period_of_day B-depart_time.time O O O O O,louis after am thursday
+ list flights from st. paul to kansas city friday in the evening with a meal included ,সেন্ট থেকে ফ্লাইট তালিকা। সন্ধ্যাবেলায় কানসাস শহরের শুক্রবারে খাবারের সাথে জড়িত খাবার,B-fromloc.city_name O O O O B-toloc.city_name I-toloc.city_name O O O O O,paul friday evening meal
+ list early morning flights from cincinnati to tampa ,সানসিনটি থেকে তম্পা পর্যন্ত সকালে ফ্লাইটের তালিকা,O O B-toloc.city_name O O O O,early morning cincinnati
+ list early evening flights from tampa to cincinnati ,সান্নিনাতি থেকে tampa থেকে সকালে ফ্লাইট তালিকা,O O B-fromloc.city_name O O O O,early evening cincinnati
+ list evening flights from tampa to cincinnati ,সান্নিনাতি থেকে tampa থেকে সন্ধ্যায় ফ্লাইট তালিকা,O O B-fromloc.city_name O B-depart_time.period_of_day O O,cincinnati
+ list flights from philadelphia to atlanta friday am ,ফিলাডেলফিয়া থেকে Atlanta শুক্রবার এ ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name O O O,am
+ list flights from atlanta to toronto friday afternoon ,শুক্রবার দুপুরে টরন্টো থেকে আটলান্টা থেকে ফ্লাইট তালিকা,B-depart_date.day_name O B-toloc.city_name O B-fromloc.city_name O O O,afternoon
+ list flights from toronto to washington dc saturday am ,টরন্টো থেকে ফ্লাইট তালিকা ওয়াশিংটন ডিসি শনিবার am,B-fromloc.city_name O O O B-toloc.city_name B-toloc.state_code B-depart_date.day_name B-depart_time.period_of_day,
+ list flights from washington dc to philadelphia saturday pm ,ওয়াশিংটন ডিসি থেকে ফিলাডেলফিয়া শনিবার বিকালে ফ্লাইট তালিকা,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-depart_date.day_name O O O,pm
+ list direct flights from new york city to los angeles after 10 am ,নিউ ইয়র্ক সিটি থেকে লস এঞ্জেলেস পর্যন্ত সরাসরি ফ্লাইটগুলি সকাল 10 টা,B-fromloc.city_name I-fromloc.city_name I-fromloc.city_name O O I-toloc.city_name O O O O B-depart_time.time O,direct los after am
+ list the airfare for american airlines flight 19 from jfk to lax ,আমেরিকান এয়ারলাইনস ফ্লাইট 19 এর জন্য বিমানবন্দরে তালিকাভুক্ত করুন জেএফকে থেকে ল্যাক্স,B-airline_name I-airline_name O B-flight_number O O O O O B-fromloc.airport_code O B-toloc.airport_code,
+ what is fare code m ,ভাড়া কোড এম কি,O O B-fare_basis_code O,
+ list the distance in miles from boston airport to downtown boston ,বোস্টন বিমানবন্দর থেকে ডাউনটাউন বোস্টন পর্যন্ত মাইলের দূরত্বের তালিকা দিন,B-city_name I-fromloc.airport_name O O O O O O O O,
+ list the distance in miles from new york's la guardia airport to downtown new york city ,নিউ ইয়র্কের লা গার্ডিয়া এয়ারপোর্ট থেকে শহরের নিউ ইয়র্ক শহরে মাইলের দূরত্বের তালিকা দিন,B-city_name O B-fromloc.airport_name O I-fromloc.airport_name O I-city_name O I-city_name O O O O O,york's guardia
+ list the distance in miles from toronto international airport to downtown toronto ,টরন্টো আন্তর্জাতিক বিমানবন্দর থেকে ডাউনটাউন টরন্টো থেকে মাইলে দূরত্বের তালিকা দিন,B-city_name I-fromloc.airport_name I-fromloc.airport_name O O O O O O O O,
+ list the distance in miles from san francisco international airport to san francisco downtown ,সান ফ্রান্সিসকো আন্তর্জাতিক বিমানবন্দর থেকে সান ফ্রান্সিসকো শহরের শহর থেকে মাইলের দূরত্বের তালিকা দিন,O I-toloc.city_name I-fromloc.airport_name I-fromloc.airport_name O O O O O O O O O O,san san
+ list limousine rates for the city of boston ,বোস্টন শহরের জন্য লিমোজিন হার তালিকা,I-city_name B-city_name O O O O,limousine of
+ list american airlines flights from houston to milwaukee departing friday pm ,হাওয়াইস্টন থেকে মিলওয়াকি পর্যন্ত শুক্রবার বিকেলে আমেরিকা বিমান সংস্থাগুলির ফ্লাইটগুলি তালিকাভুক্ত করুন,O O B-toloc.city_name O B-depart_date.day_name O O O O O O O,american airlines houston pm
+ list flights from houston to milwaukee friday pm ,হাওস্টন থেকে মিলওয়াকি শুক্রবার বিকেলে ফ্লাইটগুলি তালিকা,O O B-toloc.city_name B-depart_date.day_name O O O,houston pm
+ list american airlines flights from milwaukee to san jose wednesday ,Milwaukee থেকে সান জোসে বুধবার আমেরিকান এয়ারলাইনস ফ্লাইট তালিকা,B-fromloc.city_name O O I-toloc.city_name B-depart_date.day_name B-airline_name I-airline_name O O,san
+ list american airlines flights from san jose to dallas friday afternoon ,সান জোসে থেকে ডালাস শুক্রবার বিকালে আমেরিকান বিমান সংস্থা ফ্লাইটগুলি তালিকাভুক্ত করুন,O I-fromloc.city_name O B-toloc.city_name B-depart_date.day_name O B-airline_name O O O O O,airlines san afternoon
+ list flights from dallas to houston arriving sunday afternoon ,রবিবার বিকেলে হাউস্টন থেকে ডালাস ফ্লাইট তালিকা,B-arrive_date.day_name O B-toloc.city_name O B-fromloc.city_name O O,afternoon
+ list airlines flying from seattle to salt lake city ,সিয়াটেল থেকে লবণাক্ত শহর পর্যন্ত উড়ানের তালিকাগুলি তালিকা,B-fromloc.city_name O O I-toloc.city_name O O O O,salt lake
+ what is the seating capacity for aircraft l10 ,বিমান L10 জন্য আসন ক্ষমতা কি,O B-aircraft_code O O O O,
+ what is the seating capacity for delta be1 ,ডেল্টা be1 জন্য আসন ক্ষমতা কি,B-airline_name B-aircraft_code O O O O,
+ list flights from seattle to salt lake city on delta l10 ,ডেল্টা L10 নেভিগেশন সিয়াটেল থেকে লবণ লেক শহর থেকে ফ্লাইট তালিকা,B-airline_name B-aircraft_code O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,
+ list flights from seattle to salt lake city on delta be1 ,ডেল্টা be1 উপর সিয়াটেল থেকে লবণ লেক শহর তালিকা,B-airline_name B-aircraft_code O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O,
+ list flights from boston to pittsburgh daily ,বোস্টন থেকে পিটসবার্গ প্রতিদিন ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O O,daily
+ list flights from pittsburgh to newark daily ,পিটারসবার থেকে প্রতিদিন নতুন উড়ান ফ্লাইট তালিকা,O O O O O O O,pittsburgh newark daily
+ list flights from newark to boston daily ,Newark থেকে বোস্টন প্রতিদিন ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O O,daily
+ list us air flights leaving saturday from charlotte airport at 1 pm ,শার্লট এয়ারপোর্ট থেকে শনিবার ছাড়ার জন্য আমাদের বিমানের ফ্লাইটগুলি 1 টায় তালিকাভুক্ত করুন,B-fromloc.airport_name I-fromloc.airport_name O B-depart_date.day_name O O O O O B-depart_time.time O O O,us air pm
+ list us air flights leaving saturday from charlotte airport around 1 pm ,চার্লট বিমানবন্দর থেকে শনিবার ছাড়ার জন্য আমাদের বিমানের ফ্লাইটগুলি তালিকাভুক্ত করুন,B-fromloc.airport_name I-fromloc.airport_name O B-depart_date.day_name O O O O O O O,us air around 1 pm
+ list first class airfare round trip from indianapolis to memphis ,ইন্ডিয়ানাপলিস থেকে মেমফিস পর্যন্ত প্রথম শ্রেণীর বিমানের রাউন্ড ট্রিপ তালিকা,B-fromloc.city_name O B-toloc.city_name O O I-class_type O B-round_trip I-round_trip O,first
+ what is fare code f ,ভাড়া কোড f কি,O O B-fare_basis_code O,
+ list flights from memphis to miami wednesday evening ,মিয়ামি বুধবার সন্ধ্যায় Memphis থেকে ফ্লাইট তালিকা,B-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day B-fromloc.city_name O O O,
+ list flights from miami to indianapolis sunday ,মিয়ামি থেকে ইন্ডিয়ানাপলিস রবিবার ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name O O,
+ list flights from ontario california to orlando florida ,অন্টারিও ক্যালিফোর্নিয়া থেকে অরল্যান্ডো ফ্লোরিডে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name O O O O,florida
+ list flights from ontario california to salt lake city utah ,অন্টারিও ক্যালিফোর্নিয়া থেকে লবণাক্ত শহর উটাহ থেকে ফ্লাইট তালিকা,B-fromloc.city_name B-fromloc.state_name O O I-toloc.city_name B-toloc.state_name O O O,salt lake
+ list flights from ontario california to salt lake city utah monday ,অন্টারিও ক্যালিফর্নিয়া থেকে লবণের হ্রদ শহর উটাহ সোমবার থেকে ফ্লাইট তালিকা,B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name B-toloc.state_name B-depart_date.day_name O O O,
+ list flights from salt lake city utah to phoenix arizona monday ,লবণাক্ত শহর থেকে উটাহ থেকে ফিনিক্স অ্যারিজোনা সোমবার ফ্লাইট তালিকা,O I-fromloc.city_name O B-fromloc.state_name O B-toloc.city_name B-toloc.state_name B-depart_date.day_name O O,salt lake
+ list flights from salt lake city to phoenix arizona tuesday ,লবণাক্ত শহর থেকে ফিনিক্স আরিজোনা মঙ্গলবার ফ্লাইট তালিকা,O I-fromloc.city_name O B-toloc.city_name B-toloc.state_name B-depart_date.day_name O O,salt lake
+ list flights from phoenix arizona to ontario california wednesday ,ফিনিক্স অ্যারিজোনা থেকে অন্টারিও ক্যালিফোর্নিয়ার বুধবার ফ্লাইটগুলি তালিকা,B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name B-toloc.state_name B-depart_date.day_name O O,
+ what airlines fly from baltimore to san francisco ,বিমান সংস্থাগুলি বেল্টিমোর থেকে সান ফ্রান্সিস্কো পর্যন্ত উড়ে যায়,O O O O O I-toloc.city_name O O O,baltimore san
+ what is the fare for a first class round trip ticket from detroit to st. petersburg ,ডেট্রয়েট থেকে সেন্ট পর্যন্ত প্রথম শ্রেণীর রাউন্ড ট্রিপ টিকিট ভাড়াটি কি? পিটার্সবার্গে,B-fromloc.city_name O B-toloc.city_name O O I-class_type B-round_trip I-round_trip O O O I-toloc.city_name,first
+ what is the airfare for a round trip first class ticket from detroit to st. petersburg ,ডেট্রয়েট থেকে সেন্ট পর্যন্ত প্রথম রাউন্ড ট্রিপের জন্য ভ্রমণের বিমানটি কি? পিটার্সবার্গে,B-fromloc.city_name O B-toloc.city_name O O B-round_trip I-round_trip O O O O I-toloc.city_name,first class
+ kansas city to atlanta monday morning flights ,ক্যানসাস শহর আটলান্টা সোমবার সকালে ফ্লাইট,B-fromloc.city_name I-fromloc.city_name B-toloc.city_name B-depart_date.day_name O O,morning
+ monday morning flights from atlanta to kansas city ,সোমবার থেকে কানসাস শহর থেকে আটলান্টা ফ্লাইট,B-depart_date.day_name O B-toloc.city_name I-toloc.city_name O B-fromloc.city_name O,morning
+ kansas city to atlanta monday morning flights ,ক্যানসাস শহর আটলান্টা সোমবার সকালে ফ্লাইট,B-fromloc.city_name I-fromloc.city_name B-toloc.city_name B-depart_date.day_name O O,morning
+ atlanta to st. louis tuesday before 230 pm flights ,আটলান্টা সেন্ট। শুক্রবার রাত আনুমানিক ২3 টায় ফ্লাইটে লুইস,B-fromloc.city_name B-toloc.city_name O O O O O O O,louis tuesday before 230 pm
+ st. louis to st. paul thursday after 10 am ,ম। লুইস সেন্ট। পল বৃহস্পতিবার সকাল 10 টায়,O O B-toloc.city_name I-toloc.city_name B-depart_date.day_name O B-depart_time.time O,louis after am
+ st. paul to kansas city friday night ,ম। কানসাস শহর শুক্রবার রাতে পল,O B-toloc.city_name I-toloc.city_name B-depart_date.day_name O I-fromloc.city_name,st. night
+ cleveland to kansas city arrive monday before 3 pm ,কানসাস শহর থেকে Cleveland সোমবার 3 টার আগে সোমবার পৌঁছে,B-toloc.city_name I-toloc.city_name O B-fromloc.city_name B-arrive_date.day_name B-arrive_time.time O B-arrive_time.time_relative O O,pm
+ kansas city to cleveland flight arrive wednesday before 5 pm ,কানসাস শহর থেকে ক্লাইভল্যান্ড ফ্লাইট 5:00 আগে বুধবার আসে,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-arrive_time.time_relative B-arrive_date.day_name O,5 pm
+ cleveland to nashville flight friday morning ,ন্যাশভিল ফ্লাইট শুক্রবার সকালে Cleveland,B-toloc.city_name O B-depart_date.day_name O B-fromloc.city_name,morning
+ nashville to cleveland sunday before 9 ,ন্যাশভিল 9 আগে Cleveland রবিবার,B-fromloc.city_name B-depart_time.time B-depart_time.time_relative B-toloc.city_name B-depart_date.day_name,
+ first class flights pittsburgh to newark monday morning ,প্রথম শ্রেণীর ফ্লাইট পিটসবার্গ সোমবার সকালে নিউকার্কে,O I-class_type O B-fromloc.city_name B-depart_date.day_name O O,first newark morning
+ flights newark to los angeles wednesday morning ,লস এঞ্জেলেস বুধবার সকালে ফ্লাইট newark,O I-toloc.city_name B-depart_date.day_name O O B-fromloc.city_name,los morning
+ los angeles to minneapolis thursday afternoon ,লস অ্যাঞ্জেলিজ মিনিস্টারপিস বৃহস্পতিবার বিকেলে,O O O B-depart_date.day_name O,los angeles minneapolis afternoon
+ minneapolis to pittsburgh flight ,মিনিটাপোলিস পিটসবার্গ ফ্লাইট,O B-toloc.city_name O,minneapolis
+ minneapolis to pittsburgh first class flight ,মিনিটাপোলিস পিটসবার্গ প্রথম শ্রেণীর ফ্লাইট,O B-toloc.city_name O I-class_type O,minneapolis first
+ i would like flights leaving from milwaukee to orlando ,আমি Milwaukee থেকে Orlando থেকে ছেড়ে ফ্লাইট চাই,O B-fromloc.city_name O B-toloc.city_name O O O O,
+ what does hp stand for ,এইচপি জন্য দাঁড়ানো কি,B-airline_code O O O,
+ i would like flights from ontario to tacoma ,আমি অন্টারিও থেকে টাকোমা থেকে ফ্লাইটগুলি চাই,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i would like flights from minneapolis to san diego ,আমি মিনিয়াপলিস থেকে সান ডিয়েগো পর্যন্ত ফ্লাইটগুলি চাই,O B-fromloc.city_name O O I-toloc.city_name O O O,san
+ i would like flights from salt lake city to cincinnati ,আমি লবণাক্ত শহর থেকে সিনিসনাটি থেকে ফ্লাইটগুলি চাই,O O I-fromloc.city_name O B-toloc.city_name O O O,salt lake
+ i would like to see flights from cincinnati to salt lake city ,আমি সিনসিনাটি থেকে লবণাক্ত শহর থেকে ফ্লাইট দেখতে চাই,O B-fromloc.city_name O O I-toloc.city_name O O O O,salt lake
+ i'd like flights from new york to miami ,আমি নিউ ইয়র্ক থেকে মিয়ামি থেকে ফ্লাইটগুলি চাই,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O,
+ i would like flights from miami to new york ,আমি মিয়ামি থেকে নিউ ইয়র্কে ফ্লাইট পছন্দ করব,O B-fromloc.city_name O B-toloc.city_name O O O O,york
+ i would like a flight leaving san francisco for san diego ,আমি সান Diego জন্য সান ফ্রান্সিস্কো যাব একটি ফ্লাইট চাই,O O I-toloc.city_name O O I-fromloc.city_name O O O O,san san
+ i would like flights from san diego to las vegas ,আমি সান ডিয়েগো থেকে লাস ভেগাস থেকে ফ্লাইটগুলি চাই,O O I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O,san
+ i would like a flight from san diego to las vegas ,আমি সান ডিয়েগো থেকে লাস ভেগাস একটি ফ্লাইট চাই,O O I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O,san
+ i would like flights from las vegas to san francisco ,আমি লাস ভেগাস থেকে সান ফ্রান্সিস্কো থেকে ফ্লাইটগুলি চাই,O B-fromloc.city_name I-fromloc.city_name O O I-toloc.city_name O O O,san
+ what does fare code bn mean ,ভাড়া কোড BN মানে কি,O O B-fare_basis_code O O,
+ i would like to have the airline that flies toronto detroit and st. louis ,আমি টরন্টো ডেট্রয়েট এবং সেন্ট যে উড়ন্ত বিমানটি চাই। লুই,O B-fromloc.city_name B-toloc.city_name O B-toloc.city_name O O O O I-toloc.city_name,
+ i would like a flight from toronto to detroit ,আমি টরন্টো থেকে Detroit একটি ফ্লাইট চাই,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i would like a flight from detroit to st. louis ,আমি ডেট্রয়েট থেকে সেন্ট একটি ফ্লাইট চাই। লুই,O B-fromloc.city_name O B-toloc.city_name O O O I-toloc.city_name,
+ i would like a flight from toronto to st. louis ,আমি toronto থেকে সেন্ট একটি ফ্লাইট চাই। লুই,O B-fromloc.city_name O B-toloc.city_name O O O I-toloc.city_name,
+ i would like flights from san francisco to long beach ,আমি সান ফ্রান্সিস্কো থেকে দীর্ঘ সৈকত থেকে ফ্লাইট পছন্দ করতে চাই,O O I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O O,san
+ i would like flights leaving san francisco to san diego ,আমি San Diego যাও সান ফ্রান্সিস্কো ছাড়ার ফ্লাইট চাই,O B-toloc.city_name I-toloc.city_name O O I-fromloc.city_name O O O,
+ i would like a flight from san francisco to st. petersburg ,আমি সান ফ্রান্সিস্কো থেকে সেন্ট একটি ফ্লাইট চাই। পিটার্সবার্গে,O O I-fromloc.city_name O B-toloc.city_name O O O I-toloc.city_name,san
+ show me a one way flight from milwaukee to orlando leaving wednesday afternoon after 6 pm ,6 মিনিট পর বুধবার বিকেলে মিলওয়াকি থেকে অরল্যান্ডো থেকে আমাকে একমুখী ফ্লাইট দেখাও,B-depart_time.time O B-depart_time.time_relative B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O O,one way afternoon pm
+ show me one way flights from milwaukee to orlando on wednesday ,মিলাউইকি থেকে অরল্যান্ডো থেকে বুধবারে আমাকে এক রকম ফ্লাইট দেখান,O O B-toloc.city_name O O O B-round_trip O O O,way milwaukee wednesday
+ show me flights from columbus to chicago first class that leave before 10 am ,আমাকে কলম্বাস থেকে মেক্সিকোতে প্রথম শ্রেণীর ফ্লাইট দেখাও যা 10 টার আগে চলে যায়,O B-fromloc.city_name O O O I-class_type O O O B-depart_time.time O B-depart_time.time_relative O O,chicago first am
+ show me the cheapest round trip between st. petersburg and detroit that arrives before 7 pm ,আমাকে সেন্ট মধ্যে সস্তা প্রসঙ্গ বৃত্তাকার দেখান। পিটারসবার্গ এবং ডেট্রয়েট যা 7.00 টা আগে আসে,O B-fromloc.city_name O O O B-round_trip O I-fromloc.city_name O B-toloc.city_name O O O B-arrive_time.time_relative O,cheapest trip 7 pm
+ show me nonstop flights from kansas city to phoenix ,আমাকে ক্যানসাস শহর থেকে ফিনিক্স পর্যন্ত nonstop ফ্লাইট দেখান,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-flight_stop O O,
+ what is airline wn ,এয়ারলাইন্স wn কি,O B-airline_code O,
+ show me the cheapest first class round trip from new york to miami ,আমাকে নিউ ইয়র্কে মিয়ামি থেকে সস্তা প্রথম শ্রেণীর বৃত্তাকার ভ্রমণ দেখান,O B-fromloc.city_name O B-toloc.city_name O O O I-class_type B-round_trip O O,cheapest first trip york
+ now show me all the round trips from new york to miami ,এখন আমাকে নিউ ইয়র্ক থেকে মিয়ামি পর্যন্ত সমস্ত বৃত্তাকার ভ্রমণ দেখান,O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-round_trip O O,trips
+ show me the cheapest one way flight from san francisco to houston ,সান ফ্রান্সিস্কো থেকে হাউস্টন পর্যন্ত আমাকে সবচেয়ে সস্তা একরকম ফ্লাইট দেখান,O I-fromloc.city_name O B-toloc.city_name O O O O O O O,cheapest one way san
+ now show me the cheapest one way flight from houston to boston ,এখন আমাকে হোস্টন থেকে বোস্টন পর্যন্ত সবচেয়ে সস্তা একরকম ফ্লাইট দেখান,O O O O B-toloc.city_name O O O O O O,cheapest one way houston
+ show me the cheapest round trip fares from houston to boston ,হাউস্টন থেকে বোস্টন পর্যন্ত আমাকে সস্তাতম রাউন্ড ট্রিপ ভাড়াগুলি দেখান,B-fromloc.city_name O B-toloc.city_name O O O B-round_trip I-round_trip O O,cheapest
+ show me the cheapest round trip fares from san francisco to houston ,সান ফ্রান্সিস্কো থেকে হাউস্টন পর্যন্ত আমাকে সস্তাতম রাউন্ড ট্রিপ ভাড়াগুলি দেখান,O I-fromloc.city_name O B-toloc.city_name O O O B-round_trip I-round_trip O O,cheapest san
+ show me the cheapest round trip fare from san francisco to houston on february twenty eighth 1994 ,সান ফ্রান্সিস্কো থেকে হোস্টন পর্যন্ত ফেব্রুয়ারী ২8 শে অষ্টম 1994 এ আমাকে সস্তাতম রাউন্ড ট্রিপ ভাড়া দেখান,O I-fromloc.city_name O O O O O O I-depart_date.day_number B-depart_date.year O O O B-round_trip I-round_trip O O,cheapest san houston february twenty
+ show me the cheapest one way fare from san francisco to houston on february twenty eighth 1994 ,সান ফ্রান্সিস্কো থেকে হুস্টন থেকে ফেব্রুয়ারী ২4 শে অষ্টম 1994 এ আমাকে সবচেয়ে সস্তা এক উপায় ভাড়া দেখাও,O I-fromloc.city_name O B-toloc.city_name O O O O I-depart_date.day_number B-depart_date.year O O O O B-round_trip O O O,cheapest way san february twenty
+ now show me ground transportation in houston on monday afternoon ,এখন সোমবার বিকেলে হাউস্টনে আমাকে গ্রামীণ পরিবহণ দেখান,O B-day_name O B-city_name O O O O,afternoon
+ now show me one way flights from houston to boston ,এখন আমাকে হাউস্টন থেকে বোস্টন পর্যন্ত এক রাস্তা ফ্লাইট দেখান,O O B-fromloc.city_name O B-toloc.city_name O B-round_trip O O O,way
+ and now show me ground transportation that i could get in boston late night ,এবং এখন আমাকে স্থল পরিবহন দেখান যে আমি দেরিতে রাতে বোস্টন পেতে পারি,O O O O O O O O B-period_of_day O B-city_name O O,night
+ show me airlines that have flights between toronto and detroit between detroit and st. louis and between st. louis and toronto ,টরন্টো এবং ডেট্রয়েট এবং সেন্টের মধ্যে ডেট্রয়েটের মধ্যে ফ্লাইট আছে এমন বিমান সংস্থাগুলি দেখান। লুইস এবং সেন্ট। লুইস এবং টরন্টো,B-toloc.city_name O B-fromloc.city_name O O O O O O O O O O O O O B-fromloc.city_name O O O,louis louis
+ show me round trip fares from toronto to detroit on delta northwest us air and united airlines ,আমাকে টরন্টো থেকে রাউন্ড ট্রিপ ভাড়াগুলি ডেল্টা-এ উত্তর-পশ্চিমে বায়ু এবং যুক্তরাষ্ট্রে ডেট্রয়েট দেখান,O B-fromloc.city_name O B-round_trip I-round_trip O O O O O O B-toloc.city_name O,delta northwest us air united airlines
+ show me flights between detroit and st. louis on delta northwest us air and united airlines ,আমাকে Detroit এবং সেন্ট মধ্যে ফ্লাইট দেখান। ডেল্টায় লুইস বাতাসে এবং যুক্তরাষ্ট্রে বিমানবন্দর,O B-fromloc.city_name O B-toloc.city_name O O O B-airline_name O O O O O,louis northwest us air united airlines
+ show me flights from montreal to orlando and long beach ,Montreal থেকে Orlando এবং দীর্ঘ সৈকত থেকে আমাকে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O B-toloc.city_name I-toloc.city_name O O O O,
+ show me flights from montreal to orlando ,Montreal থেকে Orlando থেকে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O O,
+ i need a flight on friday afternoon in june from new york to cleveland ,আমি নিউ ইয়র্ক থেকে Cleveland থেকে শুক্রবার বিকেলে একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O O,afternoon june
+ i need a flight from new york to los angeles on saturday evening on us air ,আমার বাতাসে শনিবার সন্ধ্যায় নিউ ইয়র্ক থেকে লস এঞ্জেলস থেকে ফ্লাইট দরকার,O O B-depart_date.day_name B-depart_time.period_of_day B-fromloc.city_name I-fromloc.city_name O O O O O O,los angeles us air
+ i'd like a red eye flight from new york to los angeles on saturday evening on us air ,নিউ ইয়র্কে লস এঞ্জেলেস থেকে আমাদের বাতাসে শনিবার সন্ধ্যায় লাল চক্ষু ফ্লাইটটি চাই,B-fromloc.city_name O O I-toloc.city_name O O O B-depart_date.day_name B-depart_time.period_of_day B-flight_mod O O O,eye york los us air
+ i'd like a flight from new york to los angeles on saturday morning on us air ,শনিবার সকালে আমাদের নিউ ইয়র্কে লস এঞ্জেলস থেকে আমাদের একটি ফ্লাইট চাই,B-depart_date.day_name O O B-fromloc.city_name O O O O O O O O,york los angeles morning us air
+ i need a flight from san francisco to milwaukee on monday morning ,সান ফ্রান্সিস্কো থেকে মিলওয়াকি থেকে সোমবার সকালে আমার ফ্লাইট দরকার,O I-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O O,san morning
+ what does ua mean ,ua মানে কি,O O O,ua
+ i need a flight from milwaukee to washington dc on monday night ,আমি মিলওয়াকি থেকে ওয়াশিংটন ডিসি থেকে সোমবার রাতে একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O B-depart_date.day_name O O O O,night
+ how about flights from milwaukee to washington dc on tuesday mornings ,মঙ্গলবার সকালে ওয়াশিংটনের ডিসি থেকে মিলওয়াকি থেকে ফ্লাইট সম্পর্কে কিভাবে,B-depart_date.day_name O O B-toloc.state_code O B-fromloc.city_name O O O O,washington mornings
+ what meals are there on flight 382 from milwaukee to washington dc on tuesday morning ,মঙ্গলবার সকালে ওয়াশিংটন ডিসি থেকে ফ্লাইটে 38২ মিলিয়নের খাবার কি?,B-depart_date.day_name O B-toloc.city_name B-toloc.state_code O O O O O O,meals 382 milwaukee morning
+ i'll need to rent a car in washington dc ,আমি ওয়াশিংটন ডিসি একটি গাড়ী ভাড়া প্রয়োজন হবে,O B-city_name B-state_code O B-transport_type O O O,
+ can i get a flight on tuesday night from washington dc to oakland ,আমি ওয়াশটন ডিসি থেকে ওকল্যান্ড থেকে মঙ্গলবার রাতে একটি ফ্লাইট পেতে পারেন,O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O B-depart_date.day_name O O O O O,night
+ how about from dc to oakland on wednesday morning ,কিভাবে ডিসি থেকে ওকেল্যান্ড থেকে বুধবার সকালে,O B-fromloc.state_code O B-toloc.city_name O B-depart_date.day_name O,morning
+ how much does it cost to fly on twa from columbus to milwaukee ,কলম্বাস থেকে মিলওয়াকি পর্যন্ত দুবার উড়ে যাওয়ার জন্য কতটা খরচ হয়?,B-fromloc.city_name O B-toloc.city_name O O O O O O O O,twa
+ what does q mean ,q মানে কি,B-fare_basis_code O O,
+ how much does it cost to fly from columbus to st. louis round trip on twa ,এটি কলম্বাস থেকে সেন্ট থেকে উড়ে কত খরচ হবে। লুই রাউন্ড ট্রিপ টু টো,O B-fromloc.city_name O B-toloc.city_name O O O O O I-toloc.city_name B-round_trip I-round_trip O O,twa
+ what's the cheapest flight from columbus to st. louis round trip on twa ,columbus থেকে সেন্ট থেকে সবচেয়ে সস্তা ফ্লাইট কি। লুই রাউন্ড ট্রিপ টু টো,B-fromloc.city_name O B-toloc.city_name O O O O O I-toloc.city_name B-round_trip I-round_trip O O,cheapest twa
+ what's the cheapest round trip flight on twa from columbus to st. paul ,columbus থেকে সেন্ট থেকে twa প্রসঙ্গে রাউন্ড ট্রিপ ফ্লাইট কি। পল,B-fromloc.city_name O B-toloc.city_name O O O B-round_trip I-round_trip O O I-toloc.city_name,cheapest twa
+ i want to fly from milwaukee to los angeles ,আমি Milwaukee থেকে লস এঞ্জেলস উড়ে যেতে চান,O B-fromloc.city_name O O O O O O,los angeles
+ can i get the shortest flight from milwaukee to orlando ,আমি মিলওয়াকি থেকে অরল্যান্ডো পর্যন্ত সবচেয়ে ছোট ফ্লাইট পেতে পারি,O B-fromloc.city_name O B-toloc.city_name O O O O O O,shortest
+ what is the shortest flight from milwaukee to long beach ,Milwaukee থেকে দীর্ঘ সৈকত থেকে সবচেয়ে ছোট ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O O,shortest
+ what does m mean ,এম মানে কি,B-fare_basis_code O O,
+ what does ap 57 mean ,এপি 57 মানে কি,B-restriction_code I-restriction_code O O,
+ what is the shortest flight from milwaukee to st. petersburg ,Milwaukee থেকে সেন্ট থেকে সবচেয়ে ছোট ফ্লাইট কি। পিটার্সবার্গে,B-fromloc.city_name O B-toloc.city_name O O O O O I-toloc.city_name,shortest
+ what is the shortest flight from milwaukee to long beach ,Milwaukee থেকে দীর্ঘ সৈকত থেকে সবচেয়ে ছোট ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O O,shortest
+ what is the shortest flight from milwaukee to san diego ,Milwaukee থেকে সান ডিয়েগো থেকে সর্বনিম্ন ফ্লাইট কি,B-fromloc.city_name O O I-toloc.city_name O O O O,shortest san
+ what does ap 20 mean ,এপি 20 মানে কি,B-restriction_code I-restriction_code O O,
+ can i get a flight today from san francisco to detroit michigan ,আমি আজ সান ফ্রান্সিস্কো থেকে Detroit michigan থেকে একটি ফ্লাইট পেতে পারেন,O B-depart_date.today_relative O I-fromloc.city_name O B-toloc.city_name B-toloc.state_name O O O O O,san
+ what's the cheapest flight from san francisco to detroit today ,আজ সান ফ্রান্সিস্কো থেকে ডেট্রয়েট থেকে সবচেয়ে সস্তা ফ্লাইট কি,B-depart_date.today_relative O I-fromloc.city_name O B-toloc.city_name O O O O O,cheapest san
+ i want to fly from san francisco to milwaukee and from milwaukee to denver ,আমি সান ফ্রান্সিস্কো থেকে মিলওয়াকি এবং মিলওয়াকি থেকে ডেনভার পর্যন্ত উড়ে যেতে চাই,O O I-fromloc.city_name O B-fromloc.city_name O O O B-toloc.city_name O O O O,san
+ what's the cheapest flight from san francisco to milwaukee ,সান ফ্রান্সিস্কো থেকে মিলওয়াকি পর্যন্ত সবচেয়ে সস্তা ফ্লাইট কি,O I-fromloc.city_name O B-toloc.city_name O O O O O,cheapest san
+ i need to rent a car in milwaukee ,আমি Milwaukee একটি গাড়ী ভাড়া প্রয়োজন,O B-city_name O B-transport_type O O,
+ what's the cheapest flight tomorrow from milwaukee to denver ,মিলওয়াকি থেকে ডেনভার থেকে আগামীকাল সবচেয়ে সস্তা ফ্লাইট কী?,B-fromloc.city_name O B-toloc.city_name O B-depart_date.today_relative O O O O,cheapest
+ what ground transportation is available at denver ,কি স্থল পরিবহন denver পাওয়া যায়,O O O B-city_name O O,
+ what's the cheapest flight from san francisco to denver ,সান ফ্রান্সিস্কো থেকে denver থেকে প্রসঙ্গতম ফ্লাইট কি,O I-fromloc.city_name O B-toloc.city_name O O O O,cheapest san
+ what flights leave from cleveland and go to dallas ,কি ফ্লাইট Cleveland থেকে ছেড়ে এবং ডালাস যান,O O B-fromloc.city_name O O O B-toloc.city_name O,
+ show me all nonstop flights from st. petersburg to charlotte ,সেন্ট থেকে সব nonstop ফ্লাইট দেখান। Petersburg থেকে Charlotte,B-fromloc.city_name O O B-flight_stop O O I-fromloc.city_name O B-toloc.city_name,
+ what airline is us ,এয়ারলাইন আমাদের কি,O O O,us
+ show me flights between toronto and san diego ,toronto এবং সান diego মধ্যে ফ্লাইট দেখান,B-fromloc.city_name O O I-toloc.city_name O O O,san
+ what is phl ,Phl কি,B-airport_code O,
+ what is mci ,এমসিআই কি,B-airport_code O,
+ show me the flights between oakland and salt lake city ,ওকল্যান্ড এবং লবণ লেক শহরের মধ্যে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,
+ what does not sa mean ,কি মানে না,O O O,not sa
+ what is the earliest daily flight between oakland and salt lake city ,ওকল্যান্ড এবং লবণ লেক শহরের মধ্যে প্রথমতম দৈনিক ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O B-flight_days O O,earliest
+ what airline is dl ,এয়ারলাইন্স কি ডল,O O O,dl
+ what is the latest daily flight between oakland and salt lake city ,ওকল্যান্ড এবং লবণ লেক শহরের মধ্যে সর্বশেষ দৈনিক ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O B-flight_days O O,latest
+ show me the flights between los angeles and dallas ,আমাকে Los Angeles এবং ডালাস মধ্যে ফ্লাইট দেখান,O O I-fromloc.city_name O B-toloc.city_name O O O,los
+ what ground transportation is available from dallas fort worth airport to downtown dallas ,কোন স্থল পরিবহন ডালাস দুর্গ থেকে বিমানবন্দর ডালাস থেকে উপলব্ধ,O O O B-city_name O O I-airport_name O O O,fort worth
+ how many passengers can an l1011 aircraft hold ,কত যাত্রী একটি L1011 বিমান ধারণ করতে পারেন,O O O B-aircraft_code O O O O,
+ what is the seating capacity of a dc9 ,একটি dc9 আসন ক্ষমতা কি,O B-aircraft_code O O O,
+ what are the flights between dallas and phoenix ,ডালাস এবং ফিনিক্স মধ্যে ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name O O O,
+ what ground transportation is available between phoenix airport and downtown phoenix ,ফিনিক্স এয়ারপোর্ট এবং ডাউনটাউন ফিনিক্স মধ্যে কি স্থল পরিবহন পাওয়া যায়,B-city_name I-airport_name O O O O O O O O O,
+ what is the seating capacity for the aircraft m80 ,বিমান M80 জন্য আসন ক্ষমতা কি,O B-aircraft_code O O O O,
+ are there any flights between dallas and phoenix using a dc10 aircraft ,একটি dc10 বিমান ব্যবহার করে ডালাস এবং ফিনিক্স মধ্যে কোন ফ্লাইট আছে,O B-aircraft_code O O O B-fromloc.city_name O B-toloc.city_name O O O O,
+ what airline is aa ,এয়ারলাইন কি এ,O O O,aa
+ show me the flights between milwaukee and indiana ,মিলওয়াকি এবং ইন্ডিয়ানা মধ্যে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.state_name O O O,
+ what are the flights between milwaukee and pittsburgh ,Milwaukee এবং পিটসবার্গ মধ্যে ফ্লাইট কি কি,B-fromloc.city_name O B-toloc.city_name O O O O,
+ what ground transportation is available between pittsburgh airport and downtown pittsburgh ,পিটসবার্গ এয়ারপোর্ট এবং শহরের কেন্দ্রস্থল পিটসবার্গের মধ্যে কোন স্থল পরিবহন পাওয়া যায়,B-city_name I-airport_name O O O O O O O O O O,
+ show me the flights between pittsburgh and washington dc ,পিটসবার্গ এবং ওয়াশিংটন ডিসি মধ্যে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O,
+ what ground transportation is available between dca and downtown washington ,কি স্থল পরিবহন Dca এবং ডাউনটাউন ওয়াশিংটন মধ্যে পাওয়া যায়,O O O B-airport_code O O B-city_name O O O,
+ what are the flights between dca and milwaukee ,Dca এবং Milwaukee মধ্যে ফ্লাইট কি কি,B-airport_code O B-city_name O O O O,
+ what ground transportation is available between milwaukee airport and downtown milwaukee ,মিলওয়াকি বিমানবন্দর এবং শহরের কেন্দ্রস্থল মিলওয়াকি মধ্যে কোন স্থল পরিবহন পাওয়া যায়,B-city_name I-airport_name O O O O O O O O O O,
+ determine the type of aircraft used on a flight from cleveland to dallas that leaves before noon ,ক্লাইভল্যান্ড থেকে ডালাসের ফ্লাইটে দুপুরের আগে ছেড়ে যাওয়া বিমানের ধরন নির্ধারণ করুন,B-fromloc.city_name O B-toloc.city_name O B-depart_time.period_of_day B-depart_time.time_relative O O O O O O,
+ find a flight between st. petersburg and charlotte the flight should leave in the afternoon and arrive as soon after 5 pm as possible it should be a nonstop flight ,সেন্ট মধ্যে একটি ফ্লাইট খুঁজুন। পিটারসবার্গ এবং চার্লট ফ্লাইট বিকালে ছেড়ে চলে যেতে হবে এবং যত তাড়াতাড়ি সম্ভব 5 টা পরে পৌঁছাতে হবে এটি একটি nonstop ফ্লাইট হতে হবে,B-fromloc.city_name O O O O I-fromloc.city_name O B-toloc.city_name O O O O O O O O O O B-arrive_time.time O O O O O O B-flight_stop O O O,afternoon after pm
+ list a flight on delta airlines from toronto to san diego ,টরন্টো থেকে সান ডিয়েগো পর্যন্ত ডেল্টা এয়ারলাইন্সের ফ্লাইটটি তালিকাভুক্ত করুন,B-fromloc.city_name O O I-toloc.city_name O B-airline_name I-airline_name O O O,san
+ list a flight on american airlines from toronto to san diego ,টরন্টো থেকে সান ডিয়েগো থেকে মার্কিন বিমান সংস্থাগুলির ফ্লাইটটি তালিকাভুক্ত করুন,B-fromloc.city_name O O I-toloc.city_name O O O O O O O,american airlines san
+ list a flight from toronto to san diego ,Toronto থেকে সান ডিয়েগো একটি ফ্লাইট তালিকা,B-fromloc.city_name O O I-toloc.city_name O O O,san
+ list flights from oakland to salt lake city leaving after 1700 wednesday ,1700 বুধবার বাদে ওকল্যান্ড থেকে লবণাক্ত শহর থেকে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-depart_time.time B-depart_date.day_name O B-fromloc.city_name O O I-toloc.city_name O O O O,salt lake after
+ list flights from oakland to salt lake city leaving after midnight thursday ,মধ্যরাত বৃহস্পতিবার পরে ছেড়ে ওকল্যান্ড থেকে লবণ লেক শহর থেকে ফ্লাইট তালিকা,B-depart_time.period_of_day B-depart_date.day_name O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,after
+ list flights between phoenix and las vegas ,ফিনিক্স এবং লাস vegas মধ্যে ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O,
+ list flights from las vegas to denver ,লাস ভেগাস থেকে denver থেকে ফ্লাইট তালিকা,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O,
+ list flights from milwaukee to washington dc before 1200 ,1200 এর আগে মিলওয়াকি থেকে ওয়াশিংটনের ডিসি ফ্লাইটগুলি তালিকা,B-depart_time.time O B-depart_time.time_relative B-fromloc.city_name O O B-toloc.state_code O O,washington
+ list flights from washington dc to pittsburgh leaving after 1800 ,ওয়াশিংটন ডিসি থেকে 1800 সালের পরে পিটসবার্গ থেকে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-fromloc.city_name B-fromloc.state_code O B-depart_time.time O O B-toloc.city_name O O O O,after
+ list flights from washington dc to pittsburgh ,ওয়াশিংটন ডিসি থেকে পিটসবার্গ ফ্লাইট তালিকা,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O,
+ list flights between pittsburgh and milwaukee ,পিটসবার্গ এবং মিলওয়াকি মধ্যে ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O O,
+ i'd like a flight to san diego from washington dc ,আমি ওয়াশিংটন ডিসি থেকে সান ডিয়েগো একটি ফ্লাইট চাই,O B-fromloc.city_name B-fromloc.state_code O O I-toloc.city_name O O O,san
+ i'd like to fly from cleveland to dallas ,আমি Cleveland থেকে ডালাস উড়ে যেতে চাই,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i want to fly from washington dc to phoenix arizona ,আমি ওয়াশিংটন ডিসি থেকে ফিনিক্স অ্যারিজোনা থেকে উড়ে যেতে চাই,O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name B-toloc.state_name O O O O,
+ i need a flight from phoenix to atlanta ,আমি ফিনিক্স থেকে আটলান্টা একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i would like to fly from atlanta to san diego ,আমি আটলান্টা থেকে সান ডিয়েগো থেকে উড়ে যেতে চাই,O B-fromloc.city_name O O I-toloc.city_name O O O O,san
+ i would like to fly from san diego to seattle ,আমি সান ডিয়েগো থেকে সিয়াটেল পর্যন্ত উড়ে যেতে চাই,O O I-fromloc.city_name O B-toloc.city_name O O O O,san
+ i would like to fly from orlando to kansas city ,আমি Orlando থেকে কানসাস শহর উড়ে যেতে চাই,O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O,
+ i need a flight from kansas city to minneapolis ,আমি কানসাস শহর থেকে মিনিয়াপলিস একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O,
+ i need a flight from san diego to washington dc ,আমি সান ডিয়েগো থেকে ওয়াশিংটন ডিসি একটি ফ্লাইট প্রয়োজন,O O I-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O,san
+ i need a flight from washington dc to san diego ,আমি ওয়াশিংটন ডিসি থেকে সান ডিয়েগো থেকে একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name B-fromloc.state_code O O I-toloc.city_name O O O O,san
+ i need a round trip flight from san diego to washington dc and the fares ,আমি সান ডিয়েগো থেকে ওয়াশিংটন ডিসি এবং ভাড়া থেকে একটি রাউন্ড ট্রিপ ফ্লাইট প্রয়োজন,O O I-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O B-round_trip I-round_trip O O,san
+ i need a round trip from atlanta to washington dc and the fares leaving in the morning ,আমি আটলান্টা থেকে ওয়াশিংটন ডিসি এবং সকালে যাব ভাড়া ভাড়া একটি বৃত্তাকার ট্রিপ প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O O O B-round_trip I-round_trip O,morning
+ i need a round trip from phoenix to washington dc and the fare leaving in the morning ,আমি ফিনিক্স থেকে ওয়াশিংটন ডিসি এবং সকালে যাব ভাড়া ভাড়া একটি বৃত্তাকার ট্রিপ প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O O O B-round_trip I-round_trip O,morning
+ what is the lowest fare for a flight from washington dc to boston ,ওয়াশিংটন ডিসি থেকে বোস্টনের ফ্লাইটের সর্বনিম্ন ভাড়া কী?,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O O,lowest
+ what is the lowest fare from washington dc to montreal ,ওয়াশিংটন ডিসি থেকে Montreal থেকে সর্বনিম্ন ভাড়া কি,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O O,lowest
+ what is the lowest fare from toronto to washington dc ,টরন্টো থেকে ওয়াশিংটন ডিসি থেকে সর্বনিম্ন ভাড়া কি,B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O,lowest
+ i want a flight from montreal to washington dc ,আমি Montreal থেকে ওয়াশিংটন ডিসি একটি ফ্লাইট চাই,O B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O,
+ i want a flight from nashville to seattle that arrives no later than 3 pm ,আমি ন্যাশভিল থেকে সিয়াটেল থেকে একটি ফ্লাইট চাই যা 3 টা থেকে পরে আসে না,O B-fromloc.city_name O B-toloc.city_name O O O O O B-arrive_time.time O O O O B-arrive_time.time_relative,later than pm
+ i want a flight from memphis to seattle that arrives no later than 3 pm ,আমি ম্যামফিস থেকে সিলেট যা একটি ফ্লাইট 3:00 অপরাহ্ন পরে আসে চান,O O O O O O O O O O O O,memphis seattle no later than 3 pm
+ i need a flight from indianapolis to seattle arriving in seattle at 1205 pm ,আমি ইন্ডিয়ানাপলিস থেকে সিয়াটেল থেকে সানটেল পৌঁছে 1205 টায় একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O B-arrive_time.time O O O O,pm
+ i want a flight round trip from memphis to seattle ,আমি মেমফিস থেকে সিয়াটেল একটি ফ্লাইট বৃত্তাকার ট্রিপ চাই,O B-fromloc.city_name O B-toloc.city_name O O B-round_trip I-round_trip O,
+ i want to fly from nashville to seattle and i want the cheapest fare round trip ,আমি ন্যাশভিল থেকে সিয়াটেল পর্যন্ত উড়ে যেতে চাই এবং আমি প্রসঙ্গ ভাড়া রাউন্ড ট্রিপ চাই,O B-fromloc.city_name O B-toloc.city_name O O O O O O O O B-round_trip I-round_trip O,cheapest
+ i want to fly from memphis to seattle round trip with the cheapest fare ,আমি প্রসঙ্গ ভাড়া সঙ্গে সিয়াটেল বৃত্তাকার ট্রিপ memphis থেকে উড়ে যেতে চান,O O O O B-toloc.city_name B-round_trip I-round_trip B-fromloc.city_name O O O O,cheapest
+ i want to fly from indianapolis to seattle round trip with the cheapest fare ,আমি ইন্ডিয়ানাপলিস থেকে সিয়াটেল রাউন্ড ট্রিপে সস্তা ভাড়া দিয়ে উড়ে যেতে চাই,O B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O O O O O O,cheapest
+ please list flights from orlando to philadelphia ,অরল্যান্ডো থেকে ফিলাডেলফিয়া ফ্লাইট তালিকা দয়া করে,B-fromloc.city_name O B-toloc.city_name O O O O,
+ please list flights from san francisco to charlotte ,সান ফ্রান্সিস্কো থেকে charlotte থেকে ফ্লাইট তালিকা দয়া করে,O I-fromloc.city_name O B-toloc.city_name O O O O O,san
+ please list flights from milwaukee to philadelphia ,Milwaukee থেকে ফিলাডেলফিয়া ফ্লাইট তালিকা দয়া করে,B-fromloc.city_name O B-toloc.city_name O O O O,
+ please list flights from philadelphia to san francisco ,ফিলাডেলফিয়া থেকে সান ফ্রান্সিস্কো থেকে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-fromloc.city_name O O I-toloc.city_name O O O O,san
+ please show ground transportation to milwaukee ,মিলওয়াকি যাও স্থল পরিবহন প্রদর্শন করুন,B-city_name O O O O O,
+ please list flights from san francisco to milwaukee ,সান ফ্রান্সিস্কো থেকে Milwaukee ফ্লাইট তালিকা দয়া করে,O I-fromloc.city_name O B-toloc.city_name O O O O,san
+ list flights from houston to denver ,Houston থেকে Denver ফ্লাইট টিকেট,B-fromloc.city_name O B-toloc.city_name O O,
+ list flights from houston to phoenix ,হোস্টন থেকে ফিনিক্স এ যাওয়ার উড়ান সূচী,O O B-toloc.city_name O O O O,houston
+ list flights from phoenix to houston ,ফিনিক্স থেকে হোস্টন পর্যন্ত ফ্লাইট টিকেট করুন,B-fromloc.city_name O O O O O O,houston
+ list flights from newark to houston ,নিউকর্ক থেকে হাউস্টন ফ্লাইট টিকেট,B-fromloc.city_name O B-toloc.city_name O O,
+ show flights from denver to houston ,Denver থেকে Houston ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O,
+ show flights from st. petersburg to charlotte ,সেন্ট থেকে ফ্লাইট দেখান। Petersburg থেকে Charlotte,B-fromloc.city_name O O O I-fromloc.city_name O B-toloc.city_name,
+ show flights from orlando to kansas city ,কানসাস শহর থেকে অরল্যান্ডো থেকে ফ্লাইট দেখান,B-toloc.city_name I-toloc.city_name O B-fromloc.city_name O O O,
+ show flights from kansas city to minneapolis ,কানসাস শহর থেকে মিনিয়াপলিস ফ্লাইট দেখান,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O,
+ show flights from kansas city to orlando ,কানসাস শহর থেকে অরল্যান্ডো ফ্লাইট দেখান,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O,
+ show flights from minneapolis to kansas city ,মিনিয়াপলিস থেকে কানসাস শহরের ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O,
+ show flights from kansas city to orlando ,কানসাস শহর থেকে অরল্যান্ডো ফ্লাইট দেখান,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O,
+ list flights from washington dc to boston ,বোস্টন থেকে ওয়াশিংটন ডিসি থেকে ফ্লাইট তালিকা,B-toloc.city_name O B-fromloc.city_name B-fromloc.state_code O O O,
+ list fares from washington dc to montreal ,ওয়াশিংটন ডিসি থেকে Montreal থেকে তালিকা ভাড়া,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O,
+ list flights from washington dc to montreal ,ওয়াশিংটন ডিসি থেকে Montreal থেকে ফ্লাইট তালিকা,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O,
+ list fares from washington dc to toronto that should be good ,ভাল হওয়া উচিত ওয়াশিংটন ডিসি থেকে toronto থেকে তালিকা ভাড়া,O O O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O,
+ list fares from washington dc to boston ,ওয়াশটন ডিসি থেকে বোস্টন তালিকা তালিকা,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O,
+ list flights from washington dc to montreal ,ওয়াশিংটন ডিসি থেকে Montreal থেকে ফ্লাইট তালিকা,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O,
+ list flights from washington dc to toronto ,ওয়াশিংটন ডিসি থেকে toronto থেকে ফ্লাইট তালিকা,B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O,
+ list flights from toronto to washington dc ,toronto থেকে ওয়াশিংটন ডিসি ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O,
+ list flights from oakland to salt lake city ,ওকল্যান্ড থেকে লবণ লেক শহর থেকে ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,
+ what flights go from dallas to phoenix ,ডলাস থেকে ফিনিক্স যেতে কি ফ্লাইট,B-fromloc.city_name O B-toloc.city_name O O O,
+ what flights go from phoenix to salt lake city ,কি ফ্লাইট থেকে ফিনিক্স থেকে লবণ লেক শহর যান,O O O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O,
+ i need an early flight from milwaukee to denver ,আমি Milwaukee থেকে Denver একটি প্রাথমিক ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O O,early
+ what types of ground transportation are available in denver ,গ্রাউন্ড পরিবহন কি ধরণের denver পাওয়া যায়,O O O O B-city_name O O,
+ what flights go from denver to st. louis on tuesday morning ,কি ফ্লাইট denver থেকে সেন্ট যেতে। লুইস মঙ্গলবার সকালে,O O B-fromloc.city_name O B-toloc.city_name O O B-depart_date.day_name O,louis morning
+ is ground transportation available in st. louis ,স্থল পরিবহন উপলব্ধ সেন্ট। লুই,O O O B-city_name I-city_name,
+ i need to fly from st. louis to milwaukee on wednesday afternoon ,আমি সেন্ট থেকে উড়ে যেতে হবে। বুধবার দুপুরে মিলওয়াকি থেকে লুইস,O B-fromloc.city_name O O O O B-depart_date.day_name O B-toloc.city_name O O,louis afternoon
+ flights from washington to seattle ,ওয়াশিংটন থেকে সিয়াটেল ফ্লাইট,B-fromloc.city_name O B-toloc.city_name O,
+ flights from atlanta to seattle ,আটলান্টা থেকে সিয়াটেল থেকে ফ্লাইট,B-fromloc.city_name O B-toloc.city_name O O,
+ flights from san diego to seattle ,সান ডিয়েগো থেকে সিয়াটেল ফ্লাইট,O I-fromloc.city_name O B-toloc.city_name O,san
+ i would like flight information from phoenix to denver ,আমি ফিনিক্স থেকে Denver ফ্লাইট তথ্য চাই,O B-fromloc.city_name O B-toloc.city_name O O O,
+ could i have flight information on flights from salt lake city to phoenix please ,আমি ফিনিক্স থেকে লবণ লেক শহর থেকে ফ্লাইটের ফ্লাইট তথ্য পেতে পারে,O B-toloc.city_name O B-fromloc.city_name I-fromloc.city_name I-fromloc.city_name O O O O O O,
+ could i have flight information on flights from pittsburgh to phoenix please ,আমি পিটসবার্গ থেকে ফিনিক্স ফ্লাইট ফ্লাইট তথ্য পেতে পারে,O B-fromloc.city_name O B-toloc.city_name O O O O O,
+ i would like information on flights leaving from washington dc to denver ,আমি ওয়াশিংটন ডিসি থেকে ডেনভারে যাওয়ার ফ্লাইটগুলিতে তথ্য চাই,O B-fromloc.city_name B-fromloc.state_code O B-toloc.city_name O O O O,
+ i need information on flights from washington to boston that leave on a saturday ,ওয়াশিংটনে বোস্টন থেকে ফ্লাইটে আমার একটি শনিবার চলে যাওয়ার জন্য তথ্য প্রয়োজন,O B-toloc.city_name O O O O B-depart_date.day_name O O O O O,washington
+ i need the flights from washington to montreal on a saturday ,আমি শনিবার ওয়াশিংটন থেকে Montreal থেকে ফ্লাইট প্রয়োজন,O B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O,
+ i need the fares on flights from washington to toronto on a saturday ,আমি শনিবার ওয়াশিংটন থেকে toronto ফ্লাইট ভাড়া প্রয়োজন,O B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O,
+ i want to go from boston to washington on a saturday ,আমি বোস্টন থেকে শনিবার ওয়াশিংটনে যেতে চাই,O B-fromloc.city_name O B-depart_date.day_name O O O,washington
+ i need a flight from cleveland to dallas that leaves before noon see if too much information ,আমি Cleveland থেকে ডালাস একটি ফ্লাইট প্রয়োজন যে খুব বেশী তথ্য দেখতে দুপুর আগে ছেড়ে,O B-fromloc.city_name O B-toloc.city_name O O O O O O O O B-depart_time.time B-depart_time.time_relative O,
+ get fares from washington to boston ,ওয়াশিংটন থেকে বোস্টন ভাড়া পেতে,B-fromloc.city_name O B-toloc.city_name O O,
+ get saturday fares from washington to boston ,ওয়াশিংটন থেকে বোস্টন থেকে শনিবার ভাড়া পেতে,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O,
+ get fares from washington to montreal ,ওয়াশিংটন থেকে Montreal থেকে ভাড়া পেতে,B-fromloc.city_name O B-toloc.city_name O O O,
+ get saturday fares from washington to montreal ,ওয়াশিংটন থেকে Montreal থেকে শনিবার ভাড়া পেতে,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O,
+ get saturday fares from washington to toronto ,ওয়াশিংটন থেকে toronto থেকে শনিবার ভাড়া পেতে,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O,
+ get the saturday fare from washington to toronto ,ওয়াশিংটন থেকে toronto থেকে শনিবার ভাড়া পেতে,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O,
+ list saturday flights from washington to boston ,ওয়াশিংটন থেকে বোস্টন থেকে শনিবার ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O,
+ list saturday flights from boston to washington ,বোস্টন থেকে ওয়াশিংটন শনিবার ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name O O,
+ get flights from milwaukee to dtw ,Milwaukee থেকে dtw থেকে ফ্লাইট পেতে,B-fromloc.city_name O B-toloc.airport_code O O O,
+ list flights from milwaukee to detroit ,Milwaukee থেকে Detroit ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O,
+ get flights from detroit to toronto ,Detroit থেকে toronto থেকে ফ্লাইট পেতে,B-fromloc.city_name O B-toloc.city_name O O O,
+ get flights from toronto to milwaukee ,Milwaukee থেকে toronto থেকে ফ্লাইট পেতে,B-toloc.city_name O B-fromloc.city_name O O O,
+ get last flight from oakland to salt lake city on wednesday or first flight from oakland to salt lake city on thursday ,বুধবার ওকল্যান্ড থেকে লবণাক্ত হ্রদ শহর থেকে ওকল্যান্ড থেকে লবণাক্ত শহর পর্যন্ত বুধবার ওকল্যান্ড থেকে লাইট ফ্লাইট পান,B-depart_date.day_name B-fromloc.city_name O O I-toloc.city_name I-toloc.city_name O O O O O O O O O O O O,last salt or first salt thursday
+ get first flight from oakland to salt lake city on thursday ,বৃহস্পতিবার ওকল্যান্ড থেকে লবণ লেকের শহর থেকে প্রথম ফ্লাইট পান,B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O O,first
+ get last flight from oakland to salt lake city on wednesday ,বুধবার ওকল্যান্ড থেকে লবণাক্ত শহর থেকে শেষ ফ্লাইট পেতে,B-depart_date.day_name B-fromloc.city_name O O I-toloc.city_name O O O O,last salt lake
+ list last wednesday flight from oakland to salt lake city ,ওকল্যান্ড থেকে লবণ লক শহর গত বুধবার ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O I-toloc.city_name O B-depart_date.day_name O O,last lake
+ get flight from toronto to san diego stopping at dtw ,টরন্টো থেকে ফ্লাইট পেতে সান ডিয়েগো DTW এ বন্ধ,B-fromloc.city_name O O O O I-toloc.city_name B-stoploc.airport_code O O,san
+ get flights between st. petersburg and charlotte ,সেন্ট মধ্যে ফ্লাইট পেতে। Petersburg এবং চার্লট,B-fromloc.city_name O O O I-fromloc.city_name O B-toloc.city_name,
+ i need a flight from milwaukee to indianapolis leaving monday before 9 am ,আমি মিলওয়াকি থেকে ইন্ডিয়ানাপলিস থেকে 9 টা আগে সোমবার ছাড়ার একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time O B-depart_time.time_relative B-depart_date.day_name O O O O,am
+ i need a flight departing from milwaukee to indianapolis leaving monday before 8 am ,আমি মিলওয়াকি থেকে ইন্ডিয়ানাপোলিস থেকে সকাল 8 টা আগে সোমবার ছাড়ার একটি ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time O B-depart_time.time_relative B-depart_date.day_name O O O O,am
+ is there ground transportation available at the indianapolis airport ,ইন্ডিয়ানাপলিস এয়ারপোর্টে গ্রাউন্ড পরিবহন পাওয়া যায়,B-airport_name O O O O O,airport
+ i need flight information for a flight departing from indianapolis to cleveland departing tuesday at noon ,আমি ইন্ডিয়ানাপলিস থেকে Cleveland দুপুরে মঙ্গলবার প্রস্থান করার একটি ফ্লাইট জন্য ফ্লাইট তথ্য প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O O O O O O,noon
+ i need flight information for a flight departing from cleveland to milwaukee wednesday after 6 pm ,আমার ফ্লাইটের জন্য ফ্লাইটের তথ্য ফ্লাইটের জন্য ক্লিভল্যান্ড থেকে মিলওয়াকি বুধবার বিকাল 6 টা পর্যন্ত,O O O O O O O B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name O B-depart_time.time O O,after pm
+ i need flight information for flights departing from cleveland going back to milwaukee wednesday after 5 pm ,ফ্লাইট ফ্লাইটের জন্য ক্লাইভল্যান্ড থেকে প্রস্থান করার জন্য ফ্লাইট তথ্য প্রয়োজন 5 টা পরে বিকাল 5 টা,O O O B-fromloc.city_name O O O O O O O B-depart_time.time O O O O O,milwaukee wednesday after pm
+ i need flight information for flights departing from cleveland to milwaukee on wednesday after 5 pm ,ফ্লাইট ফ্লাইটের জন্য ক্লাইভল্যান্ড থেকে মিলওয়াউকি পর্যন্ত 5 ই ফেব্রুয়ারীর পরে ফ্লাইটের তথ্য প্রয়োজন,O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time O O O O O O,wednesday after pm
+ i need flight information for flights departing from cleveland to milwaukee on wednesday after 5 pm ,ফ্লাইট ফ্লাইটের জন্য ক্লাইভল্যান্ড থেকে মিলওয়াউকি পর্যন্ত 5 ই ফেব্রুয়ারীর পরে ফ্লাইটের তথ্য প্রয়োজন,O O O B-fromloc.city_name O B-toloc.city_name O B-depart_time.time O O O O O O,wednesday after pm
+ i need a flight from denver to salt lake city on monday ,সোমবার সন্ধ্যায় লবণাক্ত শহর থেকে ডেনভার থেকে ফ্লাইট দরকার,B-depart_date.day_name O O I-toloc.city_name O B-fromloc.city_name O O O,salt lake
+ is there ground transportation available at the denver airport ,ডেনভার এয়ারপোর্টে উপলব্ধ গ্রাউন্ড পরিবহন আছে,B-airport_name O O O O O,airport
+ i need flight and airline information for a flight from denver to salt lake city on monday departing after 5 pm ,সোমবার বিকেলে সোমবার সন্ধ্যায় ডেনভার থেকে লবণাক্ত শহর থেকে ফ্লাইটের জন্য ফ্লাইট এবং বিমানের তথ্য প্রয়োজন,B-depart_date.day_name O O O B-fromloc.city_name O O I-toloc.city_name O O O O O O O O,salt lake after 5 pm
+ is there ground transportation available at the salt lake city airport ,লবণাক্রান্ত শহর বিমানবন্দরে উপলব্ধ জমি পরিবহন আছে,O I-airport_name O O O O O,salt lake airport
+ i need a flight from salt lake city to phoenix departing wednesday after 5 pm ,আমি সন্ধ্যায় 5 টা পরে উইনিক্স ছাড়তে লবণাক্ত শহর থেকে ফিনিক্স থেকে একটি ফ্লাইট প্রয়োজন,O O B-depart_time.time O O O O O I-fromloc.city_name O B-toloc.city_name O O O O,salt lake wednesday after pm
+ is there ground transportation available at the phoenix airport ,ফিনিক্স বিমানবন্দরে উপলব্ধ জমি পরিবহন আছে,B-airport_name O O O O O,airport
+ i need a flight from oakland to salt lake city on wednesday departing after 6 pm ,আমি ওকল্যান্ড থেকে লবণাক্ত শহর থেকে বুধবার সন্ধ্যা 6 টার দিকে একটি ফ্লাইটের প্রয়োজন,O B-fromloc.city_name O O I-toloc.city_name O B-depart_date.day_name O B-depart_time.time O O O O O,salt lake after pm
+ i need flight and fare information for thursday departing prior to 9 am from oakland going to salt lake city ,আমি লবণাক্ত হ্রদ শহর যাচ্ছে Oakland থেকে 9 am আগে বৃহস্পতিবার প্রস্থান করার জন্য ফ্লাইট এবং ভাড়া তথ্য প্রয়োজন,O O I-toloc.city_name I-toloc.city_name O B-fromloc.city_name O B-depart_time.time I-depart_time.time O B-depart_date.day_name O O O O O O O O,prior to salt
+ i need flight and fare information departing from oakland to salt lake city on thursday before 8 am ,আমি উকিল থেকে লবণ স্রোত শহর থেকে 8 টা আগে বৃহস্পতিবার ফ্লাইট এবং ভাড়া তথ্য প্রস্থান প্রয়োজন,O O O B-toloc.city_name O I-toloc.city_name O B-depart_time.time O B-depart_time.time_relative B-depart_date.day_name O O O O O O,oakland lake am
+ i need flight numbers and airlines for flights departing from oakland to salt lake city on thursday departing before 8 am ,8 ই অক্টোবর আগে বৃহস্পতিবার সকাল 8 টা থেকে ওকল্যান্ড থেকে লবণাক্রান্ত শহর পর্যন্ত ফ্লাইট নাম্বার এবং এয়ারলাইন্সের ফ্লাইট নম্বর প্রয়োজন,B-depart_time.time O O B-depart_time.time_relative B-depart_date.day_name O O O O B-fromloc.city_name O O I-toloc.city_name O O O O O O O O,salt lake am
+ i need flight numbers for those flights departing on thursday before 8 am from oakland going to salt lake city ,ওকল্যান্ড থেকে লবণের হ্রদ শহরে যাবার আগে 8 টা আগে উড়ে যাওয়া ফ্লাইটগুলির জন্য ফ্লাইট নম্বর দরকার,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O B-depart_time.time_relative B-depart_time.time O O O O O O O O O,thursday am city
+ list airports in arizona nevada and california please ,অ্যারিজোনা নেভাদা এবং ক্যালিফর্নিয়া মধ্যে তালিকা বিমানবন্দর দয়া করে,B-state_name I-state_name O B-state_name O O O O O,
+ list california nevada arizona airports ,তালিকা ক্যালিফোর্নিয়া নেভাদা Arizona বিমানবন্দর তালিকা,O B-state_name B-state_name B-state_name O O,
+ list the arizona airport ,অ্যারিজোনা বিমানবন্দর তালিকা,B-state_name O O,
+ list california airports ,ক্যালিফোর্নিয়া বিমানবন্দর তালিকা,B-state_name O O,
+ list flights from las vegas to phoenix ,লাস ভেগাস থেকে ফিনিক্স থেকে ফ্লাইট তালিকা,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O,
+ list california airports ,ক্যালিফোর্নিয়া বিমানবন্দর তালিকা,B-state_name O O,
+ list airports ,তালিকা বিমানবন্দর,O O,
+ list wednesday night flights from oakland to salt lake city ,ওকল্যান্ড থেকে লবণ লেক শহরের বুধবার রাতের তালিকা,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name B-depart_date.day_name O O,night
+ list flights from oakland to salt lake city before 6 am thursday morning ,সকাল 6 টা থেকে সকাল 6 টা আগে ওকল্যান্ড থেকে লবণাক্ত শহর পর্যন্ত ফ্লাইটগুলি তালিকাভুক্ত করুন,B-depart_time.period_of_day B-depart_time.time O O O O O B-depart_time.time_relative B-fromloc.city_name O O I-toloc.city_name O O O O,salt lake am thursday
+ which airlines fly between toronto and san diego ,টরন্টো এবং সান ডিয়েগো মধ্যে কোন বিমান সংস্থা ফ্লাইট,B-fromloc.city_name O O I-toloc.city_name O O O O O,san
+ please list afternoon flights between st. petersburg and charlotte ,সেন্ট মধ্যবর্তী ফ্লাইট তালিকা দয়া করে। Petersburg এবং চার্লট,B-fromloc.city_name O O O O O I-fromloc.city_name O B-toloc.city_name,afternoon
+ what is tpa ,TPA কি,B-airport_code O,
+ what are the flights from cleveland to dallas ,Cleveland থেকে ডালাস ফ্লাইট কি কি,B-fromloc.city_name O B-toloc.city_name O O O,
+ please list only the flights from cleveland to dallas that leave before noon ,দুপুরের আগে ছেড়ে যে শুধুমাত্র ক্লায়ভেল্যান্ড থেকে ডালাস থেকে ফ্লাইট তালিকা,B-depart_time.period_of_day B-depart_time.time_relative O O O O O B-toloc.city_name O O O,cleveland
+ what type of aircraft are flying from cleveland to dallas before noon ,কোন ধরনের বিমান দুপুরের আগে ক্লিভল্যান্ড থেকে ডালাস পর্যন্ত উড়ন্ত হয়,O O O B-depart_time.period_of_day B-depart_time.time_relative B-fromloc.city_name O B-toloc.city_name O O O,
+ i need information on flights from indianapolis to seattle ,আমি ইন্ডিয়ানাপলিস থেকে সিয়াটেল ফ্লাইটে তথ্য প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i need a flight from memphis to seattle ,আমি ম্যামফিস থেকে সিয়াটেল একটি ফ্লাইট প্রয়োজন,O O O B-toloc.city_name O O O,memphis
+ i need a ticket from nashville to seattle ,আমি ন্যাশভিল থেকে সিয়াটেল একটি টিকেট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i need a ticket from nashville tennessee to seattle ,আমি ন্যাশভিল টেনেসি থেকে সিয়াটেল থেকে একটি টিকেট প্রয়োজন,O B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name O O O O,
+ i need flight information from milwaukee to tampa ,আমি মিলওয়াকি থেকে টম্পা ফ্লাইট তথ্য প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ i need to rent a car at tampa ,আমি টম্পা একটি গাড়ী ভাড়া প্রয়োজন,O B-city_name O B-transport_type O O,
+ i need a daily flight from st. louis to milwaukee ,আমি সেন্ট থেকে একটি দৈনিক ফ্লাইট প্রয়োজন। লাউস মিলওয়াকি,O B-fromloc.city_name O O B-flight_days O O O B-toloc.city_name,louis
+ i need flights departing from oakland and arriving salt lake city ,আমি ওকল্যান্ড থেকে স্রোত এবং লবণ লেক শহর আগমনের ফ্লাইট প্রয়োজন,O B-fromloc.city_name O O O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,
+ i need information on flights from toronto to san diego ,আমি টরন্টো থেকে সান ডিয়েগো ফ্লাইটে তথ্য প্রয়োজন,O B-fromloc.city_name O O I-toloc.city_name O O O,san
+ i need information on flights from toronto to san diego ,আমি টরন্টো থেকে সান ডিয়েগো ফ্লাইটে তথ্য প্রয়োজন,O B-fromloc.city_name O O I-toloc.city_name O O O,san
+ i want a flight from toronto to san diego ,আমি টরন্টো থেকে সান ডিয়েগো একটি ফ্লাইট চাই,O B-fromloc.city_name O O I-toloc.city_name O O O,san
+ i need information on flights between st. petersburg and charlotte ,আমি সেন্ট মধ্যে ফ্লাইট তথ্য প্রয়োজন। Petersburg এবং চার্লট,O B-fromloc.city_name O O O O I-fromloc.city_name O B-toloc.city_name,
+ i need the flight numbers of flights leaving from cleveland and arriving at dallas ,আমি Cleveland থেকে ছেড়ে এবং ডালাস এ আগমন ফ্লাইট সংখ্যা প্রয়োজন,O B-fromloc.city_name O O O B-toloc.city_name O O O O O,
+ which flights go from new york to miami and back ,কোন ফ্লাইট নিউ ইয়র্ক থেকে মিয়ামি এবং ফিরে যেতে,O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O,
+ what does fare code qo mean ,ভাড়া কোড qo মানে কি,O O B-fare_basis_code O O,
+ show me flights from milwaukee to orlando one way ,Milwaukee থেকে Orlando এক উপায় আমাকে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name B-round_trip O O O O,way
+ what the abbreviation us stand for ,সংক্ষেপে আমরা কি জন্য দাঁড়ানো,O O O O O,us
+ i'd like a one way ticket from milwaukee to orlando either wednesday evening or thursday morning ,আমি মিলওয়াকি থেকে অরল্যান্ডো থেকে বুধবার সন্ধ্যায় বা বৃহস্পতিবার সকালে একক টিকিট চাই,O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name B-depart_time.period_of_day B-or B-depart_date.day_name O O O O,one way morning
+ show me flights from milwaukee to orlando ,Milwaukee থেকে Orlando থেকে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O O,
+ what does fare code f mean ,ভাড়া কোড চ অর্থ কি,O O B-fare_basis_code O O,
+ what does fare code h mean ,ভাড়া কোড এইচ মানে কি,O O B-fare_basis_code O O,
+ what does fare code y mean ,ভাড়া কোড Y মানে কি,O O B-fare_basis_code O O,
+ what are restrictions ap 57 ,সীমাবদ্ধতা পিপি 57 কি,O O I-restriction_code O,ap
+ please show me first class flights from indianapolis to memphis one way leaving before 10 am ,ইন্ডিয়ানপলিস থেকে মেমফিসের প্রথম শ্রেণীর ফ্লাইট দেখান 10 মিনিটের আগে চলে যাবেন,B-fromloc.city_name O B-toloc.city_name O I-class_type O O B-depart_time.time O B-depart_time.time_relative O O,first one way am
+ now show me all round trip flights from burbank to seattle that arrive before 7 pm in seattle ,এখন আমাকে বুরব্যাংক থেকে সিয়াটেল পর্যন্ত সমস্ত রাউন্ড ট্রিপ ফ্লাইট দেখাতে যা সিয়াটেলের 7 টা আগে পৌঁছাতে পারে,O O O O B-toloc.city_name O O B-round_trip I-round_trip O O O O B-arrive_time.time O B-arrive_time.time_relative O O,burbank pm
+ round trip flights from orlando to montreal please ,অরল্যান্ডো থেকে মন্ট্রিয়াল থেকে রাউন্ড ট্রিপ ফ্লাইট দয়া করে,B-fromloc.city_name O B-toloc.city_name O B-round_trip I-round_trip O O O,
+ what airline is dl ,এয়ারলাইন্স কি ডল,O O O,dl
+ show me all delta airlines flights from montreal to orlando ,মন্ট্রিয়াল থেকে অরল্যান্ডো পর্যন্ত সমস্ত ডেল্টা বিমান সংস্থা ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O B-airline_name O O O O,airlines
+ show me all flights from orlando to montreal please ,অরল্যান্ডো থেকে montreal আমাকে সব ফ্লাইট প্রদর্শন করুন,B-fromloc.city_name O B-toloc.city_name O O O O O,
+ which airline is kw ,কোন এয়ারলাইন KW হয়,O O B-airline_code O,
+ please list all flights from new york to miami any any type of class ,নিউ ইয়র্ক থেকে মিয়ামি যে কোন ধরনের ক্লাসের সব ফ্লাইট তালিকা করুন,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O O O O O O O,
+ what does fare code bh mean ,ভাড়া কোড ভ মানে কি,O O O O O,bh
+ show me a return flight from miami to jfk please ,আমাকে মিয়ামি থেকে jfk একটি রিটার্ন ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.airport_code O B-round_trip O O,
+ what does fare code bh mean ,ভাড়া কোড ভ মানে কি,O O O O O,bh
+ what does fare code bh mean ,ভাড়া কোড ভ মানে কি,O O O O O,bh
+ what does fare code bh mean ,ভাড়া কোড ভ মানে কি,O O O O O,bh
+ what does fare code bh mean ,ভাড়া কোড ভ মানে কি,O O O O O,bh
+ show me one way flights from milwaukee to orlando after 6 pm on wednesday ,বুধবার বিকেলে 6 টা পরে মিলওয়াকি থেকে অরল্যান্ডো পর্যন্ত আমাকে এক রাস্তা ফ্লাইট দেখান,B-depart_date.day_name O B-depart_time.time O O B-fromloc.city_name O B-toloc.city_name O O B-round_trip O O O,way after pm
+ show me the flights from indianapolis to memphis ,আমাকে ইন্ডিয়ানাপলিস থেকে মেমফিস ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.city_name O O,
+ show me round trip flights from burbank to seattle ,আমাকে বারব্যাংক থেকে সিয়াটেল পর্যন্ত রাউন্ড ট্রিপ ফ্লাইটগুলি দেখান,O O O B-toloc.city_name O B-round_trip I-round_trip O O,burbank
+ show me round trip flights from orlando to montreal ,Orlando থেকে Montreal থেকে বৃত্তাকার ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O B-round_trip O O,trip
+ show me nonstop flights from montreal to orlando ,মন্ট্রিয়াল থেকে অরল্যান্ডো থেকে nonstop ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O B-flight_stop O O,
+ show me round trips between montreal and orlando ,Montreal এবং Orlando মধ্যে বৃত্তাকার ভ্রমণ আমাকে প্রদর্শন,B-fromloc.city_name O B-toloc.city_name O B-round_trip O O O,trips
+ show me round trip flights from montreal to orlando ,Montreal থেকে Orlando থেকে বৃত্তাকার ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O B-round_trip O O,trip
+ show me the cheapest one way flights from montreal to orlando ,মন্ট্রিয়াল থেকে অরল্যান্ডো থেকে আমাকে সস্তাতম একরকম ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O O O O O,cheapest one way
+ show me the cheapest one way flights from orlando to montreal ,Orlando থেকে Montreal থেকে সস্তাতম এক উপায় ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O B-round_trip O O O,cheapest way
+ show me the cheapest economy flights from miami to new york ,আমাকে মিয়ামি থেকে নিউ ইয়র্কে সবচেয়ে সস্তা অর্থনীতি ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.city_name O O O O O O,cheapest economy york
+ kansas city to las vegas economy ,ক্যানসাস শহর থেকে Las Vegas অর্থনীতি,B-fromloc.city_name I-fromloc.city_name O O I-toloc.city_name O,las economy
+ kansas city to las vegas economy ,ক্যানসাস শহর থেকে Las Vegas অর্থনীতি,B-fromloc.city_name I-fromloc.city_name O O I-toloc.city_name O,las economy
+ what airline is hp ,এয়ারলাইন্স কি এইচপি,O O B-airline_code,
+ ground transportation in las vegas ,লাস ভেগাস স্থল পরিবহন,B-city_name I-city_name O O,
+ ground transportation for las vegas ,লাস ভেগাস জন্য স্থল পরিবহন,B-city_name I-city_name O O O,
+ las vegas to baltimore economy ,লাস ভেগাস বাটিমির অর্থনীতিতে,B-fromloc.city_name I-fromloc.city_name O O,baltimore economy
+ las vegas to baltimore economy ,লাস ভেগাস বাটিমির অর্থনীতিতে,B-fromloc.city_name I-fromloc.city_name O O,baltimore economy
+ baltimore to kansas city economy ,বেল্টিমোর কানসাস শহরের অর্থনীতিতে,O B-toloc.city_name I-toloc.city_name O,baltimore economy
+ what airline is us ,এয়ারলাইন আমাদের কি,O O O,us
+ which airline is us ,কোন এয়ারলাইন আমাদের,O O O,us
+ which airline is us ,কোন এয়ারলাইন আমাদের,O O O,us
+ which airline is us ,কোন এয়ারলাইন আমাদের,O O O,us
+ which airline is us ,কোন এয়ারলাইন আমাদের,O O O,us
+ columbus to chicago one way before 10 am ,কলম্বাস থেকে 10 মিনিটের আগে এক পথ চিকোগো,B-fromloc.city_name O B-depart_time.time O B-depart_time.time_relative B-round_trip O B-toloc.city_name,way am
+ what airline is hp ,এয়ারলাইন্স কি এইচপি,O O B-airline_code,
+ st. petersburg to detroit ,ম। Petersburg থেকে Detroit,O I-fromloc.city_name O B-toloc.city_name,st.
+ from milwaukee to orlando one way after 5 pm wednesday ,মিলওয়াউকি থেকে অরল্যান্ডো পর্যন্ত এক রাতে বিকাল 5 টা পরে,B-fromloc.city_name O B-toloc.city_name O B-round_trip O O B-depart_time.time O O,way after pm wednesday
+ and from milwaukee to atlanta before 10 am daily ,এবং মিলওয়াকি থেকে আটলান্টা থেকে প্রতিদিন 10 টা আগে,O B-fromloc.city_name O B-toloc.city_name O O B-depart_time.time O B-depart_time.time_relative,am daily
+ what airline is yx ,কি এয়ারলাইন yx হয়,O O O O,yx
+ show me all flights from san jose to phoenix ,সান জোস থেকে ফিনিক্স পর্যন্ত সব ফ্লাইট দেখান,O O O B-toloc.city_name O O O O,san jose
+ show me all flights from san jose to phoenix ,সান জোস থেকে ফিনিক্স পর্যন্ত সব ফ্লাইট দেখান,O O O B-toloc.city_name O O O O,san jose
+ what airline is hp ,এয়ারলাইন্স কি এইচপি,O O B-airline_code,
+ show me ground transportation in phoenix ,ফিনিক্স আমাকে স্থল পরিবহন দেখান,B-city_name O O O O,
+ show me flights from phoenix to fort worth ,ফিনিক্স থেকে ফোর্ট মূল্য থেকে আমাকে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O O O O O,worth
+ show me ground transportation in fort worth ,আমাকে দুর্ঘটনায় মূল্যবান পরিবহন দেখান,O O O O O,fort worth
+ show me flights from fort worth to san jose ,সান জোস থেকে দুর্গ থেকে আমাকে ফ্লাইট দেখান,O O O O O O O O,fort worth san jose
+ show me first class flights from new york to miami round trip ,আমাকে নিউ ইয়র্ক থেকে মিয়ামি রাউন্ড ট্রিপ প্রথম শ্রেণীর ফ্লাইট দেখান,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O I-class_type O O,first
+ show me first class flights from new york to miami round trip ,আমাকে নিউ ইয়র্ক থেকে মিয়ামি রাউন্ড ট্রিপ প্রথম শ্রেণীর ফ্লাইট দেখান,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O I-class_type O O,first
+ show me all round trip flights from new york to miami nonstop ,আমাকে নিউ ইয়র্ক থেকে মিয়ামি nonstop সব বৃত্তাকার ট্রিপ ফ্লাইট দেখান,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-flight_stop O B-round_trip I-round_trip O O,
+ show me all round trip flights from miami to new york nonstop ,মিয়ামি থেকে নিউ ইয়র্কে nonstop সব রাউন্ড ট্রিপ ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O B-flight_stop O B-round_trip I-round_trip O O,york
+ show me one way flights from indianapolis to memphis before 10 am on any day ,কোনও দিন 10 টা আগে আমাকে ইন্ডিয়ানাপলিস থেকে মেমফিসের একটি রাস্তা ফ্লাইট দেখান,O O B-depart_time.time O B-depart_time.time_relative O B-fromloc.city_name O B-toloc.city_name O O O O,one way am
+ what does fare code f mean ,ভাড়া কোড চ অর্থ কি,O O B-fare_basis_code O O,
+ show me round trip flights from burbank to tacoma ,burbank থেকে tacoma থেকে বৃত্তাকার ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name O B-round_trip O O,trip
+ what does the restriction ap58 mean ,নিষেধাজ্ঞা ap58 মানে কি,O B-restriction_code O O,
+ what does fare code h mean ,ভাড়া কোড এইচ মানে কি,O O B-fare_basis_code O O,
+ what airline is as ,এয়ারলাইন্স কি,O O,as
+ what airline is as ,এয়ারলাইন্স কি,O O,as
+ what airline is as ,এয়ারলাইন্স কি,O O,as
+ what airline is as as in sam ,এয়ারলাইন স্যাম হিসাবে কি,O O B-airline_code O,
+ show me nonstop flights from st. petersburg to toronto ,আমাকে সেন্ট থেকে nonstop ফ্লাইট দেখান। পেট্রোবার্গ toronto যাও,O B-fromloc.city_name O B-flight_stop O O O B-toloc.city_name O,petersburg
+ show me nonstop flights from toronto to st. petersburg ,আমাকে toronto থেকে সেন্ট nonstop ফ্লাইট প্রদর্শন। পিটার্সবার্গে,O B-fromloc.city_name O B-toloc.city_name B-flight_stop O O I-toloc.city_name,
+ show me the nonstop flights and fares from toronto to st. petersburg ,টরন্টো থেকে সেন্ট পর্যন্ত nonstop ফ্লাইট এবং ভাড়া আমাকে দেখান। পিটার্সবার্গে,B-fromloc.city_name O B-toloc.city_name O B-flight_stop O O O O O I-toloc.city_name,
+ show me the nonstop flights from toronto to st. petersburg ,toronto থেকে সেন্ট থেকে nonstop ফ্লাইট দেখান। পিটার্সবার্গে,B-fromloc.city_name O B-toloc.city_name O B-flight_stop O O I-toloc.city_name,
+ show me weekday flights from milwaukee to orlando one way ,Milwaukee থেকে Orlando এক উপায় আমাকে সপ্তাহে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name B-round_trip O O O O O,weekday way
+ show me weekday flights from milwaukee to orlando one way ,Milwaukee থেকে Orlando এক উপায় আমাকে সপ্তাহে ফ্লাইট দেখান,B-fromloc.city_name O B-toloc.city_name B-round_trip O O O O O,weekday way
+ what airline is hp ,এয়ারলাইন্স কি এইচপি,O O B-airline_code,
+ list flights from chicago to san diego ,শিকাগো থেকে সান ডিয়েগো পর্যন্ত ফ্লাইটগুলি তালিকা,B-fromloc.city_name O O I-toloc.city_name O O O,san
+ list flights from chicago to san diego ,শিকাগো থেকে সান ডিয়েগো পর্যন্ত ফ্লাইটগুলি তালিকা,B-fromloc.city_name O O I-toloc.city_name O O O,san
+ list flights from kansas city to denver ,কানসাস শহর থেকে Denver ফ্লাইট তালিকা,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O,
+ list flights from denver to phoenix ,Denver থেকে ফিনিক্স ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O,
+ list flights from phoenix to las vegas ,ফিনিক্স থেকে লাস ভেগাস ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O,
+ list flights from las vegas to san diego ,লাস ভেগাস থেকে সান ডিয়েগো থেকে ফ্লাইট তালিকা,B-fromloc.city_name I-fromloc.city_name O O I-toloc.city_name O O O,san
+ list flights from chicago to kansas city in the morning ,সিকোয়াস থেকে কানসাস শহর থেকে সিকোয়াস ফ্লাইট তালিকা,O O B-toloc.city_name I-toloc.city_name O O O O,chicago morning
+ list flights from houston to san jose ,হোস্টন থেকে সান জোসে পর্যন্ত ফ্লাইটগুলি তালিকা,O O O I-toloc.city_name O O O,houston san
+ list flights from houston to milwaukee ,হাওস্টন থেকে মিলওয়াউকি এ যাওয়ার উড়ান সূচী,O O B-toloc.city_name O O O O,houston
+ list flights from milwaukee to san jose on wednesday ,মিলওয়াকি থেকে সান জোসে থেকে বুধবার ফ্লাইট তালিকা,B-fromloc.city_name O O I-toloc.city_name O B-depart_date.day_name O O,san
+ list flights from san jose to dallas on friday ,শুক্রবার সান জোসে থেকে ডালাস ফ্লাইটে তালিকা,B-depart_date.day_name O I-fromloc.city_name O B-toloc.city_name O O,san
+ list flights from dallas to houston ,ডলাস থেকে হোস্টন ফ্লাইট টিকেট,B-fromloc.city_name O O O O,houston
+ list distance from airports to downtown in new york ,নিউ ইয়র্ক শহরের শহরতলিতে বিমানবন্দরের দূরত্ব তালিকা,B-city_name I-city_name O O O O O,
+ list airports in new york ,নিউ ইয়র্ক এ তালিকা বিমানবন্দর,B-city_name I-city_name O O O,
+ list airports in new york ,নিউ ইয়র্ক এ তালিকা বিমানবন্দর,B-city_name I-city_name O O O,
+ list airports in la ,লা এ তালিকা বিমানবন্দর,B-city_name O O O,
+ list airports ,তালিকা বিমানবন্দর,O O,
+ list airports in la ,লা এ তালিকা বিমানবন্দর,B-city_name O O O,
+ list airports in la ,লা এ তালিকা বিমানবন্দর,B-city_name O O O,
+ list the airports in la ,লা এ বিমানবন্দর তালিকা,B-city_name O O O,
+ list la ,তালিকা,O,la
+ list la ,তালিকা,O,la
+ list flights from new york to la ,নিউ ইয়র্ক থেকে লা ফ্লাইট তালিকা,B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O,
+ list flights from la guardia to burbank ,লা Guardia থেকে burbank থেকে ফ্লাইট তালিকা,B-fromloc.airport_name O O B-toloc.city_name O O O,guardia
+ list flights from la to orlando ,লা থেকে অরল্যান্ডো ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name O O,
+ list flights from ontario california to orlando ,অন্টারিও ক্যালিফোর্নিয়া থেকে অরল্যান্ডো ফ্লাইটগুলি তালিকা,B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name O O,
+ list flights from ontario california to orlando ,অন্টারিও ক্যালিফোর্নিয়া থেকে অরল্যান্ডো ফ্লাইটগুলি তালিকা,B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name O O,
+ list flights from indianapolis to memphis with fares on monday ,সোমবার ভাড়া সঙ্গে ইন্ডিয়ানাপলিস থেকে Memphis ফ্লাইট তালিকা,B-depart_date.day_name O O B-fromloc.city_name O B-toloc.city_name O O,
+ list flights from indianapolis to memphis on monday ,ইন্ডিয়ানাপলিস থেকে সোমবার মেমফিস ফ্লাইট তালিকা,B-fromloc.city_name O B-depart_date.day_name B-toloc.city_name O O,
+ list flights from memphis to miami on wednesday ,বুধবার মিয়ামি থেকে Memphis ফ্লাইট তালিকা,B-depart_date.day_name B-toloc.city_name O B-fromloc.city_name O O,
+ list flights from miami to indianapolis on sunday ,রবিবার সোমবার মিয়ামি থেকে ইন্ডিয়ানাপলিস ফ্লাইটগুলি তালিকা,B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O,
+ list flights from charlotte on saturday afternoon ,শনিবার বিকেলে charlotte থেকে ফ্লাইট তালিকা,B-depart_date.day_name O B-fromloc.city_name O O O,afternoon
+ list type of aircraft for all flights from charlotte ,Charlotte থেকে সব ফ্লাইট জন্য বিমান তালিকা ধরনের,B-fromloc.city_name O O O O O O O,
+ list flights and fares from tacoma to orlando round trip leaving saturday returning next saturday ,টকোমো থেকে অরল্যান্ডো বৃত্তাকার ট্রিপ ছেড়ে শনিবার পরের শনিবার ফিরে ফ্লাইট এবং ভাড়া তালিকা,B-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O B-return_date.day_name B-return_date.date_relative O O O O O O,
+ what class is fare code q ,ভাড়া ক্লাস কি ভাড়া হয়,O O O O O,q
+ list flights from orlando to tacoma on saturday of fare basis code of q ,Q এর ভাড়া বেস কোড শনিবার অরল্যান্ডো থেকে টাকোমো ফ্লাইট তালিকা,B-fare_basis_code O O O O B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O,
+ list airfares for first class round trip from detroit to st. petersburg ,Detroit থেকে সেন্ট প্রথম শ্রেণীর বৃত্তাকার ট্রিপ জন্য তালিকা ভাড়া। পিটার্সবার্গে,B-fromloc.city_name O B-toloc.city_name O I-class_type B-round_trip I-round_trip O O O I-toloc.city_name,first
+ list coach round trip airfare from detroit to st. petersburg ,ডেট্রয়েট থেকে সেন্ট পর্যন্ত তালিকা প্রশিক্ষক বৃত্তাকার ভ্রমণ বিমান। পিটার্সবার্গে,B-fromloc.city_name O B-toloc.city_name O O O B-round_trip O O I-toloc.city_name,coach trip
+ list flights from pittsburgh to newark on monday morning ,সোমবার সকালে নিউ ইয়র্ক থেকে পিটসবার্গ থেকে ফ্লাইটগুলির তালিকা,B-depart_date.day_name O O O O B-fromloc.city_name O O O,newark morning
+ list flights from minneapolis to pittsburgh on friday ,শুক্রবারে মিনিটাপোলিস থেকে পিটসবার্গের ফ্লাইটগুলি তালিকা,O O O B-toloc.city_name O O,minneapolis friday
+ list flights before 9 am from cincinnati to tampa ,সান্নিনাটি থেকে টাম্পা পর্যন্ত 9 তারিখ আগে ফ্লাইট তালিকা,O O B-toloc.city_name O B-depart_time.time O B-depart_time.time_relative O O,am cincinnati
+ list flights from cincinnati to tampa before noon ,সান্নিনাটি থেকে দুপুরের আগে টাম্পা থেকে ফ্লাইট তালিকা,O O B-depart_time.period_of_day B-depart_time.time_relative B-toloc.city_name O O O,cincinnati
+ list flights from tampa to cincinnati after 3 pm ,সন্ধ্যায় তানপা থেকে সন্ধ্যায় ফ্লাইটের তালিকা 3 টা,O O O O O O B-depart_time.time O,tampa cincinnati after pm
+ list airlines that fly from seattle to salt lake city ,সিয়াটেল থেকে লবণাক্ত শহর পর্যন্ত উড়ন্ত বিমান সংস্থাগুলির তালিকা,B-fromloc.city_name O O I-toloc.city_name O O O O O,salt lake
+ list delta flights from seattle to salt lake city ,সিয়াটেল থেকে লবণ লেক শহর ডেল্টা ফ্লাইট তালিকা,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name B-airline_name O O,
+ list seating capacities of delta flights from seattle to salt lake city ,সিয়াটেল থেকে লবণাক্ত শহর পর্যন্ত ডেল্টা ফ্লাইটগুলির তালিকা বসাও,B-fromloc.city_name O O I-toloc.city_name O B-airline_name O O O,salt lake
+ list delta flights from seattle to salt lake city with aircraft type ,বিমানের টাইপের সাথে সিলেট থেকে লবণাক্ত শহর পর্যন্ত ডেল্টা ফ্লাইটগুলির তালিকা,O O O O O O I-toloc.city_name O B-airline_name O O,seattle salt lake
+ what ground transportation is there in baltimore ,Baltimore মধ্যে কি স্থল পরিবহন আছে,B-city_name O O O O O,
+ list ground transportation in baltimore ,বল্টিমোর তালিকাভূমি তালিকা,O O O,baltimore
+ list flights from baltimore to san francisco on friday ,শুক্রবারে বার্টিমোর থেকে সান ফ্রান্সিস্কো পর্যন্ত ফ্লাইটগুলি তালিকা,O O O O I-toloc.city_name O O O,baltimore san friday
+ give me the flights from los angeles to pittsburgh on tuesday ,আমাকে মঙ্গলবার পিটসবার্গ থেকে লস এঞ্জেলস থেকে ফ্লাইট দিন,O B-depart_date.day_name B-toloc.city_name O O O O O O,los angeles
+ give me the flights from pittsburgh to los angeles thursday evening ,আমাকে পিটসবার্গ থেকে লস এঞ্জেলেস বৃহস্পতিবার সন্ধ্যায় ফ্লাইট দিন,O B-fromloc.city_name O O I-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day O O,los
+ give me the round trip flights from cleveland to miami next wednesday ,আমাকে আগামী বুধবার মিয়ামি থেকে Cleveland থেকে রাউন্ড ট্রিপ ফ্লাইট দিতে,O O B-depart_date.day_name B-toloc.city_name O B-fromloc.city_name O B-round_trip I-round_trip O O,next
+ give me the fares for round trip flights from cleveland to miami next wednesday ,Cleveland থেকে মায়ামি পরের বুধবার রাউন্ড ট্রিপ ফ্লাইট জন্য ভাড়া আমাকে দিতে,B-fromloc.city_name O B-toloc.city_name B-depart_date.date_relative B-depart_date.day_name B-round_trip I-round_trip O O O O O,
+ give me the flights and fares for a trip to cleveland from miami on wednesday ,বুধবার মিয়ামি থেকে Cleveland একটি ট্রিপ জন্য ফ্লাইট এবং ভাড়া দিতে,B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O O O O O,
+ give me the fares from miami to cleveland next sunday ,মিয়ামি থেকে পরবর্তী রবিবার আমার ফ্লাইট দিতে,B-fromloc.city_name O B-depart_date.date_relative B-depart_date.day_name O O O,cleveland
+ give me the flights from milwaukee to phoenix on saturday or sunday on american airlines ,আমাকে আমেরিকান বিমানবন্দর শনিবার বা রবিবার মিল Milauau থেকে ফিনিক্স থেকে ফ্লাইট দিতে,O B-airline_name O B-depart_date.day_name B-or B-depart_date.day_name O O O B-toloc.city_name O O O,milwaukee airlines
+ give me the flights from phoenix to milwaukee on wednesday evening ,আমাকে বুধবার সন্ধ্যায় Milwaukee থেকে ফিনিক্স থেকে ফ্লাইট দিতে,O B-depart_date.day_name B-depart_time.period_of_day B-toloc.city_name O B-fromloc.city_name O O O,
+ give me the flights from phoenix to milwaukee on wednesday on american airlines ,আমেরিকান এয়ারলাইনস বুধবার Milwaukee থেকে ফিনিক্স থেকে ফ্লাইট আমাকে দিতে,B-airline_name I-airline_name B-depart_date.day_name B-toloc.city_name O B-fromloc.city_name O O O O,
+ give me the flights from phoenix to milwaukee on american airlines ,আমেরিকান এয়ারলাইন্সের মিলওয়াকি থেকে ফিনিক্স থেকে ফ্লাইট আমাকে দাও,B-airline_name I-airline_name B-toloc.city_name O B-fromloc.city_name O O O O,
+ give me the flights from phoenix to milwaukee ,আমাকে ফিনিক্স থেকে মিলওয়াকি থেকে ফ্লাইট দিন,O B-fromloc.city_name O B-toloc.city_name O O O,
+ give me the meal flights departing early saturday morning from chicago to seattle nonstop ,আমাকে শিকাগো থেকে সিয়াটেল ননস্টপ থেকে শনিবার সকালে সকালের খাবারে খাবারের ফ্লাইট দিন,O B-fromloc.city_name O B-toloc.city_name B-flight_stop O B-depart_date.day_name O B-depart_time.period_of_day O O O O,meal early
+ give me the flights from chicago to seattle saturday morning that have meals ,শিকাগো শনিবার সকালে সিঙ্গেল থেকে ফ্লাইট আমাকে খাবার দাও,B-fromloc.city_name B-depart_date.day_name O O O O O O O,seattle morning meals
+ give me flights from seattle to chicago that have meals on continental ,আমাকে সিয়াটেল থেকে মেক্সিকোতে খাবার খাওয়ার জন্য ফ্লাইট দিন,O B-fromloc.city_name O O O O O O O,chicago meals continental
+ give me the flights from seattle to chicago that have meals on continental saturday morning ,মহাদেশীয় শনিবার সকালে খাবারের জন্য আমাকে সিটিটাল থেকে ফ্লাইট দিতে দাও,B-airline_name B-depart_date.day_name O O O O O O O O O,seattle chicago meals morning
+ give me the flights from chicago to seattle on continental that have meals early saturday morning ,আমাকে শিকাগো থেকে ফ্লাইট ফ্লাইট শনিবার সকালে খাবার আছে মহাদেশীয় উপর সিয়াটেল দিতে,O B-fromloc.city_name O O O B-depart_date.day_name O O O B-airline_name O B-toloc.city_name O,meals early morning
+ give me a combination of continental flights from chicago to seattle that have meals early saturday morning ,আমাকে শিকাগো থেকে সিয়াটেল থেকে মহাদেশীয় ফ্লাইটগুলির সমন্বয় দিন যা শনিবার সকালে খাবার খাওয়াবে,O B-fromloc.city_name O B-toloc.city_name O B-airline_name O O O O B-depart_date.day_name O O O,meals early morning
+ give me the saturday morning flights with meals from chicago to minneapolis ,শিকাগো থেকে মিনিয়াপলিসের খাবার নিয়ে আমাকে শনিবার সকালে ফ্লাইট দিন,B-fromloc.city_name O B-toloc.city_name O O O B-depart_date.day_name O O O,morning meals
+ give me the saturday morning flights on continental that have meals from chicago to minneapolis ,আমাকে শিকাগোতে মিনিয়াপলিস থেকে খাবার খাওয়ার মহাদেশের শনিবার সকালে ফ্লাইট দিন,O O B-toloc.city_name O O O O B-depart_date.day_name O O O,morning continental meals chicago
+ give me the saturday morning flights from chicago to st. paul on continental that have meals ,আমাকে শিকাগো থেকে সেন্ট শনিবার সকালে ফ্লাইট দিন। খাবার আছে যে মহাদেশীয় উপর পল,O B-fromloc.city_name O B-toloc.city_name B-depart_date.day_name O O O O O O B-airline_name O I-toloc.city_name,morning meals
+ give me the flights from new york to las vegas nonstop ,আমাকে নিউ ইয়র্ক থেকে লাস ভেগাস nonstop থেকে ফ্লাইট দিতে,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-flight_stop O O O,
+ give me the flights from memphis to las vegas nonstop ,আমাকে las vegas nonstop থেকে memphis থেকে ফ্লাইট দিতে,O O I-toloc.city_name B-flight_stop O B-fromloc.city_name O O O,las
+ give me the cheapest round trip flights from indianapolis to orlando around december twenty fifth ,ডিসেম্বরের পঞ্চম পঞ্চাশের দিকে অরল্যান্ডো থেকে ইন্ডিয়ানাপলিস পর্যন্ত আমাকে সস্তাতম রাউন্ড ট্রিপ ফ্লাইট দিন,B-depart_date.month_name I-depart_date.day_number O O B-toloc.city_name O B-fromloc.city_name O O O B-round_trip I-round_trip O O,cheapest around twenty
+ i need a friday flight from newark to tampa ,আমি নিউমার্ক থেকে tampa একটি শুক্রবার ফ্লাইট প্রয়োজন,O O O B-toloc.city_name O B-depart_date.day_name O O,newark
+ i need a sunday flight from tampa to charlotte ,আমি tampa থেকে Charlotte একটি রবিবার ফ্লাইট প্রয়োজন,O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O,
+ give me a flight from charlotte to baltimore on tuesday morning ,মঙ্গলবার সকালে বেল্টিমোরের চার্লোট থেকে আমাকে ফ্লাইট দিন,B-depart_date.day_name O O B-fromloc.city_name O O O O,baltimore morning
+ can i have a morning flight from baltimore to newark please ,আমি বার্টিমোর থেকে সকাল সকাল ফ্লাইট করতে পারি দয়া করে,O O O B-depart_time.period_of_day O O O O O O,baltimore newark
+ cheapest round trip fare from or indianapolis to orlando on december twenty fifth ,ডিসেম্বরে বিশ পঞ্চম তারিখে Orlando থেকে ইন্ডিয়ানাপলিস থেকে সস্তা রাউন্ড ট্রিপ ভাড়া,O B-depart_date.day_number I-depart_date.day_number O B-toloc.city_name O B-fromloc.city_name O O B-round_trip I-round_trip O,cheapest december
+ cheapest one way fare from indianapolis to orlando on december twenty seventh ,ডিসেম্বরের সপ্তম তারিখে ইন্ডিয়ানাপলিস থেকে অরল্যান্ডো পর্যন্ত সবচেয়ে সস্তা এক উপায় ভাড়া,B-depart_date.month_name I-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name O O O B-round_trip O O,cheapest way twenty
+ flight number from dallas to houston ,ডালাস থেকে হিউস্টন ফ্লাইট নম্বর,B-fromloc.city_name O B-toloc.city_name O O,
+ flight number from houston to dallas ,হাউস্টন থেকে ডালাস ফ্লাইট নম্বর,B-fromloc.city_name O B-toloc.city_name O O,
+ saturday flight on american airlines from milwaukee to phoenix ,মিলিউইকি থেকে ফিনিক্স পর্যন্ত আমেরিকান বিমান সংস্থাগুলির শনিবার ফ্লাইট,O O B-toloc.city_name O B-airline_name O O B-depart_date.day_name O,airlines milwaukee
+ flight numbers on american airlines from phoenix to milwaukee ,ফিনিক্স থেকে মিলওয়াকি থেকে আমেরিকান এয়ারলাইনস এ ফ্লাইট সংখ্যা,B-fromloc.city_name O B-toloc.city_name O B-airline_name I-airline_name O O O,
+ flight numbers from chicago to seattle ,শিকাগো থেকে সিয়াটেল ফ্লাইট সংখ্যা,B-fromloc.city_name O B-toloc.city_name O O,
+ flight numbers from chicago to seattle on continental ,শিকাগো থেকে ফ্লাইট সংখ্যা মহাদেশীয় সিয়াটেল,B-fromloc.city_name O O O B-airline_name B-toloc.city_name,
+ flight numbers from seattle to chicago on continental ,সিটিটাল থেকে ফ্লাইট নাম্বার মহাদেশের উপর মেক্সিকো,O O O O O O O,seattle chicago continental
+ is there a fare from pittsburgh to cleveland under 200 dollars ,200 ডলারের নিচে পিটসবার্গ থেকে ক্লিভল্যান্ডের ভাড়া আছে,B-fare_amount O O B-fromloc.city_name O O O O,cleveland under dollars
+ how much is coach flight from pittsburgh to atlanta ,পিটসবার্গ থেকে আটলান্টা পর্যন্ত কোচ ফ্লাইট কত,B-fromloc.city_name O B-toloc.city_name O B-class_type O O,
+ newark to tampa on friday ,শুক্রবার tampa newark,B-depart_date.day_name B-toloc.city_name B-fromloc.city_name,
+ tampa to charlotte sunday morning ,রবিবার সকাল সকাল সাড়ে চারটার দিকে তমপা,B-depart_date.day_name B-depart_time.period_of_day O O O O B-fromloc.city_name,charlotte
+ charlotte to baltimore on tuesday ,মঙ্গলবার বেল্টিমোর চার্লট,B-depart_date.day_name O B-fromloc.city_name,baltimore
+ baltimore to newark wednesday morning ,বেল্টিমোর বুধবার সকালে নববর্ষে,O B-depart_date.day_name O O,baltimore newark morning
+ dallas to houston after 1201 am ,ডালাস থেকে 1201 এর পর হাউস্টন,B-fromloc.city_name O B-depart_time.time O B-depart_time.time_relative B-toloc.city_name,am
+ houston to dallas before midnight ,মধ্যরাতের আগে ডালাস হাউস্টন,B-depart_time.period_of_day B-depart_time.time_relative B-toloc.city_name B-fromloc.city_name,
+ indianapolis to orlando december twenty seventh ,ইন্ডিয়ানাপোলিস অরল্যান্ডো ডিসেম্বর বিশ সপ্তম,B-fromloc.city_name B-toloc.city_name B-depart_date.month_name B-depart_date.day_number I-depart_date.day_number,
+ cheapest fare from indianapolis to orlando on the twenty seventh of december ,ডিসেম্বরে বিশ সপ্তম দিনে ইন্ডিয়ানাপলিস থেকে অরল্যান্ডো পর্যন্ত সবচেয়ে সস্তা ভাড়া,O B-depart_date.day_number I-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name O O O O,cheapest december
+ cheapest fare round trip from indianapolis to orlando on december twenty seventh ,ডিসেম্বরের সপ্তম তারিখে ইন্ডিয়ানাপলিস থেকে অরল্যান্ডো পর্যন্ত সস্তা ভাড়া রাউন্ড ট্রিপ,B-depart_date.month_name I-depart_date.day_number O B-fromloc.city_name O B-toloc.city_name O O O B-round_trip I-round_trip,cheapest twenty
+ cleveland to miami on wednesday arriving before 4 pm ,বুধবার বিকেল 4 টায় মিয়ামি পৌঁছেছেন ক্লাইভল্যান্ড,B-depart_date.day_name O B-arrive_time.time O B-toloc.city_name O B-fromloc.city_name,before pm
+ miami to cleveland sunday afternoon ,মধ্যাহ্নভোজ রবিবার বিকেলে মিয়ামি,O B-depart_date.day_name O B-fromloc.city_name,cleveland afternoon
+ new york city to las vegas and memphis to las vegas on sunday ,নিউ ইয়র্কে শহর লাস ভেগাস এবং মেম্বফিসে লাস ভেগাসে রবিবার,B-fromloc.city_name O I-fromloc.city_name B-toloc.city_name I-toloc.city_name O O O O B-depart_date.day_name,york memphis
+ new york city to las vegas and memphis to las vegas on sunday ,নিউ ইয়র্কে শহর লাস ভেগাস এবং মেম্বফিসে লাস ভেগাসে রবিবার,B-fromloc.city_name O I-fromloc.city_name B-toloc.city_name I-toloc.city_name O O O O B-depart_date.day_name,york memphis
+ new york to las vegas sunday afternoon ,নিউ ইয়র্কে লাস ভেগাস রবিবার বিকেলে,B-fromloc.city_name O B-toloc.city_name I-toloc.city_name B-depart_date.day_name O,york afternoon
+ memphis to las vegas sunday afternoon ,সোমবার বিকেলে লাস ভেগাসে মেমফিস,O O B-toloc.city_name O B-fromloc.city_name,vegas sunday afternoon
+ new york to las vegas on sunday afternoon ,রবিবার দুপুরে লাস ভেগাসে নিউ ইয়র্ক,B-depart_date.day_name O B-toloc.city_name O B-fromloc.city_name I-fromloc.city_name,vegas afternoon
+ chicago to seattle saturday morning ,শিকাগো সিয়াটেল শনিবার সকালে,B-fromloc.city_name B-toloc.city_name B-depart_date.day_name O,morning
+ chicago to las vegas saturday morning ,শিকাগো সকালে লাশ ভাসাস শনিবার সকালে,B-fromloc.city_name O O O B-depart_date.day_name O,las vegas morning
+ los angeles to pittsburgh afternoon tuesday ,পিটসবার্গ বিকালে মঙ্গলবার লস এঞ্জেলস,B-toloc.city_name O B-depart_date.day_name O O,los angeles afternoon
+ los angeles to pittsburgh afternoon on monday ,সোমবার পিটসবার্গ বিকেলে লস এঞ্জেলস,B-depart_date.day_name B-toloc.city_name O O O,los angeles afternoon
+ pittsburgh to los angeles thursday evening ,পিটসবার্গ থেকে লস এঞ্জেলেস বৃহস্পতিবার সন্ধ্যায়,B-fromloc.city_name O O I-toloc.city_name B-depart_date.day_name B-depart_time.period_of_day,los
+ milwaukee to phoenix on saturday ,শনিবার ফিনিক্স থেকে milwaukee,B-depart_date.day_name B-toloc.city_name O B-fromloc.city_name,
+ phoenix to milwaukee on sunday ,রবিবার মিলিউইকি থেকে ফিনিক্স,B-depart_date.day_name O O B-fromloc.city_name,milwaukee
+ phoenix to milwaukee on wednesday ,বুধবার Milwaukee থেকে ফিনিক্স,B-depart_date.day_name B-toloc.city_name O B-fromloc.city_name,
+ a flight from baltimore to san francisco arriving between 5 and 8 pm ,বেল্টিমোর থেকে সান ফ্রান্সিস্কো থেকে একটি ফ্লাইট 5 এবং 8 অপরাহ্নের মধ্যে পৌঁছনো,O O O I-toloc.city_name O O B-flight B-arrive_time.start_time O B-arrive_time.end_time O O O,baltimore san pm
+ how many northwest flights leave st. paul ,কত উত্তর পশ্চিম ফ্লাইট ছুটি। পল,O O O O O I-fromloc.city_name,northwest st.
+ how many northwest flights leave washington dc ,ওয়াশিংটন ডিসি কত উত্তর পশ্চিম ফ্লাইট ছেড়ে,B-fromloc.city_name B-fromloc.state_code O O O O O,northwest
+ how many flights does northwest have leaving dulles ,উত্তরপশ্চিম কত dulles ছাড়ছেন আছে,B-airline_name O B-fromloc.airport_name O O,
+ what cities does northwest fly out of ,কি উত্তর উত্তর পশ্চিম উড়ে না,O O O O O O,northwest
+ list the cities from which northwest flies ,উত্তর পশ্চিম উড়ন্ত শহর থেকে তালিকা,O O O O O O,northwest
+ what cities does northwest fly to ,কি শহর উত্তর পশ্চিম উড়ে না,O O O O O O,northwest
+ i would like a connecting flight from dallas to san francisco leaving after 4 o'clock ,আমি ডালাস থেকে সান ফ্রান্সিস্কো থেকে একটি সংযোগকারী ফ্লাইট 4 বাজে পরে ছেড়ে চাই,O B-fromloc.city_name O O I-toloc.city_name O O O O B-depart_time.time O O O O,connecting san after o'clock
+ please list all the flights from dallas to san francisco ,ডালাস থেকে সান ফ্রান্সিস্কো থেকে সব ফ্লাইট তালিকা দয়া করে,B-fromloc.city_name O O I-toloc.city_name O O O O O O,san
+ tell me again the morning flights on american airlines from philadelphia to dallas ,ফিলাডেলফিয়া থেকে ডালাস পর্যন্ত আমেরিকান বিমান সংস্থাগুলিতে সকালের ফ্লাইট আমাকে আবার বলুন,B-fromloc.city_name O B-toloc.city_name O B-airline_name O O B-depart_time.period_of_day O O O O,airlines
+ tell me the flights that leave philadelphia and go to dallas ,ফিলাডেলফিয়া ছাড়তে এবং ডালাস যেতে যে ফ্লাইট আমাকে বলুন,B-fromloc.city_name O O B-toloc.city_name O O O O O,
+ what is a d9s ,একটি d9s কি,O B-aircraft_code O,
+ what type of plane is a d9s ,প্লেন কি ধরনের একটি d9s হয়,O O O O B-aircraft_code O,
+ what is a d9s ,একটি d9s কি,O B-aircraft_code O,
+ show me the airports serviced by tower air ,আমাকে টাওয়ার বায়ু দ্বারা পরিবেশন বিমানবন্দর প্রদর্শন,O O O O O O O,tower air
+ show me the first class and coach flights between jfk and orlando ,আমাকে jfk এবং অরল্যান্ডো মধ্যে প্রথম বর্গ এবং কোচ ফ্লাইট দেখান,O B-fromloc.airport_code O B-toloc.city_name O O I-class_type O B-class_type O O,first
+ show me the first class and coach flights from kennedy airport to miami ,আমাকে কেনেডি বিমানবন্দর থেকে মিয়ামি পর্যন্ত প্রথম শ্রেণী এবং কোচ ফ্লাইট দেখান,O B-fromloc.airport_name I-fromloc.airport_name O B-toloc.city_name O O I-class_type O B-class_type O O,first
+ show me the first class and coach flights from jfk to miami ,আমাকে জেএফকে থেকে মিয়ামি পর্যন্ত প্রথম শ্রেণী এবং কোচ ফ্লাইট দেখান,O B-fromloc.airport_code O B-toloc.city_name O O I-class_type O B-class_type O O,first
+ are meals ever served on tower air ,কখনও টাওয়ার বায়ু পরিবেশিত খাবার হয়,O O O O O O,meals tower air
+ are snacks served on tower air ,টাওয়ার বায়ু পরিবেশিত খাবার,O O O O,snacks tower air
+ show delta airlines flights from jfk to miami ,জেএফকে থেকে মিয়ামি পর্যন্ত ডেল্টা বিমান সংস্থা ফ্লাইটগুলি দেখান,B-fromloc.airport_code O B-toloc.city_name O B-airline_name O O O O,airlines
+ show delta airlines from boston to salt lake ,বস্টন থেকে লবণাক্ত হ্রদ পর্যন্ত ডেল্টা বিমান সংস্থাগুলি দেখান,B-fromloc.city_name O O I-toloc.city_name O B-airline_name O O O,airlines salt
+ show delta airlines flights from boston to salt lake ,বস্টন থেকে লবণাক্ত হ্রদ পর্যন্ত ডেল্টা বিমান সংস্থা ফ্লাইট দেখান,B-fromloc.city_name O O I-toloc.city_name O B-airline_name O O O O,airlines salt
+ show delta airlines flights from boston to salt lake city ,বস্টন থেকে লবণাক্ত শহর পর্যন্ত ডেল্টা বিমান সংস্থাগুলি ফ্লাইট দেখান,B-fromloc.city_name O O I-toloc.city_name O B-airline_name O O O O,airlines salt lake
+ what are the fares for flights between boston and washington dc ,বোস্টন এবং ওয়াশিংটন ডিসি মধ্যে ফ্লাইট জন্য ভাড়া কি,B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O O,
+ what is the least expensive fare from boston to salt lake city ,বোস্টন থেকে লবণাক্ত শহর পর্যন্ত কমপক্ষে ব্যয়বহুল ভাড়া,B-fromloc.city_name O O I-toloc.city_name O O I-cost_relative O,least salt lake
+ what are the lowest fares from washington dc to salt lake city ,ওয়াশিংটন ডিসি থেকে লবণাক্ত শহর থেকে সর্বনিম্ন ভাড়া কি?,B-fromloc.city_name B-fromloc.state_code O O I-toloc.city_name O O O O,lowest salt lake
+ what is the lowest fare from bwi to salt lake city ,Bwi থেকে লবণ লেক শহরের সর্বনিম্ন ভাড়া কি,O O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O,lowest bwi
+ show me the cost of a first class ticket from detroit to las vegas and back ,আমাকে ডেট্রয়েট থেকে লাস ভেগাস এবং ফিরে যাওয়ার প্রথম শ্রেণীর টিকেটের দাম দেখান,O B-fromloc.city_name O B-toloc.city_name I-toloc.city_name O B-round_trip O O I-class_type O O O,first
+ what is the earliest arriving flight from boston to washington dc ,বোস্টন থেকে ওয়াশিংটনের ডিসি পর্যন্ত প্রথম আগমনের ফ্লাইটটি কী?,B-fromloc.city_name O O B-toloc.state_code O O O O O,earliest arriving washington
+ what is the earliest arriving flight between boston and washington dc ,বোস্টন এবং ওয়াশিংটন ডিসি মধ্যে প্রথম আগমনের ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O O,earliest arriving
+ what's the earliest arriving flight between boston and washington dc ,বোস্টন এবং ওয়াশিংটন ডিসি মধ্যে প্রথম আগমনের ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name B-toloc.state_code O O O O O,earliest arriving
+ what is the earliest arriving flight from houston to orlando ,হাউস্টন থেকে অরল্যান্ডো পর্যন্ত প্রথম আগমনের ফ্লাইটটি কী?,B-fromloc.city_name O B-toloc.city_name O O O O O,earliest arriving
+ what is the earliest arriving flight from houston to orlando ,হাউস্টন থেকে অরল্যান্ডো পর্যন্ত প্রথম আগমনের ফ্লাইটটি কী?,B-fromloc.city_name O B-toloc.city_name O O O O O,earliest arriving
+ show me the flights between houston and orlando ,আমাকে হাউস্টন এবং অরল্যান্ডো মধ্যে ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.city_name O O O,
+ show me the flights between houston and orlando ,আমাকে হাউস্টন এবং অরল্যান্ডো মধ্যে ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.city_name O O O,
+ show me the flights from houston to orlando ,আমাকে হাউস্টন থেকে অরল্যান্ডো ফ্লাইট দেখান,O B-fromloc.city_name O B-toloc.city_name O O,
+ list all flights leaving denver between 8 pm and 9 pm ,রাত 8 টা থেকে রাত 9 টা পর্যন্ত ডেনভার ছেড়ে সব ফ্লাইট তালিকা,O B-depart_time.start_time O O O B-depart_time.end_time O O B-fromloc.city_name O O O O,pm pm
+ what is the seating capacity on the aircraft 733 ,বিমান 733 এ আসন ক্ষমতা কি,O B-aircraft_code O O O O,
+ what is the seating capacity of a 72s ,একটি 72 এর আসন ক্ষমতা কি,O O O O O O,72s
+ what is the seating capacity of the aircraft 72s ,বিমান 72s এর আসন ক্ষমতা কি,O B-aircraft_code O O O O,
+ what is the seating capacity of the aircraft m80 ,বিমান m80 আসন ক্ষমতা কি,O B-aircraft_code O O O,
+ what is the seating capacity of the type of aircraft m80 ,বিমান এম 80 টাইপ এর আসন ক্ষমতা কি,O O O O O O O O,m80
+ what is the seating capacity of an m80 ,একটি m80 আসন ক্ষমতা কি,O B-aircraft_code O O O,
+ what airlines serve denver ,বিমান সংস্থা denver পরিবেশন কি,O O B-city_name O O,
+ list the airlines with flights to or from denver ,ডেনভার থেকে বা ফ্লাইট দিয়ে বিমান সংস্থাগুলির তালিকা,B-city_name O O O O O O O,
+ what airlines fly into denver ,বিমান সংস্থা denver মধ্যে উড়ে,O O B-toloc.city_name O O,
+ list all flights arriving in denver between 8 and 9 pm ,8 থেকে 9 অপরাহ্নের মধ্যে ডেনভারে পৌঁছানোর সকল ফ্লাইটগুলি তালিকাভুক্ত করুন,B-arrive_time.start_time O B-arrive_time.end_time O O B-toloc.city_name O O O O O,pm
+ what is the capacity of the 73s ,73 এর ক্ষমতা কি?,O O O O,73s
+ what is 73s ,73 কি,O O,73s
+ what is seating capacity on the aircraft 73s ,বিমান 73s এ বসার ক্ষমতা কি,O B-aircraft_code O O O O,
+ what is the seating capacity of a 757 ,একটি 757 আসন ক্ষমতা কি,O B-aircraft_code O O O,
+ how many people will a 757 hold ,কত মানুষ 757 রাখা হবে,O O B-aircraft_code O O,
+ how many passengers can fly on a 757 ,757 তে কত যাত্রী উড়তে পারে,B-aircraft_code O O O O O,
+ list all of the daily flights arriving in denver between 8 and 9 pm ,8 থেকে 9 টা পর্যন্ত ডেনভারে পৌঁছানোর প্রতিদিনের ফ্লাইটগুলি তালিকাভুক্ত করুন,B-arrive_time.start_time O B-arrive_time.end_time O O B-toloc.city_name O B-flight_days O O O,pm
+ list all of the daily flights arriving in denver from 8 to 9 pm ,8 থেকে 9 টা পর্যন্ত ডেনভারে পৌঁছানোর প্রতিদিনের ফ্লাইটগুলি তালিকাভুক্ত করুন,B-arrive_time.start_time O B-arrive_time.end_time O O B-toloc.city_name O B-flight_days O O O,pm
+ show me all of the daily flights arriving in denver between 8 pm and 9 pm ,8 টা থেকে রাত 9 টা পর্যন্ত ডেনভারে আসার জন্য প্রতিদিনের সকল ফ্লাইট দেখান,B-arrive_time.start_time O O O B-arrive_time.end_time O O B-toloc.city_name O O B-flight_days O O O,pm pm
+ what is the seating capacity of the 757 ,757 এর আসন ক্ষমতা কি,B-aircraft_code O O O O,
+ tell me about the m80 aircraft ,M80 বিমান সম্পর্কে আমাকে বলুন,B-aircraft_code O O O O,
+ tell me about the m80 aircraft ,M80 বিমান সম্পর্কে আমাকে বলুন,B-aircraft_code O O O O,
+ tell me about the type of aircraft called an m80 ,এম 80 নামক বিমানের ধরন সম্পর্কে আমাকে বলুন,O O O O O O O O,m80
+ what is the seating capacity of the 733 ,733 এর আসন ক্ষমতা কি,B-aircraft_code O O O O,
+ what is the seating capacity of the m80 ,এম 80 এর আসন ক্ষমতা কি,O O O O O O,m80
+ what is the seating capacity on the aircraft m80 ,বিমান M80 উপর আসন ক্ষমতা কি,O B-aircraft_code O O O O,
+ list all flights arriving or leaving denver between 8 and 9 pm ,8 থেকে 9 টা পর্যন্ত ডেনভারের আগমন বা ছাড়ার সমস্ত ফ্লাইটগুলি তালিকাভুক্ত করুন,B-depart_time.start_time O B-depart_time.end_time O O B-city_name O O O O O O O,pm
+ list all flights arriving in denver between 8 and 9 pm ,8 থেকে 9 অপরাহ্নের মধ্যে ডেনভারে পৌঁছানোর সকল ফ্লাইটগুলি তালিকাভুক্ত করুন,B-arrive_time.start_time O B-arrive_time.end_time O O B-toloc.city_name O O O O O,pm
+ list all flights on all types of aircraft arriving in denver between 8 and 9 pm ,8 থেকে 9 অপরাহ্নের মধ্যে ডেনভারে পৌঁছানোর সমস্ত ধরনের বিমানের সমস্ত ফ্লাইটগুলি তালিকাভুক্ত করুন,B-arrive_time.start_time O B-arrive_time.end_time O O B-toloc.city_name O O O O O O O O,pm
+ please list all flights from nashville to memphis on monday morning ,সোমবার সকালে ন্যাশভিল থেকে মেমফিসের সমস্ত ফ্লাইটগুলি তালিকাভুক্ত করুন,B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O O,morning
+ please list the flights from nashville to memphis on monday morning ,সোমবার সকালে ন্যাশভিল থেকে মেমফিস ফ্লাইটগুলি তালিকাভুক্ত করুন,B-depart_date.day_name O B-fromloc.city_name O B-toloc.city_name O O O,morning
+ is there ground transportation from the memphis airport into town when if i arrive at 842 in the morning ,মেমফিস বিমানবন্দর থেকে সকালে 84২ টায় পৌঁছানোর সময় গ্রামে পরিবহন হয়,B-airport_name I-airport_name O O O O O O O O O,morning
+ please list the flights from memphis to new york city on a monday night ,সোমবার রাতে নিউ ইয়র্ক শহরের মেমফিস থেকে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-depart_date.day_name O B-toloc.city_name I-toloc.city_name I-toloc.city_name B-fromloc.city_name O O O O,night
+ what is cvg ,সিভিজি কি,B-airport_code O,
+ what ground transportation is available from la guardia airport into new york city ,লা গার্ডিয়া এয়ারপোর্ট থেকে নিউ ইয়র্ক শহরে কি স্থল পরিবহন পাওয়া যায়,B-airport_name O I-airport_name O B-city_name I-city_name O O O O O O,guardia city
+ is there ground transportation from lga into new york city ,Lga থেকে নিউ ইয়র্ক শহরের মধ্যে স্থল পরিবহন আছে,B-airport_code O B-city_name I-city_name I-city_name O O O O,
+ please list the ground transportation from lga into new york city ,নতুন York শহর Lga থেকে স্থল পরিবহন তালিকা দয়া করে,B-city_name I-city_name I-city_name B-airport_code O O O O O O,
+ please list ground transportation from ewr into new york city ,নতুন ইয়র্ক শহর ewr থেকে স্থল পরিবহন তালিকা দয়া করে,B-city_name I-city_name I-city_name O O O O O O O,ewr
+ show me the morning flights from memphis to new york city ,আমাকে নিউ ইয়র্ক শহর থেকে মেমফিস থেকে সকালের ফ্লাইট দেখান,O B-toloc.city_name I-toloc.city_name I-toloc.city_name O B-fromloc.city_name O B-depart_time.period_of_day O O,
+ give me the flights from new york city to nashville leaving after 5 pm on wednesday ,আমাকে নিউ ইয়র্কে শহর থেকে নেশভিল থেকে বুধবার 5 টা পরে ফ্লাইট দিন,O B-fromloc.city_name O I-fromloc.city_name O O O B-depart_date.day_name B-depart_time.time O O O O,york nashville after pm
+ tell me about the ground transportation from nashville airport ,ন্যাশভিল বিমানবন্দর থেকে স্থল পরিবহন সম্পর্কে আমাকে বলুন,B-airport_name I-airport_name O O O O O O,
+ what are the nonstop flights from cincinnati to charlotte leaving after noon and arriving before 7 pm ,সানসিনটি থেকে চার্লোট পর্যন্ত দুপুরের পর ছেড়ে চলে যাওয়া এবং 7 টা আগে পৌঁছে যাওয়া ননস্টপ ফ্লাইটগুলি কী,O O B-toloc.city_name O B-depart_time.period_of_day B-depart_time.time_relative O O O O B-arrive_time.time O B-arrive_time.time_relative O O B-flight_stop O O,cincinnati pm
+ how many flights does alaska airlines have to burbank ,আলাস্কা এয়ারলাইন্স কতগুলি ফ্লাইট বুরংক আছে,B-airline_name I-airline_name O O O O,burbank
+ list the alaska airline flights from burbank to anywhere ,যে কোন জায়গায় burbank থেকে আলাস্কা বিমানের ফ্লাইট তালিকা,O O O B-fromloc.city_name O B-airline_name O O O,airline
+ list the alaska airline flights from burbank ,burbank থেকে আলাস্কা বিমানের ফ্লাইট তালিকা,B-fromloc.city_name O B-airline_name O O O,airline
+ which airline is as ,যা এয়ারলাইন হিসাবে,O O B-airline_code,
+ list the alaska airlines flights arriving in burbank ,আলাবামা এয়ারলাইনস বিমানবন্দর আগমনের তালিকা দেখুন,O I-airline_name O O O O,alaska burbank
+ list the alaska airlines flights a departing from burbank ,আলাস্কা বিমানসংস্থাগুলির তালিকা burbank থেকে একটি প্রস্থান করার জন্য উড়ান,B-airline_name I-airline_name O B-fromloc.city_name O O O O O O,
+ list all alaska airlines flights ,সমস্ত আলাস্কা বিমান সংস্থা ফ্লাইট তালিকা,O B-airline_name O O O O,airlines
+ list all flights departing from seattle ,সিয়াটেল থেকে প্রস্থান সব ফ্লাইট তালিকা,B-fromloc.city_name O O O O O,
+ list the flights from indianapolis to memphis that leave before noon ,ইন্ডিয়ানাপলিস থেকে মেমফিস থেকে ফ্লাইটগুলির তালিকা যা দুপুর আগে চলে,B-fromloc.city_name O B-toloc.city_name O O O O B-depart_time.period_of_day B-depart_time.time_relative O,
+ list the cheapest fare from charlotte to las vegas ,Charlotte থেকে Las Vegas থেকে প্রসঙ্গ ভাড়া তালিকা,B-fromloc.city_name O O I-toloc.city_name O O O O,cheapest las
+ i want a flight from los angeles to charlotte early in the morning ,আমি লস এঞ্জেলস থেকে সকালে শার্লট থেকে একটি ফ্লাইট চাই,O O O O O B-toloc.city_name O O O O,los angeles early morning
+ i would like a morning flight from charlotte to newark ,আমি Charlotte থেকে নিউয়ার একটি সকালে ফ্লাইট চাই,O B-fromloc.city_name O O O O O O,morning newark
+ i'd like a morning flight from newark to los angeles ,আমি নিউকার থেকে লস এঞ্জেলিজের সকালে ফ্লাইটটি চাই,O O O O O O O O,morning newark los angeles
+ i'd like an evening flight from newark to los angeles ,আমি নিউকার্ক থেকে লস এঞ্জেলিজের একটি সন্ধ্যায় ফ্লাইট চাই,O B-fromloc.city_name O O O O B-depart_time.period_of_day O O,los angeles
+ i would like a flight that leaves on sunday from montreal quebec to san diego california ,আমি একটি ফ্লাইট যা মন্ট্রিয়াল quebec থেকে সান ডিয়েগো ক্যালিফোর্নিয়া থেকে রবিবার ছেড়ে দিতে চাই,O O O O B-fromloc.city_name B-fromloc.state_name O O I-toloc.city_name B-toloc.state_name O B-depart_date.day_name O O O,san
+ i would like a flight on tuesday which leaves from san diego to indianapolis indiana and that leaves in the afternoon ,আমি মঙ্গলবার একটি ফ্লাইট চাই যা সান ডিয়েগো থেকে ইন্ডিয়ানাপলিস ইন্ডিয়ানা পর্যন্ত ছেড়ে দেয় এবং বিকেলের মধ্যে ছেড়ে দেয়,O B-depart_date.day_name O O O O O I-fromloc.city_name O B-toloc.city_name B-toloc.state_name O O O O B-depart_time.period_of_day O O O,san
+ i would like to leave thursday morning from indianapolis to toronto ,আমি ইন্ডিয়ানাপলিস থেকে toronto থেকে বৃহস্পতিবার সকালে ছেড়ে দিতে চাই,O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O O,morning
+ i would like a flight on friday morning from toronto to montreal ,আমি toronto থেকে Montreal থেকে শুক্রবার সকালে একটি ফ্লাইট চাই,O B-fromloc.city_name O B-toloc.city_name O B-depart_date.day_name O O O O,morning
+ i would like a flight from cincinnati to burbank on american ,আমি সিনিসনাটি থেকে আমেরিকার বারব্যাংক থেকে ফ্লাইটটি চাই,O B-fromloc.city_name O O O O O O,burbank american
+ what type of aircraft is used for the american flight leaving at 419 pm ,419 টার দিকে আমেরিকান ফ্লাইটের জন্য কোন ধরনের বিমান ব্যবহার করা হয়,B-depart_time.time O O B-airline_name O O O O O O O O,pm
+ i need a flight leaving kansas city to chicago leaving next wednesday and returning the following day ,আমি আগামী বৃহস্পতিবার ছেড়ে চলে যাওয়া এবং পরের দিন ফিরে চলেছে কানসাস শহর ছেড়ে মেক্সিকো ছেড়ে একটি ফ্লাইট প্রয়োজন,O O O O O O O B-depart_date.date_relative I-return_date.date_relative O O B-fromloc.city_name I-fromloc.city_name O O O O O O,chicago wednesday the following
+ what flights go from long beach to st. louis ,কি ফ্লাইট দীর্ঘ সৈকত থেকে সেন্ট যেতে। লুই,O O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O I-toloc.city_name,
+ what are the flights from memphis to las vegas ,Memphis থেকে las vegas ফ্লাইট কি কি,B-fromloc.city_name O O I-toloc.city_name O O O,las
+ what are the flights from las vegas to ontario ,লাস ভেগাস থেকে অন্টারিওতে ফ্লাইটগুলি কী?,B-fromloc.city_name I-fromloc.city_name O O O O,ontario
+ what are the flights from ontario to memphis ,Ontario থেকে Memphis ফ্লাইট কি কি,B-fromloc.city_name O B-toloc.city_name O O O,
+ what type of ground transportation is there at the las vegas airport ,লাস ভেগাস এয়ারপোর্টে কোন ধরনের স্থল পরিবহন আছে,B-airport_name I-airport_name O O O O O O,airport
+ is there taxi service at the ontario airport ,অন্টারিও এয়ারপোর্টে ট্যাক্সি পরিষেবা আছে,B-airport_name O B-transport_type I-transport_type O,airport
+ what are the flights from tampa to milwaukee ,টমপা থেকে মিলওয়াকি পর্যন্ত ফ্লাইট কি?,B-fromloc.city_name O B-toloc.city_name O O O,
+ what are the flights from milwaukee to seattle ,Milwaukee থেকে সিয়াটেল ফ্লাইট কি কি,B-fromloc.city_name O B-toloc.city_name O O O,
+ what are the flights from la guardia to san jose on united ,লা Guardia থেকে সান জোস থেকে মার্কিন যুক্তরাষ্ট্র এ ফ্লাইট কি,B-fromloc.airport_name O O O O O O O O O O,guardia san jose united
+ what are the flights on mondays that travel from charlotte north carolina to phoenix arizona ,Charlotte উত্তর ক্যারোলিনা থেকে ফিনিক্স আরিজোনা থেকে ভ্রমণ যে সোমবার ফ্লাইট কি,B-fromloc.city_name O I-fromloc.state_name O B-toloc.city_name B-toloc.state_name O O O O O O,mondays north
+ what are the flights from phoenix arizona to st. paul minnesota on tuesday ,ফিনিক্স অ্যারিজোনা থেকে সেন্ট থেকে ফ্লাইট কি। মঙ্গলবার পল মিনেসোটা,B-fromloc.city_name B-fromloc.state_name O B-toloc.city_name O O O B-depart_date.day_name I-toloc.city_name B-toloc.state_name,
+ what are the flights on thursday leaving from st. paul minnesota to st. louis ,সেন্ট থেকে ছেড়ে বৃহস্পতিবার ফ্লাইট কি কি। পল মিনেসোটা সেন্ট। লুই,B-toloc.city_name O O B-depart_date.day_name O O O I-fromloc.city_name B-fromloc.state_name O I-toloc.city_name,
+ what are the flights from st. louis to charlotte north carolina leaving on friday ,সেন্ট থেকে ফ্লাইট কি। লুইস উত্তর ক্যারোলিনা শার্লট শুক্রবার ছেড়ে,B-fromloc.city_name O O O O O I-toloc.state_name B-toloc.city_name B-depart_date.day_name O,louis north
+ what are the flights from boston to orlando that stop in new york ,বোস্টন থেকে Orlando যে নিউ ইয়র্ক বন্ধ স্টপ থেকে ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name O B-stoploc.city_name I-stoploc.city_name O O O O O,
+ i need a morning flight from burbank to milwaukee on next monday ,আগামী বুধবার বারব্যাংক থেকে মিলওয়াউকি পর্যন্ত সকালের ফ্লাইট দরকার,O O O O B-toloc.city_name O B-depart_time.period_of_day O O,burbank next monday
+ how about a flight from milwaukee to st. louis that leaves monday night ,Milwaukee থেকে সেন্ট একটি ফ্লাইট সম্পর্কে কিভাবে। লুই যে সোমবার রাতে ছেড়ে,B-fromloc.city_name O B-toloc.city_name O O O O I-toloc.city_name O B-depart_date.day_name O O,night
+ and a flight from st. louis to burbank that leaves tuesday afternoon ,এবং সেন্ট থেকে একটি ফ্লাইট। লুইস বুবার্কে যা মঙ্গলবার বিকেলে চলে যায়,O B-fromloc.city_name O O O O O O B-depart_date.day_name O O O,louis burbank afternoon
+ how about a flight leaving tuesday night from st. louis to burbank ,সেন্ট থেকে মঙ্গলবার রাতে ছেড়ে একটি ফ্লাইট সম্পর্কে কিভাবে। বউবার্কে লুইস,B-fromloc.city_name O B-depart_date.day_name O O O O O O O O,night louis burbank
+ i need a flight from salt lake to newark airport that arrives on saturday before 6 pm ,সন্ধ্যা 6 টা আগে শনিবার পৌঁছানোর জন্য আমার লবণাক্ত বিমান থেকে নিউয়ার এয়ারপোর্ট থেকে ফ্লাইট দরকার,O B-arrive_time.time O B-arrive_time.time_relative B-arrive_date.day_name O O O O O O O I-toloc.airport_name O O O,salt lake newark pm
+ i'd like a flight from cincinnati to newark airport that arrives on saturday before 6 pm ,আমি সানসিনটি থেকে নিউয়ারক বিমানবন্দরে একটি ফ্লাইট চাই যা শনিবার সন্ধ্যা 6 টা আগে আসে,O O O B-toloc.airport_name O O O O O B-arrive_date.day_name O B-arrive_time.time O B-arrive_time.time_relative O,cincinnati airport pm
+ i need a flight on american airlines from miami to chicago that arrives around 5 pm ,আমি মিয়ামি থেকে মেক্সিকো থেকে আমেরিকা এয়ারলাইন্সের একটি ফ্লাইট প্রয়োজন প্রায় 5 বিকাল,O B-fromloc.city_name O O O O I-airline_name O O O O B-arrive_time.time O,american chicago around pm
+ i need a flight from memphis to tacoma that goes through los angeles ,আমি Memos থেকে একটি টোকোমা যে ফ্লাইট ফেরেশতাগণ মাধ্যমে যায় একটি ফ্লাইট প্রয়োজন,O O O O O O O O O O O O O,memphis tacoma los angeles
+ what are the flights between cincinnati and san jose california which leave after 6 pm ,সিনসিনাটি এবং সান জোসে ক্যালিফোর্নিয়ার মধ্যে ফ্লাইটগুলি যা 6 টা পরে চলে যায়,B-fromloc.city_name O O I-toloc.city_name B-toloc.state_name O O O B-depart_time.time O O O O,san after pm
+ what are the nonstop flights between san jose and houston texas ,সান জোস এবং হাউস্টন টেক্সাসের মধ্যে nonstop ফ্লাইট কি,O O O B-toloc.city_name B-toloc.state_name O B-flight_stop O O,san jose
+ what are the nonstop flights between houston and memphis ,হাউস্টন এবং Memphis মধ্যে nonstop ফ্লাইট কি,B-fromloc.city_name O B-toloc.city_name O B-flight_stop O O,
+ what are the flights between memphis and cincinnati on wednesday ,বুধবার মেমফিস এবং সিনসিনাটি মধ্যে ফ্লাইট কি,B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O,
+ what are the american flights from newark to nashville ,নিউয়ার থেকে ন্যাশভিল থেকে আমেরিকান ফ্লাইট কি কি,O O B-toloc.city_name O B-airline_name O O O,newark
+ the flights from ontario to westchester that stop in chicago ,অন্টারিও থেকে ওয়েস্টচেস্টার থেকে যে ফ্লাইটগুলি চিকগোতে থামে,B-fromloc.city_name O B-toloc.city_name O O O B-stoploc.city_name O,
+ please list the flights from los angeles to charlotte ,Charlotte থেকে লস এঞ্জেলস থেকে ফ্লাইট তালিকা দয়া করে,B-toloc.city_name O O O O O O O O,los angeles
+ please list the flights from charlotte to newark ,Charlotte থেকে Newark থেকে ফ্লাইট তালিকা দয়া করে,B-fromloc.city_name O B-toloc.city_name O O O O O,
+ please list the flights from newark to los angeles ,Newark থেকে লস এঞ্জেলেস ফ্লাইট তালিকা দয়া করে,B-fromloc.city_name O O I-toloc.city_name O O O O,los
+ please list the flights from cincinnati to burbank on american airlines ,আমেরিকান এয়ারলাইন্সে বুরংকঙ্ক থেকে সানসিনটি থেকে ফ্লাইটগুলি তালিকাভুক্ত করুন,B-airline_name I-airline_name O O O O O O O,cincinnati burbank
+ please give me the flights from kansas city to chicago on june sixteenth ,অনুগ্রহ করে আমাকে কানসাস শহর থেকে চুনাগোতে জুনের স্লোগানটি ফ্লাইট দিন,O O O B-fromloc.city_name I-fromloc.city_name O O B-depart_date.month_name O O O,chicago sixteenth
+ please give me the flights from chicago to kansas city on june seventeenth ,অনুগ্রহ করে আমাকে জুন সতেরো তারিখে কানসাস শহরের শিকাগো থেকে ফ্লাইটগুলি দিন,O O O B-depart_date.month_name O O B-toloc.city_name I-toloc.city_name B-fromloc.city_name O O O,seventeenth
+ please list all the flights from kansas city to chicago on june sixteenth ,অনুগ্রহ করে কানসাস সিটি থেকে চিকগো পর্যন্ত সমস্ত ফ্লাইটগুলি জুন 16 তম তারিখে তালিকাভুক্ত করুন,O O B-fromloc.city_name I-fromloc.city_name O O O O O B-depart_date.month_name O O O O O,chicago sixteenth
+ please list all the flights from chicago to kansas city on june seventeenth ,অনুগ্রহপূর্বক জুন সতেরো তারিখে চিকগো থেকে কানসাস শহরের সমস্ত ফ্লাইটগুলি তালিকাভুক্ত করুন,O B-depart_date.month_name O O O O B-toloc.city_name I-toloc.city_name O O O O,chicago seventeenth
+ i'd like to travel from burbank to milwaukee ,আমি বারব্যাংক থেকে মিলওয়াকি ভ্রমণ করতে চাই,O O O B-toloc.city_name O O O,burbank
+ can you find me a flight from salt lake city to new york city next saturday before arriving before 6 pm ,আপনি আমাকে সকালের সন্ধ্যায় 6 টা আগে পৌঁছানোর আগে নিউ ইয়র্ক শহরে নিউ ইয়র্ক শহরে লাইট লাইট শহর থেকে একটি ফ্লাইট খুঁজে পেতে পারেন,O O O O B-arrive_time.time O B-arrive_time.time_relative O O B-toloc.city_name I-toloc.city_name O O O O O O I-toloc.city_name O O O O O O,salt lake next saturday pm
+ can you find me another flight from cincinnati to new york on saturday before 6 pm ,আপনি কি আমাকে সানসিনটি থেকে নিউ ইয়র্কের শনিবার সন্ধ্যায় 6 টা থেকে আরেকটি ফ্লাইট পাবেন?,O O O O O B-toloc.city_name O B-depart_date.day_name O B-depart_time.time O O O O O,cincinnati york before pm
+ can you list all of the delta flights from salt lake city to new york next saturday arriving before 6 pm ,আপনি সকালের স্রোতের শহর থেকে নিউ ইয়র্কের সমস্ত ডেল্টা ফ্লাইটগুলি আগামী 6 টা আগে আসার পরের শনিবারে তালিকাভুক্ত করতে পারেন,O O O I-fromloc.city_name O B-toloc.city_name O O B-airline_name O O B-arrive_time.time O B-arrive_time.time_relative O B-depart_date.date_relative O O O O,salt lake york saturday pm
+ i'd like to fly from miami to chicago on on american airlines arriving around 5 pm ,আমি মিয়ামি থেকে চিকগোতে উড়তে চাই আমেরিকান এয়ারলাইন্সে প্রায় 5 টায় পৌঁছে যাচ্ছি,O B-fromloc.city_name O B-toloc.city_name O O B-airline_name I-airline_name O B-arrive_time.time O O O,around pm
+ i'd like to travel from kansas city to chicago next wednesday ,আমি কানসাস শহর থেকে আগামীকাল বুধবার ভ্রমন করতে চাই,O B-fromloc.city_name I-fromloc.city_name O O B-depart_date.day_name O O O,chicago next
+ i'd like a round trip flight from kansas city to chicago on wednesday may twenty sixth arriving at 7 pm ,আমি কানসাস শহরের থেকে চিকগোতে রাউন্ড ট্রিপ ফ্লাইট চাই  বুধবার বিকেল সাড়ে 6 টায় পৌঁছে যাবে,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name B-round_trip I-round_trip O O B-depart_date.day_name O O O O O O,may twenty sixth 7 pm
+ yes i'd like to find a flight from memphis to tacoma stopping in los angeles ,হ্যাঁ আমি মেমফিস থেকে লস এঞ্জেলিসে টোকোমাকে থামাতে একটি ফ্লাইট খুঁজে পেতে চাই,O O B-fromloc.city_name O O O O O O O O O O,tacoma los angeles
+ find flight from san diego to phoenix on monday am ,সোমবার সান ডিয়েগো থেকে ফিনিক্স ফ্লাইট খুঁজুন,B-depart_date.day_name O I-fromloc.city_name O B-toloc.city_name O O,san am
+ find flight from phoenix to detroit on monday ,সোমবার ফিনক্স থেকে ডেট্রয়েট থেকে ফ্লাইটটি সন্ধান করুন,B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O O,
+ find flight from detroit to san diego on tuesday ,মঙ্গলবার সান ডিয়েগো থেকে Detroit থেকে ফ্লাইট খুঁজুন,B-depart_date.day_name O I-toloc.city_name O B-fromloc.city_name O O O,san
+ find flight from cincinnati to san jose on monday ,সোমবার সান্নিনাটি থেকে সান জোসে ফ্লাইটটি খুঁজে বের করুন,B-depart_date.day_name O O O I-toloc.city_name O O O O,cincinnati san
+ find flight from san jose to houston on wednesday ,সান জোসে থেকে বুধবার হোউস্টন থেকে ফ্লাইটটি খুঁজুন,O I-fromloc.city_name O B-depart_date.day_name B-toloc.city_name O O O,san
+ find flight from houston to memphis on friday ,শুক্রবার Houston থেকে Memphis থেকে ফ্লাইট খুঁজে,B-depart_date.day_name B-fromloc.city_name O B-toloc.city_name O O O,
+ find flight from memphis to cincinnati on sunday ,রবিবার সান্নিনিটি থেকে মেমফিস থেকে ফ্লাইটটি খুঁজুন,B-depart_date.day_name O O B-fromloc.city_name O O O,cincinnati
+ find american flight from newark to nashville around 630 pm ,ন্যাশভিল থেকে ন্যাশভিল থেকে প্রায় 630 অপরাহ্ন আমেরিকান ফ্লাইটটি সন্ধান করুন,B-toloc.city_name O O O O B-depart_time.time O B-airline_name O O O,newark around pm
+ please find a flight round trip from los angeles to tacoma washington with a stopover in san francisco not exceeding the price of 300 dollars for june tenth 1993 ,লস এঞ্জেলিস থেকে টোকোম ওয়াশিংটন থেকে ফ্লাইটের ভ্রমনের জন্য অনুগ্রহ করে সান ফ্রান্সিস্কোতে একটি স্টপওভারের সাথে জুন দশম 1993 এর জন্য 300 ডলার মূল্য ছাড় না,O O O O B-toloc.state_name O O O O O O O O O O O B-depart_date.month_name B-depart_date.day_number B-depart_date.year O O B-fare_amount O O O O,round trip los angeles tacoma san francisco not exceeding dollars
+ are there any flights on june tenth from burbank to tacoma ,burbank থেকে tacoma থেকে জুন দশম কোন ফ্লাইট আছে,B-fromloc.city_name O B-toloc.city_name O B-depart_date.month_name B-depart_date.day_number O O O,
+ please find a flight from ontario to westchester that makes a stop in chicago on may seventeenth one way with dinner ,অন্টারিও থেকে ওয়েস্টচেস্টার থেকে ফ্লাইটটি খুঁজুন যা ডিনারের সাথে সতেরো এক রাতে চিকগোতে স্টপ করে,B-fromloc.city_name O B-toloc.city_name O O O O B-meal_description O O B-round_trip O B-stoploc.city_name O O,may seventeenth way
+ like to book a flight from burbank to milwaukee ,Burbank থেকে Milwaukee একটি ফ্লাইট বুক করতে চান,B-fromloc.city_name O B-toloc.city_name O O O O O,
+ show me all the flights from burbank to milwaukee ,আমাকে বারব্যাংক থেকে মিলওয়াকি পর্যন্ত সব ফ্লাইট দেখান,O O O B-toloc.city_name O O O O,burbank
+ find me all the flights from milwaukee to st. louis ,Milwaukee থেকে সেন্ট থেকে সব ফ্লাইট আমাকে খুঁজে। লুই,B-fromloc.city_name O B-city_name O O O O O I-city_name,
+ now show me all the flights from st. louis to burbank ,এখন আমাকে সেন্ট থেকে সব ফ্লাইট দেখান। বউবার্কে লুইস,O O B-city_name O O O O O O,louis burbank
+ is there one airline that flies from burbank to milwaukee milwaukee to st. louis and from st. louis to burbank ,বারব্যাংক থেকে মিলওয়াকি মিলওয়াউকি থেকে সেন্ট পর্যন্ত উড়ন্ত একটি বিমান আছে। Louise এবং সেন্ট থেকে। বউবার্কে লুইস,O O B-fromloc.city_name O O B-fromloc.city_name O O O O O O O O O O O,burbank louis louis burbank
+ find me all the round trip flights from burbank to milwaukee stopping in st. louis ,আমাকে বারব্যাংক থেকে মিলওয়াকি পর্যন্ত আটকাতে রাউন্ড ট্রিপ ফ্লাইটগুলি সন্ধান করুন। লুই,O O O B-toloc.city_name O O B-round_trip I-round_trip O O O I-stoploc.city_name,burbank st.
+ i'd like to book two flights to westchester county ,আমি ওয়েস্টারচেস্টার কাউন্টি দুটি ফ্লাইট বুক করতে চাই,O B-toloc.city_name I-toloc.city_name O O O O O,
+ i want to book a flight from salt lake city to westchester county ,আমি লবণাক্ত শহর থেকে ওয়েস্টচেস্টার কাউন্টি থেকে একটি ফ্লাইট বুক করতে চাই,O O I-fromloc.city_name O B-toloc.city_name I-toloc.city_name O O O O O O,salt lake
+ tell me all the airports near westchester county ,ওয়েস্টচেস্টার কাউন্টি কাছাকাছি সব বিমানবন্দর আমাকে বলুন,B-city_name I-city_name O O O O O,
+ i'd like to book a flight from cincinnati to new york city on united airlines for next saturday ,আমি আগামী শনিবার জন্য যুক্তরাষ্ট্রে সানসিনটি থেকে নিউ ইয়র্ক শহরের একটি ফ্লাইট বুক করতে চাই,O O B-depart_date.day_name O O O O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O O O,cincinnati united airlines next
+ tell me all the airports in the new york city area ,নিউ ইয়র্কে শহর এলাকায় সব বিমানবন্দর আমাকে বলুন,B-city_name O I-city_name O O O O O,york
+ please find all the flights from cincinnati to any airport in the new york city area that arrive next saturday before 6 pm ,সানসিনটি থেকে নতুন বিমানবন্দরের যে কোনও বিমানবন্দরে সমস্ত ফ্লাইট 6.00 টা আগে আগামী শনিবারে পৌঁছান,O O B-toloc.city_name O O O O O O O O B-arrive_time.time_relative O O O,cincinnati york city next saturday 6 pm
+ find me a flight from cincinnati to any airport in the new york city area ,আমাকে নিউ ইয়র্ক শহর এলাকার কোনও বিমানবন্দরে সিনসিনাটি থেকে ফ্লাইটটি খুঁজুন,O B-toloc.city_name I-toloc.city_name I-toloc.city_name O O O B-fromloc.city_name O O O,
+ i'd like to fly from miami to chicago on american airlines ,আমি আমেরিকান বিমানবন্দর থেকে মিয়ামি থেকে শিকাগো উড়ে যেতে চাই,O B-airline_name O O B-fromloc.city_name O B-toloc.city_name O O O,airlines
+ i would like to book a round trip flight from kansas city to chicago ,আমি কানসাস সিটি থেকে শিকাগো পর্যন্ত একটি রাউন্ড ট্রিপ ফ্লাইট বুক করতে চাই,O B-fromloc.city_name I-fromloc.city_name O B-toloc.city_name O O B-round_trip I-round_trip O O O O,
+ find me a flight that flies from memphis to tacoma ,মেমফিস থেকে টাকোমা পর্যন্ত উড়ে আসা একটি ফ্লাইট খুঁজুন,B-fromloc.city_name O B-toloc.city_name O O O O O O,

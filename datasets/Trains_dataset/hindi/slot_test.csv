@@ -1,0 +1,1336 @@
+that eleven hours and we have we have until three pm so that be fine ,ग्यारह घंटे और हमारे पास तीन बजे तक हैं ताकि ठीक हो,B-time-duration I-time-duration O O O B-time O O O O O O,pm
+okay so um ,ठीक है तो उम,O O O O,
+and then the uh what the OJ ,और फिर उह क्या ओ.जे.,O O O O O,OJ
+mm-hm ,मिमी-एचएम,O,
+how we doing that ,हम ऐसा कैसे कर रहे हैं,O O O O O O,
+um the OJ we taking engine two from Elmira going to Corning to get a tanker ,हम ओ जे हम एल्मिरा से इंजन दो ले जा रहे हैं टैंकर लेने के लिए कोर्निंग जा रहे हैं,O O O O O O O B-number O O O O B-vehicle O O O O O O O,OJ engine Elmira Corning
+and then going back to Elmira to make the OJ and then bring the OJ back to Corning to Bath and then to Avon ,और फिर OJ बनाने के लिए एल्मिरा में वापस जा रहे हैं और फिर OJ को कॉर्निंग से बाथ और फिर एवन में वापस लाएंगे,O O O O O O O O O O O O O O O O O O O O O O O O O,Elmira OJ OJ Corning Bath Avon
+okay so we have two two hours to get to Corning well four hours to get to Corning and back ,ठीक है इसलिए हमारे पास कॉर्निंग में जाने के लिए दो दो घंटे हैं। कॉर्निंग और वापस आने के लिए चार घंटे का समय है,O O O O O O O O O O B-time-duration O I-time-duration O O O O O O O B-time-duration O O O O,Corning Corning
+mm-hm ,मिमी-एचएम,O,
+an hour to make um the OJ that five hours ,ओएम बनाने के लिए एक घंटे कि पांच घंटे,O O O O O I-time-duration O B-time-duration O,hour OJ
+mm-hm ,मिमी-एचएम,O,
+and then uh um five hours and then two hours more to get to and then the whole trip to Avon over Bath takes uh four five six seven eight eight hours ,और फिर उह उम पांच घंटे और फिर दो घंटे अधिक पाने के लिए और फिर एवन ओवर बाथ की पूरी यात्रा उह चार पांच छह सात आठ आठ घंटे,O O O O I-time-duration I-time-duration O O B-time-duration O O O O O O O O O O O O O O B-time-duration O I-time-duration I-time-duration I-time-duration O O,Avon Bath
+so that thirteen thirteen hours in all ,ताकि सभी में तेरह तेरह घंटे,O O O I-time-duration O I-time-duration,
+okay so we be done by one pm ,ठीक है  इसलिए हम एक बजे तक काम करेंगे,O O O O B-time O O O O,pm
+that right ,कि सही,O O,
+yep that be fine ,हाँ जो ठीक हो,O O O O,
+okay so now I finished ,ठीक है  तो अब मैं समाप्त हो गया,O O O O O O O O,
+and that ,और वह,O O,
+okay ,ठीक है,O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes um this is my problem plan a round trip from Avon to Elmira on the way out take three boxcars of bananas ,हाँ उम यह मेरी समस्या है  एवन से एलमीरा के लिए एक गोल यात्रा की योजना है  केले के तीन बॉक्सकार ले,O O O O O O O O O O O O O O O O O O O B-number O O,Avon Elmira boxcars bananas
+deliver one each to Bath Corning and Elmira ,बाथ कॉर्निंग और एल्मिरा में एक-एक को वितरित करें,O O O O O O O O O,one Bath Corning Elmira
+but um I donot have to load the boxcars just drop them off um bring two tankers of OJ back to Avon ,लेकिन उम I donot को बॉक्सर्स को लोड करना होगा बस उन्हें छोड़ देना चाहिए um को OJ के दो टैंकर Avon में वापस लाएंगे,O O O O O O O O O O O O O O O O O O O B-number O O O O O,boxcars tankers OJ Avon
+and um this time I have to get the oranges and make the juice and then I have to arrive back in Avon within twenty-four hours ,और इस बार मुझे संतरे लाना है और जूस बनाना है और फिर मुझे चौबीस घंटे के भीतर एवन में वापस आना है,O O O O O O O O I-food O O O O O O I-time-duration O O O O O O O,oranges Avon twenty-four
+okay how many how many uh how much OJ has to end up in Avon ,ठीक है  कितने उह कितने ओजे को एवन में समाप्त करना है,O O O O O O O O O O O O,OJ Avon
+um two tankers ,उम दो टैंकर,O B-number O,tankers
+okay we have to use we making a round trip with just one engine ,ठीक है हमें केवल एक इंजन के साथ एक गोल यात्रा करने का उपयोग करना होगा,O O O O B-number O O O O O O O O O O O,engine
+um right ,एक सही,O O,
+okay ,ठीक है,O O,
+uh so we have to start in Avon ,उह तो हमें एवन में शुरू करना होगा,O O O O O O O O,Avon
+okay ,ठीक है,O O,
+okay let see how long does it take to bring engine one to Dansville ,ठीक है  देखते हैं कि डांसविले में इंजन एक को लाने में कितना समय लगता है,O O O O O O O O B-number O O O O O O O,engine Dansville
+three hours ,तीन घंटे,B-time-duration I-time-duration,
+okay and then back to Avon to get the bananas ,ठीक है और फिर केले प्राप्त करने के लिए एवन वापस,O O O O O O O O O O O,Avon bananas
+three more hours six in all ,तीन और घंटे छह सभी में,B-number O O B-number O O,
+how long does it take to load the bananas ,केले को लोड करने में कितना समय लगता है,O O O O O O O O O,bananas
+one hour ,एक घंटा,B-time-duration O,hour
+okay so that seven hours ,ठीक है  ताकि सात घंटे,O O O B-time-duration I-time-duration,
+right ,सही,O,
+okay ,ठीक है,O O,
+how long does it take to get from Avon to Bath with the bananas with three boxcars of bananas ,केले के तीन बॉक्स के साथ केले के साथ एवन से स्नान तक पहुंचने में कितना समय लगता है,O O B-number O O O O O O O O O O O O O O O O,Avon Bath bananas boxcars bananas
+um four hours ,उम चार घंटे,O B-time-duration I-time-duration,
+okay and then to Corning with um two the two left over boxcars of bananas ,ठीक है और फिर um दो के साथ कॉर्निंग करने के लिए केले के बॉक्सकार पर दो छोड़ दिया,O O O O O B-number O O O O O O O O O O O O O,Corning boxcars bananas
+um another wait how many boxcars of bananas are we pulling ,um एक और प्रतीक्षा करें कि हम केले के कितने बॉक्सर खींच रहे हैं,O O O O O O O O O O O O O O,boxcars bananas
+three ,तीन,B-number,
+three okay that that ,तीन ठीक है कि,B-number O O O,
+um well we pulling three from Avon and then we dropped one off in Bath ,उम अच्छी तरह से हम एवन से तीन खींच रहे हैं और फिर हमने बाथ में एक को गिरा दिया,O O O O O O O B-number O O O O O O O O B-number O O O,Avon Bath
+right ,सही,O,
+and then we pulling two to Corning ,और फिर हम कोर्निंग के लिए दो खींच रहे हैं,O O O O O O B-number O O O,Corning
+two more to Corning ,दो और कोर्निंग,B-number O O,Corning
+okay it takes two more hours ,ठीक है दो घंटे लगते हैं,O O B-number O O O,
+okay ,ठीक है,O O,
+so I think let see here we at fifteen hours right now ,इसलिए मुझे लगता है कि अभी हम पंद्रह घंटे यहां देखते हैं,O O O O O O O B-time-duration I-time-duration O O O,
+is that right ,क्या वह सही है,O O O O,
+um ,एक,O,
+let see with three hours to go to Dansville three hours to get back ,Dansville जाने के लिए तीन घंटे के साथ वापस आने के लिए तीन घंटे देखते हैं,O O O O B-time-duration I-time-duration O O O O O O O O O O,Dansville
+so that six and then one hour to load that seven and then four hours to get to Bath so eleven ,ताकि छह और फिर एक घंटा उस सात को लोड करने के लिए और फिर चार घंटे स्नान करने के लिए इतना ग्यारह,O B-number O O B-time-duration O O B-number O O O O O O O B-time-duration I-time-duration O O O O O B-number,hour Bath
+and then now we at thirteen hours sorry ,और फिर अब हम तेरह घंटे क्षमा करें,O O O O B-time-duration I-time-duration O O,
+okay um wait okay while we at Bath before at when we when we dropping off the um bananas in Bath ,ठीक है  जब हम स्नान से पहले जब हम स्नान में ओम केलों को छोड़ते हैं  तो हम ठीक प्रतीक्षा करते हैं,O O O O O O O O O O O O B-food O O O O O O O O O,Bath Bath
+mm-hm ,मिमी-एचएम,O,
+um how long will it take us to um bring along two boxcars of of um the two boxcars in Bath pick it up ,उम हमें कितना समय लगेगा हमें उम को दो बॉक्सकार के साथ लाना होगा  बाथ में दो बॉक्सकार इसे उठा लेंगे,O O O O O O O O B-number O O O O O O O O O O O O,boxcars boxcars Bath
+yeah ,हाँ,O,
+just to hook them up it doesnot take any time that ,बस उन्हें हुक अप करने के लिए यह किसी भी समय नहीं है कि,O O O O O O O O O O O O O O,
+okay so we do that when we there when we dropping off the bananas in Bath ,ठीक है तो हम करते हैं कि जब हम वहाँ जाते हैं जब हम स्नान में केलों को छोड़ देते हैं,O O O O O O O O O O O O O O O O B-food O O O O,Bath
+very short ,बहुत छोटा,O O,
+okay ,ठीक है,O O,
+okay so what are we pulling from Bath to Corning ,ठीक है तो हम बाथ से कॉर्निंग तक क्या खींच रहे हैं,O O O O O O O O O O O O,Bath Corning
+we pulling two boxcars and two boxcars of bananas ,हम केले के दो बॉक्सकार और दो बॉक्सकार खींच रहे हैं,O O O B-number O O O O O O O,boxcars boxcars bananas
+okay ,ठीक है,O O,
+how long does that take again ,कब तक फिर से लेता है,O O O O O O,
+that so just to go from Bath to Corning ,तो बस स्नान से कॉर्निंग तक जाने के लिए,O O O O O O O O O,Bath Corning
+mm-hm ,मिमी-एचएम,O,
+two hours ,दो घंटे,B-time-duration I-time-duration,
+okay so it doesnot take any time to drop off one of the boxcars of bananas ,ठीक है  तो केले के बॉक्सर में से एक को छोड़ने में कोई समय नहीं लगेगा,O O O O O O O O B-number O O O O O O O,boxcars bananas
+nope ,नहीं,O,
+nope no ,नहीं  नहीं,O O,
+but we do need to load um two boxcars of oranges at Corning ,लेकिन हमें कॉर्निंग पर संतरे के दो बक्सों को लोड करने की आवश्यकता है,O O O O O O B-number O O O O O O O,boxcars oranges Corning
+okay that takes one hour for that loading ,ठीक है कि उस लोडिंग में एक घंटा लगता है,O O O O O O B-time-duration O O O,hour
+okay ,ठीक है,O O,
+so ,इसलिए,O,
+so ,इसलिए,O,
+fourteen hours ,चौदह घंटे,B-time-duration I-time-duration,
+and also we pick up two tankers at Corning ,और हम कॉर्निंग पर दो टैंकर भी उठाते हैं,O O O O B-number O O O O,tankers Corning
+okay ,ठीक है,O O,
+that takes no time ,कोई समय नहीं लगता है,O O O O O,
+nope ,नहीं,O,
+okay with that we go over to Elmira with um two tankers um one boxcar of bananas and two boxcars of oranges ,ठीक है कि हम एलमिरा के साथ um दो टैंकरों के साथ चलते हैं  एक केले के एक बॉक्सकार और दो बॉक्स ऑर्के,O O O O O O O B-number B-number B-vehicle O O O O O O O O O O O O O,Elmira boxcar bananas boxcars oranges
+how long does that take from Corning to Elmira ,कॉर्निंग से एल्मिरा तक जाने में कितना समय लगता है,O O O O O O O O O O,Corning Elmira
+okay ,ठीक है,O O,
+two hours ,दो घंटे,B-time-duration I-time-duration,
+two hours ,दो घंटे,B-time-duration I-time-duration,
+right ,सही,O,
+okay at Elmira we make the orange juice how long does that take two tankers ,ठीक है एल्मिरा में हम संतरे का रस बनाते हैं जो दो टैंकरों को लेता है,O O O O O B-food O I-food O O O B-number B-vehicle O O O,Elmira
+one ,एक,B-number,
+one hour ,एक घंटा,B-time-duration O,hour
+okay let see ,ठीक है  देखते हैं,O O O O,
+so so that seventeen hours so far ,इतना कि अब तक सत्रह घंटे,O O O O B-time-duration I-time-duration,
+seventeen ,सत्रह,B-number,
+yep ,हां,O,
+okay how long would it take us to bring the two tankers of OJ um back to Avon through Dansville Corning and Dansville ,ठीक है  हमें डांसविले कोर्निंग और डॉकविल के माध्यम से ओ जे ओम के दो टैंकरों को वापस एवन तक लाने में कितना समय लगेगा,O O O O O O O O O O O O O O B-number B-vehicle O O O O O O O O O,OJ Avon Dansville Corning Dansville
+um two three six hours in all ,um सभी में दो तीन छह घंटे,O O O B-time-duration I-time-duration I-time-duration I-time-duration,
+okay is that total of seven twenty three ,ठीक है  कुल सात तेईस हैं,O O O B-number O O,twenty three
+seventeen yes ,सत्रह हाँ,I-number O,
+okay ,ठीक है,O O,
+oh you did it ,ओह तुमने कर दिया,O O O O,
+okay um so I now finished ,ठीक है उम तो मैं अब समाप्त हो गया,O O O O O O O O O,
+okay ,ठीक है,O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+okay this is my problem it is now twelve midnight ,ठीक है  यह मेरी समस्या है यह अब आधी रात है,O O O O O O O O O O O,twelve midnight
+mm-hm ,मिमी-एचएम,O,
+um I need to transport two boxcars of oranges and one tanker of OJ to Avon ,um मुझे संतरे के दो बॉक्सकार और OJ के एक टैंकर को एवन में ले जाने की आवश्यकता है,B-number O O O B-number O O O O O B-vehicle O O O O O O O O,boxcars oranges OJ Avon
+due to heavy rail traffic the timing of some of my stops some of the stops has been predetermined as follows ,भारी रेल यातायात के कारण मेरे कुछ स्टॉप्स का समय कुछ स्टॉप्स को पूर्व निर्धारित किया गया है,O O O O O O O O O O O O O O O O O O,
+the oranges are due to be processed at the factory in Elmira at seven am sharp ,संतरे Elmira में कारखाने में सुबह सात बजे संसाधित होने के कारण होते हैं,O O O O O O B-time O O O O O O O,oranges factory Elmira am
+as soon as OJ is made the train must leave Elmira ,जैसे ही ओजे बनाया जाता है ट्रेन को एल्मिरा को छोड़ देना चाहिए,O O O O O O B-vehicle O O O O O O,OJ Elmira
+okay ,ठीक है,O O,
+the train cannot leave Avon before three pm because there is no room ,ट्रेन अपराह्न तीन बजे से पहले नहीं जा सकती क्योंकि वहाँ कोई कमरा नहीं है,B-vehicle O B-time O O O O O O O O O O O O,Avon pm
+that what the last one ,कि आखिरी क्या है,O O O O,one
+um the train cannot leave Avon before three pm because there is no room on the rails yeah ,उम ट्रेन दोपहर तीन बजे से पहले एवन को नहीं छोड़ सकती क्योंकि वहाँ पर रेल नहीं है,O B-vehicle O B-time O O O O O O O O O O O O O O,Avon pm room
+so cannot leave Avon till three pm okay ,इसलिए दोपहर तीन बजे तक एवन को नहीं छोड़ सकता,O O B-time O O O O O O O,Avon pm
+so Avon out until three pm ,इसलिए एवन दोपहर तीन बजे तक बाहर रहा,O O O B-time O O O O,Avon pm
+mm yep ,मिमी हाँ,O O,
+and we need it twelve midnight now ,और हमें अभी आधी रात की जरूरत है,O O O O O O O O,twelve midnight
+um yes ,हाँ ,O,
+and we have to get everything ,और हमें सब कुछ प्राप्त करना होगा,O O O O O O O,
+at uh let see the oranges are due to be ,उह पर देखते हैं कि संतरा होने के कारण हैं,O O O O O O O O O O,oranges
+when do we have to get things ,हमें कब क्या करना है,O O O O O,
+the oranges are due to be processed in the factory in Elmira ,संतरे Elmira में कारखाने में संसाधित होने के कारण हैं,O O O O O O O O O O,oranges factory Elmira
+at seven am ,सुबह सात बजे,O B-time O,am
+seven am sharp ,सात बजे से तेज,B-time O O O,am
+and when do we have to get things in Avon ,और जब हमें एवन में चीजें प्राप्त करनी हैं,O O O O O O O O O,Avon
+um it just says that it cannot um the train cannot arrive at Avon before three pm ,उम यह सिर्फ यह कहता है कि यह उम नहीं कर सकता ट्रेन तीन बजे से पहले एवन तक नहीं पहुंच सकती,O O O O O O O O O O O O B-vehicle B-time O O O O O O O O,Avon pm
+so what the goal is just to get to ,तो क्या लक्ष्य बस पाने के लिए है,O O O O O O O O,
+um here it just says transport two boxcars of oranges and OJ to Avon ,यहाँ यह सिर्फ यह कहता है कि संतरे के दो बॉक्सकार और ओजे को एवन में परिवहन करें,O O O O O O O O O B-number O O O O O O O O,boxcars oranges OJ Avon
+okay so there no deadline ,ठीक है तो कोई समय सीमा नहीं है,O O O O O O O O,
+no ,नहीं,O,
+alright ,ठीक है,O O,
+okay let see ,ठीक है  देखते हैं,O O O O,
+so um things cannot go out of Avon until three pm but can they go in ,इसलिए उम चीजें दोपहर तीन बजे तक एवन से बाहर नहीं जा सकती हैं  लेकिन क्या वे अंदर जा सकते हैं,O O O O B-time O O O O O O O O O O O O O O O O,Avon pm
+they cannot go in until three pm ,वे तीन बजे तक नहीं जा सकते,O B-time O O O O O,pm
+oh okay okay fine ,ओह ठीक है ठीक है,O O O O O,
+okay let see two boxcars of oranges and one tanker of OJ ,ठीक है  संतरे के दो बॉक्सकार और ओजे के एक टैंकर को देखें,O O O O B-number O O O O B-number B-vehicle O O,boxcars oranges OJ
+okay ,ठीक है,O O,
+to Avon ,यह एवन है,O O O,Avon
+mm-hm ,मिमी-एचएम,O,
+and oranges that need to be processed at the factory at Elmira at seven ,और संतरे जो सात बजे एल्मिरा में कारखाने में संसाधित किए जाने की आवश्यकता है,O O O B-number O O O O O O O O O O O,oranges factory Elmira
+so how long will it take me to bring engine two and two boxcars from Elmira to Corning ,तो मुझे एल्मिरा से कॉर्निंग तक इंजन दो और दो बॉक्सकार लाने में कितना समय लगेगा,O O O O O O O B-number O O O O O O O O,engine boxcars Elmira Corning
+two hours ,दो घंटे,B-time-duration I-time-duration,
+okay and uh to how long does it take to load the two boxcars of oranges ,ठीक है और उह दोनों संतरे के बॉक्सकार को लोड करने में कितना समय लगता है,O O O O O O O O O O O O O O O O,two boxcars oranges
+one hour ,एक घंटा,B-time-duration O,hour
+and does it take any time to um bring along the two tankers ,और यह दोनों टैंकरों के साथ आने में किसी भी समय लगता है,O O O B-vehicle O O O O O O O O O,two
+nope no ,नहीं  नहीं,O O,
+okay so that four hours ,ठीक है तो चार घंटे,O O O B-time-duration I-time-duration,
+um ,एक,O,
+or three ,या तीन,O B-number,
+three hours and we still in Corning ,तीन घंटे और हम अभी भी कॉर्निंग में हैं,B-time-duration I-time-duration O O O O O O O,Corning
+okay now how long does it take to bring all that back to ,ठीक है अब उस सब को वापस लाने में कितना समय लगेगा,O O O O O O O O O O O O,
+to Elmira ,एलमीरा को,O O,Elmira
+uh two more hours so five hours ,उह दो घंटे तो पांच घंटे,O B-number I-time-duration O B-time-duration O,
+five so that five am ,पांच इसलिए कि सुबह पांच बजे,B-time O O O O O,am
+right so that okay ,ठीक है तो ठीक है,O O O O O,
+okay so ,ठीक है तो,O O O,
+and I got I got two tankers and two boxcars of oranges and uh ,और मुझे दो संतरे और उह के दो टैंकर मिले,O O B-number O O O O O O O,tankers boxcars oranges
+mm-hm ,मिमी-एचएम,O,
+well then I have to unload the oranges that takes one more hour ,तब मुझे एक और घंटे लगने वाले संतरे को उतारना होगा,O O B-number O O O O O O O O,oranges hour
+right ,सही,O,
+but that okay so that puts us at ,लेकिन यह ठीक है कि हम पर डालता है,O O O O O O O O O,
+oh it says um two boxcars of oranges and a tanker of OJ so ,ओह यह कहता है कि संतरे के दो बॉक्सर और ओजे का एक टैंकर,O O O O O O O B-number O O O O O B-vehicle,boxcars oranges OJ
+ah so ,आह इतना,O O,
+um ,एक,O,
+okay how about if we bring two engine ,ठीक है कि कैसे अगर हम दो इंजन लाते हैं,O O O O O O B-number O O O,engine
+and two boxcars from Elmira to Corning ,और एल्मिरा से कॉर्निंग तक दो बॉक्सकार,O O O O O B-number O,boxcars Elmira Corning
+mm-hm ,मिमी-एचएम,O,
+pick up one tanker ,एक टैंकर उठाओ,B-number B-vehicle O,
+mm-hm ,मिमी-एचएम,O,
+okay engine two we just send that along from Elmira to Corning to Bath to pick up two of the boxcars at Bath ,ठीक है इंजन दो हम अभी भेजते हैं कि एल्मिरा से कॉर्निंग से बाथ में दो बॉक्सर उठाएँ,O O O B-number O O O O O O O O O O O O O O,engine Elmira Corning Bath boxcars Bath
+and then we take engine two and one boxcar from Elmira to Corning ,और फिर हम एल्मिरा से कॉर्निंग तक इंजन दो और एक बॉक्सर लेते हैं,O O O O O O O O B-number O B-number O O O,engine boxcar Elmira Corning
+and then load um two boxcars ,और फिर उम दो बॉक्सकार लोड करें,O O O B-number O O O,boxcars
+hm can we do this at the same time ,हम्म उसी समय कर सकते हैं,O O O O O O,
+uh ,उह,O,
+these are some things cause we need ,ये कुछ चीजें हैं जिनकी हमें आवश्यकता है,O O O O O O O O,
+sure I mean you can start you have to be careful you donot put two things on the same track and going in opposite directions ,मुझे यकीन है कि आप शुरू कर सकते हैं आपको सावधान रहना होगा कि आप दो चीजों को एक ही ट्रैक पर रख सकते हैं और विपरीत दिशाओं में जा रहे हैं,O O O O O O O O O O O O O O O B-number O O O O O O O O O O O O O O O O,
+oh okay let see ,ओह ठीक है  देखते हैं,O O O O O,
+but but um it was okay what what um we only need one boxcar of OJ right ,लेकिन ओउम यह ठीक था कि क्या ओउम हमें केवल ओजे सही के एक बॉक्सकार की आवश्यकता है,O O O O O O O O O O O O O B-number O O O O,boxcar OJ
+mm yes ,मिमी हाँ,O O,
+so why donot we just make that do that one separately ,इसलिए हम सिर्फ इतना ही नहीं करते हैं कि अलग से करें,O O O O O O O O O O O O,one
+okay ,ठीक है,O O,
+let just go get the oranges ,चलो बस संतरे ले आओ,O O O O O,oranges
+um ,एक,O,
+get the ,लाओ,O,
+cause we got we got until three pm so there there not much time ,कारण हमें मिल गया जब तक हम तीन बजे तक नहीं मिल गए  इसलिए वहां ज्यादा समय नहीं था,O O O O O O O B-time O O O O O O O O O O O,pm
+okay ,ठीक है,O O,
+constraints really ,वास्तव में बाधाओं,O O O,
+okay so we take engine two ,ठीक है  इसलिए हम इंजन दो लेते हैं,O O O O O I-vehicle-name O O,engine
+okay ,ठीक है,O O,
+along with two boxcars take that bring that to Corning ,साथ में दो बॉक्सकार ले जाते हैं जो कॉर्निंग को ले आते हैं,O O B-number O O O O O O O O O O,boxcars Corning
+mm-hm ,मिमी-एचएम,O,
+and then load the oranges ,और फिर संतरे लोड करें,O O O O O,oranges
+one boxcar two or how many boxcars ,एक बॉक्सर दो या कितने बॉक्सकार,B-number O B-number O O O,boxcar boxcars
+two ,दो,B-number,
+okay ,ठीक है,O O,
+how long would that take ,कितना समय लगेगा,O O O,
+that that take two hours to get there and one hour to load so three hours in all ,वहाँ पहुंचने के लिए दो घंटे लगते हैं और सभी में तीन घंटे लोड करने के लिए एक घंटा लगता है,O O O O B-time-duration I-time-duration O O O O O B-time-duration O O O O O B-time-duration O O O,hour
+okay and then how long will it take to bring the oranges from Corning to Bath to Avon ,ठीक है और फिर कॉर्निंग से बाथ टू एवन तक संतरों को लाने में कितना समय लगेगा,O O O O O O O O O O B-food O O O O O O,Corning Bath Avon
+Corning to Bath to Avon um it take uh six hours from Corning to Avon ,एवन उम टू बाथ को कॉर्निंग यह कॉहिंग से एवन तक छह घंटे का समय लेता है,O O O O O O O O O O O B-time-duration I-time-duration O O O O,Corning Bath Avon Corning Avon
+so what the total on that ,तो उस पर कुल क्या है,O O O O O O,
+uh nine nine hours ,उह नौ नौ घंटे,O B-time-duration O I-time-duration,
+nine so we arriving in Avon with the two um boxcars of oranges at what time nine am ,नौ इसलिए हम नौ बजे किस समय संतरे के दो उम्म बॉक्सर के साथ एवन में पहुंचे,B-time O O O O O O O O B-number O O O O O O O,Avon boxcars oranges am
+let see we we cannot start oh right ,देखते हैं कि हम ओह सही शुरू नहीं कर सकते,O O O O O O O O O O,
+that too early ,वह भी जल्दी,O O O,
+nine am right so so um why donot you just have it wait in Bath ,नौ सही है तो उम तुम क्यों दान सिर्फ यह स्नान में इंतजार है,B-time O O O O O O O O O O O O O,am Bath
+can it do that ,क्या वह ऐसा कर सकता है,O O O O O O,
+sure ,ज़रूर,O,
+okay so wait in Bath and then how long does it take to go from Bath to Avon ,ठीक है  इसलिए बाथ में प्रतीक्षा करें और फिर स्नान से अवन तक जाने में कितना समय लगता है,O O O O O O O O O O O O O O O O O O O,Bath Bath Avon
+uh four hours ,उह चार घंटे,O B-time-duration I-time-duration,
+okay so um at eleven ,ठीक है तो ग्यारह बजे उम,O O O B-number O O,
+right ,सही,O,
+we send that to Avon ,हम एवन को भेजते हैं,O O O O O,Avon
+right ,सही,O,
+okay and then with um engine three ,ठीक है और फिर उम इंजन तीन के साथ,O O O O O O B-number O O,engine
+yep ,हां,O,
+at Elmira ,एल्मिरा में,O O,Elmira
+yep ,हां,O,
+we bring that how long does it take to bring it uh bring that from Elmira to Corning ,हम इसे लाने में कितना समय लगाते हैं यह उह लाने के लिए कि एल्मिरा से कॉर्निंग तक ले जाता है,O O O O O O O O O O O O O O O O O O O O O,Elmira Corning
+two hours ,दो घंटे,B-time-duration I-time-duration,
+two hours and then to Dansville ,दो घंटे और फिर डांसविले के लिए,B-time-duration I-time-duration O O O O O,Dansville
+uh another hour ,उह एक और घंटा,O O O O,hour
+and to bring one boxcar ,और एक बॉक्सकार लाने के लिए,O B-number O O O O,boxcar
+okay ,ठीक है,O O,
+back to Corning ,वापस कॉर्निंग के लिए,O O O O,Corning
+uh another hour so we we at four hours ,उह एक और घंटा तो हम चार घंटे में,O O O O O O B-time-duration I-time-duration O,hour
+four and then to load the boxcar of with oranges ,चार और फिर संतरे के साथ बॉक्सकार को लोड करने के लिए,B-number O O O O O O O O O O O,boxcar oranges
+um another hour ,उम एक और घंटा,O O O O,hour
+and that takes no time to bring a tanker ,और टैंकर लाने में समय नहीं लगता,O B-vehicle O O O O O,
+no I mean uh yes it takes no time ,नहीं  मेरा मतलब है उह हाँ इसमें कोई समय नहीं है,O O O O O O O O O O O,
+okay and then bring all that from Corning to Elmira ,ठीक है और फिर कॉर्निंग से लेकर एल्मिरा तक सब ले आओ,O O O O O O O O O O O O,Corning Elmira
+that another two hours ,वह दो घंटे,O B-time-duration I-time-duration,
+so what time are we at now when we arrive at Elmira ,तो अब हम एल्मिरा पहुंचने के समय क्या हैं,O O O O O O O O O,Elmira
+uh it seven am ,उह सात बजे,O B-time O,am
+okay so that right um ,ठीक है ताकि सही उम,O O O O O,
+well it takes us an hour to unload but is that I I if that okay ,अच्छी तरह से हमें उतारने में एक घंटे का समय लगता है लेकिन क्या यह ठीक है अगर II,O O O O O O O O O O O O O O O O O O O,
+mm-hm ,मिमी-एचएम,O,
+I donot think there any ,मुझे लगता है कि कोई भी नहीं है,O O O O O O O O,
+it just says that they due to be processed at the factory in Elmira at seven seven am sharp ,यह सिर्फ यह कहता है कि वे एल्मिरा में कारखाने में सात सात बजे तेज होने के कारण संसाधित होते हैं,O O O O O O O O O O O B-time O O O O O O O O O,factory Elmira am
+is that alright ,क्या यह ठीक है,O O O O,
+uh I guess so yes I think so ,उह मुझे लगता है कि हां मुझे ऐसा लगता है,O O O O O O O O O O,
+okay so we make the OJ there in Elmira ,ठीक है  इसलिए हम एलमीरा में ओजे बनाते हैं,O O O O O O O O O,OJ Elmira
+right ,सही,O,
+so um we at seven now how long will it take to bring that tanker to Corning to Bath to Avon ,इसलिए हम सात बजे अब उस टैंकर को कॉर्निंग टू बाथ टू एवन में लाने में कितना समय लेंगे,O O B-number O O O B-vehicle O O O O O O O O O O O O,Corning Bath Avon
+uh two ,उह दो,O B-number,
+well it takes one hour to make the oranges to make the OJ ,संतरे को ओजे बनाने में एक घंटा लगता है,O O O O O B-time-duration O O O,hour oranges OJ
+mm-hm ,मिमी-एचएम,O,
+so that eight ,इतना कि आठ,O O B-number,
+so right eight and then two more hours to get to Corning that ten and two more hours to get to Bath that twelve and then four hours to get to Avon ,इतनी सही आठ और फिर दो और घंटे कॉर्निंग के लिए उस दस और दो घंटे के लिए स्नान करने के लिए कि बारह और फिर चार घंटे एवोन को पाने के लिए,O O B-number O O B-number O I-time-duration O O O O B-number O O O O O O O O O O B-number O O B-time-duration O O O O O O,Corning Bath Avon
+so we still okay because um that after three pm ,इसलिए हम अभी भी ठीक हैं क्योंकि उम कि तीन बजे के बाद,O O O O O O O O O B-time O O O,pm
+yep ,हां,O,
+that right ,कि सही,O O,
+okay ,ठीक है,O O,
+okay ,ठीक है,O O,
+I now finished ,मैं अब समाप्त हो गया,O O O O O,
+okay ,ठीक है,O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+okay I just wondering if the information the everything but the last two sentences does not seem to be really necessary is that is that right ,ठीक है  मैं सोच रहा था कि अगर सब कुछ जानकारी लेकिन पिछले दो वाक्य वास्तव में आवश्यक नहीं लगते हैं तो क्या यह सही है,O O O O O O O O O O O O O B-number O O O O O O O O O O O O,
+that okay ,यह ठीक,O O,
+okay um then I guess what we need to do is uh in order to we need to transport two boxcars of oranges to Avon by nine am um ,ठीक है  तो मुझे लगता है कि हमें क्या करने की जरूरत है उह हम नौ amum द्वारा संतरे के दो बॉक्सकार परिवहन करने की जरूरत,O O O O O O O O O O O O O O O B-time O O O O B-number O O O O O,boxcars oranges Avon am
+so two boxcars of oranges to Avon ,एवन के लिए संतरे के दो बॉक्सकार,O O O O O B-number O,boxcars oranges Avon
+by nine am ,सुबह नौ बजे तक,O B-time O O,am
+okay ,ठीक है,O O,
+um how long does it take to to get an engine um say with two boxcars um Corning and then to Dansville and then to Avon ,um कितना समय लगता है एक इंजन पाने में कितना समय लगता है um दो बॉक्सकार उम कॉर्निंग के साथ और फिर डांसविले और फिर एवन तक,O O O O O O O O O O O O O O B-number O O O O O O O O O O O O,engine boxcars Corning Dansville Avon
+um well which engine are which engine ,um well कौन सा इंजन कौन सा इंजन है,O O O O O O O O O,engine engine
+engine number two with two boxcars from Elmira ,एल्मिरा से दो बॉक्सकार के साथ इंजन नंबर दो,O O B-number O O O O O O,engine boxcars Elmira
+okay um if we just were just to run the the train straight through ,ठीक है  अगर हम बस के माध्यम से सीधे ट्रेन चलाने के लिए थे,O O O O O O O O O B-vehicle O O O O,
+uh we have to and loading uh both boxcars with oranges at Corning ,उह हम करने के लिए और उह दोनों बॉक्सिंग को कोर्निंग पर संतरे के साथ लोड करना है,O O O O O O O O O O O O O O O O O O,boxcars oranges Corning
+at Corning okay it takes two hours to get to Corning ,कॉर्निंग ठीक होने पर कॉर्निंग में पहुंचने में दो घंटे लगते हैं,O O O O O O O O B-time-duration I-time-duration O O,Corning Corning
+mm-hm ,मिमी-एचएम,O,
+loading takes one hour so that three and then which way do you want to go to Avon ,लोडिंग में एक घंटा लगता है ताकि तीन और फिर आप किस रास्ते से एवन जाना चाहें,O O B-time-duration O O O O B-number O O O O O O O O O,hour Avon
+uh to Dansville ,उह से डांसविले,O O O,Dansville
+okay um takes four hours to go from Corning to Avon over Dansville ,ओन्स डान्सविले के ऊपर कोर्निंग से एवन जाने के लिए ओके ओम को चार घंटे लगते हैं,O O O O O O O O O O O O O B-time-duration I-time-duration O O,Corning Avon Dansville
+okay ,ठीक है,O O,
+so that three uh six seven hours ,ताकि तीन उह छह सात घंटे,O B-number O B-time-duration I-time-duration I-time-duration,
+so that seven ,इतना कि सात,O O B-number,
+so we fine then huh ,इसलिए हम ठीक हैं तो हुह,O O O O O O,
+yep that okay ,हाँ  ठीक है,O O O,
+okay ,ठीक है,O O,
+that work ,वो काम,O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+okay um our task is to get uh the maximum number of oranges to Bath by seven am and it midnight so we have seven hours ,ठीक है  हमारा काम है कि हम सुबह सात बजे तक स्नान करने के लिए संतरे की अधिकतम संख्या प्राप्त करें और हमारे पास रात सात,O O O O O O O O B-time-duration O O O O O O O O O O O O O O O O O,oranges Bath am midnight hours
+um let see ,उम देखने दो,O O O,
+okay maximum amount of oranges ,संतरे की अधिकतम मात्रा ठीक है,O O O O O O,oranges
+um well we have if we take let see how long would it take to get to take engine well let see engine number two with two boxcars ,उम अच्छी तरह से हमारे पास है अगर हम यह देखते हैं कि इंजन को लेने में कितना समय लगेगा तो अच्छी तरह से इंजन नंबर दो को दो बॉक्सकार के साथ देखें,O O O O O O O O O O O O O O O O O O O O O O O O O O B-number O O O O O O,engine engine boxcars
+mm-hm ,मिमी-एचएम,O,
+um ,एक,O,
+and and you you can start two engines at the same time ,और आप एक ही समय में दो इंजन शुरू कर सकते हैं,O O O O O O B-number O O O O O,engines
+yep ,हां,O,
+okay if we start um engine one uh to uh start it on its way to Dansville ,ठीक है  अगर हम um इंजन को एक उह से उह तक शुरू करते हैं  तो इसे डांसविले के रास्ते में शुरू करते हैं,O O O O I-vehicle-name O O O O O O O O O O O O O O O O O O O,engine Dansville
+mm-hm ,मिमी-एचएम,O,
+um and start engine number two um with two boxcars from Elmira ,ओम और एल्मिरा के दो बॉक्सकार के साथ इंजन नंबर दो उम शुरू करें,O O O O B-number O O O O O O O O O,engine boxcars Elmira
+okay ,ठीक है,O O,
+okay and take well take engine number two ,ठीक है और अच्छी तरह से ले लो इंजन नंबर दो,O O O O O O O O O O I-vehicle-name,engine
+mm-hm ,मिमी-एचएम,O,
+um with two boxcars to Corning ,कॉर्निंग में दो बॉक्सकार के साथ उम,O O B-number O O O O,boxcars Corning
+mm-hm ,मिमी-एचएम,O,
+and pick up uh and pick up your oranges ,और उह उठाओ और अपने संतरे उठाओ,O O O O O O O,oranges
+mm-hm ,मिमी-एचएम,O,
+and then um go uh see um then I guess we have to take that to Bath ,और फिर उम जाना उह देखना उम तो मुझे लगता है कि हमें स्नान करना है,O O O O O O O O O O O O O O O O,Bath
+right ,सही,O,
+um and then at the same time though have engine number one um picking up boxcars the three boxcars in Dansville ,उम्म और फिर एक ही समय में हालांकि इंजन नंबर एक उम है जो डांसविले में तीन बॉक्सकार उठाता है,O O O I-vehicle-name O O O O O O O O O O O O B-number O O O,engine boxcars boxcars Dansville
+right ,सही,O,
+and uh and then uh taking those boxcars to Corning ,और उह और फिर उह बॉक्सिंग को कॉर्निंग में ले जा रहे हैं,O O O O O O O O O O O O O,boxcars Corning
+okay ,ठीक है,O O,
+um so how well let see how much time would it take for the I guess the longer trip would be from Avon to Corning right ,उम तो कितनी अच्छी तरह देखते हैं कि मुझे कितना समय लगेगा  मुझे लगता है कि एवन से लेकर कॉर्निंग राइट तक लंबी यात्रा होगी,O O O O O O O O O O O O O O O O O O O O O O O O O,Avon Corning
+to yes that right that take four hours ,हाँ ठीक है कि चार घंटे लगते हैं,O O O O B-time-duration I-time-duration O O,
+four hours ,चार घंटे,B-time-duration I-time-duration,
+right ,सही,O,
+and the loading takes an hour each for each boxcar or ,और लोडिंग में प्रत्येक बॉक्सकार या के लिए एक घंटा लगता है,O O O O O O O O O O O O,hour boxcar
+no you can load all the boxcars or you can load a set of boxcars in an hour ,नहीं  आप सभी मुक्केबाजों को लोड नहीं कर सकते हैं या आप एक घंटे में मुक्केबाजों के सेट को लोड कर सकते हैं,O O O O O O O O O O O O O O O O O O O O O O O,boxcars boxcars hour
+okay so that will be what five hours when by the time we get done loading in Corning ,ठीक है  इसलिए जब तक हम कोर्निंग में लोडिंग नहीं करेंगे  तब तक पाँच घंटे क्या होंगे,O O O O O O O O O O O O O B-time-duration I-time-duration O O,Corning
+yeah right of engine one right ,हाँ एक इंजन का अधिकार,O I-vehicle-name O O O,engine
+okay ,ठीक है,O O,
+right um hm ,सही एक एच.एम.,O O O,
+I guess we not gonna be able to make it back in time ,मुझे लगता है कि हम इसे समय पर वापस करने में सक्षम नहीं होंगे,O O O O O O O O O O O O O O,
+for another load ,एक और भार के लिए,O O O O O,
+if we did ,अगर हमने किया,O O O,
+well I mean we have to get them we have to get oh how long does it take to get from Corning to Bath two hours ,अच्छी तरह से मेरा मतलब है कि हमें उन्हें प्राप्त करना है हमें ओह प्राप्त करना है कॉर्निंग से स्नान तक पहुंचने में दो घंटे कितने समय लगते हैं,O O O O O O O O O O O O O O O O O O O O O O O B-time-duration I-time-duration O O O O,Corning
+two hours yeah ,दो घंटे हाँ,B-time-duration I-time-duration O,
+oh so that would be perfect if we do it that if we uh ,ओह  तो यह सही होगा यदि हम इसे करते हैं कि अगर हम उह,O O O O O O O O O O O O O O,
+with engine one ,इंजन एक के साथ,O I-vehicle-name O O,engine
+with engine one ,इंजन एक के साथ,O I-vehicle-name O O,engine
+right ,सही,O,
+so that the maximum we can get with engine one ,ताकि अधिकतम हम इंजन एक के साथ मिल सकें,O O O O I-vehicle-name O O O O,engine
+right ,सही,O,
+see engine two takes how long two hours to get from Elmira to Corning ,देखें कि इंजन दो को एल्मीरा से कॉर्निंग तक पहुंचने में कितना समय लगता है,O O O B-time-duration O O O O O O O O O O O,engine hours Elmira Corning
+that right one hour to load ,लोड करने के लिए सही एक घंटा,O O O O O B-time-duration O,hour
+one that three and then then there be ,एक कि तीन और फिर वहाँ हो,B-number O B-number O O O O,
+another two hours ,एक और दो घंटे,O O B-time-duration I-time-duration,
+okay so as that would be the maximum too would it ,ठीक है  इसलिए यह अधिकतम होगा भी,O O O O O O O,
+yeah that right ,हाँ  यह सही है,O O O O,
+cause cause we cannot get back to Corning to load the other two that are at Bath ,कारण यह है कि हम अन्य दो को स्नान पर लोड करने के लिए कॉर्निंग पर वापस नहीं आ सकते हैं,O O O O O O B-number O O O O O O O O O O O O O O,Corning Bath
+that right that right ,यह सही है कि सही है,O O O O O O,
+so the maximum number is five then right ,इसलिए अधिकतम संख्या पांच है तो सही,O O O B-number O O O,
+yep ,हां,O,
+okay ,ठीक है,O O,
+okay ,ठीक है,O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+okay we have to take um two tankers of orange juice to Avon um and three boxcars of bananas to Elmira ,ठीक है  हमें एवन उम के लिए संतरे के रस के दो टैंकर और एलमिरा के लिए केले के तीन बॉक्सर लेने हैं,O O O O O O O B-food O I-food O B-number O O O O O O O B-number O O O,tankers Avon boxcars bananas Elmira
+and the bananas must arrive by nine pm it doesnot specify any time for the uh for the orange juice to arrive at Avon ,और केले को नौ बजे तक पहुंचना चाहिए क्योंकि यह उह के लिए किसी भी समय नारंगी के रस को एवन में आने के लिए निर्दिष्ट नहीं करता है,O O O B-time O O O O O O O O O O O O B-food O I-food O O O O O O O O O O,bananas pm Avon
+so I uh we probably should do the the bananas first ,तो मैं उह हम शायद केले पहले करना चाहिए,O O O O O O O O O,bananas
+okay ,ठीक है,O O,
+where do the bananas go to ,केले कहां जाते हैं,O O O O,bananas
+uh the bananas go to um to Elmira ,उह केले एलमिरा में उम जाते हैं,O O O O O O O,bananas Elmira
+Elmira okay ,एलमीरा ठीक है,O O O,Elmira
+and it also says that all the all the engines except for E two are going undergoing routine maintenance we can only use engine E two ,और यह भी कहता है कि ई दो को छोड़कर सभी सभी इंजन नियमित रखरखाव से गुजर रहे हैं हम केवल इंजन ई दो का उपयोग कर सकते हैं,O O O O O O O I-vehicle-name O O O O O O O O O O O O O O O O O O O O O,engines E engine E
+okay ,ठीक है,O O,
+um let see uh ,उम चलो देखते हैं उह,O O O O O,
+well like I said we should we should do the bananas first ,जैसा कि मैंने कहा कि हमें पहले केलों को करना चाहिए,O O O O O O O B-food O O O,
+okay ,ठीक है,O O,
+um and we need three boxcars of of uh bananas so I say we take E two ,उम और हम उह केले के तीन बॉक्सर की जरूरत है तो मैं कहता हूं कि हम ई दो लेते हैं,O O O O O O B-number O O O O O O O O O O O I-vehicle-name O O,boxcars bananas E
+um and we have to get to where Elmira oh boy uh ,उम और हमें एल्मिरा ओह बॉय उह के पास जाना है,O O O O O O O O O O O,Elmira
+do you have to go all the way to Avon ,क्या आपको एवन के रास्ते में जाना है,O O O O O O O O,Avon
+right and we should yeah let just that what two is it four from Avon to Dansville ,दाईं ओर हमें हाँ करना चाहिए कि एवन से डांसविले तक चार क्या है,O O O O O O O O O O O B-number O O,two Avon Dansville
+three hours ,तीन घंटे,B-time-duration I-time-duration,
+three okay so so it six hours total to get there ,तीन ठीक है इसलिए इसे वहां पहुंचने में कुल छह घंटे लगते हैं,B-number O O O O O O O O B-time-duration I-time-duration O O,
+yes ,हाँ,O,
+and then boy is it possible to do oh no nine pm okay I sorry ,और फिर लड़का यह संभव है कि ओह नो नौ बजे ठीक है मुझे माफ करना,O O O O O O O O O B-time O O O O O O,pm
+yeah ,हाँ,O,
+I I didnot say nine I said nine am didnot I ,II ने नौ नहीं कहा  मैंने कहा कि नौ मैं नहीं था,O O B-time O O O O O O O O O,am
+right yeah ,ठीक है हाँ,O O O,
+okay so ,ठीक है तो,O O O,
+so nine pm so that makes it easier ,इसलिए रात नौ बजे ताकि यह आसान हो जाए,O O B-time O O O O O O,pm
+right um but in it in it it is midnight now too right ,दाईं उम लेकिन इसमें यह आधी रात भी सही है,O O O O O O O O O O,midnight
+yes ,हाँ,O,
+okay so I I I thinking the best thing to do would be to do the bananas first since they the things with the time limit ,ठीक है तो III सबसे अच्छी बात यह है कि केले को पहले करना होगा क्योंकि वे समय सीमा के साथ चीजें करते हैं,O O O O O O O O O O O O O O O O O O O O O O O O,bananas
+right ,सही,O,
+um so let go all the way to uh to Avon through Dansville ,उम तो चलो डांसविले के माध्यम से एवन के लिए सभी तरह से जाने दो,O O O O O O O O O O O O O O O,Avon Dansville
+hm ,एचएम,O,
+okay ,ठीक है,O O,
+cause I think that the shorter way so that six hours and then then and we already have and we have to load the three boxcars that we picked up in Dansville ,क्योंकि मुझे लगता है कि छोटा रास्ता इतना है कि छह घंटे और फिर और हमारे पास पहले से ही है और हमें उन तीन बॉक्सकार्ड को लोड करना है जिन्हें हमने डांसविले में उठाया था,O O O O O O O O O O B-time-duration I-time-duration O O O O O O O O O O O O B-number O O O O O O O O O O O,boxcars Dansville
+yeah it shorter ,हाँ  यह छोटा है,O O O O,
+right ,सही,O,
+so it another hour ,तो यह एक और घंटा,O O O O O,hour
+right ,सही,O,
+and then the six hours back so we what thirteen hours ,और फिर छह घंटे पहले हम तेरह घंटे,O O B-time-duration I-time-duration O O B-time-duration O,
+right ,सही,O,
+um so that get us back at about one ,उम इतना है कि हमें वापस एक के बारे में मिलता है,O O O O O O B-number O O O O O,
+one pm ,अपराह्न एक बजे,O B-time O,pm
+um so that good and now now we have to transport two tankers of orange juice to Avon ,उम इतना अच्छा है और अब हमें संतरे के रस के दो टैंकरों को एवन तक पहुंचाना होगा,O O O O O O O B-food O I-food O B-number B-vehicle O O O O O,Avon
+and does it take any time to unload the the boxcars ,और बॉक्सर्स को उतारने में किसी भी समय लगता है,O O O O O O O O O O,boxcars
+um yeah it takes one hour to unload ,उम हाँ  इसे उतारने में एक घंटा लगता है,O O O O O B-time-duration O O O,hour
+okay um ,ठीक,O,
+but you gotta load them all at once that that to take things out of them ,लेकिन आप उन सभी को एक बार में लोड करेंगे  ताकि उनमें से चीजों को निकाल सकें,O O O O O O O O O O O O O O O O O,
+mm-hm ,मिमी-एचएम,O,
+to uncouple them it only takes it instantaneous ,उन्हें अनचाहे करने के लिए यह केवल इसे तात्कालिक लेता है,O O O O O O O O O O O,
+okay um okay let see well maybe we two oh it tankers so we donot need to unload them anyway or we donot we donot need to uh spend time unloading them cause we can just unhook them ,ठीक है  ठीक है  चलो ठीक है  हम देखते हैं कि यह ओह दो टैंकर हैं  इसलिए हमें वैसे भी उन्हें उतारने की ज़रूरत नहीं है या हम उनलोगों को दान करने की ज़रूरत नहीं है  उन्हें उतने समय बिताने की ज़रूरत है क्योंकि हम उन्हें अनहुक कर सकते हैं,O O O O O O O O O O O O O B-number O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,tankers
+right ,सही,O,
+um okay so we in Elmira it one pm ,उम ठीक है तो हम Elmira में यह एक बजे,O O O O O O O O B-time O,Elmira pm
+yep ,हां,O,
+now let get the two tankers at Corning ,अब दो टैंकरों को कॉर्निंग पर मिलता है,O B-number B-vehicle O O O O O,Corning
+um and fill them up with orange juice so that gonna three hours ,उम और उन्हें संतरे के रस से भर दें ताकि तीन घंटे तक रहें,O O O B-food O I-food O O O O B-time-duration I-time-duration O O,
+wait a minute um we have to make the orange juice ,एक मिनट प्रतीक्षा करें कि हमें संतरे का रस बनाना है,O O O O O O B-food O I-food O O,
+oh okay okay yeah oh yeah I see ,ओह ठीक है हाँ  हाँ  मैं देख रहा हूँ,O O O O O O O O O,
+orange warehouse okay then we take oh boy so now we have to oh we can take the two boxcars that we have in uh Elmira right ,नारंगी गोदाम ठीक है तो हम ओह लड़के को लेते हैं इसलिए अब हमें ओह हम दो मुक्केबाजों को ले जा सकते हैं जो उह एल्मीरा में हैं,B-food O O O O O O O O O O O O O O O B-number O O O O O O O O O O O,warehouse boxcars Elmira
+yep ,हां,O,
+and take those to uh Corning to pick up the oranges ,और उन उह कॉर्निंग को संतरे लेने के लिए ले जाएं,O O O O O O O O O O O,Corning oranges
+okay ,ठीक है,O O,
+um and that take three hours right including loading ,उम और वह तीन घंटे सही सहित लोड हो रहा है,O O O B-time-duration I-time-duration O O O O O O,
+uh let see two yeah that right ,उह दो हाँ देखते हैं कि सही है,O B-number O O O O O O,
+and then back to Elmira to make the orange juice ,और फिर संतरे का रस बनाने के लिए एल्मिरा वापस,O O B-food O I-food O O O O O,Elmira
+right ,सही,O,
+so that five ,इतना कि पाँच,O O B-number,
+yep ,हां,O,
+and then it takes six to get to Avon so that another eleven ,और फिर एवन को पाने में छह लगते हैं ताकि एक और ग्यारह हो,O O O O O O B-number O O O O O B-number O,Avon
+that right ,कि सही,O O,
+and whatever time that be that two in the morning ,और जो भी हो  सुबह के दो बजे,O O O O B-period-of-day O B-number O,
+and then we done ,और फिर हमने किया,O O O O,
+right ,सही,O,
+the next day but it doesnot matter right ,अगले दिन लेकिन यह सही मायने नहीं रखता है,O O O O O O O O O,
+right exactly ,बिल्कुल सही,O O,
+okay so we done ,ठीक है तो हमने किया,O O O O O,
+okay ,ठीक है,O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+alright we have to get seven boxcars of oranges to Elmira by nine am and it now twelve midnight ,ठीक है कि हमें सुबह नौ बजे तक एलमीरा के लिए संतरे के सात बॉक्सकार मिलेंगे और अब आधी रात हो जाएगी,O O O O O B-time O O O O O O O B-number O O O O O O O O,boxcars oranges Elmira am twelve midnight
+so we got nine hours ,इसलिए हमें नौ घंटे मिले,O O B-time-duration I-time-duration O,
+um I think what we need to do here is is uh take engine E one to Dansville and pick up uh and pick up the three boxcars there ,उम मुझे लगता है कि हमें यहाँ क्या करने की ज़रूरत है  उह इंजन ई लें एक डांसविले में और उह को उठाएँ और वहाँ तीन बॉक्सकार उठाएँ,O O O O O O O O O O O O O O O O I-vehicle-name O O O O O O O O B-number O O,engine E Dansville boxcars
+okay ,ठीक है,O O,
+and um and at the same time uh what it okay since the since these let see we have two engines in Elmira ,और उम और एक ही समय में उह यह क्या ठीक है क्योंकि ये देखते हैं कि हमारे पास एल्मिरा में दो इंजन हैं,O O O O O O O O O O O O O O O O O O O O O B-number O O,engines Elmira
+so we need to take one of those um to Corning and then to uh to Bath ,इसलिए हमें उन उम में से एक को कॉर्निंग और फिर उह से बाथ तक ले जाने की जरूरत है,O O O O O O B-number O O O O O O O O O O O O O,Corning Bath
+to pick up the two boxcars there okay ,वहाँ दो बॉक्सकार लेने के लिए ठीक है,O B-number O O O O O O,boxcars
+okay ,ठीक है,O O,
+and that will start at the same time as um uh ,और वह um उह के रूप में एक ही समय में शुरू होगा,O O O O O O O O O O O O O,
+as the engine from E one ,ई एक से इंजन के रूप में,O I-vehicle-name O O O O O,engine E
+right and I can engine E can can two of the engines be going the same way on the same track ,सही और मैं इंजन ई कर सकते हैं दो इंजनों में से एक ही ट्रैक पर एक ही रास्ता जा सकता है,O O O O O O O O B-number O O O O O O O O O O O O O,engine E engines
+no uh the same way yes ,नहीं उह उसी तरह हाँ,O O O O O,
+the same way right ,ठीक उसी तरह,O O O,
+yeah ,हाँ,O,
+okay so if we take E three and start it right behind with the two boxcars that are already in Elmira we can take that to Corning ,ठीक है  अगर हम ई तीन लेते हैं और इसे दो बॉक्सर्स के पीछे से शुरू करते हैं जो पहले से ही एल्मीरा में हैं तो हम इसे कॉर्निंग तक ले जा सकते हैं,O O O O O I-vehicle-name O O O O B-number O O O O O O O O O O O O O O O O O O O O O O O,E boxcars Elmira Corning
+yes ,हाँ,O,
+okay um now uh once that is done the um what time would that be let see ,ठीक है उम अब एक बार उह है कि उम किया जाता है क्या समय है कि देखने दिया जाएगा,O O O O O O O O O O O O O O O O O O O O,
+so let see you got two engines in Corning is that what you mean ,तो देखते हैं कि आपको कॉर्निंग में दो इंजन मिले हैं  जिसका मतलब है,O O O O O O O B-number O O O O O O,engines Corning
+mm-hm ,मिमी-एचएम,O,
+then I have ,फिर मेरे पास है,O O O O,
+well wait we have well one engine let see yeah one engine will be in Corning one will be in Bath picking up the other two boxcars ,अच्छी तरह से प्रतीक्षा करें हमारे पास एक इंजन अच्छा है चलो देखते हैं हाँ एक इंजन कॉर्निंग में होगा एक स्नान में होगा अन्य दो बॉक्सकार उठाएगा,O O O O O O O B-number O O O O O O O O O O O O O O O O O B-number O O,engine engine Corning Bath boxcars
+three ,तीन,B-number,
+uh okay ,उह ठीक है,O O O,
+and the other one will be in Dansville and E one will be in Dansville ,और दूसरा डांसविले में होगा और ई एक डांसविले में होगा,O O O O O O O I-vehicle-name O O O,Dansville E Dansville
+with the three boxcars ,तीन बॉक्सर के साथ,B-number O O O,boxcars
+um with the three boxcars ,तीन मुक्केबाजों के साथ उम,B-number O O O O,boxcars
+um now that by the by the time let see what would take the longest time of those three ,um अब उस समय तक देखते हैं कि उन तीनों में से सबसे लंबा समय क्या होगा,O O O O O O O O O O O O O O O O O,three
+the probably the trip from Avon to Corning takes ,शायद एवन से कॉर्निंग तक की यात्रा,O O O O O O O,Avon Corning
+well actually that getting getting from Elmira to Corning to Bath and then back again ,वास्तव में यह कि एल्मिरा से कॉर्निंग से स्नान तक और फिर वापस आना,O O O O O O O O O O O O O O,Elmira Corning
+okay ,ठीक है,O O,
+that gonna take the well it gonna take two four six hours to get back to Corning with those two boxcars ,जो कुआँ ले जा रहा है  उसे दो चार छह घंटे लगने वाले हैं  उन दो बॉक्सरों के साथ कॉर्निंग पर वापस जाने के लिए,O O O O O O O B-number B-number B-time-duration I-time-duration O O O O O O O O O O O O O O,Corning boxcars
+okay ,ठीक है,O O,
+okay ,ठीक है,O O,
+um ,एक,O,
+okay I see yep and uh so that but that alright ,ठीक है  मैं हां और उह देखता हूं  लेकिन वह ठीक,O O O O O O O O O O O,
+um we can load the uh now we can we have we can have three engines in Corning at the same time right ,उम हम उह लोड कर सकते हैं अब हम कर सकते हैं हम एक ही समय में कॉर्निंग में तीन इंजन रख सकते हैं,O O O O O O O O O O O O O O O O O O O B-number O O O O,engines Corning
+yes ,हाँ,O,
+okay so by the time that E one gets to Corning with its three boxcars it gonna be um ,ठीक है  उस समय तक ई एक को अपने तीन मुक्केबाजों के साथ कॉर्निंग हो जाता है  यह ओउम होने वाला है,O O O O O O I-vehicle-name O O B-number O O O O O O O O O O O O,E Corning boxcars
+four am ,चार बजे,B-time O,am
+four okay ,चार ठीक है,B-number O O,
+so we can just we can just take those or load those that be five um five am and then take them back and that seven am ,इसलिए हम सिर्फ हम उन लोगों को ले जा सकते हैं या उन लोगों को लोड कर सकते हैं जो पांच उम पांच हैं और फिर उन्हें वापस ले जाते हैं और वह सात बजे हैं,O O O O O O O O O O O O O O O O O O O O B-time O O O O O O O O O O O O B-time O O,am am
+yep ,हां,O,
+um but the one that gonna take the longest time is the one we really have to be concerned about right ,उम  लेकिन सबसे लंबे समय तक लेने वाला वह है जिसे हमें वास्तव में सही के बारे में चिंतित होना है,O O O O O O O O O O O O O O O O O O O O O,one one
+yeah ,हाँ,O,
+and that gonna that get back exactly at nine ,और यह कि वह ठीक नौ बजे वापस आएगा,O O O O O B-number O O O,
+so so wait a minute so at seven say at seven am ,इसलिए एक मिनट रुकें ताकि सात बजे सात बजे कहें,O O B-time O O B-time O O O O,am
+right it uh the one that takes the longest is the one that goes down to Bath right ,सही यह है कि सबसे लंबे समय तक स्नान करने वाला वही है जो दाईं ओर स्नान करता है,O O O O O O O O O O O O O O O O O O O,one one Bath
+right so and that one will get there at get if once it gets loaded at the orange warehouse ,ठीक है और अगर कोई एक बार नारंगी गोदाम में लोड हो जाता है  तो वहां पहुंच जाएगा,O O O O O B-number O B-food O O O O O O O O O O,warehouse
+that right ,कि सही,O O,
+it by the time it gets back to Elmira it be nine ,जब तक यह एल्मिरा में वापस आता है तब तक यह नौ हो जाता है,O O O O O O O O O O O B-number O O O,Elmira
+that right ,कि सही,O O,
+okay so let just make sure we donot uh donot have any cars going in uh opposite directions we not we donot okay fine ,ठीक है तो बस यह सुनिश्चित करें कि हमारे पास उह डोनट है  उह दिशाओं में कोई भी कार चल रही है  हम ठीक नहीं हैं,O O O O O O O O O O O O O O O O O O O O O O O O O O,
+I think we all set ,मुझे लगता है कि हम सभी सेट करते हैं,O O O O O O O O O,
+so so let see the the one boxcar coming from Avon ,तो चलो एवन से आने वाले एक बॉक्सर को देखते हैं,O O O O O O B-number O O O O,boxcar Avon
+right ,सही,O,
+takes three I sorry the one engine from Avon takes three boxcars ,तीन लेता है मुझे खेद है कि एवन का एक इंजन तीन बॉक्सकार लेता है,B-number O O O O O O O O B-number O O O O O,engine Avon boxcars
+yep ,हां,O,
+to Elmira so that three ,Elmira के लिए इतना है कि तीन,O O O O O O B-number,Elmira
+uh though the engine that going to Bath takes two boxcars that two more ,उह हालांकि बाथ में जाने वाला इंजन दो बॉक्सकार लेता है जो दो और हैं,O O O O O O O B-number O O O O O O O,engine Bath boxcars
+and then the the first engine that took the boxcars from Elmira ,और फिर पहला इंजन जिसने एल्मिरा से बॉक्सकार लिया,O O O O O O O O O,engine boxcars Elmira
+that the shortest trip ,सबसे छोटी यात्रा,O O O,
+mm-hm ,मिमी-एचएम,O,
+takes another two so that seven yep that work ,एक और दो लेता है ताकि सात yep उस काम को करें,O O B-number O O O B-number O O O O O,
+alright ,ठीक है,O O,
+okay ,ठीक है,O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+alright we have to ship two boxcars of bananas and one boxcar of oranges to Dansville using only one engine ,ठीक है कि हमें केवल एक इंजन का उपयोग करके केले के दो बॉक्सकार और संतरे के एक बॉक्सकार को डांसविले में भेजना होगा,O O O O O B-number O O O O O O B-number O O O O O O O O O O O,boxcars bananas boxcar oranges Dansville engine
+and have that has to be the shipment must be unloaded by one pm so that gives us thirteen hours to do all that ,और शिपमेंट को दोपहर एक बजे तक उतारना होगा ताकि हमें वह सब करने के लिए तेरह घंटे मिलें,O O O O B-time O O O O O O O O O O O B-time-duration I-time-duration O,pm
+okay ,ठीक है,O O,
+um I think maybe using engine E one and taking the take making the trip to um Dansville ,उम मुझे लगता है कि शायद इंजन ई एक का उपयोग कर रहा है और ओम डांसविले की यात्रा कर रहा है,O O O O O O O O I-vehicle-name O O O O O O O O O O O O O,engine E Dansville
+and then to pick up the three boxcars ,और फिर तीन मुक्केबाजों को लेने के लिए,O O B-number O O O O O,boxcars
+okay ,ठीक है,O O,
+and then that takes what three hours ,और फिर तीन घंटे लगते हैं,O O B-time-duration I-time-duration O O,
+takes ,लेता है,O O,
+well three hours one way ,अच्छी तरह से तीन घंटे एक रास्ता है,O O O B-time-duration I-time-duration B-number O O,
+and okay and then to get back to the bananas service is six to load is seven ,और ठीक है और फिर केले की सेवा में वापस आने के लिए छह से लोड सात है,O O O O O O O O O O O O O B-number O O B-number O,bananas
+alright we wanna be loading two at the banana warehouse but ,ठीक है हम केले के गोदाम में दो लोड करना चाहते हैं लेकिन,O O O O O O O B-number O O O O O,banana warehouse
+that okay it takes only one hour to load ,ठीक है  इसे लोड करने में केवल एक घंटा लगता है,O O O O O O O B-time-duration O O O,hour
+right ,सही,O,
+you just have to load them in parallel ,आपको बस उन्हें समानांतर में लोड करना है,O O O O O O O O,
+okay ,ठीक है,O O,
+so that um seven hours and then three back is ten ,इतना है कि उम सात घंटे और फिर तीन वापस दस है,O O O O B-time-duration I-time-duration O O B-number O B-number O,
+seven hours ,सात घंटे,B-time-duration I-time-duration,
+so we have three to work with um and then uh it one to Corning ,इसलिए हमारे पास ओम के साथ काम करने के लिए तीन हैं और फिर इसे कॉर्निंग के लिए उह करें,O O O O O O O O O O B-number O O O O O O O O O,one Corning
+one hour to Corning yeah ,एक घंटे कॉर्निंग के लिए हाँ,B-time-duration O O O O O,hour Corning
+okay oh this this I donot know if this is gonna work now ,ठीक है ओह  यह मैं नहीं जानता कि क्या यह अब काम करने वाला है,O O O O O O O O O O O O O O O,
+well we only need two boxcars of bananas right ,ठीक है हमें केवल केले के दो बॉक्सकार की आवश्यकता है,O O O O O O B-number O O O O,boxcars bananas
+right ,सही,O,
+so we could just we donot have to wait for them to be unloaded we just unhitch them ,इसलिए हम बस उन्हें दान करने के लिए हमें इंतजार करना होगा कि हम उन्हें उतार दें,O O O O O O O O O O O O O O O O O,
+oh okay ,ओह ठीक है,O O O,
+and then take the remaining boxcar down to ,और फिर शेष बॉक्सकार को नीचे ले जाएं,O O O O O O O O,boxcar
+okay ,ठीक है,O O,
+right to ,अधिकार,O,
+Corning ,Corning,O,Corning
+Corning ,Corning,O,Corning
+yeah ,हाँ,O,
+and that uh ,और वह उह,O O O,
+and that takes one two three hours with the loading ,और लोडिंग के साथ एक दो तीन घंटे लगते हैं,O O O O B-time-duration I-time-duration I-time-duration I-time-duration O O,
+okay ,ठीक है,O O,
+oh what and then we have to unload right ,ओह क्या और फिर हमें सही उतारना होगा,O O O O O O O O,
+or unload them ,या उन्हें उतार दें,O O O O,
+right so that gonna be ,सही है कि होने वाला है,O O O O O O,
+that four hours ,वह चार घंटे,O B-time-duration I-time-duration,
+so how long did it take us to get ,तो हमें मिलने में कितना समय लगा,O O O O O O O,
+I think it think that gonna add up to fourteen let see um Avon to pick up the three and get back to Avon is six right to load is is seven ,मुझे लगता है कि यह चौदह को जोड़ने वाला है कि उम अवोन को तीनों को लेने दें और एवन पर वापस जाने के लिए छह को लोड करने का अधिकार है सात है,O O O O O B-number O O O O O O O O O O O O O O O O O O O B-number O O O O O O B-number O,Avon three Avon
+right and then ,सही और फिर,O O O,
+and then back is ten ,और फिर वापस दस है,O O O B-number O,
+okay and then ,ठीक है और फिर,O O O O,
+then we then we need four hours in order to be able to to get to Corning load and get back and then and then unload ,तब हमें कॉर्निंग लोड प्राप्त करने में सक्षम होने के लिए और फिर और फिर अनलोड करने के लिए चार घंटे चाहिए,O O O O O O O O O O O O O O O O O O O B-time-duration I-time-duration O,Corning
+right ,सही,O,
+so that that one hour more than we ,ताकि हम से एक घंटे अधिक,O O O B-time-duration O O,hour
+than we have ,हमारे पास है,O O O,
+than we have ,हमारे पास है,O O O,
+okay so ,ठीक है तो,O O O,
+maybe ,शायद,O,
+engine E one was maybe it was the best thing ,इंजन ई वन शायद यह सबसे अच्छी बात थी,O O O O O O O O O,engine E one
+um ,एक,O,
+see if we try with ,देखें कि क्या हम कोशिश करते हैं,O O O O O O O,
+cause we have to mm maybe we try like taking two boxcars of er well taking one boxcar would be sufficient ,कारण यह है कि हम मिमी के लिए शायद हम एर की दो बॉक्सकार लेने की तरह अच्छी तरह से एक बॉक्सर लेने के लिए पर्याप्त होगा,O O O O O O O O O O O O B-number O O O O O O O B-number O O O O O O,boxcars boxcar
+when and if we took or no wait here here we go ,हम यहाँ कब और क्यों गए या नहीं  हम यहाँ जाते हैं,O O O O O O O O O O O O,
+oh let go down to Bath ,ओह चलो नीचे स्नान करने के लिए,O O O O O O O,
+I ,मैं,O,
+yeah ,हाँ,O,
+yeah ,हाँ,O,
+if if we take um let see because we have to we have to get the bananas too ,अगर हम उम्म को देखते हैं तो हमें देखना होगा क्योंकि हमें केले भी प्राप्त करने हैं,O O O O O O O O O O O O O O O O O,bananas
+yeah ,हाँ,O,
+so this we have to get to Avon somehow ,इसलिए हमें किसी तरह एवन के पास जाना होगा,O O O O O O O O O,Avon
+yeah I think you I think you right yeah let stick with E one ,हाँ  मुझे लगता है कि तुम मुझे लगता है कि तुम सही हाँ हाँ ई के साथ रहना,O O O O O O O O O O O O O O O O O O,E one
+uh E one ,उह ई एक,O O I-vehicle-name,E
+right because it takes us to get from Elmira to get from Elmira to Dansville ,सही है क्योंकि यह हमें एल्मिरा से एल्मिरा से डांसविले जाने के लिए मिलता है,O O O O O O O O O O O O O O O,Elmira Elmira Dansville
+mm-hm ,मिमी-एचएम,O,
+it gonna take us three hours ,यह हमें तीन घंटे लगेंगे,O O B-time-duration I-time-duration O,
+okay ,ठीक है,O O,
+oh let see yeah and then another three hours to Avon ,ओह  हाँ और फिर एक और तीन घंटे एवन को देखने दें,O O O O O O B-time-duration I-time-duration O O O O,Avon
+and we have to get there like you said for the bananas and that so that takes six hours so it the same ,और हमें वहाँ जाना है जैसे आपने केले के लिए कहा था और इसलिए छह घंटे लगते हैं,O O O O O O O O O O O O O O B-time-duration I-time-duration O O,bananas
+alright ,ठीक है,O O,
+as just using E one ,बस ई एक का उपयोग कर के रूप में,O O I-vehicle-name O O O O O O,E
+oh we can take care of the oranges right off quick ,ओह हम जल्दी ठीक संतरे की देखभाल कर सकते हैं,O O O O O O O O O O,oranges
+oh that that ,अरे वो तो,O O O,
+right on on the way ,रास्ते में ही सही,O O O O,
+that a good point that a good point let do yeah you right ,यह एक अच्छा बिंदु है कि एक अच्छा बिंदु चलो हाँ आपको सही है,O O O O O O O O O O O O O O,
+okay so why donot we take um take two boxcars from or well actually it really doesnot matter ,ठीक है तो हम डोनट को um से दो बॉक्सकार लेते हैं या वास्तव में यह वास्तव में मायने नहीं रखता है,O O O O O O O O B-number O O O O O O O O O O O O O,boxcars
+we just pick up the boxcars at at uh Elmira with engine E two and taking them to the to Corning ,हम सिर्फ इंजन ई दो के साथ उह एल्मिरा में बॉक्सकार उठाते हैं और उन्हें कॉर्निंग पर ले जाते हैं,O O O O I-vehicle-name O O O O O O O O O O O O O O O,boxcars Elmira engine E Corning
+right ,सही,O,
+and load them up and that what total of three hours ,और उन्हें तीन घंटे में पूरा किया,O O B-time-duration I-time-duration O O O,
+yep ,हां,O,
+and then take those and then go to Dansville ,और फिर उन लेने के लिए और फिर Dansville जाओ,O O O O O O O O O O,Dansville
+so that uh let see and that one more hour ,ताकि उह देखने दें और वह एक घंटा,O O O O O O B-time-duration O,hour
+and ,तथा,O,
+yeah and we can we can ,हाँ और हम कर सकते हैं,O O O O O O,
+drop off at the ,पर छोड़ दो,O O O,
+drop off that boxcar and take well yeah drop off the boxcar of ,उस बॉक्सकार को छोड़ दें और अच्छी तरह से हाँ कर दें,O O O O O O O O O O O O,boxcar boxcar
+and then take two empty ones ,और फिर दो खाली लो,O O B-number O O,
+right two empty ones down to to Avon ,एवन के लिए दो खाली खाली,O O O B-number O O,Avon
+and pick up the the bananas ,और केले को उठा लें,O O O O O,bananas
+right ,सही,O,
+now how long is that let see ,अब कितनी देर है कि देखते हैं,O O O O O O O,
+okay so Elmira to Corning is two and loading is three and to Dansville is four ,ठीक है तो एल्मिरा से कॉर्निंग दो और लोडिंग तीन और डांसविले चार है,O O O O O O B-number O O B-number O O B-number O,Elmira Corning Dansville
+yep ,हां,O,
+okay so that and then we done with the oranges ,ठीक है और फिर हमने संतरों के साथ किया,O O O O O B-food O O O,
+yeah and then eight to Avon right ,हाँ और फिर आठ से एवन सही,O O O B-number O O O,Avon
+and then we go ,और फिर हम चलते हैं,O O O O O,
+three to ,तीन से,B-number O,
+well it only three that right okay so it ,अच्छी तरह से यह केवल तीन है कि ठीक है तो यह ठीक है,O O O O O B-number O O O O O O O O,
+yeah right right so three to Avon and back again so and back again will be seven ,हाँ ठीक है तो तीन को एवन और फिर से वापस और इसलिए वापस सात हो जाएगा,O O O O B-number O O O O O O O O O B-number O O,Avon
+right ,सही,O,
+with the with the loading ,लोडिंग के साथ,O O O,
+then eight to unload ,फिर आठ उतारने के लिए,O B-number O O O,
+okay ,ठीक है,O O,
+right so it eight plus four twelve hours ,ठीक है तो यह आठ से चार बारह घंटे,O O O O B-number O B-number B-time-duration I-time-duration,
+so we be just right ,इसलिए हम सही हैं,O O O O,
+so that be perfect ,ताकि सही हो,O O O,
+okay ,ठीक है,O O,
+yeah actually we a bit early ,हाँ  वास्तव में हम थोड़ा जल्दी हैं,O O O O O O O,
+we a little little better ,हम थोड़ा बेहतर हैं,O O O O,
+yeah okay ,हाँ ठीक है,O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes okay I looking to ship three boxcars of bananas and three tankers of OJ to Bath ,हाँ ठीक है  मैं केले के तीन बॉक्सर और ओजे टू बाथ के तीन टैंकरों को शिप करना चाहता हूँ,O O O O O O B-number O O O O O O O B-vehicle O O O O O,boxcars bananas OJ Bath
+okay so I have boxcars in Elmira and tankers in Corning right ,ठीक है  इसलिए मेरे पास एल्मिरा में बॉक्सकार हैं और कॉर्निंग राइट में टैंकर हैं,O O O O O O O O O O O O O O O,boxcars Elmira tankers Corning
+mm-hm ,मिमी-एचएम,O,
+and I need to where are the bananas oh the bananas so I have an engine in Avon but not a boxcar ,और मुझे लगता है कि केले कहां हैं केले की आवश्यकता है तो मेरे पास एवन में एक इंजन है लेकिन एक बॉक्सकार नहीं है,O O O O O O O O O O O O O O O O O O O O O O O O O,bananas bananas engine Avon boxcar
+so would I have to take an engine and then go to Bath and pick up a boxcar and then come back how long is that from ,तो मुझे एक इंजन लेना होगा और फिर बाथ में जाना होगा और एक बॉक्सकार को चुनना होगा और फिर वापस आना होगा,O O O O O O O O O O O O O O O O O O O O O O O,engine Bath boxcar
+so Avon to Bath is four hours ,इसलिए एवन टू बाथ चार घंटे का है,O O O O B-time-duration I-time-duration O O,Avon Bath
+okay and I donot have any time limit so I suppose it doesnot really matter ,ठीक है और मेरे पास कोई समय सीमा नहीं है इसलिए मुझे लगता है कि यह वास्तव में मायने नहीं रखता है,O O O O O O O O O O O O O O O O O O O O O O,
+it twelve now and okay so I go to three box oh I only have two there oh okay sorry I go to Dansville ,यह अब बारह और ठीक है  इसलिए मैं तीन बॉक्स में जाता हूं ओह  मेरे पास केवल दो हैं ओह ठीक है  मैं डांसविले जा रहा हूं,O O B-number O O O O O B-number B-item O O O O O O O B-number O O O O O O O O O,Dansville
+and pick up three boxcars how long is that ,और तीन बॉक्सकार उठाएं कि कितनी देर है,O B-number O O O O O O,boxcars
+that three hours ,वह तीन घंटे,O B-time-duration I-time-duration,
+okay so I go to Dansville pick up the three boxcars with my engine ,ठीक है  इसलिए मैं अपने इंजन के साथ तीन मुक्केबाजों को लेने के लिए डांसविले जा रहा हूं,O O O O O O O O B-number O O O O O O O O O,Dansville boxcars engine
+now where am I going I going to Bath okay and then I fill it up with bananas those three boxcars how long does that take ,अब मैं कहां जा रहा हूं मैं ठीक से स्नान करने जा रहा हूं और फिर मैं इसे उन तीन मुक्केबाजों के साथ भर देता हूं जिनमें कितना समय लगता है,O O O O O O O O O O O O O O O O O O O B-number O O O O O O O O O O O,Bath bananas boxcars
+uh filling takes one hour ,उह भरने में एक घंटा लगता है,O O O B-time-duration O O O,hour
+okay filling so that another hour three one four and then I just ship those to Bath ,ठीक है इतना भर कि एक और तीन तीन एक चार और फिर मैं सिर्फ उन लोगों को स्नान करने के लिए जहाज,O O O O O B-number O B-number O O I-number O O O O O O O O O O O O,hour Bath
+okay ,ठीक है,O O,
+and that four hours you said ,और आपने चार घंटे कहा,O O B-time-duration I-time-duration O,
+mm-hm ,मिमी-एचएम,O,
+and then three tankers of OJ ,और फिर ओजे के तीन टैंकर,O O O O B-number O,tankers OJ
+uh so I go from Corning to Elmira which is how long ,उह तो मैं कोर्निंग से एल्मिरा तक जाता हूं जो कि कितनी लंबी है,O O O O O O O O O O O O O O,Corning Elmira
+Corning to Elmira is two hours ,एल्मिरा में कॉर्निंग दो घंटे की है,O O O B-time-duration I-time-duration O O,Corning Elmira
+okay with my tankers fill up my tankers which takes uh an hour ,ठीक है मेरे टैंकरों से मेरे टैंकर भरे जाते हैं  जिसमें एक घंटे का समय लगता है,O O O B-vehicle O O O O O O O O O O O O O,hour
+yes ,हाँ,O,
+okay and then drive from Elmira to Bath ,ठीक है और फिर एल्मिरा से स्नान तक ड्राइव करें,O O O O O O O O O O,Elmira Bath
+yes ,हाँ,O,
+and that should complete the task I would think ,और मुझे लगता है कि कार्य को पूरा करना चाहिए,O O O O O O O O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes okay I looking to ship one boxcar of bananas one boxcar of oranges and one tanker of OJ to Bath all by noon today and it is twelve midnight ,हाँ ठीक है  मैं केले के एक बॉक्सर को संतरे के एक बॉक्सर और ओजे के एक टैंकर को दोपहर तक सभी को स्नान करने के लिए देख रहा हूं,O O O O O O B-number O O O O O O O O O O B-vehicle O O O O O O O O O O O O,boxcar bananas boxcar oranges OJ Bath noon twelve midnight
+so let see one boxcar of bananas okay well I suppose one boxcar of oranges well to Bath hm ,तो आइए देखते हैं केले का एक बॉक्सकार ठीक है मैं स्नान करने के लिए संतरे के एक बॉक्सर को अच्छी तरह से मानता हूं,O O O O O O B-number O O O O O O O O O O O O O O O O O O,boxcar bananas boxcar oranges Bath
+okay well I guess I just take my engine from Avon to Dansville which is three hours ,ठीक है  मुझे लगता है कि मैं अपने इंजन को एवन से डांसविले तक ले जाता हूं जो तीन घंटे का है,O O O O O O O O O O O O O O O O O O B-time-duration I-time-duration O O,engine Avon Dansville
+and pick up two boxcars ,और दो बॉक्सकार उठाएं,O B-number O O,boxcars
+um go back where should we okay go from Dansville to Corning which is how long two hours ,उम वापस जाना चाहिए जहां हम ठीक से डांसविले से कॉर्निंग तक जाना चाहिए जो दो घंटे लंबा है,O O O O O O O O O O O O O O O B-time-duration I-time-duration O O,Dansville Corning
+Dansville to Corning is one hour ,डांसविले से कॉर्निंग एक घंटे की है,O O O B-time-duration O O O,Dansville Corning hour
+one hour um then fill up one of the boxcars with oranges and ,एक घंटा उम फिर संतरे के साथ बॉक्सर्स में से एक को भरने और,B-number O O O O O O O O O O O O O,hour boxcars oranges
+um there are oranges at Corning ,उम कॉर्निंग में संतरे हैं,O O O O O,oranges Corning
+there are ,वहां,O,
+oh no sorry there are yeah ,ओह नो सॉरी यस,O O O O,
+okay ,ठीक है,O O,
+right and um hm then I guess is it faster to go from Corning to Avon or from Corning like through Bath or through Dansville is my question ,दायाँ और um hm तो मुझे लगता है कि कॉर्निंग से एवन तक जाना या कॉर्निंग से स्नान के माध्यम से या डांसविले के माध्यम से जाना तेज़ है मेरा सवाल है,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Corning Avon Corning Bath Dansville
+okay it faster to go to from Corning to Avon through Dansville that takes four hours ,ठीक है कि डांसविले के माध्यम से कॉर्निंग से एवन तक जाने में तेज़ी से चार घंटे लगते हैं,O O O O O O O O O O O O O O O B-time-duration I-time-duration O O,Corning Avon Dansville
+okay ,ठीक है,O O,
+okay so I go back the the way I came and then fill up the second car with bananas ,ठीक है  मैं जिस तरह से आया था  उसी तरह वापस जाता हूं और फिर केले के साथ दूसरी कार भरता हूं,O O O O O O O O O O O O O O O O O O O B-vehicle O O,second bananas
+wait I not keeping track of the time am I ,प्रतीक्षा करें कि मैं उस समय का ध्यान नहीं रख रहा हूं जो मैं हूं,O O O O O O O O O O O O O O O,
+okay that three hours to Dansville it twelve midnight now so it three in the morning another hour ,ठीक है कि डांसविले में तीन घंटे अब आधी रात में हैं  इसलिए सुबह तीन बजे एक और घंटा,O O O O O B-number I-time-duration O O O O O O B-period-of-day O O O O O,Dansville twelve midnight hour
+mm-hm one hour to Corning ,मिमी-एचएम एक घंटे तक कॉर्निंग,O B-time-duration O O O,hour Corning
+okay one hour Corning that four in the morning an hour to load right ,ठीक एक घंटा कॉर्निंग कि सुबह चार बजे एक घंटा सही लोड करने के लिए,O B-time-duration O O O B-period-of-day B-number O O O O O O O O,hour Corning hour
+one hour to load yep ,हाँ लोड करने के लिए एक घंटे,O O O O O B-time-duration O,hour
+that five in the morning I still have plenty of time and then and then it four hours back ,सुबह पाँच बजे मेरे पास अभी भी बहुत समय है और फिर चार घंटे पहले,B-period-of-day B-number O O O O O O O O O O B-time-duration I-time-duration O,
+four hours back ,चार घंटे पहले,B-time-duration I-time-duration O,
+so where was I five nine in the morning one hour to load that ten in the morning right ,तो मैं सुबह दस बजे पाँच नौ बजे था  ठीक उस सुबह दस बजे लोड करने के लिए,O O B-period-of-day B-time-duration O B-number I-number O O O O O O O O O O O,one hour
+mm-hm ,मिमी-एचएम,O,
+and then how many hours to Bath from Avon ,और फिर एवन से कितने घंटे स्नान करना है,O O O O O O O O O,Bath Avon
+um Bath from Avon is four ,एवन से उम स्नान चार है,O O O O B-number O,Bath Avon
+oh then we not gonna make it by twelve are we um ,ओह  तो हम इसे बारह तक नहीं बनाते हैं  हम उम हैं,O O O O B-time O O O O O O O,
+hm ,एचएम,O,
+you have to ,आपको करना होगा,O O O,
+oh I can go I can go from Avon pick up the two boxcars right ,ओह  मैं जा सकता हूं मैं एवन से जा सकता हूं दो बॉक्सकार सही उठाएं,O O O O O O O O O O O B-number O O O,Avon boxcars
+and then go to Corning ,और फिर कॉर्निंग पर जाएं,O O O O O,Corning
+well no it doesnot make any sense either way anyway then so we a little late ,वैसे भी यह किसी भी तरह से कोई मतलब नहीं है तो हम थोड़ा देर हो गई,O O O O O O O O O O O O O O O O O,
+and would the ,और होगा,O O,
+so what your task it to take one boxcar of bananas one boxcar of oranges ,तो क्या आपका काम यह है कि केले के एक बॉक्सकार को संतरे का एक बॉक्सकार लेना,O O O O O O O O O B-number O O O O O O O,boxcar bananas boxcar oranges
+and one tanker of OJ to Bath to the I can take a tanker from Corning to Elmira in how many hours ,और ओजे टू बाथ टू आई का एक टैंकर कितने घंटों में कॉर्निंग से एल्मिरा तक एक टैंकर ले जा सकता है,O O O O O O O B-number B-vehicle O O O O O O O O O O O O O,OJ Corning Elmira
+Corning to Elmira takes two hours ,एल्मिरा में कॉर्निंग में दो घंटे लगते हैं,O O O O B-time-duration I-time-duration O O,Corning Elmira
+so two load one hour and then from Elmira to Bath ,इसलिए दो घंटे एक घंटा और फिर एल्मिरा से स्नान तक,O B-number O B-time-duration O O O O O O O,hour Elmira Bath
+Elmira to Bath is four hours ,एल्मिरा टू बाथ चार घंटे का है,O O O B-time-duration I-time-duration O O,Elmira Bath
+it four hours so um two three so we can get that there by seven in the morning ,चार घंटे तो उम दो तीन तो हम सुबह सात बजे तक वहां पहुंच सकते हैं,B-time-duration I-time-duration O O B-number I-number O O B-period-of-day B-time O O O O O O,
+then that not a problem but I donot see how I can get the boxcar of bananas and the boxcar of oranges to Bath by twelve if we gotta go all over the place to pick up the boxcars ,तो यह एक समस्या नहीं है  लेकिन मैं यह देखता हूं कि मैं कैसे केले के डिब्बे और संतरे के बॉक्सकारक को बारह तक स्नान कर सकता हूं अगर हम बॉक्स को लेने के लिए सभी जगह जाएंगे,O O O O O O O O O O O O O O O O O O O O O O B-time O O O O O O O O O O O O O O O,boxcar bananas boxcar oranges Bath boxcars
+is it possible to get one and ,यह संभव है एक पाने के लिए और,O O O B-number O O O O,
+maybe you could start with a different engine ,शायद आप एक अलग इंजन के साथ शुरू कर सकते हैं,O O O O O O O O O O O,engine
+different engine yeah ,अलग इंजन हाँ,O O O,engine
+you donot have to start in Avon I suppose ,एवन मैं मान लेता हूं कि आपको नहीं करना है,O O O O O O O O O O,Avon
+yeah I guess so well okay so I start in Elmira with one engine and the two boxcars ,हाँ  मुझे लगता है कि इतनी अच्छी तरह से ठीक है इसलिए मैं एक इंजन और दो बॉक्सकार के साथ एल्मिरा में शुरू करता हूं,O O O O O O O O O O O O O B-number O O B-number O O O O O O O O,Elmira engine boxcars
+mm-hm ,मिमी-एचएम,O,
+okay and then I can drive straight to Corning ,ठीक है और फिर मैं सीधे कॉर्निंग पर गाड़ी चला सकता हूं,O O O O O O O O O O O O,Corning
+mm-hm ,मिमी-एचएम,O,
+from Elmira which is how many hours again ,एल्मिरा से जो फिर से कितने घंटे है,O O O O O O O O,Elmira
+Elmira to Corning is two hours ,एल्मिरा से कॉर्निंग दो घंटे की है,O O O B-time-duration I-time-duration O O,Elmira Corning
+two hours so that two in the morning one hour to load ,दो घंटे ताकि दो सुबह एक घंटे लोड करने के लिए,B-number I-time-duration O O B-period-of-day B-time-duration O O O O O,hour
+mm-hm ,मिमी-एचएम,O,
+and then four hours from Corning to Avon right ,और फिर कॉर्निंग से एवन राइट तक चार घंटे,O O O O O O O B-time-duration I-time-duration,Corning Avon
+four hours from Corning to Avon yes ,कॉर्निंग से एवन हाँ तक चार घंटे,O O O O O B-time-duration I-time-duration,Corning Avon
+okay so that was three in the morning seven in the morning an hour to load ,ठीक है  इसलिए सुबह सात बजे सुबह सात बजे एक घंटा लोड किया गया,O O O B-period-of-day B-number O O O O O O O O O,three
+that eight in the morning and then four hours oh that okay then that works and then we make it by twelve ,उस सुबह आठ और फिर चार घंटे ओह ठीक है फिर वह काम करता है और फिर हम इसे बारह कर देते हैं,O B-period-of-day B-number O O B-time-duration I-time-duration O O O O O O O O O O O O B-time O O O,
+um how are you getting the orange juice ,um आपको संतरे का रस कैसे मिल रहा है,O O B-food O I-food O O O O,
+oh well I I already said that that was um that was to um take a tanker from Corning to to Elmira which is an hour an hour to load ,ओह वेल II ने पहले ही कहा था कि वह उम था जो उमर को कॉर्निंग से एल्मिरा तक एक टैंकर ले जाना था जो लोड करने के लिए एक घंटे है,O O O O O O O O O O O O O O O O O O O O B-vehicle O O O O O O O O O O O,Corning Elmira hour hour
+no Corning to Elmira is two hours ,एलमीरा को कोई कॉर्निंग दो घंटे नहीं है,O O O O B-time-duration I-time-duration O O,Corning Elmira
+two hours oh okay ,दो घंटे ओह ठीक है,B-time-duration I-time-duration O O O,
+so that and then an hour to load which is makes it uh three in the morning ,इतना है कि और फिर एक घंटे लोड करने के लिए जो इसे सुबह तीन उह बनाता है,O O O O O O O O O O O O O B-period-of-day B-number O O O,hour
+and then four hours to Bath correct ,और फिर चार घंटे स्नान सही करने के लिए,O O B-time-duration I-time-duration O O O O O,Bath
+right well why donot you keep the whole ,ठीक है आप पूरे को क्यों दान करते हैं,O O O O O O O O O,
+I cannot separate it ,मैं इसे अलग नहीं कर सकता,O O O O O O,
+well you could but it be faster just you have to start with the engine well either in Elmira or Avon right ,अच्छी तरह से आप कर सकते हैं  लेकिन यह तेजी से हो सकता है कि आपको इंजन के साथ या तो एल्मिरा या एवन राइट में शुरू करना होगा,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,engine Elmira Avon
+right ,सही,O,
+and then you have to get to the oranges and then back to the orange juice factory ,और फिर आपको संतरे के पास जाना होगा और फिर संतरे के रस के कारखाने में वापस जाना होगा,O O O B-food O O O O O O O O I-food O O O O O O,oranges factory
+I have to bring the oranges to the orange juice factory ,मुझे संतरे के रस के कारखाने में संतरे लाने हैं,O B-food O I-food O O O O O O,oranges factory
+I believe so ,मुझे ऐसा विश्वास है,O O O O,
+donot they have oranges there ,उनके पास वहां संतरे हैं,O O O O O,oranges
+I think you have to ,मुझे लगता है कि आपको करना होगा,O O O O O O O,
+I have to ,मुझे करना होगा,O O O,
+okay this is getting complicated ,ठीक है यह जटिल हो रहा है,O O O O O O O,
+so I have to not only but no my my problem is to get a boxcar of bananas a boxcar of oranges and one tanker of orange juice to Bath ,इसलिए मुझे न केवल मेरी समस्या है  बल्कि मेरी समस्या यह है कि मैं केले के एक बॉक्सकार को संतरे का एक बॉक्सकार और संतरे के रस का एक टैंकर बाथ में ले जाऊ,O O O O O O O O O O O O O O O O B-number O O B-food O O O O O O I-food O O B-vehicle O O O O,boxcar bananas boxcar oranges Bath
+it doesnot say they all have to arrive at the same time or all have to go together ,यह नहीं कहता है कि उन्हें एक ही समय पर आना है या सभी को एक साथ जाना है,O O O O O O O O O O O O O O O O O O O,
+right but it ,सही है  लेकिन यह,O O O O,
+but they just have to be there by noon ,लेकिन उन्हें दोपहर तक वहां रहना होगा,O O O O O O O,noon
+okay so let go through your plan ,ठीक है  तो अपनी योजना से गुजरें,O O O O O O O,
+okay ,ठीक है,O O,
+so what your plan ,तो आपकी क्या योजना है,O O O O O,
+my plan is to go well first we work on the orange juice ,मेरी योजना अच्छी तरह से जाने की है पहले हम संतरे के रस पर काम करते हैं,O O O O O O O O O O B-food O I-food O O O O,
+okay ,ठीक है,O O,
+I have a tanker in Corning ,मेरे पास कॉर्निंग में एक टैंकर है,O O O O O B-vehicle O,Corning
+mm-hm ,मिमी-एचएम,O,
+I drive the tanker from Corning to Elmira ,मैं कॉर्निंग से एल्मिरा तक टैंकर चलाता हूं,O O O O O B-vehicle O O,Corning Elmira
+you cannot drive the tanker without an engine ,आप बिना इंजन के टैंकर नहीं चला सकते,O O O O B-vehicle O O O,engine
+a tanker ,एक टैंकर,O B-vehicle,
+the tanker needs an engine ,टैंकर को इंजन की जरूरत होती है,B-vehicle O O O O O O,engine
+I thought a tanker was just truck or is it a ,मुझे लगा कि एक टैंकर सिर्फ ट्रक था या यह एक है,O O O O B-vehicle O O O O O O O,truck
+it one of those round things that gets pulled by an engine ,यह उन गोल चीजों में से एक है जो एक इंजन द्वारा खींचा जाता है,O O O O O O B-number O O O O O O O O,engine
+oh with it part of the train oh I see okay and then that that why I was confused ,इसके साथ ट्रेन का एक हिस्सा ओह मैं ठीक देखता हूं और फिर इसीलिए मैं उलझन में था,O O B-vehicle O O O O O O O O O O O O O O O,
+okay so we start in ,ठीक है तो हम शुरू करते हैं,O O O O O O O,
+start in Elmira ,एल्मिरा में शुरू करें,O O O O,Elmira
+Elmira with two boxcars in we go to Corning and we pick up a a tanker ,एलमीरा दो बॉक्सकार के साथ हम कॉर्निंग में जाते हैं और हम एक टैंकर उठाते हैं,O B-number O O O O O O O O O O O B-vehicle O O,Elmira boxcars Corning
+mm-hm ,मिमी-एचएम,O,
+and then we go back to Elmira ,और फिर हम एल्मिरा वापस जाते हैं,O O O O O O O,Elmira
+okay ,ठीक है,O O,
+um so it two hours there two hours back that four hours fill up an hour that five in the morning ,उम तो दो घंटे वहाँ दो घंटे पहले कि चार घंटे एक घंटा भर कि सुबह पांच बजे,O O B-time-duration I-time-duration O O O O O B-time-duration O O O O O B-period-of-day B-time-duration O,hour
+well if you gonna make orange juice you have to pick up orange juice it in Corning in order to make orange juice ,अच्छी तरह से अगर आप संतरे का रस बनाने जा रहे हैं तो आपको संतरे का रस लेना होगा ताकि संतरे का रस बनाया जा सके,O O O O O B-food O I-food O O O O O O O O O O O O O O O O O O,Corning
+I have to pick up oranges and then for them to make orange juice I have to bring them the oranges ,मुझे संतरे लेने हैं और फिर उनके लिए संतरे का रस बनाने के लिए मुझे उन्हें संतरे लाने हैं,O B-food O O O O O O O O I-food O O O O O O O O,oranges oranges
+exactly ,ठीक ठीक,O O,
+okay so ,ठीक है तो,O O O,
+so ,इसलिए,O,
+okay um picking up an engine and two boxcars in Elmira I going to Corning picking up a tanker an hour for loading ,ठीक है  एक इंजन और दो बॉक्सर्स उठाकर एलमीरा,O O O O O B-number O O O,engine boxcars Elmira Corning tanker hour
+mm-hm ,मिमी-एचएम,O,
+so that three in the morning ,ताकि सुबह के तीन बजे,O B-period-of-day O B-time O,
+so ,इसलिए,O,
+three in the morning ,सुबह के तीन,B-period-of-day O B-time,
+and then from Corning to Elmira it another two hours that five ,और फिर कॉर्निंग से एल्मिरा तक यह दो घंटे कि पांच,O O O O O O O B-time-duration I-time-duration O B-number,Corning Elmira
+another hour to load that six ,उस छह को लोड करने के लिए एक और घंटा,O B-number O O O O O O O O,hour
+okay ,ठीक है,O O,
+and then I drive from Elmira back to Corning ,और फिर मैं एल्मिरा से कॉर्निंग तक ड्राइव करता हूं,O O O O O O O O O O,Elmira Corning
+okay ,ठीक है,O O,
+I guess I could ,मुझे लगता है कि मैं कर सकता था,O O O O O O O O,
+you could filled up two for the price of one ,आप एक की कीमत के लिए दो भर सकते हैं,O B-number O O O O B-number O O O,
+fill the ,भरें,O,
+okay so I done that ,ठीक है तो मैंने ऐसा किया,O O O O O O,
+so ,इसलिए,O,
+you already done that fine ,तुमने पहले ही ठीक कर दिया,O O O O O O,
+okay so I go straight to Avon and I get the bananas ,ठीक है  इसलिए मैं सीधे एवन में जाता हूं और मुझे केले मिलते हैं,O O O O O O O O O O O O O O,Avon bananas
+so that another ,ताकि दूसरा,O O,
+four ,चार,B-number,
+four hours is that right okay ,चार घंटे यह ठीक है,B-time-duration I-time-duration O O O,
+and then another hour for loading are you keeping track of what time it is or should I ,और फिर लोडिंग के लिए एक और घंटे आप ट्रैक कर रहे हैं कि यह किस समय है या मुझे क्या करना चाहिए,O O O O O O O O O O O O O O O O O O O O O O O,hour
+um so should we should be at eleven I think ,उम तो हमें ग्यारह पर होना चाहिए मुझे लगता है,O O O B-number O O O O O O,
+eleven but that that doesnot give enough still doesnot give us enough time to get to Bath right ,ग्यारह लेकिन वह पर्याप्त नहीं देता है अभी भी हमें स्नान करने के लिए पर्याप्त समय नहीं देता है,B-number O O O O O O O O O O O O O O O O O O,Bath
+cause it what another three hours or four hours ,कारण यह है कि एक और तीन घंटे या चार घंटे क्या है,O O O O O O B-time-duration I-time-duration O B-time-duration O O O,
+right ,सही,O,
+so we cannot make it in time then it be late ,इसलिए हम इसे समय पर नहीं बना सकते हैं तो देर हो सकती है,O O O O O O O O O O O O O O,
+well maybe we could use separate engines ,शायद हम अलग इंजन का उपयोग कर सकते हैं,O O O O O O O O O,engines
+okay yeah I suppose fine ,ठीक है हाँ  मुझे ठीक लगता है,O O O O O O O,
+alright so I can send them out both at the same time right ,ठीक है  इसलिए मैं उन दोनों को एक ही समय में बाहर भेज सकता हूं,O O O O O O O O O O O O O O O,
+right ,सही,O,
+both engines can go at the same time ,दोनों इंजन एक ही समय पर जा सकते हैं,O O O O O O O O O,engines
+okay so one engine will go to do what I just said and just do the orange juice right ,ठीक है  एक इंजन वही करेगा जो मैंने अभी कहा था और अभी संतरे का रस सही करता हूँ,O O B-number O O O O O O O O O O B-food O I-food O O O,engine
+right so it will go from Corning to Bath at the end ,इसलिए यह अंत में कॉर्निंग से बाथ तक जाएगा,O O O O O O O O O,Corning Bath
+right ,सही,O,
+okay ,ठीक है,O O,
+right and then the other engine will go with the two boxcars and do what I said ,दायां और फिर दूसरा इंजन दो बॉक्सकार के साथ जाएगा और मैंने जो कहा  वह करूंगा,O O O O O B-number O O O O O O O O O O,engine boxcars
+you know by going from Elmira to Avon oh Elmira stopping in Corning and then oh ,आपको पता है कि एल्मिरा से एवन ओह एलमीरा तक जाने के लिए कॉर्निंग में रुकना और फिर ओह,O O O O O O O O O O O O O O O O O O O,Elmira Avon Elmira Corning
+no the other engine can start at Avon go to Dansville back to Avon and pick up the bananas and go to Bath ,कोई अन्य इंजन एवन में शुरू नहीं हो सकता है डांसविले में एवन वापस जाएं और केले को उठाएं और स्नान पर जाएं,O O O O O O O O O O O O O O O O O O O O O O O,engine Avon Dansville Avon bananas Bath
+that time oh start at but it okay yeah should I I mean that fine with me ,उस समय ओह शुरू होता है  लेकिन यह ठीक है हाँ मुझे इसका मतलब है कि मेरे साथ ठीक होना चाहिए,O O O O O O O O O O O O O O O O O O O O O,
+oh actually no it ,ओह वास्तव में यह नहीं है,O O O O O O,
+I think that would be ,मुझे लगता है कि यह होगा,O O O O O O,
+okay so what you final plan ,ठीक है तो आप अंतिम योजना क्या है,O O O O O O O O,
+okay first off I using both engines from Elmira ,ठीक है  पहले मैंने एल्मिरा के दोनों इंजनों का उपयोग किया,O O O O O O O O O O O,engines Elmira
+okay ,ठीक है,O O,
+one is gonna go by itself and pick up one tanker of can I carry oranges in tankers ,एक अपने आप से जाने वाला है और क्या मैं टैंकरों में संतरे ले सकता हूं,B-number O O O O O O O O O B-vehicle O O O O O,tanker oranges
+no ,नहीं,O,
+then I cannot do that then ,तब मैं ऐसा नहीं कर सकता,O O O O O O,
+you can take boxcars with you at there are boxcars available at Elmira ,आप अपने साथ बॉक्सकार ले जा सकते हैं  एल्मिरा में बॉक्सकार उपलब्ध हैं,O O O O O O O O O O O O O,boxcars boxcars Elmira
+three right two well I guess alright and then I pick up another one on the way ,तीन ठीक दो अच्छी तरह से मैं ठीक लगता है और फिर मैं रास्ते में एक और उठाता हूं,B-number O B-number O O O O O O O O O O O O B-number O O O,
+alright so each engine has one boxcar I go to Corning one of the engine goes picks up a they both fill up with oranges that another hour ,ठीक है तो प्रत्येक इंजन में एक बॉक्सकार होता है जिसे मैं कॉर्निंग में जाता हूं एक इंजन में से एक उठाता है जो दोनों एक दूसरे संतरे से भरते हैं जो एक और घंटे,O O O O O O B-number O O O O O O O O O O O O O O O O O O O O O O O O O O O O,engine boxcar engine oranges hour
+okay so we at three in the morning ,ठीक है तो हम सुबह के तीन बजे,O O O O B-period-of-day O B-number O,
+right ,सही,O,
+okay ,ठीक है,O O,
+so and then one of the engines heads back to Elmira ,इसलिए और फिर इंजनों में से एक एल्मिरा के पास वापस आ गया,O O O O O O B-number O O O O O O,engines Elmira
+okay ,ठीक है,O O,
+that ,उस,O,
+five am ,पाँच बजे,B-time O,am
+five am and then loads picks up a tanker ,सुबह पांच बजे और फिर एक टैंकर को लोड किया,O B-time O O O O B-vehicle O O O,am
+alright ,ठीक है,O O,
+and then and then fills up with orange juice ,और फिर संतरे का रस भरता है,O O B-food O I-food O O,
+so that six am ,ताकि छह बजे,O B-time O,am
+okay and then go straight from Elmira to Bath ,ठीक है और फिर सीधे एल्मिरा से स्नान के लिए जाएं,O O O O O O O O O O O,Elmira Bath
+that ten am ,वह दस बजे,O B-time O,am
+yes and ,हाँ और,O O,
+so at ten am we have one tanker of OJ at Bath ,इसलिए सुबह दस बजे हमारे पास बाथ में ओजे का एक टैंकर है,O O B-time O O O O O O O B-number B-vehicle O,am OJ Bath
+right ,सही,O,
+okay ,ठीक है,O O,
+okay and so the other engine which has one boxcar ,ठीक है और इसलिए दूसरा इंजन जिसमें एक बॉक्सकार है,O O O O O O O B-number O O,engine boxcar
+mm-hm ,मिमी-एचएम,O,
+goes so we have just one tanker okay goes to goes from Elmira to Dansville ,जाता है तो हमारे पास सिर्फ एक टैंकर है ठीक है एल्मिरा से डांसविले तक जाता है,O O O O O O B-number B-vehicle O O O O O O O O O,Elmira Dansville
+okay so it gets there at three donot you want to pick up oranges on the way ,ठीक है  तो यह तीन डोनट में मिलता है जिसे आप रास्ते में संतरे लेना चाहते हैं,O O O O B-number O O O O O O O O O O O O,oranges
+oh yes that right I sorry stop at Corning pick up oranges ,ओह हाँ  सही है कि मुझे खेद है कॉर्निंग पिक संतरे पर रोक,O O O O O O O O O O O O O,Corning oranges
+okay ,ठीक है,O O,
+okay that ,ठीक है कि,O O O,
+okay so it four ,ठीक है तो यह चार,O O O O B-number,
+that four oh plus stop in Dansville pick up a boxcar ,डान्सविले में चार ओह प्लस स्टॉप एक बॉक्सर उठाते हैं,O O B-number O O O O O O O,Dansville boxcar
+okay that doesnot take any time ,ठीक है कि किसी भी समय नहीं है,O O O O O O O O,
+okay and then go straight to Avon ,ठीक है और फिर सीधे एवन पर जाएं,O O O O O O O O,Avon
+that seven am ,वह सात बजे,O B-time O,am
+uh load for an hour eight am and then drive from Avon to Bath ,उह एक घंटे के लिए आठ बजे लोड और फिर एवन से बाथ तक ड्राइव करें,O O O O O B-time O O O O O O O O O O,am Avon Bath
+Avon to Bath twelve ,एवन टू बाथ बारह,O O O B-number,Avon Bath
+twelve ,बारह,B-number,
+okay ,ठीक है,O O,
+okay then that complete,ठीक है फिर वह पूरा,O O O O O,
+okay yes I looking to ship three boxcars of bananas to Bath and two tankers of OJ to Dansville ,ठीक है  मैं बाथ के लिए केले के तीन बॉक्सर और ओजे के दो टैंकरों डांसविले को भेजना चाहता हूं,O O O O O O O O B-number O O O O B-number B-vehicle O O O O O,boxcars bananas Bath OJ Dansville
+all deliveries must be made before noon okay ,दोपहर से पहले सभी डिलीवरी होनी चाहिए,O O O O O O O,noon
+so three boxcars of bananas to where ,तो केले के तीन बॉक्सर कहाँ,O O O B-number O O,boxcars bananas
+Bath ,स्नान,O,Bath
+mm-hm ,मिमी-एचएम,O,
+and two tankers of OJ to Dansville ,और OJ के दो टैंकरों Dansville के लिए,O O O B-number B-vehicle O O O,OJ Dansville
+okay ,ठीक है,O O,
+so okay let start with our bananas ,तो ठीक है  हमारे केले के साथ शुरू करते हैं,O O O O O O O O O O,bananas
+okay we have an engine ,ठीक है हमारे पास एक इंजन है,O O O O O O O,engine
+mm-hm ,मिमी-एचएम,O,
+mm how do I want to do this alright I try this way and see if it works ,मिमी मैं यह कैसे करना चाहता हूं ठीक है मैं इस तरह से कोशिश करता हूं और देखता हूं कि यह काम करता है या नहीं,O O O O O O O O O O O O O O O O O O O O O O O O O O,
+we have an I pick up use my engine in Avon ,हमारे पास एवन में मेरे इंजन का उपयोग करने वाला I पिकअप है,O O O O O O O O O O O O O,engine Avon
+okay ,ठीक है,O O,
+and go to Dansville ,और डांसविले जाओ,O O O,Dansville
+okay it takes three hours ,ठीक है  तीन घंटे लगते हैं,O O B-time-duration I-time-duration O O,
+pick up boxcars ,बॉक्सकार उठाओ,O O,boxcars
+okay ,ठीक है,O O,
+all three of them and then go back ,वे तीनों और फिर वापस चले गए,O O O O O O O,three
+another three hours so it six am ,एक और तीन घंटे तो यह छह बजे है,O O B-time-duration I-time-duration O O B-time O O,am
+right load ,सही लोड,O O,
+mm-hm ,मिमी-एचएम,O,
+three cars of ,की तीन कारें,O B-number O,
+so it seven am ,तो यह सात बजे है,O O B-time O O,am
+so that an hour ,ताकि एक घंटा,O O O,
+and then drive to Bath that eleven right ,और फिर उस ग्यारह को स्नान करने के लिए ड्राइव करें,O O O B-number O O O O O O O,Bath
+that eleven am ,वह ग्यारह बजे,O B-time O,am
+okay and now we have to at the same time leaving at twelve I guess I have two tankers need two tankers of OJ to Dansville ,ठीक है और अब हमें एक ही समय पर बारह पर छोड़ना है मुझे लगता है कि मेरे पास दो टैंकर हैं जो ओजे से डांसविले के दो टैंकरों की जरूरत है,O O O O O O O O O B-time O O O O O O O O O B-number O O O O O O O O B-vehicle O O O,OJ Dansville
+okay so I start in Corning with two tankers ,ठीक है  इसलिए मैं दो टैंकरों के साथ कॉर्निंग में शुरू करता हूं,O O O O B-number B-vehicle O O O O O O O,Corning
+you need an engine ,आपको एक इंजन की आवश्यकता है,O O O O O O,engine
+oh I need an engine and I need boxcars okay alright so I start in Elmira ,ओह  मुझे एक इंजन की आवश्यकता है और मुझे बॉक्सर की आवश्यकता है ठीक है ठीक है इसलिए मैं एल्मिरा में शुरू करता हूं,O O O O O O O O O O O O O O O O O O O O O O O O,engine boxcars Elmira
+okay ,ठीक है,O O,
+with how many boxcars do I need to make two tankers ,कितने टैंकरों के साथ मुझे दो टैंकर बनाने की जरूरत है,O B-vehicle O O O B-number O O O O O,boxcars
+two ,दो,B-number,
+two okay start with one engine in Elmira and two boxcars ,दो ठीक Elmira में एक इंजन और दो boxcars के साथ शुरू करते हैं,B-number O O O B-number O O O B-item O O O O O,engine Elmira
+mm-hm ,मिमी-एचएम,O,
+and then I go to Corning two hours ,और फिर मैं दो घंटे Corning जाता हूं,O O O B-time-duration I-time-duration O O O,Corning
+okay so it two am ,ठीक है  तो यह दो बजे है,O O O O B-time O O,am
+yeah right uh load the oranges ,हाँ सही उह संतरे लोड करते हैं,O O O O O O O,oranges
+three am ,तीन बजे,B-time O,am
+and pick up two tankers which doesnot take time ,और दो टैंकर उठाएं  जिसमें समय नहीं लगता,O B-number O O O O O O,tankers
+right ,सही,O,
+right ,सही,O,
+mm-hm ,मिमी-एचएम,O,
+and then back to Elmira that ,और फिर वापस एल्मिरा कि,O O O O O,Elmira
+five am ,पाँच बजे,B-time O,am
+five am and I get two fill my two tankers with orange juice six am right ,पाँच बजे और मुझे दो दो टैंकर मिले हैं जो संतरे के रस से छह हैं,B-time O O O B-number O O O O O B-food O I-food O B-time O,am tankers am
+mm-hm ,मिमी-एचएम,O,
+and then I go directly from Elmira to Bath ,और फिर मैं सीधे एलमीरा से स्नान करने जाता हूं,O O O O O O O O O O,Elmira Bath
+Elmira to Bath is ten am ,इल्मीरा से स्नान तक का समय सुबह दस बजे है,O O O O O O O B-time O O,Elmira Bath am
+ten am okay that should do it ,दस तो ठीक है जो करना चाहिए,B-time O O O O O O,am
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes I must ship two boxcars of bananas and two boxcars of oranges to Dansville ,हां  मुझे केले के दो बॉक्सकार और संतरे के दो बॉक्सकार को डांसविले में भेजना चाहिए,O O O O B-number O O O O O O O O O O O,boxcars bananas boxcars oranges Dansville
+and all this must arrive there by ten am ,और यह सब दस बजे तक वहाँ पहुँच जाना चाहिए,O O O B-time O O O O O O,am
+okay ,ठीक है,O O,
+okay alright I gonna start I guess I have two boxes of bananas ,ठीक है ठीक है मैं शुरू करने वाला हूं मुझे लगता है कि मेरे पास केले के दो बक्से हैं,O O O O O O O O O O O O O O O O O B-number O O,boxes bananas
+two boxcars and two boxcars of oranges okay I gonna start actually with my oranges ,दो बॉक्सकार और संतरे के दो बॉक्सकार ठीक हैं मैं वास्तव में अपने संतरे के साथ शुरू करने वाला हूं,B-number O O O O O O O O O O O O O O O O O O O,boxcars boxcars oranges oranges
+okay ,ठीक है,O O,
+and leave Elmira ,और एल्मिरा को छोड़ दें,O O O O O,Elmira
+mm-hm ,मिमी-एचएम,O,
+twelve am ,बारह बजे,B-time O,am
+okay ,ठीक है,O O,
+um one engine and two boxcars ,उम एक इंजन और दो बॉक्सकार,O B-number O O B-number O,engine boxcars
+okay ,ठीक है,O O,
+go to Corning ,कॉर्निंग पर जाएं,O O O,Corning
+okay ,ठीक है,O O,
+and um load so that uh three am ,और उम लोड इतना है कि उह तीन बजे,O O O O O O O B-time O,am
+three am ,तीन बजे,B-time O,am
+and then go to Dansville ,और फिर डांसविले जाएं,O O O O,Dansville
+okay so that four am ,ठीक है  ताकि चार बजे,O O O B-time O,am
+four am okay and that my two boxcars of oranges ,चार ठीक है और मेरे संतरे के दो बॉक्सर हैं,B-time O O O O O O B-number O O,am boxcars oranges
+and okay then I guess I use my other my other engine in Avon ,और ठीक है  फिर मुझे लगता है कि मैं एवन में अपने दूसरे इंजन का उपयोग करता हूं,O O O O O O O O O O O O O O O O O O,engine Avon
+mm-hm ,मिमी-एचएम,O,
+and I will go to Bath which is four hours ,और मैं स्नान करने जाऊंगा जो चार घंटे का है,O O O O O O B-time-duration I-time-duration O O,
+okay ,ठीक है,O O,
+is that four hours ,वह चार घंटे है,O B-time-duration I-time-duration O,
+that four hours ,वह चार घंटे,O B-time-duration I-time-duration,
+hm I donot think that gives me enough time how how long is it the same distance to Bath and Dansville ,hm I donot यह सोचता है कि इससे मुझे पर्याप्त समय मिल जाता है कि स्नान और डांसविले के लिए यह दूरी कितनी लंबी है,O O O O O O O O O O O O O O O O O O O O O O O O O,Bath Dansville
+no Dansville only three hours ,नो डांसविले केवल तीन घंटे,O O O B-time-duration I-time-duration,Dansville
+okay then I will go to Dansville ,ठीक है फिर मैं डांसविले जाऊंगा,O O O O O O,Dansville
+okay ,ठीक है,O O,
+pick up two boxcars ,दो बॉक्सर उठाओ,B-number O O,boxcars
+so that ,ताकि,O,
+three am ,तीन बजे,B-time O,am
+and then go back ,और फिर वापस जाओ,O O O O,
+okay ,ठीक है,O O,
+to Avon ,यह एवन है,O O O,Avon
+that six am ,वह छह बजे,O B-time O,am
+that six am ,वह छह बजे,O B-time O,am
+so my bananas ,इसलिए मेरे केले,O O O,bananas
+seven am ,सुबह के सात,O O B-time,am
+and then go back to Dansville which is ten am ,और फिर डान्सविले में वापस जाओ जो दस बजे है,O O O O O O O B-time O O,Dansville am
+ten am ,सुबह के 10 बजे,O O O O,ten am
+okay ,ठीक है,O O,
+do you have all that ,क्या आपके पास वह सब है,O O O O O O,
+mm-hm ,मिमी-एचएम,O,
+okay that it ,ठीक है कि यह,O O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes um I like to ship two boxcars of bananas to Corning um ,हाँ उम मैं कॉर्निंग उम के लिए केले के दो बॉक्सकार जहाज करना पसंद करता हूं,O O O O O O O O O B-number O O O O O O,boxcars bananas Corning
+let see ,देखते हैं,O O,
+how long does it take to get um an engine from Avon to Dansville and then back carrying two boxcars ,एवन से डांसविले तक ओम् को लाने में कितना समय लगता है और फिर दो बॉक्सकार ले जाते हैं,O O O O O O O O O O O O O O B-number O O O O,engine Avon Dansville boxcars
+uh seven no six hours ,उह सात नहीं छह घंटे,O B-number O B-time-duration I-time-duration,
+okay six hours and then how long to fill the two boxcars with bananas and ship it to Bath ,ठीक छह घंटे और फिर कब तक दो बॉक्स को केले के साथ भरना और उसे स्नान के लिए भेजना,O B-time-duration I-time-duration O O O O B-number O O O O O O O O O O O O,boxcars bananas Bath
+uh five hours ,उह पांच घंटे,O B-time-duration I-time-duration,
+okay let do that ,ठीक है  चलो,O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes um let see ,हाँ उम देखने दो,O O O O,
+how long will it take to transport um hm an engine to Corning ,कब तक um hm को इंजन से कॉर्निंग तक ले जाने में समय लगेगा,O O O O O O O O O O O O O O,engine Corning
+to pick up a tanker and then back to Elmira ,एक टैंकर लेने के लिए और फिर एलमीरा के लिए वापस,O B-vehicle O O O O O O O O O,Elmira
+uh which engine would you like to take ,उह कौन सा इंजन लेना चाहोगे,O O O O O O,engine
+how about the faster one ,कैसे तेजी से एक के बारे में,O O O B-number O O O,
+alright there an engine in Elmira ,ठीक है एल्मिरा में एक इंजन है,O O O O O O O,engine Elmira
+yeah ,हाँ,O,
+it will take two hours to Corning ,कॉर्निंग में दो घंटे लगेंगे,O O B-time-duration I-time-duration O,Corning
+mm-hm ,मिमी-एचएम,O,
+uh and I sorry you said pick up a boxcar and go to Bath ,उह और मुझे खेद है कि आपने कहा कि एक बॉक्सर उठाओ और स्नान करो,O O O O O O O O O O O O O O O,boxcar Bath
+no I said uh pick up a tanker and go back to Elmira ,नहीं  मैंने कहा उह एक टैंकर उठाओ और एल्मिरा वापस जाओ,O O O O O B-vehicle O O O O O,Elmira
+ah uh that will be four hours total ,आह उह कि कुल चार घंटे होंगे,O O O O B-time-duration I-time-duration O,
+okay and how long would it take it then to deliver that tanker of OJ to Avon ,ठीक है और कब तक इसे तब तक ले जाएगा जब तक कि ओजे के टैंकर को एवन तक पहुंचाने के लिए,O O O O O O O O O O O O O O O B-vehicle O O O O O O,OJ Avon
+you like to make out orange juice in Elmira and deliver it in Avon uh that would take seven hours ,आप एल्मिरा में संतरे का रस बनाना पसंद करते हैं और इसे एवन उह में वितरित करते हैं जिसमें सात घंटे लगते हैं,O O O B-food O I-food O O O O O O O O O O O O O B-time-duration I-time-duration O O,Elmira Avon
+okay so that eleven hours for the uh entire thingy um ,ठीक है  तो उह पूरी बात उम के लिए ग्यारह घंटे,O O O O O O O O O B-time-duration I-time-duration,
+are you picking up oranges in Corning ,क्या आप कोर्निंग में संतरे उठा रहे हैं,O O O O O O O O,oranges Corning
+no I I picking up a tanker in Corning to go back to Elmira to fill it with orange juice ,सं। रस को भरने के लिए कोई भी II कॉर्निंग में एक टैंकर नहीं उठाता और वापस एलमीरा में जाता है,O I-food O O O O O O O O O O B-vehicle O O O O O O O O,Corning Elmira orange
+okay do you have oranges in Elmira ,ठीक है  आपके पास एल्मिरा में संतरे हैं,O O O O O O O O,oranges Elmira
+there an OJ factory ,एक OJ कारखाना है,O O O O,OJ factory
+you need oranges to make orange juice ,संतरे का जूस बनाने के लिए आपको संतरे की जरूरत होती है,B-food O I-food O O O O O O O O O,oranges
+okay then how if I take an engine along with a boxcar over to Corning ,ठीक है तो फिर कैसे अगर मैं एक बॉक्सर के साथ-साथ कॉर्निंग पर इंजन ले जाऊं,O O O O O O O O O O O O O O O O,engine boxcar Corning
+mm-hm ,मिमी-एचएम,O,
+add a tanker on ,एक टैंकर जोड़ें,O B-vehicle O,
+mm-hm ,मिमी-एचएम,O,
+fill the uh boxcar with oranges and bring it back to Elmira to have it turned into juice ,संतरे के साथ उह बॉक्सकार भरें और इसे रस में बदल देने के लिए एल्मिरा को वापस लाएं,O O O O O O O O I-food O O O O O O O O O,boxcar oranges Elmira
+and drop off the drop off the boxcar fill the tanker with orange juice and deliver it to Avon ,और बॉक्सकार से बूंद बूंद करके टैंकर को संतरे के रस से भर दें और इसे एवन में पहुंचा दें,O O O O O O B-vehicle O B-food O I-food O O O O O O O O O,boxcar Avon
+that will take twelve hours ,बारह घंटे लगेंगे,B-time-duration I-time-duration O,
+okay and can I have something else going on concurrently ,ठीक है और क्या मैं समवर्ती रूप से कुछ और कर सकता हूं,O O O O O O O O O O O O O,
+yes ,हाँ,O,
+okay uh I need to ship a boxcar of bananas to Corning um ,ठीक है उह मुझे केले के एक बॉक्सर को कॉर्निंग उम में शिप करना होगा,O O O O O O O O O O O O O O O,boxcar bananas Corning
+okay how about the engine from how how long would it take to take the engine from Avon to Dansville and also from Avon to Bath ,ठीक है कि इंजन के बारे में कितनी देर से इंजन को एवन से डांसविले तक ले जाया जाएगा और एवन से बाथ तक,O O O O O O O O O O O O O O O O O O O O O O O O,engine engine Avon Dansville Avon Bath
+uh three hours to from Avon to Dansville and four hours from Avon to Bath ,उह एवन से डांसविले तक तीन घंटे और एवन से बाथ तक चार घंटे,O O O O O B-time-duration I-time-duration O O O O O B-time-duration O,Avon Dansville Avon Bath
+okay let take the engine from Avon to Dansville pick up a boxcar ,ठीक है  एवन से डांसविले तक इंजन को एक बॉक्सकार लेने दें,O O O O O O O O O O O O,engine Avon Dansville boxcar
+bring it back to Avon to pick up bananas and then deliver it to Corning ,केले लेने के लिए एवन में वापस लाएं और फिर इसे कॉर्निंग तक पहुंचाएं,O O O O O O O O O O O O O O,Avon bananas Corning
+alright ,ठीक है,O O,
+would you like to know how long that will take ,क्या आप जानना चाहेंगे कि इसमें कितना समय लगेगा,O O O O O O O O O,
+yes ,हाँ,O,
+uh ,उह,O,
+by the shortest route it would take eleven hours ,सबसे छोटे मार्ग से ग्यारह घंटे लगते थे,O O O O B-time-duration I-time-duration O O,
+okay and it was uh how long was the trip from Avon to Dansville and back to Avon ,ठीक है और यह उह कितनी देर तक एवन से डांसविले और वापस एवन की यात्रा थी,O O O O O O O O O O O O O O O O O,Avon Dansville Avon
+there ,क्या आप वहां मौजूद हैं,O O O O O,
+three hours each way ,तीन घंटे हर तरह से,B-time-duration I-time-duration O O O,
+okay ,ठीक है,O O,
+hm ,एचएम,O,
+so that would get it in by three ,ताकि यह तीन में मिल जाएगा,O O B-number O O O,
+um ,एक,O,
+it three am or three pm ,यह तीन बजे या तीन बजे है,O B-time O O O O O,am pm
+oh hold on ,ओह पकड़ो,O O,
+oh it three pm yeah that fine ,ओह यह तीन बजे हाँ ठीक है,O O B-time O O O O,pm
+then it fine ,तो ठीक है,O O O,
+okay ,ठीक है,O O,
+okay let go with that route ,ठीक है  उस मार्ग से चलो,O O O O O O,
+okay ,ठीक है,O O,
+I am now finished ,मैं अब समाप्त हो गया हूं,O O O O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes I like to determine the maximum number of boxcars of oranges ,हाँ  मुझे संतरे के बॉक्सकार की अधिकतम संख्या निर्धारित करना पसंद है,O O O O O O O O O O O O,boxcars oranges
+that I can get from that I can get to Bath by seven am ,कि मैं सुबह सात बजे तक स्नान कर सकता हूं,O O O B-time O O O O O O,Bath am
+um let see ,उम देखने दो,O O O,
+how long it take an engine to go from Elmira to Corning ,एल्मिरा से कॉर्निंग तक जाने में इंजन को कितना समय लगता है,O O O O O O O O O O O O,engine Elmira Corning
+two hours ,दो घंटे,B-time-duration I-time-duration,
+okay um ,ठीक,O,
+then let let send one engine with two boxcars to Corning to pick up oranges ,फिर दो डिब्बे के साथ एक इंजन भेजने के लिए कॉर्निंग को संतरे उठाते हैं,O B-number O O O B-number O O O O O O O O O,engine boxcars Corning oranges
+then down to Bath how long would that take ,फिर नीचे स्नान करने में कितना समय लगेगा,O O O O O O O O,Bath
+five hours ,पाँच घंटे,B-time-duration I-time-duration,
+okay and how long to take an engine from the other engine from Elmira to Corning to Dansville to pick up three boxcars ,ठीक है और कब तक एल्मिरा के कॉर्निंग से दूसरे इंजन से तीन डिब्बे तक लेने के लिए कोन्सिंग से डान्सविले तक का इंजन लेना,O O O O O O O O O O O O B-number O O O O O O O O O O O O,engine engine Elmira Corning Dansville boxcars
+uh three hours ,उह तीन घंटे,O B-time-duration I-time-duration,
+three hours from Elmira to Dansville ,एल्मिरा से डांसविले तक तीन घंटे,O O O O B-time-duration I-time-duration,Elmira Dansville
+correct ,सही बात,O O,
+okay and then back to Corning ,ठीक है और फिर वापस कॉर्निंग के लिए,O O O O O O O O,Corning
+that another hour ,वह एक और घंटा,O O O O,hour
+another hour and then to fill that with oranges and deliver it to Bath ,एक और घंटा और फिर उसे संतरे से भरना और उसे बाथ में पहुंचाना,O O O O O O O O O O O O O O,oranges Bath
+uh would take another three hours so a total of seven hours ,उह को कुल तीन घंटे का समय लगेगा,O O O B-time-duration I-time-duration O O O,seven
+okay and it was five hours for the Elmira Corning Bath engine ,ठीक है और एल्मिरा कॉर्निंग बाथ इंजन के लिए पांच घंटे का समय था,O O O O O O O O O B-time-duration I-time-duration O O O,Elmira Corning Bath engine
+correct ,सही बात,O O,
+and how long from Bath to Corning ,और कब तक बाथ से कॉर्निंग तक,O O O O O O O,Bath Corning
+two hours ,दो घंटे,B-time-duration I-time-duration,
+two hours ,दो घंटे,B-time-duration I-time-duration,
+okay and the engine from Avon to Dansville is three hours ,ठीक है और एवन से डांसविले तक का इंजन तीन घंटे का है,O O O O O O O O O B-time-duration I-time-duration O O,engine Avon Dansville
+uh yes ,उह हाँ,O O,
+okay and from Avon to Bath is four hours ,ठीक है और एवन से स्नान तक चार घंटे हैं,O O O O O O O B-time-duration I-time-duration O,Avon Bath
+correct ,सही बात,O O,
+okay let take um the Avon engine to Bath to pick up the two boxcars ,ठीक है दो बॉक्स लेने के लिए स्नान करने के लिए एवन एवन इंजन लें,O O B-number O O O O O O O O O O O O,Avon engine Bath boxcars
+mm-hm ,मिमी-एचएम,O,
+and head up to Corning to pick up oranges and deliver it to Bath ,और कॉर्निंग तक सिर उठाकर संतरे उठाते हैं और उसे बाथ तक पहुंचाते हैं,O O O O O O O O O O O O O O,Corning oranges Bath
+okay that a total of uh nine hours ,ठीक है कि उह के कुल नौ घंटे,O O O O O O B-time-duration I-time-duration,
+ooh it is ,ऊह यह है,O O O,
+mm-hm ,मिमी-एचएम,O,
+okay well looks like that would get me anywhere so I guess I just be doing the two engines from Elmira ,ठीक है अच्छी तरह से लग रहा है कि मुझे कहीं भी मिल जाएगा तो मुझे लगता है कि मैं सिर्फ एल्मिरा से दो इंजन कर रहा हूं,O O O O O O O O O O O O O O O O O O O O O O O B-number O O O O,engines Elmira
+okay ,ठीक है,O O,
+um you could take an engine from Avon through Dansville to Corning ,um आप डान्सविले से कॉर्निंग के लिए एवन से एक इंजन ले सकते थे,O O O O O O O O O O O O O O,engine Avon Dansville Corning
+those boxcars have already been picked up by the one from Elmira ,उन मुक्केबाजों को पहले ही एल्मिरा से उठाया गया है,O O O O O O O O O O,boxcars one Elmira
+ah correct okay ,आह ठीक है,O O O,
+I am now finished ,मैं अब समाप्त हो गया हूं,O O O O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes I would like to ship two boxcars of oranges to Elmira to be turned into two tankers of OJ ,हां  मैं एलजेरा के दो बॉक्सकार संतरे को ओजे के दो टैंकरों में बदलना चाहता हूं,O O O O B-number O O O O O O B-vehicle O O O O,boxcars oranges Elmira OJ
+and to ship it to from Elmira to Avon ,और इसे एलमीरा से एवन तक पहुंचाने के लिए,O O O O O O O O O,Elmira Avon
+um let see ,उम देखने दो,O O O,
+now how long does it take um an engine at Elmira to bring the two boxcars to Corning and fill them with oranges and bring them back to Elmira ,अब कब तक एलमिरा के इंजन को कॉम्बिंग के लिए दो बॉक्सकार लाने और उन्हें संतरे से भरने और उन्हें एल्मिरा में वापस लाने में कितना समय लगता है,O O O O O O O O O O B-number O O O O O O O O O O O O O O O O O O,engine Elmira boxcars Corning oranges Elmira
+five hours ,पाँच घंटे,B-time-duration I-time-duration,
+five hours okay and then to take the orange juice over the shortest route from Elmira to Avon ,पांच घंटे ठीक है और फिर एल्मिरा से एवन तक के सबसे छोटे मार्ग पर संतरे का रस लेने के लिए,B-time-duration I-time-duration O O O O O O O O O O O O O B-food O I-food O O O,Elmira Avon
+uh that would be six hours plus time for making the orange juice it a total of seven hours ,उह कि संतरे का रस बनाने के लिए छह घंटे का समय होगा और कुल सात घंटे,O O B-food O I-food O O O B-time-duration I-time-duration O O O O O B-time-duration O,
+okay that gets it there on time I now finished ,ठीक है कि यह समय पर हो जाता है मैं अब समाप्त हो गया,O O O O O O O O O O O O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes I planning a round trip from Avon to Elmira um ,हाँ मैं एवन से एलमीरा उम तक एक दौर की यात्रा की योजना बना रहा हूं,O O O O O O O O O O O O O O O O,Avon Elmira
+on the way I need to take three boxcars of bananas and deliver each to Bath Corning and Elmira ,रास्ते में मुझे केले के तीन बॉक्सर लेने और प्रत्येक को बाथ कॉर्निंग और एल्मिरा को वितरित करने की आवश्यकता है,O O O O O B-number O O O O O O O O O O O O O O O,boxcars bananas Bath Corning Elmira
+um so how long does it take to go from Avon to Dansville to pick up three boxcars ,um तो तीन बॉक्सर लेने के लिए एवन से डांसविले जाने में कितना समय लगता है,O O B-number O O O O O O O O O O O O O,Avon Dansville boxcars
+bring it back to Avon and load them with bananas ,इसे एवन में वापस लाएं और केले के साथ लोड करें,O O O O O O O O O O O,Avon bananas
+seven hours ,सात घंटे,B-time-duration I-time-duration,
+seven hours okay um ,सात घंटे ठीक उम,B-time-duration I-time-duration O O,
+then head to Bath to drop off um one boxcar ,उसके बाद स्नान करने के लिए सिर से एक बॉक्सकार को छोड़ दें,O O O O O O O O B-number O O O O,Bath boxcar
+is four hours ,चार घंटे है,B-time-duration I-time-duration O,
+oh uh ,ओह उह,O O,
+five hours including unloading the cargo ,माल उतारने सहित पांच घंटे,O O O B-time-duration I-time-duration,cargo
+doesnot have to be unloaded just dropped off ,बस उतारने के लिए नहीं उतारना पड़ता है,O O O O O O O O,
+then four hours ,फिर चार घंटे,O B-time-duration I-time-duration,
+okay then to Corning to drop off another uh boxcar ,ठीक है फिर एक और उह बॉक्सर छोड़ने के लिए कॉर्निंग,O O O O O O O O O O O,Corning boxcar
+that another two hours ,वह दो घंटे,O B-time-duration I-time-duration,
+okay and from there um actually okay when at Bath uh does it take how much extra time does it take to um add on the two available boxcars ,ठीक है और वहाँ से उम वास्तव में ठीक है जब बाथ उह में यह होता है कि दो उपलब्ध बॉक्सकार पर ओउम जोड़ने में कितना अतिरिक्त समय लगता है,O O O O O O O O O O O O O O O O O O B-number O O O O O O O O O O O,Bath boxcars
+no time ,समय नहीं है,O O O,
+okay so let add those two on and when at Corning um load those two empty boxcars with oranges ,ठीक है  तो उन दोनों को जोड़ दें और जब कॉर्निंग उम में उन दो खाली बॉक्सकार को संतरे के साथ लोड करें,O O O O O O O O O O O O O O B-number O O O O O O O O,Corning boxcars oranges
+okay it will add one more hour for loading the oranges ,ठीक है  यह संतरे लोड करने के लिए एक और घंटे जोड़ देगा,O O O O O O O O B-number O O O O,oranges
+okay so it seven to pick up the bananas ,ठीक है  तो केले लेने के लिए सात,O O O O O O O B-number,bananas
+correct ,सही बात,O O,
+four to drop off at Bath ,चार स्नान पर छोड़ने के लिए,B-number O O O O O,Bath
+right ,सही,O,
+and another two ,और एक और दो,O O O B-number,
+to go to Corning ,कोर्निंग पर जाना है,O O O O,Corning
+and ,तथा,O,
+and one more hour to load the oranges ,और एक और घंटे के लिए संतरे लोड करने के लिए,O B-number O O O O O O O O O,oranges
+okay ,ठीक है,O O,
+um and from there let go to Elmira drop off the last boxcar of bananas and uh turn the oranges into orange juice ,उम और वहाँ से एलमिरा को केले के आखिरी बॉक्सकार से छोड़ कर उर संतरे के रस में बदल दें,O O O O O O O O O O O O O O B-food O I-food O O O,Elmira boxcar bananas oranges
+okay that will take a total of three hours ,ठीक है कि कुल तीन घंटे लगेंगे,O O O O B-time-duration I-time-duration O,
+okay and it doesnot take time to load two tankers onto the train at Corning ,ठीक है और कॉर्निंग पर ट्रेन में दो टैंकर लोड करने में समय नहीं लगता है,O O O O O B-vehicle O B-number O O O O O O O O,tankers Corning
+no ,नहीं,O,
+okay then we will also have the tankers on there ,ठीक है फिर हमारे पास वहाँ पर टैंकर भी होंगे,O O O O O O O O O O,tankers
+okay ,ठीक है,O O,
+um then once the OJ is turned into well once the oranges are turned into orange juice and loaded into the tankers ,um फिर एक बार संतरे के रस में बदल जाने और टैंकरों में लोड करने के बाद OJ अच्छी तरह से बदल जाता है,O O O O B-food O I-food O O O O B-vehicle O O O O O O O O O O O O,OJ oranges
+um take the shortest route back to Avon ,उम एवन के लिए सबसे छोटा रास्ता ले लो,O O O O O O O O O,Avon
+that will take six hours and it goes via by way of Corning and Dansville ,कि छह घंटे लगेंगे और यह कॉर्निंग और डांसविले के रास्ते से जाता है,O B-time-duration I-time-duration O O O O O O O O O O O,Corning Dansville
+okay and what the total time ,ठीक है और कुल समय क्या है,O O O O O O O,
+twenty two hours no twenty three hours ,बाईस घंटे नहीं तेईस घंटे,O I-time-duration O O O,twenty two twenty three
+okay that finishes in the time required I now finished ,ठीक है कि उस समय को समाप्त करना आवश्यक है जब मैं अब समाप्त हो गया,O O O O O O O O O O O O O O O O,
+hello can I help you ,क्या मै आपकी सहयता कर सकता हूँ,O O O O O O O,
+yes I need to transport two boxcars of oranges and one tanker of orange juice to Avon and there are some time constraints ,हाँ  मुझे संतरे के दो बॉक्सकार और नारंगी के रस के एक टैंकर को एवन में ले जाने की ज़रूरत है,O O B-food O B-number O O O O I-food O B-number B-vehicle O O O O O O O O,boxcars oranges Avon
+um I need to get the oranges to Elmira by seven am ,um मुझे सुबह सात बजे तक एलमीरा के लिए संतरे लाने हैं,O O O B-time O O O O O O O O,oranges Elmira am
+um so how long it take to take an engine and two boxcars of or and two boxcars to Corning to pick up oranges ,um तो कितना समय लगेगा एक इंजन और दो बॉक्सकार या दो बॉक्सकार को कॉर्निंग तक ले जाने के लिए संतरे लेने,O O O O O O O O B-number O O O O O O O O O O O O O,engine boxcars boxcars Corning oranges
+and take it back to Elmira along with a tanker ,और इसे टैंकर के साथ वापस एल्मिरा ले जाएं,O O B-vehicle O O O O O O,Elmira
+the fastest time would be taking an engine and boxcars from Elmira and that would take four hours round trip including attaching the tankers ,सबसे तेज समय एल्मिरा से एक इंजन और बॉक्सकार ले जाएगा और टैंकरों को संलग्न करने सहित चार घंटे की गोल यात्रा होगी,O O O O O O O O O O O O B-vehicle O O O O B-time-duration I-time-duration O O O O,engine boxcars Elmira
+okay so that get the oranges to Elmira by seven ,ठीक है ताकि एलमिरा को सात से संतरे मिलें,O O O O O B-number O O O,oranges Elmira
+it an additional hour to load the oranges in Corning so it will take five hours total and will arrive by seven ,कॉर्निंग में संतरों को लोड करने के लिए एक अतिरिक्त घंटा है  इसलिए इसे कुल पांच घंटे लगेंगे और सात तक पहुंचेंगे,O O B-food O O O O O O O O O O O O B-time-duration I-time-duration O O B-number O O,Corning
+okay um so that you said it was six hours ,ठीक है उम  तो आपने कहा कि यह छह घंटे था,O O O O O O O O B-time-duration I-time-duration O,
+five hours ,पाँच घंटे,B-time-duration I-time-duration,
+five hours okay and okay so I turn one of the orange one of the um boxcars of oranges into orange juice at Elmira ,पाँच घंटे ठीक है और ठीक है  इसलिए मैं नारंगी में से एक को नारंगी के रस में संतरे के उम बॉक्सर्स में से एक में बदल देता हूं,B-time-duration I-time-duration O O O O O O O B-food O O B-number O O O I-food O O O O O O O O O O O O,boxcars oranges Elmira
+and then I head back to Corning with um one boxcar full of oranges one tanker full of orange juice and one empty boxcar ,और फिर मैं संतरे के रस से भरे एक टैंकर और एक खाली संतरे से भरे एक बॉक्सर के साथ कॉर्निंग पर वापस जाता हूं,O O O B-food O I-food O O B-number B-vehicle O O O O O O O O O O O O O O O,Corning boxcar oranges boxcar
+and then load the last um um the last boxcar with oranges how long does that take ,और फिर संतरे के साथ आखिरी बॉक्स को अंतिम ओउम लोड करें जो कितना समय लेता है,O O O O O O O O O O O O O O O O O,boxcar oranges
+um including making the orange juice it takes four hours ,um संतरे का रस बनाने में चार घंटे लगते हैं,O B-food O I-food O O B-time-duration I-time-duration O O,
+okay and then how at what time will I arrive at where am I going at Avon ,ठीक है और फिर मैं किस समय अवन में कहां जाऊंगा,O O O O O O O O O O O,Avon
+from Corning ,कॉर्निंग से,O O,Corning
+yeah via the Dansville and Bath route ,हाँ Dansville और स्नान मार्ग के माध्यम से,O O O O O O O O,Dansville Bath
+uh four hours via Dansville six hours via Bath ,स्नान के माध्यम से छह घंटे डांसविले से चार घंटे,O O O O B-time-duration I-time-duration O O B-time-duration O,Dansville Bath
+okay so what times would I be arriving ,ठीक है तो मैं किस समय आऊंगा,O O O O O O O,
+uh nine one one pm via Dansville and uh and three pm via Bath ,उह नौ एक दोपहर डांसविले और उह के माध्यम से और तीन बजे स्नान के माध्यम से,O B-number B-time O O O O O O O O B-time O O O O O,pm Dansville pm Bath
+okay then let do it via the Bath route and we get there at three pm as scheduled I now finished,ठीक है फिर इसे बाथ मार्ग से जाने दो और हम तीन बजे मिलेंगे जैसे कि अब मैं समाप्त हो गया हूं,O O O O O O O O O O O B-time O O O O O O O O O O,pm
+hi can I help you ,हाय  क्या मैं आपकी मदद कर सकता हूं,O O O O O O O O,
+yeah hi I need to take a transport of a tanker of orange juice to Avon by three pm this by three pm this afternoon ,हाँ  मुझे आज दोपहर तीन बजे दोपहर तीन बजे तक एवन में नारंगी के रस के एक टैंकर का परिवहन करने की आवश्यकता है,O O O B-period-of-day B-time O O O O O O O B-food O I-food O O B-vehicle O O O O O O,Avon pm pm
+okay ,ठीक है,O O,
+alright so what do we have here we have three tankers available in Corning ,ठीक है तो हमारे पास यहां क्या है हमारे पास कॉर्निंग में तीन टैंकर उपलब्ध हैं,O O O O O O O O O O O O B-number O O O,tankers Corning
+and the orange juice is in Elmira ,और संतरे का रस एल्मिरा में है,O B-food O I-food O O O,Elmira
+so we have to get from Corning to Elmira first how long is it how long is the trip there by tanker ,इसलिए हमें कॉर्निंग से एल्मिरा तक जाना होगा कि टैंकर से यात्रा कितनी लंबी है,O O O O O O O O O B-vehicle O O O O O,Elmira
+two hours ,दो घंटे,B-time-duration I-time-duration,
+two hours so how long will it take to fill the tanker with orange juice ,नारंगी के रस से टैंकर को भरने में कितना समय लगेगा,B-food O I-food O B-vehicle O O O O O O,two hours
+one hour ,एक घंटा,B-time-duration O,hour
+one hour so that three hours total two hours back to Corning right ,एक घंटा ताकि तीन घंटे कुल दो घंटे वापस कॉर्निंग के लिए सही हो,B-time-duration O O B-time-duration I-time-duration O B-time-duration O O O O O O O,hour Corning
+um yes ,हाँ ,O,
+so ,इसलिए,O,
+it five hours so far ,अब तक पाँच घंटे,O O B-time-duration I-time-duration,
+actually the if you trying to fill how many tankers three ,वास्तव में यदि आप तीन टैंकरों को भरने की कोशिश कर रहे हैं,O O O O B-number B-vehicle O O O O O O O,
+no just one transport ,सिर्फ एक परिवहन नहीं,O B-number O O,
+oh just one okay ,ओह  बस एक ठीक है,O O B-number O O,
+mm-hm ,मिमी-एचएम,O,
+okay ,ठीक है,O O,
+just one okay so it five hours now that we back at Corning ,बस एक बार ठीक है तो अब पांच घंटे है कि हम वापस कॉर्निंग पर आए,O B-number O O O O O B-time-duration I-time-duration O O O O O O O,Corning
+yes ,हाँ,O,
+is it it is faster to go from Corning to Dansville correct and then to Avon ,क्या यह कॉर्निंग से डांसविले तक सही और फिर एवन तक जाना तेज़ है,O O O O O O O O O O O O O O,Corning Dansville Avon
+um let see yes to Dansville and and Avon is faster ,उम डांसविले के लिए हाँ देखते हैं और एवन तेज है,O O O O O O O O O O O,Dansville Avon
+okay so at the time now it will be five am in the morning how late would it be to get to Dansville ,ठीक है  तो उस समय अब सुबह के पांच बजे होंगे कि डांसविले के लिए कितनी देर होगी,O O O O O O B-period-of-day O B-time O O O O O O O O O,am Dansville
+okay five am at Corning then six am at Dansville um ,ठीक पाँच बजे कोर्निंग पर और फिर छह बजे डांसविले उम में,O B-time O O O O O B-time O O O O,am Corning am Dansville
+mm-hm ,मिमी-एचएम,O,
+nine am at Avon ,नौ बजे एवन,B-time O O,am Avon
+okay and it seems like the task will be completed way before three pm thank you ,ठीक है और ऐसा लगता है कि तीन बजे से पहले कार्य पूरा हो जाएगा धन्यवाद,O O O O O O O B-time O O O O O O O O,pm
+hi can I help you ,हाय  क्या मैं आपकी मदद कर सकता हूं,O O O O O O O O,
+yes hi system ,हाँ हाय सिस्टम,O O O,
+I need to uh ship one boxcar of bananas and one boxcar of oranges and one tanker of orange juice to Bath ,मुझे स्नान के लिए केले के एक बॉक्सकार और संतरे के एक बॉक्सर और संतरे के रस के एक टैंकर की आवश्यकता है,O O O O O O B-number O O B-food O O O O O O I-food O O B-vehicle O O O,boxcar bananas boxcar oranges Bath
+all these commodities must be in Bath by noon and it already midnight alright so first let let deal with the boxcar full of bananas ,ये सभी वस्तुएं दोपहर तक स्नान में होनी चाहिए और यह पहले से ही आधी रात को ठीक हो जाती है इसलिए पहले केले से भरे बॉक्सकार के साथ सौदा करने दें,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Bath noon midnight boxcar bananas
+um the banana warehouse is in is in Avon ,is केले का गोदाम एवन में है,O O O O O O O,banana warehouse Avon
+and the boxcars um the nearest available boxcars are in Dansville ,और बॉक्सर्स सबसे पास उपलब्ध बॉक्सकार डांसविले में हैं,O O O O O O O O O,boxcars boxcars Dansville
+right ,सही,O,
+so we have to take an engine from Avon to Dansville in order to pick up the boxcar returning pick up the bananas ,इसलिए हमें केले को लेने के लिए बॉक्सर को वापस लेने के लिए एवन से डांसविले तक इंजन ले जाना होगा,O O O O O O O O O O O O O O O O O O O O O,engine Avon Dansville boxcar bananas
+so how far is the distance between Avon and Dansville ,एवन और डांसविले के बीच कितनी दूरी है,O O O O O O O O,Avon Dansville
+three hours ,तीन घंटे,B-time-duration I-time-duration,
+okay so the engine will go to Dansville and pick up a boxcar how long will it take to hitch up ,ठीक है  इसलिए इंजन डैंसविले में जाएगा और एक बॉक्सकार को उठाएगा कि यह कितना समय लगेगा,O O O O O O O O O O O O O O O O O,engine Dansville boxcar
+uh no time at all ,उह बिल्कुल भी समय नहीं है,O O O O O O,
+okay so we hitch up that and come straight back that six hours right ,ठीक है  इसलिए हम इसे रोकते हैं और सीधे छह घंटे सही आते हैं,O O O O O O O O O B-time-duration I-time-duration O O O,
+right ,सही,O,
+okay oh my goodness and we will fill it full of bananas how long will it fill take to fill one thing boxcar of bananas ,ठीक है ओह मेरी अच्छाई और हम इसे केलों से भर देंगे और केले की एक चीज़ बॉक्सकार को भरने में कितना समय लगेगा,O O O O O O O O B-food O O O O O O B-number O O O O O O O O,boxcar
+one hour ,एक घंटा,B-time-duration O,hour
+okay so one hour and we will leave from Avon to Bath immediately ,ठीक है एक घंटे और हम तुरंत एवन से स्नान के लिए निकलेंगे,O O B-time-duration O O O O O O O O O O,hour Avon Bath
+what time will we get into Bath ,हम किस समय स्नान करेंगे,O O O O O,Bath
+starting at midnight um ,मध्यरात्रि उम से शुरू,O O O O,midnight
+mm-hm ,मिमी-एचएम,O,
+three hours six hours seven hours um eleven am ,तीन घंटे छह घंटे सात घंटे उम ग्यारह,B-time-duration I-time-duration B-time-duration O B-time-duration O O B-time,am
+eleven am okay ooh what time does it and how okay eleven am that just fine we have to be in by noon ,ग्यारह बजे तक ठीक है  क्या समय है और कितना ठीक ग्यारह है कि ठीक दोपहर तक हमें होना है,B-time O O O O O O O O O O O O O O O O O O O,am am noon
+okay now let deal with the boxcar of oranges ,ठीक है अब संतरे के बॉक्सकार से निपटो,O O O O O O O O,boxcar oranges
+orange warehouse is in Corning there three tankers available but they for some reason want a boxcar ,नारंगी गोदाम कोर्निंग में तीन टैंकर उपलब्ध हैं  लेकिन वे किसी कारण से एक बॉक्सकार चाहते हैं,B-food O O O B-number O O O O O O O O O O O O,warehouse Corning tankers boxcar
+so we gonna have to get a boxcar and let take engine number three ,तो हम एक बॉक्सकार पाने के लिए और इंजन नंबर तीन ले जाने के लिए है,O O O O O O O O O O I-vehicle-name O O O O O,boxcar engine
+okay ,ठीक है,O O,
+is there is one engine or engine two or three which one faster ,एक इंजन या इंजन दो या तीन है जो एक तेज है,B-number O O O I-vehicle-name O I-vehicle-name O O O O O,engine engine
+they equally fast ,वे समान रूप से उपवास करते हैं,O O O O O O O,
+equally fast okay let take engine number three hitch one of the boxcars and leave for Corning that one hour is that ,समान रूप से तेजी से ठीक है  बॉक्स नंबर के इंजन नंबर तीन अड़चन को ले लें और कॉर्निंग के लिए छोड़ दें कि एक घंटा वह है,O O O O O O O O O O O O I-vehicle-name O O O O O O O O O O O B-time-duration O O O,engine boxcars Corning hour
+two hours ,दो घंटे,B-time-duration I-time-duration,
+two hours okay two hours to Corning and we will fill it with um oranges and that takes one hour ,कॉर्निंग में दो घंटे ठीक हैं और हम इसे ओम संतरे से भर देंगे और इसमें एक घंटे का समय लगेगा,O O B-time-duration I-time-duration O O O O O O O O O O O O B-time-duration O O O O,Corning oranges hour
+yes ,हाँ,O,
+okay so we got three hours total now and into Bath immediately we what time would we have ,ठीक है  इसलिए हमें अब कुल तीन घंटे मिल गए हैं और तुरंत स्नान में हमारे पास क्या समय होगा,O O O O O O B-time-duration I-time-duration O O O O O O O O O O O O,
+it will take two hours so that be a total of five hours ,इसमें दो घंटे लगेंगे ताकि कुल पांच घंटे हो,O B-time-duration I-time-duration O O O B-time-duration O O,
+five hours okay five hours seems fine because that will put us in at five am this morning if we leave now right ,पांच घंटे ठीक पांच घंटे ठीक लगते हैं  क्योंकि अगर हम अभी छोड़ दें तो यह सुबह पांच बजे हमें डाल देगा,B-time I-time-duration O O O O O O O O O O O O O O B-period-of-day O O O O O,am
+yes ,हाँ,O,
+okay now we still have to deal with now we still have to deal with our tanker of orange juice ,ठीक है अब हमें अभी भी निपटना है और हमें अभी भी संतरे के रस के अपने टैंकर से निपटना है,O O O O O O O O O O O O B-food O I-food O O B-vehicle O O O,
+alright ,ठीक है,O O,
+um the tankers are only in available in Corning so to get the orange juice we have to go to Elmira which is two hours ,ओम् टैंकर केवल कॉर्निंग में उपलब्ध हैं इसलिए संतरे का रस लेने के लिए हमें एल्मिरा जाना होगा जो दो घंटे का है,O O O O O O O O B-food O I-food O O O O O O O O B-time-duration I-time-duration O O,tankers Corning Elmira
+and how long will it take to fill a tanker full of orange juice ,और संतरे के रस से भरे टैंकर को भरने में कितना समय लगेगा,O B-food O I-food O O B-vehicle O O O O O O,
+one hour ,एक घंटा,B-time-duration O,hour
+okay that three hours right there turn around come directly back to Corning that two more that five hours and it one hour to Bath or two ,ठीक है कि तीन घंटे के आसपास बारी-बारी से सीधे कॉर्निंग पर वापस आते हैं कि दो और पांच घंटे और नहाने के लिए एक घंटे,O O O B-time-duration I-time-duration O O O O O O O O O O O B-number O B-time-duration O O O O O B-time-duration O,Corning hour Bath
+two hours ,दो घंटे,B-time-duration I-time-duration,
+okay seven hours total ,कुल सात घंटे,O B-time-duration I-time-duration,
+but you donot have an engine at Corning to move the tanker ,लेकिन आपके पास टैंकर को स्थानांतरित करने के लिए कॉर्निंग पर इंजन नहीं है,O O O B-vehicle O O O O O O O O O O,engine Corning
+I didnot I was aware that the tankers had to be ,मैंने ध्यान नहीं दिया कि टैंकरों को होना था,O O O O O B-vehicle O O O,
+yes they have to have an engine ,हाँ  उनके पास एक इंजन होना चाहिए,O O O O O O O,engine
+they have to have an engine these are not trucks okay first why donot we take the engine from Elmira ,उनके पास एक इंजन होना चाहिए ये ट्रक ठीक नहीं हैं पहले हम एलमिरा से इंजन क्यों लेते हैं,O O O O O O O O O O O O O O O O O O O,engine trucks engine Elmira
+alright ,ठीक है,O O,
+and the ,और यह,O O,
+you mean engine E two ,आप इंजन ई दो का मतलब है,O O O I-vehicle-name O O O,engine E
+yes let take engine E two from Elmira and to Corning pick up the tanker come back to Elmira ,हाँ  एलमिरा से इंजन ई दो ले लो और कोर्निंग पिक करने के लिए टैंकर को वापस एल्मिरा में आ जाओ,O O O O O I-vehicle-name O O O O O O O O B-vehicle O O O O O O,engine E Elmira Corning Elmira
+and fill it full of orange juice come back and then to Bath what time do we have then ,और इसे संतरे के रस से भर दें और फिर स्नान करें कि हमारे पास क्या समय है,O O B-food O I-food O O O O O O O O O O O O O,Bath
+let see that five hours after filling it with orange juice and then from Elmira to Bath um seven eight nine hours ,आइए देखें कि संतरे के रस से भरने के पांच घंटे बाद और एल्मिरा से बाथ उम तक सात आठ नौ घंटे,O O O B-food O I-food O O O B-time-duration I-time-duration O O O O O O O B-number B-number B-time-duration O,Elmira Bath
+so if we start at um midnight you should be in at nine am ,इसलिए अगर हम um आधी रात को शुरू करते हैं तो आपको सुबह नौ बजे होना चाहिए,O O O O O O O O O O O O O B-time O O O,midnight am
+mm-hm ,मिमी-एचएम,O,
+um but you got both engine E three and engine E two on the same track between Elmira and Corning at the same time and that would work ,उम  लेकिन आपको एक ही समय में एल्मिरा और कॉर्निंग के बीच एक ही ट्रैक पर इंजन ई तीन और इंजन ई दोनों मिला,O O O O O O O O O O O O O O O O O O I-vehicle-name O O O O O,engine E engine E two Elmira Corning
+correct okay so what we gonna have to do is we gonna have to import an engine for either one ,ठीक है ठीक है तो हम जो करने वाले हैं वह यह है कि क्या हमें किसी एक के लिए एक इंजन आयात करना होगा,O O O O O O O O O O O O O O O O O B-number O O O O O O O,engine
+actually an engine can carry um a boxcar and a tanker at the same time ,वास्तव में एक इंजन एक ही समय में एक बॉक्सकार और एक टैंकर को ले जा सकता है,O O O O O O O O O O O O B-vehicle O O O O O,engine boxcar
+well would that be handy okay ,अच्छी तरह से यह ठीक होगा,O O O O O O,
+so what we do is the boxcar of bananas which is coming from Avon is that correct ,इसलिए हम जो करते हैं वह केले का डिब्बा है जो एवन से आ रहा है  यह सही है,O O O O O O O O O O O O O O O O O O O,boxcar bananas Avon
+we are picking up an we picking up a boxcar in Dansville coming back getting the bananas right ,हम डैनविल में एक बॉक्सकार उठा रहे हैं जो केले को सही तरीके से वापस ला रहा है,O O O O O O O O O O O O O O O O O O,boxcar Dansville bananas
+on our way instead of going directly into Bath ,सीधे स्नान में जाने के बजाय हमारे रास्ते पर,O O O O O O O O O,Bath
+mm-hm ,मिमी-एचएम,O,
+could we go on to Corning and pick up a tanker ,क्या हम कॉर्निंग पर जा सकते हैं और एक टैंकर उठा सकते हैं,O O O O O O O O O B-vehicle O O O,Corning
+wait wait wait okay so so this is engine E one that you talking about that went to ,रुको रुको रुको ठीक है तो यह इंजन ई एक है जिसे आप उस बारे में बात कर रहे हैं जो कि गया था,O O O O O O O O O I-vehicle-name O O O O O O O O O O O O O O,engine E
+engine E one goes to Dansville to get a boxcar right ,इंजन E एक बॉक्सकार अधिकार पाने के लिए Dansville जाता है,O O I-vehicle-name O O O O O O O O,engine E Dansville boxcar
+right ,सही,O,
+and then it comes back and fills full of bananas ,और फिर वह वापस आता है और केले से भरा होता है,O O O O O O O O O O O O,bananas
+right ,सही,O,
+instead of going to Bath how about if it went to Corning ooh how about this it can go into Bath drop off the bananas ,स्नान के बारे में जाने के बजाय अगर यह कॉर्निंग ऊ पर चला गया तो इसके बारे में यह कैसे केले से दूर स्नान में जा सकता है,O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Bath Corning Bath bananas
+and then go to Corning pick up a tanker ,और फिर एक टैंकर लेने कॉर्निंग पर जाएं,O O O B-vehicle O O O O,Corning
+go to Elmira and fill the tanker full of orange juice ,एलमीरा में जाएं और संतरे के रस से भरे टैंकर को भरें,O O O O B-food O I-food O O B-vehicle O O,Elmira
+this may be taking too much time cause you already you got it oh alright so instead of going to Dansville you just gonna go straight to Bath alright that skips some time ,इससे आपको बहुत समय लग सकता है क्योंकि आप पहले से ही इसे ठीक कर चुके हैं इसलिए डान्सविले जाने के बजाय आप सीधे स्नान करने के लिए सीधे जाने वाले हैं जो कुछ समय के लिए रुक जाता है,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Dansville Bath
+right ,सही,O,
+so what we doing now is we got we got our engine one in the banana warehouse ,तो अब हम जो कर रहे हैं वह यह है कि हमें अपने इंजन को केले के गोदाम में मिल गया,O O O O O O O O O O O O O O O O O O O O O,engine one banana warehouse
+mm-hm ,मिमी-एचएम,O,
+first it has to go to Dansville because it needs a boxcar then it comes back to Avon that two hours right ,पहले उसे डांसविले जाना पड़ता है क्योंकि उसे एक बॉक्सकार की जरूरत होती है  फिर वह एवन वापस आता है जो दो घंटे सही है,O O O O O O O O O O O O O O O O O O O O O B-time-duration I-time-duration O O,Dansville boxcar Avon
+uh it six hours to Dansville so that um excuse me it three hours to Dansville so that six hours total ,डांसविले के लिए यह छह घंटे उह इतना है कि उम मुझे यह Dansville के लिए तीन घंटे तो छह घंटे कुल है कि बहाना है,O O O O B-time-duration I-time-duration O O O O O O O O O O B-time-duration O O O O O O O O O,Dansville Dansville
+ooh ,उह,O,
+okay and now it fills the bananas and it goes to Bath ,ठीक है और अब यह केले को भरता है और यह स्नान को जाता है,O O O O O O O O O O O O O O O,bananas Bath
+okay ,ठीक है,O O,
+now how what time is it now it at eleven am right ,अब यह कैसा समय है अब ग्यारह बजे सही है,O O O O O O B-time O O O,am
+six um six seven eight nine ten yeah eleven am ,छह उम छह सात आठ नौ दस हाँ ग्यारह,B-number O O I-number I-number I-number I-number O B-time,am
+alright it drops off the bananas ,ठीक है  यह केले को छोड़ देता है,O O O O O O O O,bananas
+mm-hm ,मिमी-एचएम,O,
+ooh doesnot work it too much time ,ऊह यह बहुत ज्यादा समय काम नहीं करता है,O O O O O O O O O,
+yes it takes an hour to unload the bananas so ,हाँ  केले को उतारने में एक घंटा लगता है,O O O O O O O O O,bananas
+the bananas will just be in underneath the neck okay so now the bananas are a different issue let just deal with the oranges ,केले सिर्फ गर्दन के ठीक नीचे होंगे इसलिए अब केले एक अलग मुद्दे हैं जो सिर्फ संतरे के साथ काम करते हैं,O O O O O O O O O O O O O O O O O O O O O O,bananas bananas oranges
+alright oranges we have to get an engine for it so we go to Elmira and we get engine number two ,ठीक संतरे के लिए हमें एक इंजन प्राप्त करना होता है इसलिए हम एल्मिरा जाते हैं और हमें इंजन नंबर दो मिलता है,O O O O O O O O O O O O O O O O O O O O I-vehicle-name O O,oranges engine Elmira engine
+we come back to Corning and we will ,हम वापस कॉर्निंग पर आते हैं और हम करेंगे,O O O O O O O O O,Corning
+now wait who who going to Elmira so you starting with engine E two at Elmira ,अब इंतजार करें कि कौन एलमिरा जा रहा है इसलिए आप एल्मिरा में इंजन ई दो से शुरुआत करें,O O O O O O O O O O O O O O O I-vehicle-name O O O,Elmira engine E Elmira
+okay yes that right ,ठीक है हाँ  ठीक है,O O O O O,
+engine at okay engine at Elmira comes to Corning and it gets tanker oh and it brings with it a boxcar ,एल्मिरा में ठीक इंजन में इंजन कॉर्निंग पर आता है और इसे टैंकर ओह मिलता है और यह अपने साथ एक बॉक्सकार लाता है,O O O O O O O O O O O O B-vehicle O O O O O O O O O O O,engine engine Elmira Corning boxcar
+okay ,ठीक है,O O,
+okay ,ठीक है,O O,
+so from Elmira to Corning with boxcar we then we fill up the boxcar with oranges ,इसलिए एल्मिरा से बॉक्सिंग के साथ कॉर्निंग तक हम फिर संतरे के साथ बॉक्सकार भरते हैं,O O O O O O O O O O O O O O O O,Elmira Corning boxcar boxcar oranges
+okay ,ठीक है,O O,
+and then hm we how about we go back to Elmira and then fill up with the orange ooh no no no gracious gracious bad bad move ,और फिर हम कैसे हम एलमीरा के लिए वापस जाने के बारे में और फिर नारंगी ooh के साथ भरने के लिए कोई कोई अनुग्रह नहीं बुरा बुरा कदम,O O O O O O O O O O O O O O O B-food O O O O O O O O O O O O O,Elmira
+how about this we get the engine we get a boxcar oh that all we can do go to Elmira I mean go to Corning fill with oranges come back fill with orange juice and then go all the way down ,इस बारे में कि हमें किस तरह का इंजन मिलता है  हमें एक बॉक्सकार ओह मिलता है  हम सब एल्मिरा जा सकते हैं  मेरा मतलब है कि संतरे से भरकर कॉर्निंग फिल पर वापस आना  संतरे का रस भरना और फिर नीचे जाना,O O O O O O O O O O O O O O O O O O O O O O O O O O O B-food O O O O O O O O O I-food O O O O O,engine boxcar Elmira Corning oranges
+yes ,हाँ,O,
+okay what that ,ठीक है क्या?,O O O,
+but you can you can carry more than one boxcar if you worried about the oranges as well ,यदि आप संतरे के बारे में भी चिंतित हैं तो आप एक से अधिक बॉक्सर ले जा सकते हैं,O O O O O O O O O O O B-number O O O O O O O,boxcar oranges
+oh no I only need one one boxcar ,अरे नहीं मुझे केवल एक बॉक्सर की जरूरत है,O O O O B-number O O O O,boxcar
+okay ,ठीक है,O O,
+okay ,ठीक है,O O,
+and um what time will that get us into Bath ,और उम क्या समय है कि हमें स्नान में मिल जाएगा,O O O O O O O O O O O,Bath
+okay so it so engine E two goes to Corning that two hours fills up that three am goes to Elmira ,ठीक है  इसलिए यह इंजन ई दो कॉर्निंग पर जाता है कि दो घंटे भर जाता है कि तीन बजे एल्मीरा जाता है,O O O O O O B-time-duration O O O O O O I-time-duration O O O O B-time O O O O,engine E Corning am Elmira
+with tanker ,टैंकर के साथ,B-vehicle O O,
+um with the tanker okay um ,um टैंकर के साथ ठीक है um,O B-vehicle O O O O O,
+that five am and now you load up with orange juice so that six am ,वह पाँच बजे और अब तुम संतरे के रस से भरी हो ताकि छह बजे,O B-time O O O O B-food O I-food O O O O B-time O,am am
+mm-hm ,मिमी-एचएम,O,
+and now we have to get to Bath ,और अब हमें स्नान करना है,O O O O O O,Bath
+so through Corning at eight am and then to Bath at ten am ,इसलिए सुबह आठ बजे कॉर्निंग और फिर दस बजे बाथ,O O B-time O O O O B-time O O,Corning am Bath am
+okay thank you very much sounds like a plan ,ठीक है  एक योजना की तरह बहुत बहुत धन्यवाद लगता है,O O O O O O O O O O O,
+great thank you ,बहुत बहुत धन्यवाद,O O O,
+hi can I help you ,हाय  क्या मैं आपकी मदद कर सकता हूं,O O O O O O O O,
+hi system ,हाय सिस्टम,O O,
+I need to ship two boxcars of bananas and one boxcar of oranges to Dansville by noon using only one engine for some unknown reason ,मुझे किसी अज्ञात कारण से केवल एक इंजन का उपयोग करके दोपहर के समय केले के दो बॉक्सकार और संतरे के एक बॉक्सकार को दोपहर के भोजन के लिए जहाज पर चढ़ाने की आवश्यकता है,O O O O O O B-number O O O O O O O O O B-number O O O O O O O O O O O O O O O O O O,boxcars bananas boxcar oranges Dansville noon engine
+it is now midnight and the shipload must be unloaded by one pm so we got some serious time restrictions here ,अब आधी रात हो चुकी है और शिपलोड को दोपहर एक बजे तक उतारना होगा ताकि हमें यहां कुछ गंभीर समय की पाबंदियां मिलें,O O O O O O O O O O B-time O O O O O O O O O O O O O,midnight pm
+firstly we need to get um two boxcars from Dansville that the closest right ,सबसे पहले हमें डन्सविले से उम दो बॉक्सकार लेने की जरूरत है जो निकटतम अधिकार है,O O O O O O B-number O O O O O O O O O,boxcars Dansville
+between from Avon ,एवन के बीच से,O O O O,Avon
+oh you trying to where are you trying to get Avon ,ओह आप कोशिश कर रहे हैं कि आप एवन को पाने की कोशिश कर रहे हैं,O O O O O O O O O O O O O O O O,Avon
+yes ,हाँ,O,
+yeah ,हाँ,O,
+okay ,ठीक है,O O,
+because that where the banana warehouse is ,क्योंकि वह केला गोदाम कहां है,O O B-food O O O,warehouse
+alright ,ठीक है,O O,
+okay we need to get two boxcars so why donot we go to Dansville and pick up two boxcars ,ठीक है  हमें दो बॉक्सकार लेने की जरूरत है  इसलिए हम डान्सविले में क्यों न जाएं और दो बॉक्सकार उठाएं,O O O B-number O O O O O O O O O O O O O O O O,boxcars Dansville boxcars
+uh which engine did you want to use ,उह आप किस इंजन का उपयोग करना चाहते थे,O O O O O O O O O,engine
+engine number one ,इंजन नंबर एक,O O I-vehicle-name,engine
+okay ,ठीक है,O O,
+actually why donot we pick up all three boxcars ,वास्तव में क्यों हम सभी तीन मुक्केबाजों को नहीं लेते हैं,O O O O O B-number O O O O O,boxcars
+alright ,ठीक है,O O,
+and we come back to Avon and we will fill them with two of them with bananas ,और हम एवन में वापस आ गए और हम उनमें से दो को केले के साथ भर देंगे,O O O O O O O O O O O B-number O O O O O O,Avon bananas
+okay ,ठीक है,O O,
+ooh but actually I got even a better idea ,ओह  लेकिन वास्तव में मुझे एक बेहतर विचार मिला,O O O O O O O O O,
+well instead of that let go from let instead of going straight back to um the banana warehouse let take it to from Dansville to Corning fill it with the oranges in one of the boxcars ,इसके बजाय कि चलो जाने के बजाय सीधे जाने के बजाय केले के गोदाम से वापस जाने के लिए इसे डान्सविले से कॉर्निंग तक ले जाएं  इसे एक बॉक्सकार में संतरे से भर दें,O O O O O O O O O O O O O O O O O O O O O O O O O O O B-number O O O O O O,banana warehouse Dansville Corning oranges boxcars
+okay ,ठीक है,O O,
+and then we go back to Avon and fill it with the two fill it up with the two other boxcars of um bananas ,और फिर हम एवन में वापस जाते हैं और दोनों को भरते हैं और इसे ओम केलों के दो अन्य बॉक्स के साथ भरते हैं,O O O O O O O O O O O O O O O O B-food O B-number O O O O O O,Avon boxcars
+alright did you want to go through Dansville on the way back ,ठीक है  क्या आप वापस रास्ते पर डांसविले से जाना चाहते थे,O O O O O O O O O O O O,Dansville
+right ,सही,O,
+okay ,ठीक है,O O,
+on the way back right ,वापस सही रास्ते पर,O O O O,
+and then we will come hm okay and then okay on the way back to Dansville we drop off the oranges ,और फिर हम एचएम ओके आएंगे और फिर ओके डांसविले के रास्ते पर हम संतरे छोड़ देंगे,O O O O O O O O O O O O O O O O O,Dansville oranges
+uh drop off the oranges at ,उह पर संतरे छोड़ना,O O O O,oranges
+Dansville ,Dansville,O,Dansville
+at Dansville ,Dansville में,O O,Dansville
+okay let me make sure I doing this right um right ,ठीक है मुझे यह सुनिश्चित करने दें कि मैं यह सही um सही कर रहा हूं,O O O O O O O O O O O O O O O O,
+so you ,तो तुम,O O,
+and then okay now we only have now we only have two we have all three open boxcars ,और फिर ठीक है अब हमारे पास केवल अब हमारे पास केवल दो हैं हमारे पास सभी तीन खुले बॉक्सकार हैं,O O O O O O O O O O O O B-number O O O O B-number O O O,boxcars
+uh ,उह,O,
+maybe we could even drop a boxcar just leave it and go to Avon fill up with the bananas and come back to Dansville ,शायद हम एक बॉक्सर को भी छोड़ सकते हैं और इसे छोड़ सकते हैं और केले के साथ एवन को भरने के लिए वापस डांसविले आ सकते हैं,O O O O O O O O O O O O O O O O O O O O O O O O O O O O,boxcar Avon bananas Dansville
+you trying to get you trying to get all of the um bananas and the oranges to Avon is that right ,आप um केले के सभी पाने के लिए कोशिश कर रहे हैं और एवन को संतरे है कि सही है,O O O O O O O O O O O O O O O O O O O O,bananas oranges Avon
+no to Dansville ,डान्सविले को नहीं,O O O,Dansville
+no ,नहीं,O,
+to Dansville okay ,Dansville के लिए ठीक है,O O O O O,Dansville
+okay yep we need two we need two boxcars full of bananas and one boxcar full of oranges to Dansville by noon ,ठीक है  हमें दो की जरूरत है  हमें केले से भरे दो बॉक्सर चाहिए और एक बॉक्सर जो संतरे से भरा हुआ है।,O O O B-number O O O O O O O O O O O B-number O O O O O O O,boxcars bananas boxcar oranges Dansville noon
+okay ,ठीक है,O O,
+using only one engine ,केवल एक इंजन का उपयोग करना,O B-number O O O O,engine
+okay ,ठीक है,O O,
+which should be a problem so now our time let figure out our time ,जो एक समस्या होनी चाहिए तो अब हमारा समय हमारे समय का पता लगाने दें,O O O O O O O O O O O O O O O,
+got our engine it goes to Dansville and picks up all three or it it only needs to pick up one really ,हमारे इंजन को यह डैंसविले में जाता है और तीनों को उठाता है या इसे केवल एक ही वास्तव में लेने की आवश्यकता है,O O O O O O O O O O O O O O O O B-number O O O O O O O,engine Dansville three
+okay ,ठीक है,O O,
+at this time and goes to Corning ,इस समय और कॉर्निंग पर जाता है,O O O O O O O,Corning
+okay ,ठीक है,O O,
+fills up with the oranges what time is it now ,यह समय अब क्या है संतरे से भर जाता है,O O O O O O O O O O,oranges
+so let see gets to Dansville at three am gets to Corning at four am and by the time it filled up it five am ,तो आइए देखते हैं डान्सविले में सुबह तीन बजे कॉर्निंग के लिए सुबह चार बजे उठते हैं और पांच बजे तक इसे भरते हैं,O O O O O O O B-time O O O O O B-time O O O O B-time O O O O O,Dansville am Corning am am
+okay drops off the oranges at six am at Dansville ,ठीक छह बजे डैंसविले में संतरे से गिरता है,O B-time O O O O O O O,oranges am Dansville
+yes ,हाँ,O,
+and then it goes ,और फिर यह चला जाता है,O O O O O O,
+but it takes an hour to to get the oranges out of the um boxcars so it seven am when it leaves ,लेकिन ऑम के डिब्बे को बाहर निकालने में एक घंटे का समय लगता है इसलिए यह सात बजे निकलता है,O O O O O O O O O O O O O O O O B-time O O O,oranges boxcars am
+okay ,ठीक है,O O,
+okay can we unhitch the boxcar and just leave it there and pick up hitch up two others ,ठीक है  हम बॉक्सकार को अनचेक कर सकते हैं और इसे वहीं छोड़ सकते हैं और दो अन्य लोगों को भी उठा सकते हैं,O O O O O O O O O O O O O O O O B-number O O O O O O O,boxcar
+yes ,हाँ,O,
+okay let do that and save us some time ,ठीक है  ऐसा करो और हमें कुछ समय बचाओ,O O O O O O O O O,
+okay ,ठीक है,O O,
+so we um unhitch the boxcar and hitch up two others and leave immediately for Avon ,इसलिए हम बॉक्सर को अनचेक करते हैं और दो अन्य लोगों को रोकते हैं और एवन के लिए तुरंत निकल जाते हैं,O O O O O O O O B-number O O O O O O O O O O O O O,boxcar Avon
+okay ,ठीक है,O O,
+with just two boxcars fill it full of bananas and come right back to Dansville ,सिर्फ दो मुक्केबाजों ने इसे केले से भरा और डन्सविल में वापस आ गए,O B-number O O O O O O O O O O O O,boxcars bananas Dansville
+alright so three hours to get to Avon that nine am you filling two boxcars so that eleven am and then you going straight back to Dansville so that two in the afternoon when you arrive ,एवन में जाने के लिए तीन घंटे ठीक है कि नौ बजे आप दो बॉक्सकार भर रहे हैं ताकि ग्यारह बजे और फिर आप सीधे डांसविले वापस जा सकें ताकि दोपहर के दो बजे जब आप पहुंचें,O O O O O B-time-duration I-time-duration O O O B-time O O B-number O O O O O B-time O O O O O O O O O O O O O O O O O,Avon am boxcars am Dansville
+mm-hm ,मिमी-एचएम,O,
+oh gracious not good for time ,ओह समय के लिए अच्छा नहीं है,O O O O O O O,
+okay well we gonna have to do the oranges on another thought cause that didnot take us long so we have to do the bananas first ,ठीक है हम एक और विचार पर संतरे करने जा रहे हैं जो हमें लंबा नहीं लगा  इसलिए हमें पहले केले को करना होगा,O O O O O O O O O O O O O O O O O O O O O O O O,oranges bananas
+okay ,ठीक है,O O,
+okay ,ठीक है,O O,
+so let start with the bananas we go from Avon to Dansville with engine number one ,तो चलिए केले के साथ शुरू करते हैं जो हम इंजन नंबर एक के साथ एवन से डांसविले तक जाते हैं,O O O O O O O O O O O O B-number O O O O O O O O,bananas Avon Dansville engine
+we get two boxcars return to Avon fill boxcars with bananas and go to Dansville and drop off ,हमें दो बॉक्सकार मिलें  एवन में बॉक्सर को केले के साथ भरें और डांसविले जाकर ड्रॉप करें,O B-number O O O O O O O O O O O O O O O,boxcars Avon boxcars bananas Dansville
+okay ,ठीक है,O O,
+yes ,हाँ,O,
+okay so that all done by nine am ,ठीक है कि सभी ने सुबह नौ बजे तक काम किया,O O O O O O B-time O O O O,am
+but it takes two hours to fill the boxcars ,लेकिन बॉक्सकार को भरने में दो घंटे लगते हैं,O O O O O B-time-duration I-time-duration O O,boxcars
+to fill them ,उन्हें भरने के लिए,O O O O,
+so it eleven am when they get back to Dansville ,इसलिए यह ग्यारह बजे है जब वे डन्सविल वापस आ जाते हैं,O O B-time O O O O O O O O O,am Dansville
+that no problem we just unhitch the boxcars in Dansville hitch on one the last remaining boxcar ,कोई समस्या नहीं है कि हम सिर्फ एक आखिरी शेष बॉक्सकार पर डांसविले अड़चन में मुक्केबाजों को अनहाइज करते हैं,O O O O O O O B-number O O O O O O O O O O O O,boxcars Dansville boxcar
+okay ,ठीक है,O O,
+at eleven am go to Corning which is an hour away ,ग्यारह बजे कोर्निंग पर जाते हैं जो एक घंटे की दूरी पर है,B-time O O O O O O O O O O O O,am Corning hour
+mm-hm ,मिमी-एचएम,O,
+fill it with the with the oranges and return to Dansville by one pm ,इसे संतरे के साथ भरें और एक बजे तक डैंसविले लौट आएं,O O O O O O B-time O O O O O,oranges Dansville pm
+if you leave Dansville at eleven am ,अगर आप सुबह ग्यारह बजे डान्सविल को छोड़ देते हैं,O O O B-time O O O O O O,Dansville am
+mm-hm ,मिमी-एचएम,O,
+uh you be at Corning by noon and then it takes an hour to fill the tankers so that be uh one pm and then you want to get back to Dansville so that be two pm when you arrive ,उह आप दोपहर तक कॉर्निंग में रहेंगे और फिर टैंकरों को भरने में एक घंटे का समय लगेगा  ताकि दोपहर एक बजे हो और फिर आप डैंसविले वापस जाना चाहते हैं ताकि जब आप आएं तो दो बजे हों,O O O O O O O O O B-vehicle O O O B-time O O O O O O O O O O O O O O O O O O O O O O B-time O O,Corning noon pm Dansville pm
+oh gracious they not making this easy are they okay it gonna have to be a different engine wish I thought of this to begin with ,ओह  वे यह आसान नहीं कर रहे हैं वे ठीक कर रहे हैं यह एक अलग इंजन की इच्छा है कि मैं इस के साथ शुरू करने के लिए सोचा था,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,engine
+it engine number two let take ,यह इंजन नंबर दो ले जाने दो,O O O B-number O O O,engine
+alright ,ठीक है,O O,
+we take we take let say one it doesnot make a difference how fast a train goes with one or two ,हम लेते हैं हम कहते हैं कि यह एक फर्क पड़ता है कि एक ट्रेन एक या दो के साथ कितनी तेजी से चलती है,O O O O O O O O B-number O O O O O B-vehicle O O B-number O O O O O O O,
+no ,नहीं,O,
+okay ,ठीक है,O O,
+no ,नहीं,O,
+let just take both take both boxcars from engine number two from Elmira and let drive to Corning ,चलो दोनों को Elmira से इंजन नंबर दो से दोनों बॉक्सकार ले लो और कॉर्निंग को ड्राइव करें,O O O O O O O B-number O O O O O O O O O O,boxcars engine Elmira Corning
+alright ,ठीक है,O O,
+fill one of them full of oranges it a two hour jaunt between Elmira and Corning right ,संतरे से भरा उनमें से एक को एलमिरा और कॉर्निंग राइट के बीच दो घंटे का पीलिया,O O O O O B-number O O O O O O O B-time-duration O O O,oranges hour Elmira Corning
+yes ,हाँ,O,
+okay one hour it three hours full and then to Dansville ,ठीक है  एक घंटे में तीन घंटे और फिर डन्सविले में,O O B-time-duration I-time-duration O B-time-duration O O O O O,hour Dansville
+okay ,ठीक है,O O,
+okay and we will unhitch the one filled ,ठीक है और हम भरे हुए को अनइच करेंगे,O O O O O O O O O,one
+okay ,ठीक है,O O,
+and we will hitch up another empty one from Dansville ,और हम डांसविले से एक और खाली कर देंगे,O O O O B-number O O O O,Dansville
+okay ,ठीक है,O O,
+and we will go to Avon ,और हम अवन में जाएंगे,O O O O O,Avon
+alright ,ठीक है,O O,
+okay what time is it ,ठीक है समय क्या हुआ,O O O O O,
+so let see it uh two hours to Corning um three am by the time get the boxcars filled ,तो देखते हैं कि उबके दो घंटे कॉर्निंग उम तक तीन बजे तक बॉक्सकार भर जाते हैं,O O O O O B-time-duration I-time-duration O O O B-time O O O O O O,Corning am boxcars
+then um four am when you get to Dansville and three hours to Avon that seven am ,तब उम चार बजे जब आप डैंसविले पहुंचते हैं और तीन घंटे एवन को मिलते हैं कि सात बजे हैं,O O B-time O O O O O O O B-time-duration I-time-duration O O O O O B-time O O,am Dansville Avon am
+mm-hm ,मिमी-एचएम,O,
+okay it seven am fill the both both up so that nine am by the time they both filled ,ठीक है  सात बजे दोनों को भर देते हैं ताकि नौ बजे तक दोनों भर सकें,O O B-time O O O O O O O B-time O O O O O,am am
+right ,सही,O,
+and return to Dansville ,और डैंसविले में लौटें,O O O O,Dansville
+great and you get there at midnight ,महान और आप आधी रात को वहाँ पहुँचते हैं,O O O O O O O O O,midnight
+at noon ,दोपहर मे,O O,noon
+noon excuse me ,दोपहर मुझे माफ करना,O O O O,noon
+there we go we did it ,वहां हम जाते हैं हमने यह किया,O O O O O O O,

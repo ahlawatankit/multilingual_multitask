@@ -1,0 +1,1336 @@
+that eleven hours and we have we have until three pm so that be fine ,এগারো ঘণ্টা এবং আমাদের তিন টা পর্যন্ত আমরা থাকি যাতে সেটি ভাল হয়,B-time-duration O O O B-time O O O O O O O O,hours pm
+okay so um ,ঠিক আছে তাই um,O O O O,
+and then the uh what the OJ ,এবং তারপর ওহ কি ওজে,O O O O O,OJ
+mm-hm ,MM-এইচএম,O,
+how we doing that ,কিভাবে আমরা যে করছেন,O O O O,
+um the OJ we taking engine two from Elmira going to Corning to get a tanker ,ও ও ওজে আমরা এলমারার ইঞ্জিন দুইটি ট্যাঙ্কার পেতে কর্নন যাচ্ছি,O O O O O O B-number B-vehicle O O O,OJ engine Elmira Corning
+and then going back to Elmira to make the OJ and then bring the OJ back to Corning to Bath and then to Avon ,এবং তারপর ওজির জন্য এলমির কাছে ফিরে এলাম এবং তারপর OJ কে Corning থেকে বাথ এ নিয়ে আসি এবং তারপর এভন,O O O O O O O O O O O O O O O O O O O O O,Elmira OJ OJ Corning Bath Avon
+okay so we have two two hours to get to Corning well four hours to get to Corning and back ,ঠিক আছে  আমাদের চার ঘন্টা সিগারেট এবং ফিরে যাওয়ার জন্য চার ঘণ্টা ভাল সময় কাটানোর আছে,O O O B-time-duration I-time-duration O O O O O O O O O O O,two two Corning Corning
+mm-hm ,MM-এইচএম,O,
+an hour to make um the OJ that five hours ,এক ঘণ্টা ওজির জন্য পাঁচ ঘণ্টা,O O O O B-time-duration O,hour OJ hours
+mm-hm ,MM-এইচএম,O,
+and then uh um five hours and then two hours more to get to and then the whole trip to Avon over Bath takes uh four five six seven eight eight hours ,এবং তারপর পাঁচ ঘন্টা এবং তারপর দুই ঘন্টা আরো পেতে এবং তারপর বাথ উপর Avon পুরো ট্রিপ uh চার পাঁচ ছয় সাত আট আট ঘন্টা লাগে,O O I-time-duration I-time-duration O O B-time-duration O O O O O O O O O O O B-time-duration O I-time-duration I-time-duration I-time-duration O O O,Avon Bath
+so that thirteen thirteen hours in all ,যাতে সব তের তের তের ঘন্টা,O O O O O I-time-duration,thirteen thirteen
+okay so we be done by one pm ,ঠিক আছে তাই আমরা এক বিকেলে সম্পন্ন করা হবে,O O O O B-time O O O O,pm
+that right ,সেটা ঠিক,O O,
+yep that be fine ,হ্যাঁ যে সূক্ষ্ম হতে হবে,O O O O O,
+okay so now I finished ,ঠিক আছে তাই এখন আমি শেষ,O O O O O O,
+and that ,এবং সেটা,O O,
+okay ,ঠিক আছে,O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes um this is my problem plan a round trip from Avon to Elmira on the way out take three boxcars of bananas ,হ্যাঁ  এই সমস্যাটি আমার সমস্যা  এভন থেকে এলমিরার রাউন্ড ট্রিপ পরিকল্পনা করে কেলেঙ্কারির তিনটি বক্সকার।,O O O O O O O O O O O O O B-number O,Avon Elmira boxcars bananas
+deliver one each to Bath Corning and Elmira ,বাথ Corning এবং Elmira এক প্রতিটি বিতরণ,O O O O B-number O O,Bath Corning Elmira
+but um I donot have to load the boxcars just drop them off um bring two tankers of OJ back to Avon ,কিন্তু um আমি boxcars লোড করতে হবে না শুধু um তাদের বন্ধ ড্রেন OJ ফিরে দুটি ট্যাংক ট্যাঙ্কার আনা এভন,O O O B-item O O O O O O O O O O O B-number O O O O,tankers OJ Avon
+and um this time I have to get the oranges and make the juice and then I have to arrive back in Avon within twenty-four hours ,এবং এই মুহূর্তে আমাকে কমলা পেতে এবং রস তৈরি করতে হবে এবং তারপর আমাকে চৌদ্দ ঘণ্টার মধ্যে এভনে ফিরে আসতে হবে।,O O O O O O O I-food O O O O O O O I-time-duration O O O O O,oranges Avon twenty-four
+okay how many how many uh how much OJ has to end up in Avon ,ঠিক আছে  কতজন OJ এভনকে শেষ করতে হবে,O O O O O O O O,OJ Avon
+um two tankers ,um দুই ট্যাঙ্কার,O B-number O,tankers
+okay we have to use we making a round trip with just one engine ,ঠিক আছে আমরা একটি ইঞ্জিন সঙ্গে একটি বৃত্তাকার ট্রিপ তৈরীর ব্যবহার করতে হবে,O O O O O O O O O O O O O,one engine
+um right ,এক অধিকার,O O,
+okay ,ঠিক আছে,O O,
+uh so we have to start in Avon ,ওহ তাই আমরা এভন শুরু করতে হবে,O O O O O O O,Avon
+okay ,ঠিক আছে,O O,
+okay let see how long does it take to bring engine one to Dansville ,ঠিক আছে দেখি ইঞ্জিনের ড্যান্সভিলে কতটা সময় লাগবে,O O O O O O O O,engine one Dansville
+three hours ,তিন ঘণ্টা,B-time-duration O,hours
+okay and then back to Avon to get the bananas ,ঠিক আছে এবং তারপর কলা পেতে Avon ফিরে,O O O O O O O O,Avon bananas
+three more hours six in all ,তিন ঘন্টা আরো ছয়,B-number O O B-number,
+how long does it take to load the bananas ,কলা লোড কতক্ষণ লাগবে,O O O O,bananas
+one hour ,এক ঘন্টা,B-time-duration O,hour
+okay so that seven hours ,ঠিক আছে যে সাত ঘন্টা,O O O B-time-duration I-time-duration,
+right ,অধিকার,O,
+okay ,ঠিক আছে,O O,
+how long does it take to get from Avon to Bath with the bananas with three boxcars of bananas ,কলা থেকে তিনটি বক্সকারের সাথে কলা দিয়ে অ্যাভন থেকে বাথ পেতে কতক্ষণ সময় লাগে,O O B-number O O O O O O O O O O O,Avon Bath bananas boxcars bananas
+um four hours ,um চার ঘন্টা,O B-time-duration I-time-duration,
+okay and then to Corning with um two the two left over boxcars of bananas ,ঠিক আছে এবং তারপর um দুই সঙ্গে কার্নিং কলা দুটি boxcars উপর বামে,O O O O O B-number O O O O B-item O O,Corning bananas
+um another wait how many boxcars of bananas are we pulling ,উম আরেকটি কলা আমরা কত টুকরা টুকরো টুকরা করা হয় অপেক্ষা,O O O O O O O O O O O,boxcars bananas
+three ,তিন,B-number,
+three okay that that ,তিন ঠিক আছে যে,B-number O O O,
+um well we pulling three from Avon and then we dropped one off in Bath ,উম ভাল আমরা এভন থেকে তিন টান এবং তারপর আমরা বাথ এক বন্ধ ছেড়ে,O O O O O B-number O O O O O B-number O O,Avon Bath
+right ,অধিকার,O,
+and then we pulling two to Corning ,এবং তারপর আমরা দুই কর্নিং টানা,O O O B-number O O,Corning
+two more to Corning ,কার্নিং আরও দুই,O O B-number,Corning
+okay it takes two more hours ,ঠিক আছে এটা আরো দুই ঘন্টা লাগে,O O O O B-number O O,
+okay ,ঠিক আছে,O O,
+so I think let see here we at fifteen hours right now ,তাই আমি মনে করি এখন এখানে আমরা পনেরো ঘন্টা এ দেখা যাক,O O O O O O O B-time-duration I-time-duration O O O,
+is that right ,এটা কি সঠিক,O O O,
+um ,একটি,O,
+let see with three hours to go to Dansville three hours to get back ,ফিরে পেতে তিন ঘন্টা Dansville যেতে তিন ঘন্টা সঙ্গে দেখা যাক,O O B-time-duration I-time-duration O O O O O O O,Dansville
+so that six and then one hour to load that seven and then four hours to get to Bath so eleven ,তাই ছয় এবং তারপর এক ঘন্টা লোড যে সাত এবং তারপর চার ঘন্টা বাথ এগারো পেতে,O B-number O O B-time-duration I-time-duration O O B-number O O B-time-duration O O B-number O,hour Bath
+and then now we at thirteen hours sorry ,এবং তারপর এখন আমরা তেরো ঘন্টা দুঃখিত,O O O O B-time-duration I-time-duration O,
+okay um wait okay while we at Bath before at when we when we dropping off the um bananas in Bath ,ঠিক আছে  আমি ঠিক অপেক্ষা করছি যখন বাথের আগে আমরা যখন বাথের um কলা বন্ধ করছিলাম,O O O O O O O O O O O O O O O O,Bath bananas Bath
+mm-hm ,MM-এইচএম,O,
+um how long will it take us to um bring along two boxcars of of um the two boxcars in Bath pick it up ,um এটা আমাদের কতক্ষণ লাগবে um দুই বক্সকার বরাবর আনা বাথ মধ্যে দুই boxcars এটি বাছাই,O O O O O O B-number O O O O O O B-item O O,Bath
+yeah ,হাঁ,O,
+just to hook them up it doesnot take any time that ,শুধু তাদের হুক আপ এটি যে কোন সময় নিতে না,O O O O O O O O O O,
+okay so we do that when we there when we dropping off the bananas in Bath ,ঠিক আছে তাই আমরা যখন আমরা বাথ মধ্যে কলা বন্ধ ড্রপ,O O O O O O O O O O O,bananas Bath
+very short ,খুব ছোট,O O,
+okay ,ঠিক আছে,O O,
+okay so what are we pulling from Bath to Corning ,ঠিক আছে তাই আমরা বাথ থেকে Corning থেকে টানা হয়,O O O O O O O O O O,Bath Corning
+we pulling two boxcars and two boxcars of bananas ,আমরা দুই বক্সকার এবং কলা দুটি boxcars টান,O B-number O O O O B-item O,bananas
+okay ,ঠিক আছে,O O,
+how long does that take again ,কতক্ষণ যে আবার নিতে না,O O O O O,
+that so just to go from Bath to Corning ,যে শুধু বাথ থেকে Corning যেতে যেতে,O O O O O O O,Bath Corning
+mm-hm ,MM-এইচএম,O,
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+okay so it doesnot take any time to drop off one of the boxcars of bananas ,ঠিক আছে  তাই এটি কলা বাক্সের একটি ড্রপ বন্ধ করতে সময় নেয় না,O O O O O O O O O O O O O,one boxcars bananas
+nope ,নাঃ,O,
+nope no ,না  না,O O,
+but we do need to load um two boxcars of oranges at Corning ,কিন্তু আমাদের Corning এ কমলা কম্বল দুই boxcars লোড করতে হবে,O O O O O O B-number B-item O O O,oranges Corning
+okay that takes one hour for that loading ,ঠিক আছে যে লোডিং জন্য এক ঘন্টা লাগে,O O O O O B-time-duration O O,hour
+okay ,ঠিক আছে,O O,
+so ,সুতরাং,O,
+so ,সুতরাং,O,
+fourteen hours ,চৌদ্দ ঘন্টা,B-time-duration I-time-duration,
+and also we pick up two tankers at Corning ,এবং আমরা Corning এ দুটি ট্যাঙ্কারও বাছাই করি,O O O O B-number B-vehicle O O,Corning
+okay ,ঠিক আছে,O O,
+that takes no time ,যে কোন সময় লাগে,O O O O,
+nope ,নাঃ,O,
+okay with that we go over to Elmira with um two tankers um one boxcar of bananas and two boxcars of oranges ,ঠিক আছে  আমরা ওমির দুইটি ট্যাঙ্কারের সাথে একমুখি কলা এবং কমলার দুটি বক্সকারের সাথে এলমির দিকে যাচ্ছি।,O O O O B-number O O O O O O O O O O O O,Elmira tankers one boxcar bananas boxcars oranges
+how long does that take from Corning to Elmira ,যে কতক্ষণ থেকে Corning থেকে Elmira নিতে,O O O O O O O,Corning Elmira
+okay ,ঠিক আছে,O O,
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+right ,অধিকার,O,
+okay at Elmira we make the orange juice how long does that take two tankers ,ঠিক আছে Elmira আমরা কমলা রস করতে কতক্ষণ যে দুই ট্যাঙ্কার নিতে,O O O O B-food I-food O O O B-number O O,Elmira tankers
+one ,এক,B-number,
+one hour ,এক ঘন্টা,B-time-duration O,hour
+okay let see ,ঠিক আছে দেখা যাক,O O O O,
+so so that seventeen hours so far ,তাই যে সতেরো ঘন্টা এতদূর,O O B-time-duration I-time-duration O,
+seventeen ,সতের,B-number,
+yep ,হাঁ,O,
+okay how long would it take us to bring the two tankers of OJ um back to Avon through Dansville Corning and Dansville ,ঠিক আছে  ওয়ান ইউমের দুটো ট্যাঙ্কার ডান্সসভিল কর্নিং এবং ড্যানসভিল,O O O O B-number O O O O O,tankers OJ Avon Dansville Corning Dansville
+um two three six hours in all ,um দুই তিন ছয় ঘন্টা সব,O B-time-duration I-time-duration I-time-duration I-time-duration O,
+okay is that total of seven twenty three ,ঠিক আছে সাত মোট তিনটি,O O B-number O I-number,twenty
+seventeen yes ,সতেরো হ্যাঁ,I-number O,
+okay ,ঠিক আছে,O O,
+oh you did it ,ওহ আপনি এটা করেছেন,O O O O,
+okay um so I now finished ,ঠিক আছে  তাই আমি এখন সমাপ্ত,O O O O O O,
+okay ,ঠিক আছে,O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+okay this is my problem it is now twelve midnight ,ঠিক আছে এই আমার সমস্যা এখন বারো মধ্যরাত্রি,O O O O O O B-time B-period-of-day,
+mm-hm ,MM-এইচএম,O,
+um I need to transport two boxcars of oranges and one tanker of OJ to Avon ,um আমি কমলা দুটি boxcars এবং ওজে একটি ট্যাঙ্কার পরিবহন করতে হবে,B-number O O B-number B-item O O O B-vehicle O O O,oranges OJ Avon
+due to heavy rail traffic the timing of some of my stops some of the stops has been predetermined as follows ,ভারী রেল ট্র্যাফিকের কারণে আমার কিছু স্টপের সময় নিম্নরূপ কিছু স্টপ পূর্বনির্ধারিত হয়েছে,O O O O O O O O O O O O O,
+the oranges are due to be processed at the factory in Elmira at seven am sharp ,এলামির কারখানায় এঞ্জারসের প্রক্রিয়া সকাল সাতটার দিকে ধারালো,O O O O O O O O,oranges factory Elmira seven am
+as soon as OJ is made the train must leave Elmira ,যত তাড়াতাড়ি OJ তৈরি করা হয় ট্রেন অবশ্যই Elmira ছেড়ে আবশ্যক,O O O O O O B-vehicle O O O O,OJ Elmira
+okay ,ঠিক আছে,O O,
+the train cannot leave Avon before three pm because there is no room ,তিন ঘণ্টার আগে ট্রেনটি এভনকে ছাড়তে পারে না কারণ সেখানে কোন রুম নেই,B-time O O O O O O O O O O O O,train Avon pm
+that what the last one ,যে শেষ এক কি,O O B-number O,
+um the train cannot leave Avon before three pm because there is no room on the rails yeah ,um ট্রেন তিন টা আগে অ্যাভনকে ছাড়তে পারে না কারণ এখানে রেলের হাওয়া নেই,O B-vehicle B-time O O O O O O O O O O O,Avon pm room
+so cannot leave Avon till three pm okay ,তাই ঠিক তিন টা পর্যন্ত অ্যাভন চলে যাবে না,O O B-time O O O O O O,Avon pm
+so Avon out until three pm ,তাই তিন টা পর্যন্ত অ্যাভন আউট,O B-time O O O O,Avon pm
+mm yep ,মিমি yep,O O,
+and we need it twelve midnight now ,এবং আমরা এখন বারো মধ্যরাত্রি প্রয়োজন,O O O B-time B-period-of-day O,
+um yes ,একটি হ্যাঁ,O O,
+and we have to get everything ,এবং আমরা সবকিছু পেতে আছে,O O O O O,
+at uh let see the oranges are due to be ,ওহে দেখি কমলাগুলি হতে চলেছে,O O O O O,oranges
+when do we have to get things ,কখন আমাদের জিনিস পেতে হবে,O O O O O,
+the oranges are due to be processed in the factory in Elmira ,এলমির কারখানাতে কমলাগুলি প্রক্রিয়া চলছে,O O O O O,oranges factory Elmira
+at seven am ,সাতটা এ,B-time O,am
+seven am sharp ,সাতটা তীক্ষ্ণ,B-time O,am
+and when do we have to get things in Avon ,এবং যখন আমরা এভন জিনিস পেতে হবে,O O O O O O O,Avon
+um it just says that it cannot um the train cannot arrive at Avon before three pm ,um এটা শুধু বলে যে ট্রেনটি তিন টা আগে এভন পৌঁছতে পারবে না,O O O O O O B-time O O O O O O,train Avon pm
+so what the goal is just to get to ,তাই লক্ষ্য কি পেতে হয়,O O O O O,
+um here it just says transport two boxcars of oranges and OJ to Avon ,um এখানে শুধু পরিবহন কমলা এবং OJ থেকে দুটি boxcars বলে,O O O O O O O O B-number B-item O,oranges OJ Avon
+okay so there no deadline ,ঠিক আছে তাই কোন নির্দিষ্ট সময়সীমা আছে,O O O O O O O,
+no ,না,O,
+alright ,ঠিক হ্যায়,O O,
+okay let see ,ঠিক আছে দেখা যাক,O O O O,
+so um things cannot go out of Avon until three pm but can they go in ,তাই um জিনিস অ্যাভন থেকে তিন রাত পর্যন্ত যেতে পারে না কিন্তু তারা যেতে পারেন,O O O O O B-time O O O O O O O O O,Avon pm
+they cannot go in until three pm ,তারা তিন টা পর্যন্ত যেতে পারে না,O B-time O O O O O,pm
+oh okay okay fine ,ওহ ঠিক আছে ঠিক আছে,O O O O O,
+okay let see two boxcars of oranges and one tanker of OJ ,ঠিক আছে কমলা দুটি বক্সকার এবং ওজে এক ট্যাঙ্কার দেখতে দিন,O O O B-number O O O B-number B-vehicle O O,boxcars oranges OJ
+okay ,ঠিক আছে,O O,
+to Avon ,এটা এভন,O O,Avon
+mm-hm ,MM-এইচএম,O,
+and oranges that need to be processed at the factory at Elmira at seven ,এবং কমলা যে Elmira এ সাত এ কারখানা এ প্রক্রিয়া করা প্রয়োজন,O O O O O B-number O B-place O O O O,oranges Elmira
+so how long will it take me to bring engine two and two boxcars from Elmira to Corning ,তাই এলিমির থেকে কার্নিং পর্যন্ত ইঞ্জিন দুই এবং দুটি বক্সকার আনতে কতক্ষণ সময় লাগবে?,O O O O O O B-number O O O O O O O,engine boxcars Elmira Corning
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+okay and uh to how long does it take to load the two boxcars of oranges ,ঠিক আছে এবং অরঞ্জ দুই বক্সকার লোড করতে কতক্ষণ লাগবে,O O O O B-number O O O O O,boxcars oranges
+one hour ,এক ঘন্টা,B-time-duration O,hour
+and does it take any time to um bring along the two tankers ,এবং এটি দুই ট্যাঙ্কার বরাবর আনতে সময় লাগবে,O O B-number O O O O O,tankers
+nope no ,না  না,O O,
+okay so that four hours ,ঠিক আছে যে চার ঘন্টা,O O O B-time-duration I-time-duration,
+um ,একটি,O,
+or three ,অথবা তিন,O B-number,
+three hours and we still in Corning ,তিন ঘন্টা এবং আমরা এখনও Corning মধ্যে,B-time-duration I-time-duration O O O O O,Corning
+okay now how long does it take to bring all that back to ,ঠিক আছে এখন পর্যন্ত এটি যে সব আনা নিতে না,O O O O O O O O O O,
+to Elmira ,Elmira যাও,O O,Elmira
+uh two more hours so five hours ,ওহ পাঁচ ঘন্টা তাই আরো দুই ঘন্টা,O B-time-duration I-time-duration O O B-number O,
+five so that five am ,পাঁচটা তাই পাঁচটা,B-time O O,am
+right so that okay ,ঠিক তাই ঠিক আছে,O O O O,
+okay so ,ঠিক আছে  তাই,O O O,
+and I got I got two tankers and two boxcars of oranges and uh ,এবং আমি পেয়েছিলাম দুটি ট্যাঙ্কার এবং কমলা দুটি বক্সকার এবং আহ,O O O B-number O O O O O O O,tankers boxcars oranges
+mm-hm ,MM-এইচএম,O,
+well then I have to unload the oranges that takes one more hour ,ভাল তারপর আমি কমলা লাগে যে এক ঘন্টা আরো লাগে,O O O O O O B-number O O O,oranges hour
+right ,অধিকার,O,
+but that okay so that puts us at ,কিন্তু যে ঠিক আছে যাতে আমাদের এ রাখে,O O O O O O O O,
+oh it says um two boxcars of oranges and a tanker of OJ so ,ওহ  এটি কমলাগুলির দুটি বক্সকার এবং ওজির ট্যাঙ্কার বলে,O O O B-number O O O B-vehicle O,boxcars oranges OJ
+ah so ,ও তাই,O O,
+um ,একটি,O,
+okay how about if we bring two engine ,ঠিক আছে যদি আমরা দুই ইঞ্জিন আনতে পারি,O O O O B-number O O O,engine
+and two boxcars from Elmira to Corning ,এবং Elmira থেকে Corning দুই বক্সার,O O O O B-number O,boxcars Elmira Corning
+mm-hm ,MM-এইচএম,O,
+pick up one tanker ,এক ট্যাঙ্কার নিতে,B-number B-vehicle O,
+mm-hm ,MM-এইচএম,O,
+okay engine two we just send that along from Elmira to Corning to Bath to pick up two of the boxcars at Bath ,ঠিক আছে ইঞ্জিন দুই আমরা এলমির থেকে কার্নিং থেকে স্নানের পাশে বাথ এ বক্সকারগুলি তুলে নেব,O O O B-number O O O O O O O O O O O O,engine Elmira Corning Bath boxcars Bath
+and then we take engine two and one boxcar from Elmira to Corning ,এবং তারপর আমরা এলমিরা থেকে কার্নিং পর্যন্ত ইঞ্জিন দুই এবং এক বক্সকার নিতে পারি,O O O O O O O O B-number O B-number O O O,engine boxcar Elmira Corning
+and then load um two boxcars ,এবং তারপর um দুই boxcars লোড,O O O B-number B-item O,
+hm can we do this at the same time ,এইচএম আমরা একই সময়ে এই কাজ করতে পারেন,O O O O O O O O,
+uh ,আহ,O,
+these are some things cause we need ,এই কিছু জিনিস আমরা প্রয়োজন কারণ,O O O O O O,
+sure I mean you can start you have to be careful you donot put two things on the same track and going in opposite directions ,নিশ্চিত আমি বলতে চাচ্ছি যে আপনি সতর্কতা অবলম্বন করতে শুরু করতে পারেন আপনি একই ট্র্যাকে দুটি জিনিস রাখেন এবং বিপরীত দিকগুলিতে যাচ্ছেন না,O O O O O O O O O O O O O O O B-number O O O O O O O,
+oh okay let see ,ওহ ঠিক আছে দেখা যাক,O O O O O,
+but but um it was okay what what um we only need one boxcar of OJ right ,কিন্তু um এটা ঠিক কি ছিল um আমরা শুধুমাত্র OJ ডান একটি boxcar প্রয়োজন,O B-number O O O O O O O O O O B-item O,OJ
+mm yes ,মিমি হ্যাঁ,O O,
+so why donot we just make that do that one separately ,তাই কেন আমরা শুধু যে এক আলাদাভাবে করতে না donot,O O O O O B-number O O O O,
+okay ,ঠিক আছে,O O,
+let just go get the oranges ,শুধু কমলা পেতে যাক,O O O O,oranges
+um ,একটি,O,
+get the ,পাওয়া,O,
+cause we got we got until three pm so there there not much time ,আমরা তিন টা পর্যন্ত আমাদের পেয়েছিলাম তাই সেখানে অনেক সময় নেই,O B-time O O O O O O O O O,pm
+okay ,ঠিক আছে,O O,
+constraints really ,সত্যিই সীমাবদ্ধতা,O O,
+okay so we take engine two ,ঠিক আছে তাই আমরা ইঞ্জিন দুই নিতে,O O O O O I-vehicle-name O,engine
+okay ,ঠিক আছে,O O,
+along with two boxcars take that bring that to Corning ,দুটি boxcars বরাবর যে যে Corning এ আনতে,B-number B-item O O O O O O,Corning
+mm-hm ,MM-এইচএম,O,
+and then load the oranges ,এবং তারপর কমলা লোড,O O O O,oranges
+one boxcar two or how many boxcars ,এক boxcar দুই বা কত বক্সকার,B-number B-item B-number O O O,boxcars
+two ,দুই,B-number,
+okay ,ঠিক আছে,O O,
+how long would that take ,কতক্ষণ যে নিতে হবে,O O O O,
+that that take two hours to get there and one hour to load so three hours in all ,যে সেখানে পেতে দুই ঘন্টা সময় লাগে এবং এক ঘন্টা সব তাই তিন ঘন্টা লোড,O O O B-time-duration I-time-duration O O O B-time-duration O O O B-time-duration O O,hour
+okay and then how long will it take to bring the oranges from Corning to Bath to Avon ,ঠিক আছে এবং তারপর কম্বিন থেকে বাথ এভন পর্যন্ত কমলা থেকে কমলা নিতে কতক্ষণ লাগবে,O O O O O O O O O O O O O O O,oranges Corning Bath Avon
+Corning to Bath to Avon um it take uh six hours from Corning to Avon ,স্নান থেকে বাথ এভন um এটি কর্ণিং থেকে অ্যাভন পর্যন্ত ছয় ঘণ্টা সময় নেয়,O O O O O O O O O O B-time-duration O O O,Corning Bath Avon hours Corning Avon
+so what the total on that ,তাই মোট যে কি,O O O O,
+uh nine nine hours ,ওহ নয় নয় ঘন্টা,O O O I-time-duration,nine nine
+nine so we arriving in Avon with the two um boxcars of oranges at what time nine am ,নয়ন তাই আমরা অ্যামনে পৌঁছানোর সময় কমপক্ষে 9 টার সময় কমলাগুলির দুটি um boxcars নিয়ে আসছি,O O O O O O O O O O O B-number O B-item O O,nine Avon oranges nine am
+let see we we cannot start oh right ,দেখা যাক আমরা ঠিক ওহ শুরু করতে পারবেন না,O O O O O O O O O,
+that too early ,যে খুব তাড়াতাড়ি,O O O,
+nine am right so so um why donot you just have it wait in Bath ,নয়টা আমি ঠিক তাই um কেন আপনি এটা বাথ অপেক্ষা শুধু donot আছে,B-time O O O O O O O O O O O O,am Bath
+can it do that ,এটা যে করতে পারেন,O O O O,
+sure ,নিশ্চিত,O,
+okay so wait in Bath and then how long does it take to go from Bath to Avon ,ঠিক আছে তাই বাথের মধ্যে অপেক্ষা করুন এবং তারপর বাথ থেকে অ্যাভন পর্যন্ত কতক্ষণ লাগবে,O O O O O O O O O O O O O O O,Bath Bath Avon
+uh four hours ,ওহ চার ঘন্টা,O B-time-duration I-time-duration,
+okay so um at eleven ,ঠিক আছে  তাই এগারে এম,O O O B-number O,
+right ,অধিকার,O,
+we send that to Avon ,আমরা এভনকে পাঠাচ্ছি,O O O,Avon
+right ,অধিকার,O,
+okay and then with um engine three ,ঠিক আছে এবং তারপর um ইঞ্জিন তিন সঙ্গে,O O O O O O B-number O,engine
+yep ,হাঁ,O,
+at Elmira ,Elmira এ,O O,Elmira
+yep ,হাঁ,O,
+we bring that how long does it take to bring it uh bring that from Elmira to Corning ,আমরা এনেছি যে এটি এলমির থেকে কার্নিং পর্যন্ত আনতে কতক্ষণ সময় লাগবে,O O O O O O O O O O O O,Elmira Corning
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+two hours and then to Dansville ,দুই ঘন্টা এবং তারপর ড্যান্সভিল,B-time-duration I-time-duration O O O,Dansville
+uh another hour ,ওহ আরেক ঘন্টা,O O O,hour
+and to bring one boxcar ,এবং একটি boxcar আনতে,O O B-item O,one
+okay ,ঠিক আছে,O O,
+back to Corning ,Corning ফিরে,O O,Corning
+uh another hour so we we at four hours ,আহা আরেক ঘন্টা  তাই আমরা চার ঘন্টার দিকে,O O O O O B-time-duration I-time-duration O,hour
+four and then to load the boxcar of with oranges ,চার এবং তারপর কমলা সঙ্গে boxcar লোড,B-number O O O O B-item O,oranges
+um another hour ,um অন্য ঘন্টা,O O O,hour
+and that takes no time to bring a tanker ,এবং যে একটি ট্যাঙ্কার আনতে সময় লাগে,O O O B-vehicle O O O,
+no I mean uh yes it takes no time ,না আমি বলতে চাচ্ছি হ্যাঁ হ্যাঁ এটা সময় লাগে,O O O O O O O O O,
+okay and then bring all that from Corning to Elmira ,ঠিক আছে এবং তারপর যে সব Corning থেকে Elmira থেকে আনা,O O O O O O O O O O O,Corning Elmira
+that another two hours ,যে অন্য দুই ঘন্টা,O O B-time-duration I-time-duration,
+so what time are we at now when we arrive at Elmira ,তাহলে আমরা এখন এলমির কাছে পৌঁছানোর সময় কত?,O O O O O O O O,Elmira
+uh it seven am ,ওহ  এটা সাতটা,O O B-time,am
+okay so that right um ,ঠিক আছে যে অধিকার um,O O O O O,
+well it takes us an hour to unload but is that I I if that okay ,ভাল এটা আনলোড করার জন্য আমাদের একটি ঘন্টা লাগে কিন্তু যে II যদি ঠিক আছে,O O O O O O O O O O O O O O O,
+mm-hm ,MM-এইচএম,O,
+I donot think there any ,আমি কোন চিন্তা করি না,O O O O O,
+it just says that they due to be processed at the factory in Elmira at seven seven am sharp ,এটা শুধু বলছে যে তারা এলমির কারখানার কারখানায় প্রক্রিয়াকরণের কারণে সাত সাতটা তীক্ষ্ণ,O O O O O O B-place O O O B-time O O,Elmira am
+is that alright ,যে ঠিক আছে,O O O,
+uh I guess so yes I think so ,আমি অনুমান তাই হ্যাঁ আমি তাই মনে করি,O O O O O O O O,
+okay so we make the OJ there in Elmira ,ঠিক আছে তাই আমরা এলিজির মধ্যে ওজে করি,O O O O O O O O,OJ Elmira
+right ,অধিকার,O,
+so um we at seven now how long will it take to bring that tanker to Corning to Bath to Avon ,তাই আমরা এখন সাত টা এভারে স্নান থেকে স্নান পর্যন্ত কর্নারিং এ আনতে কত সময় লাগবে,O O O B-number O O O O O O O O O O O O,tanker Corning Bath Avon
+uh two ,ওহ দুই,O B-number,
+well it takes one hour to make the oranges to make the OJ ,ভাল লেগেছে কমলা একটি OJ করতে ONG করতে ঘন্টা লাগে,O O O O O O O O O O,one hour oranges OJ
+mm-hm ,MM-এইচএম,O,
+so that eight ,যাতে আট,O B-number,
+so right eight and then two more hours to get to Corning that ten and two more hours to get to Bath that twelve and then four hours to get to Avon ,তাই ঠিক আট এবং তারপর আরো দুই ঘন্টা কর্নিং যেতে যে দশ এবং আরো ঘন্টা ঘন্টা বাথ পেতে যে বারো এবং তারপর চার ঘন্টা এভন পেতে,O O B-number O O O B-number I-time-duration O O O B-number O O O O O O O B-number O O B-time-duration O O O,Corning Bath Avon
+so we still okay because um that after three pm ,তাই আমরা এখনও ঠিক আছে কারণ um যে তিন টা পরে,O O O O O O O O B-time O O,pm
+yep ,হাঁ,O,
+that right ,সেটা ঠিক,O O,
+okay ,ঠিক আছে,O O,
+okay ,ঠিক আছে,O O,
+I now finished ,আমি এখন সমাপ্ত,O O O,
+okay ,ঠিক আছে,O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+okay I just wondering if the information the everything but the last two sentences does not seem to be really necessary is that is that right ,ঠিক আছে আমি শুধু ভাবছি  তথ্যটি যদি শেষ তবে দুটি বাক্য সত্যিই প্রয়োজনীয় না বলে মনে হয় তবে তা ঠিক,O O O O O O O O O B-number O O O O O O O O O O,
+that okay ,ঐটা ঠিক আছে,O O O,
+okay um then I guess what we need to do is uh in order to we need to transport two boxcars of oranges to Avon by nine am um ,ঠিক আছে  আমি অনুমান করি যে আমাদের যা করতে হবে তা হ&#39;ল আমরা অ্যামনেক্সের দুটি বক্সকারগুলি 9 টা নাগাদ প্রেরণ করতে হবে।,O O O O O O O O O O O O O O B-number O O O O O O O,boxcars oranges Avon nine am
+so two boxcars of oranges to Avon ,এভন থেকে কমলা দুটি বক্সকার,O O O B-number O,boxcars oranges Avon
+by nine am ,নয়টা বাজে,B-time O,am
+okay ,ঠিক আছে,O O,
+um how long does it take to to get an engine um say with two boxcars um Corning and then to Dansville and then to Avon ,um এটি একটি ইঞ্জিন um Corning এবং তারপর ড্যানসভিল এবং তারপর এভন দুই বক্সকার্স সঙ্গে বলতে কত সময় লাগবে না,O O O O O O O O O O O O B-number O O O O O O O,engine boxcars Corning Dansville Avon
+um well which engine are which engine ,um ভাল কোন ইঞ্জিন যা ইঞ্জিন,O O O O O O,engine engine
+engine number two with two boxcars from Elmira ,এলমিরার দুটি বক্সকারের ইঞ্জিন নম্বর দুই,O B-number O O O O,engine boxcars Elmira
+okay um if we just were just to run the the train straight through ,ঠিক আছে যদি আমরা শুধু ট্রেন সরাসরি মাধ্যমে চালানো ছিল,O O O O O B-vehicle O O O O,
+uh we have to and loading uh both boxcars with oranges at Corning ,ওহে আমাদের সিঙ্গলিংয়ে কমলাগুলি দিয়ে উভয় বক্সকারগুলি লোড এবং লোড করতে হবে,O O O O O O O O O O O O,boxcars oranges Corning
+at Corning okay it takes two hours to get to Corning ,Corning এ ঠিক আছে Corning পেতে দুই ঘন্টা লাগে,O O O O O O B-time-duration I-time-duration O,Corning Corning
+mm-hm ,MM-এইচএম,O,
+loading takes one hour so that three and then which way do you want to go to Avon ,লোডিং এক ঘন্টা লাগে যাতে তিনটি এবং তারপর আপনি এভন যেতে চান,O B-time-duration O O O B-number O O O O O O,hour Avon
+uh to Dansville ,ওহে ডান্সভিল,O O,Dansville
+okay um takes four hours to go from Corning to Avon over Dansville ,ঠিক আছে  চার ঘন্টা সিঙ্গল থেকে অ্যাভন পর্যন্ত ড্যান্সভিলে যান,O O B-time-duration I-time-duration O O O O O O,Corning Avon Dansville
+okay ,ঠিক আছে,O O,
+so that three uh six seven hours ,তাই তিনটি ছয় সাত ঘন্টা,O B-number B-time-duration I-time-duration I-time-duration,
+so that seven ,তাই যে সাত,O O B-number,
+so we fine then huh ,তাই আমরা তারপর ঠিক আছে,O O O O O,
+yep that okay ,হ্যাঁ ঠিক আছে,O O O,
+okay ,ঠিক আছে,O O,
+that work ,ওই কাজটি,O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+okay um our task is to get uh the maximum number of oranges to Bath by seven am and it midnight so we have seven hours ,ঠিক আছে  আমাদের কাজটি আপনাকে সর্বোচ্চ স্যাঁতসেঁতে সাঁতার কাটতে হবে সকাল সাড়ে সাতটায় এবং মধ্যরাত্রি যাতে আমাদের সাত ঘন্টা থাকে,O O O O O O O O O O O O O O B-period-of-day O O B-time-duration I-time-duration O,oranges Bath am
+um let see ,um দেখা যাক,O O O,
+okay maximum amount of oranges ,ঠিক আছে কম পরিমাণে কমলা,O O O O O,oranges
+um well we have if we take let see how long would it take to get to take engine well let see engine number two with two boxcars ,আচ্ছা আমরা যদি দেখি আমরা ইঞ্জিন নিতে কতদিন সময় লাগব  তাহলে দুই বক্সকারের সাথে ইঞ্জিন নম্বর দুই দেখতে দিন।,O O O O O O O O O O O B-number O O O O O O O,engine engine boxcars
+mm-hm ,MM-এইচএম,O,
+um ,একটি,O,
+and and you you can start two engines at the same time ,এবং আপনি একই সময়ে দুটি ইঞ্জিন শুরু করতে পারেন,O O O O B-number O O O O,engines
+yep ,হাঁ,O,
+okay if we start um engine one uh to uh start it on its way to Dansville ,ঠিক আছে যদি আমরা um ইঞ্জিনটি শুরু করি তবে আপনি ডান্সভিলে যাওয়ার জন্য এটি শুরু করবেন,O O O O I-vehicle-name O O O O O O O O O O O,engine Dansville
+mm-hm ,MM-এইচএম,O,
+um and start engine number two um with two boxcars from Elmira ,um এবং Elmira থেকে দুটি boxcars সঙ্গে ইঞ্জিন নম্বর দুই um শুরু,O O O O B-number B-item O O O O O O,engine Elmira
+okay ,ঠিক আছে,O O,
+okay and take well take engine number two ,ঠিক আছে এবং ভাল ইঞ্জিন নম্বর দুই নিতে,O O O O O O I-vehicle-name O,engine
+mm-hm ,MM-এইচএম,O,
+um with two boxcars to Corning ,Corning থেকে দুই boxcars সঙ্গে um,O O B-number B-item O O,Corning
+mm-hm ,MM-এইচএম,O,
+and pick up uh and pick up your oranges ,এবং u বাছাই এবং আপনার কমলা নিতে,O O O O O O O,oranges
+mm-hm ,MM-এইচএম,O,
+and then um go uh see um then I guess we have to take that to Bath ,এবং তারপর উম দেখি উম  তাহলে আমি মনে করি আমাদেরকে বাথ নিতে হবে,O O O O O O O O O O O O O,Bath
+right ,অধিকার,O,
+um and then at the same time though have engine number one um picking up boxcars the three boxcars in Dansville ,um এবং তারপরে একই সময়ে ইঞ্জিন নম্বর এক um বাক্স বাক্সে ড্যান্সভিলে তিন বক্সকারগুলি পিকিং আপ আছে,I-vehicle-name O O O O O O O O O O O B-number O O O O,engine boxcars boxcars Dansville
+right ,অধিকার,O,
+and uh and then uh taking those boxcars to Corning ,এবং ওহ এবং তারপর আপনি যারা Boxcars Corning যাও গ্রহণ,O O O O O O B-item O O O,Corning
+okay ,ঠিক আছে,O O,
+um so how well let see how much time would it take for the I guess the longer trip would be from Avon to Corning right ,um তাই ভাল দেখি কতক্ষণ সময় লাগবে আমি অনুমান করি যে আরবান থেকে কার্নিংয়ের ডানদিকের যাত্রা ঠিক হবে,O O O O O O O O O O O O O O O O O O,Avon Corning
+to yes that right that take four hours ,হ্যাঁ যে অধিকার চার ঘন্টা নিতে,O O O B-time-duration I-time-duration O,
+four hours ,চার ঘন্টা,B-time-duration I-time-duration,
+right ,অধিকার,O,
+and the loading takes an hour each for each boxcar or ,এবং লোড প্রতিটি boxcar বা জন্য প্রতিটি এক ঘন্টা লাগে,O O O B-item O O O O O O,hour
+no you can load all the boxcars or you can load a set of boxcars in an hour ,না আপনি সব বক্সকার লোড করতে পারেন অথবা আপনি এক ঘন্টার মধ্যে বক্সকারগুলির একটি সেট লোড করতে পারেন,O O O O O O O O O O O O O O O O O O,boxcars boxcars hour
+okay so that will be what five hours when by the time we get done loading in Corning ,ঠিক আছে  তখন 5 ঘণ্টা সময় হবে যখন আমরা কর্নিংয়ে লোড করা শুরু করব,O O O O O O O O O O O O O O,five hours Corning
+yeah right of engine one right ,হাঁ ডান ইঞ্জিন এক অধিকার,O O O I-vehicle-name O,engine
+okay ,ঠিক আছে,O O,
+right um hm ,সঠিক এক এইচএম,O O O,
+I guess we not gonna be able to make it back in time ,আমি মনে করি আমরা সময় ফিরে করতে সক্ষম হবে না অনুমান,O O O O O O O O O O O,
+for another load ,অন্য লোড জন্য,O O O,
+if we did ,আমরা যদি না,O O O,
+well I mean we have to get them we have to get oh how long does it take to get from Corning to Bath two hours ,আচ্ছা আমি বলতে চাচ্ছি যে আমাদেরকে তাদের পেতে হবে  আমাদের কতক্ষণ লাগবে  কতক্ষণ সময় থেকে সিগারেট থেকে বাথ এ যেতে হয়?,O O O O O O O O O O O O O O O O O O O O O,Corning two hours
+two hours yeah ,দুই ঘন্টা হাঁ,B-time-duration I-time-duration O,
+oh so that would be perfect if we do it that if we uh ,ওহ তাই আমরা নিখুঁত হবে যদি আমরা এটা যে আমরা যদি,O O O O O O O O O O O,
+with engine one ,ইঞ্জিন এক সঙ্গে,O I-vehicle-name O,engine
+with engine one ,ইঞ্জিন এক সঙ্গে,O I-vehicle-name O,engine
+right ,অধিকার,O,
+so that the maximum we can get with engine one ,যাতে সর্বাধিক আমরা ইঞ্জিন এক সঙ্গে পেতে পারেন,O O O O I-vehicle-name O O O,engine
+right ,অধিকার,O,
+see engine two takes how long two hours to get from Elmira to Corning ,ইঞ্জিন দুই দেখতে এলমির থেকে কার্নিং পর্যন্ত কত ঘন্টা লাগে,O B-time-duration O O O O O O I-time-duration O,engine Elmira Corning
+that right one hour to load ,যে অধিকার এক ঘন্টা লোড,O O B-time-duration O O,hour
+one that three and then then there be ,এক যে তারপর তিনটি আছে,B-number O O B-number O,
+another two hours ,অন্য দুই ঘন্টা,O B-time-duration I-time-duration,
+okay so as that would be the maximum too would it ,ঠিক আছে তাই যে সর্বোচ্চ হবে তাই হবে,O O O O O O O O,
+yeah that right ,হ্যাঁ যে অধিকার,O O O,
+cause cause we cannot get back to Corning to load the other two that are at Bath ,কারণ আমরা বাথ এ অন্যান্য দুটি লোড করার জন্য Corning ফিরে আসতে পারে না,O O O O O B-number O O O O O O O O,Corning Bath
+that right that right ,ঠিক যে অধিকার,O O O,
+so the maximum number is five then right ,তাই সর্বাধিক সংখ্যা পাঁচ তারপর ডান,O O O B-number O O,
+yep ,হাঁ,O,
+okay ,ঠিক আছে,O O,
+okay ,ঠিক আছে,O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+okay we have to take um two tankers of orange juice to Avon um and three boxcars of bananas to Elmira ,ঠিক আছে  আমরা অমন ইউমের কমলা জলের দুটি ট্যাঙ্কার এবং কলা তিনটি বক্সকারকে এলমির কাছে নিতে হবে,O O O O O B-food O B-number O O O B-number O O O O O,tankers juice Avon boxcars bananas Elmira
+and the bananas must arrive by nine pm it doesnot specify any time for the uh for the orange juice to arrive at Avon ,এবং কলাগুলি অবশ্যই 9 টা নাগাদ পৌঁছাতে হবে  এটি অরঞ্জে পৌঁছানোর জন্য অহংয়ের রসের জন্য যে কোনও সময় নির্দিষ্ট করবে না।,O B-food O O O O O O O O O O O O O O O O O O O,nine pm orange juice Avon
+so I uh we probably should do the the bananas first ,তাই আমি আপনাকে সম্ভবত কলা প্রথম করা উচিত,O O O O O O O O,bananas
+okay ,ঠিক আছে,O O,
+where do the bananas go to ,কোথায় কলা যেতে যান,O O O O,bananas
+uh the bananas go to um to Elmira ,ওহে কলাগুলো এলমির কাছে চলে যায়,O B-food O O O O,Elmira
+Elmira okay ,Elmira ঠিক আছে,O O O,Elmira
+and it also says that all the all the engines except for E two are going undergoing routine maintenance we can only use engine E two ,এবং এটিও বলে যে ই-ই ব্যতীত সমস্ত ইঞ্জিন নিয়মিত রক্ষণাবেক্ষণের মধ্য দিয়ে চলছে আমরা কেবল ইঞ্জিন ই দুই ব্যবহার করতে পারি,O O O O O O O O O O O O O O O O O I-vehicle-name O O O,engines E engine E
+okay ,ঠিক আছে,O O,
+um let see uh ,উম দেখি উহ,O O O,
+well like I said we should we should do the bananas first ,ভালো লেগেছে আমি বললাম আমাদের প্রথমে বানানো উচিত,O O O O O O O O,bananas
+okay ,ঠিক আছে,O O,
+um and we need three boxcars of of uh bananas so I say we take E two ,উম এবং আমাদের উহ কলাগুলির তিনটি বক্সকার দরকার তাই আমি বলি আমরা দুইটি গ্রহণ করি,O O O O B-food B-number O O O O O O I-vehicle-name O O,boxcars E
+um and we have to get to where Elmira oh boy uh ,উম এবং আমাদের এল্মিরা ওহ ছেলেকে কোথায় যেতে হবে,O O O O O O O O O,Elmira
+do you have to go all the way to Avon ,আপনি Avon সব পথ যেতে হবে,O O O O O O,Avon
+right and we should yeah let just that what two is it four from Avon to Dansville ,ঠিক আছে এবং আমরা হাঁ ঠিক করা উচিত যে এটি কি দুই এভন থেকে ড্যানসভিল থেকে চার,O O O O O O O O O O O B-number O O O O B-number,Avon Dansville
+three hours ,তিন ঘণ্টা,B-time-duration O,hours
+three okay so so it six hours total to get there ,তিনটি ঠিক তাই ছয় ঘন্টা মোট পেতে সেখানে,B-number O O B-time-duration I-time-duration O O O,
+yes ,হাঁ,O,
+and then boy is it possible to do oh no nine pm okay I sorry ,এবং তারপর ছেলে এটা সম্ভব নয় ওহ না নয় অপরাহ্ন ঠিক আছে আমি দুঃখিত,O O O O O O O O O O O O O O,nine pm
+yeah ,হাঁ,O,
+I I didnot say nine I said nine am didnot I ,আমি বললাম না নয়  আমি নয়টা বললাম না,O O O O O B-time O O,am
+right yeah ,হ্যাঁ হ্যাঁ,O O,
+okay so ,ঠিক আছে  তাই,O O O,
+so nine pm so that makes it easier ,তাই নয়টা অপরাহ্ন তাই এটি সহজ করে তোলে,O B-time O O O O O O,pm
+right um but in it in it it is midnight now too right ,ডান um কিন্তু এটি মধ্যে এটি মধ্যরাত এখন খুব অধিকার,O O O O O O B-period-of-day O O O,
+yes ,হাঁ,O,
+okay so I I I thinking the best thing to do would be to do the bananas first since they the things with the time limit ,ঠিক আছে তাই তৃতীয়টি করার সর্বোৎকৃষ্ট চিন্তা ভাবনাগুলি কলা সীমাগুলির সাথে প্রথম থেকেই করা উচিত,O O O O O O O O O O O O O O O,bananas
+right ,অধিকার,O,
+um so let go all the way to uh to Avon through Dansville ,াম তাই ডান্সভিলের মাধ্যমে অ্যাভনকে সব পথে যেতে দাও,O O O O O O O O O,Avon Dansville
+hm ,HM,O,
+okay ,ঠিক আছে,O O,
+cause I think that the shorter way so that six hours and then then and we already have and we have to load the three boxcars that we picked up in Dansville ,কারণ আমি মনে করি যে ছয় ঘন্টা এবং তারপরেও আমাদের কাছে ছোট্ট উপায় আছে এবং আমাদের ইতিমধ্যে আছে এবং আমাদেরকে তিনটি বক্সকার লোড করতে হবে যা আমরা ড্যানসভিলে তুলে নিয়েছি।,O O O O O B-time-duration I-time-duration O O O O O O O O O O O O O B-number O O O O O O O O O,boxcars Dansville
+yeah it shorter ,হ্যাঁ এটা সংক্ষিপ্ত,O O O,
+right ,অধিকার,O,
+so it another hour ,তাই এটি অন্য ঘন্টা,O O O O,hour
+right ,অধিকার,O,
+and then the six hours back so we what thirteen hours ,এবং তারপর ছয় ঘন্টা আগে তাই আমরা তের ঘন্টা কি,O O B-time-duration I-time-duration O O O O O O,thirteen
+right ,অধিকার,O,
+um so that get us back at about one ,um তাই যে প্রায় এক আমাদের ফিরে পেতে,B-number O O O O O O O,
+one pm ,এক বিকেল,B-time O,pm
+um so that good and now now we have to transport two tankers of orange juice to Avon ,um তাই ভাল এবং এখন আমরা কমলা কমলা দুটি ট্যাঙ্কার পরিবহন Avon করতে হবে,O O O O O O B-food O B-number O O O O O,tankers juice Avon
+and does it take any time to unload the the boxcars ,এবং boxcars আনলোড করার জন্য এটি সময় লাগবে,O B-item O O O O O O,
+um yeah it takes one hour to unload ,উম হ্যাঁ এটা আনলোড এক ঘন্টা লাগে,O O O O B-time-duration O O,hour
+okay um ,ঠিক,O,
+but you gotta load them all at once that that to take things out of them ,কিন্তু আপনাকে তাদের সবাইকে একবারে লোড করতে হবে যাতে সেগুলি তাদের থেকে বের করে নিতে পারে,O O O O O O O O O O O O O O O O,
+mm-hm ,MM-এইচএম,O,
+to uncouple them it only takes it instantaneous ,তাদের অনিচ্ছাকৃত করা এটি শুধুমাত্র তাৎক্ষণিক লাগে,O O O O O O O,
+okay um okay let see well maybe we two oh it tankers so we donot need to unload them anyway or we donot we donot need to uh spend time unloading them cause we can just unhook them ,আচ্ছা ঠিক আছে দেখি হয়তো আমরা দুজন ওহে ট্যাঙ্কার তাই আমরা তাদের যেকোনোভাবে আনলোড করতে হবে না বা আমরা আপনাকে তাদের আনলক করার সময় ব্যয় করতে সময় লাগবে না কারণ আমরা তাদের অবহেলা করতে পারি না,O O O O O O B-number O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,tankers
+right ,অধিকার,O,
+um okay so we in Elmira it one pm ,আচ্ছা ঠিক আছে আমরা এলমিরে এক বিকেলে,O O O O O B-time O,Elmira pm
+yep ,হাঁ,O,
+now let get the two tankers at Corning ,এখন Corning এ দুটি ট্যাঙ্কার পেতে দিন,O O O B-number O O O,tankers Corning
+um and fill them up with orange juice so that gonna three hours ,um এবং কমলা রস দিয়ে তাদের পূরণ করুন যাতে তিন ঘন্টা,O O B-food I-food O O O O O B-time-duration I-time-duration,
+wait a minute um we have to make the orange juice ,একটি মিনিট um অপেক্ষা করুন আমরা কমলা রস করতে হবে,O O O O O O B-food I-food O O,
+oh okay okay yeah oh yeah I see ,ওহ ঠিক আছে ঠিক আছে ওহ হ্যাঁ আমি দেখতে,O O O O O O O O O,
+orange warehouse okay then we take oh boy so now we have to oh we can take the two boxcars that we have in uh Elmira right ,অরেঞ্জ গুদাম ঠিক আছে তারপর আমরা ওহ ছেলে নিতে তাই এখন আমরা ওহ আছে আমরা দুই boxcars নিতে পারেন যে আমাদের অধিকার uh Elmira আছে,B-food B-place O O O O O O O O O O O O O B-number B-item O O O O O O O O,Elmira
+yep ,হাঁ,O,
+and take those to uh Corning to pick up the oranges ,এবং কমলা বাছাই করার জন্য ওহ Corning তাদের নিতে,O O O O O O O O O,Corning oranges
+okay ,ঠিক আছে,O O,
+um and that take three hours right including loading ,um এবং যে লোডিং সহ তিন ঘন্টা অধিকার নিতে,O O O O O B-time-duration I-time-duration O O,
+uh let see two yeah that right ,ওহ হ্যাঁ যে অধিকার দেখতে দিন,O O O O O O,two
+and then back to Elmira to make the orange juice ,এবং তারপর কমলা রস করতে Elmira ফিরে,O O B-food I-food O O O,Elmira
+right ,অধিকার,O,
+so that five ,যাতে পাঁচ,O B-number,
+yep ,হাঁ,O,
+and then it takes six to get to Avon so that another eleven ,এবং তারপর এটি এভন পেতে ছয় লাগে যাতে অন্য একাদশ,O O O O O B-number O O O O,Avon eleven
+that right ,সেটা ঠিক,O O,
+and whatever time that be that two in the morning ,এবং যে সময় যে যে সকালে দুই হতে,O O O O O O B-number O,morning
+and then we done ,এবং তারপর আমরা সম্পন্ন,O O O O,
+right ,অধিকার,O,
+the next day but it doesnot matter right ,পরের দিন কিন্তু এটা সঠিক ব্যাপার না,O O O O O O O,
+right exactly ,ঠিক ঠিক,O O,
+okay so we done ,ঠিক আছে তাই আমরা সম্পন্ন,O O O O O,
+okay ,ঠিক আছে,O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+alright we have to get seven boxcars of oranges to Elmira by nine am and it now twelve midnight ,ঠিক আছে  আমরা সকাল সাড়ে নয়টা নাগাদ এলমিরার কমলাগুলির সাত বক্সকার পেয়েছি এবং এখন বারোটা মধ্যরাত্রি,O O O O O B-time O O O B-number O O O O B-time B-period-of-day,boxcars oranges Elmira am
+so we got nine hours ,তাই আমরা নয় ঘন্টা পেয়েছিলাম,O O O I-time-duration O,nine
+um I think what we need to do here is is uh take engine E one to Dansville and pick up uh and pick up the three boxcars there ,um আমি মনে করি আমাদের এখানে যা করতে হবে তা হলো  আপনি ইঞ্জিনটি ইয়ানকে ড্যানসভিলে নিয়ে যান এবং ওহে উঠুন এবং সেখানে তিনটি বক্সকার তুলে নিন,I-vehicle-name O O O O O O O O O O O O O O O O O O O O O B-number O O O,engine E Dansville boxcars
+okay ,ঠিক আছে,O O,
+and um and at the same time uh what it okay since the since these let see we have two engines in Elmira ,এবং um এবং একই সময়ে ওহ ঠিক আছে যেহেতু এই দেখি আমাদের এল্মিরাতে দুটি ইঞ্জিন আছে,O O O O O O O O O O O O O B-number O O,engines Elmira
+so we need to take one of those um to Corning and then to uh to Bath ,তাই আমাদের সেই উমকে কার্নিং করার জন্য এবং তারপর বাথ করতে হবে,O O O O O O O O O O O O,one Corning Bath
+to pick up the two boxcars there okay ,সেখানে দুই boxcars নিতে ঠিক আছে,O B-number B-item O O O,
+okay ,ঠিক আছে,O O,
+and that will start at the same time as um uh ,এবং যে উম হিসাবে একই সময়ে শুরু হবে,O O O O O O O O,
+as the engine from E one ,ই এক ইঞ্জিন হিসাবে,O I-vehicle-name O O,engine E
+right and I can engine E can can two of the engines be going the same way on the same track ,ঠিক আছে এবং আমি ইঞ্জিন চালাতে পারি ইঞ্জিন দুটি একই ট্র্যাকে একই ভাবে যেতে পারে,O O O O O O O O B-number O O O O O O,engine E engines
+no uh the same way yes ,হ্যাঁ  একই ভাবে হ্যাঁ,O O O O,
+the same way right ,একই ভাবে ডান,O O O,
+yeah ,হাঁ,O,
+okay so if we take E three and start it right behind with the two boxcars that are already in Elmira we can take that to Corning ,ঠিক আছে তাই যদি আমরা ই তিনটি গ্রহণ করি এবং এটি এলমিরার দুটি বাক্সকারগুলির সাথে ডানদিকে শুরু করি তবে আমরা সেটি সিঙ্কিং করতে পারি,O O O O O O I-vehicle-name O O O O O B-number O O O O O O O O O O O,E boxcars Elmira Corning
+yes ,হাঁ,O,
+okay um now uh once that is done the um what time would that be let see ,আচ্ছা ওম এখন একবার ওম যে কাজ করা হবে যে একবার দেখানো হবে,O O O O O O O O O O O O O,
+so let see you got two engines in Corning is that what you mean ,তাই দেখা যাক আপনি Corning মধ্যে দুটি ইঞ্জিন পেয়েছেন যে আপনি কি মানে,O O O O O O B-number O O O O O O,engines Corning
+mm-hm ,MM-এইচএম,O,
+then I have ,তারপর আমি আছে,O O O,
+well wait we have well one engine let see yeah one engine will be in Corning one will be in Bath picking up the other two boxcars ,ভাল অপেক্ষা করুন আমাদের একটি ইঞ্জিন আছে দেখতে দাও হ্যাঁ একটি ইঞ্জিন কর্নিংয়ের মধ্যে থাকবে এক বাথ অন্য দুটি বক্সকারে উঠবে,O O O O O O O O O O O O O O O B-number O O B-number O O,engine engine Corning Bath boxcars
+three ,তিন,B-number,
+uh okay ,ওহ ঠিক আছে,O O O,
+and the other one will be in Dansville and E one will be in Dansville ,এবং অন্য এক ড্যানসভিল হবে এবং ই এক ড্যান্সভিল হবে,O O I-vehicle-name O O O O O O O,Dansville E Dansville
+with the three boxcars ,তিন boxcars সঙ্গে,B-number B-item O,
+um with the three boxcars ,তিন boxcars সঙ্গে um,B-number B-item O O,
+um now that by the by the time let see what would take the longest time of those three ,um এখন যে দ্বারা সময় দেখতে দিন যে তিনটি দীর্ঘতম সময় লাগবে কি,O O O O O O O O B-number O O O O,
+the probably the trip from Avon to Corning takes ,সম্ভবত এভন থেকে Corning যাও ট্রিপ লাগে,O O O O O O O,Avon Corning
+well actually that getting getting from Elmira to Corning to Bath and then back again ,ভাল যে Elmira থেকে Corning থেকে স্নান থেকে পেয়ে এবং তারপর আবার ফিরে পেয়ে,O O O O O O O O O O O O O O,Elmira Corning
+okay ,ঠিক আছে,O O,
+that gonna take the well it gonna take two four six hours to get back to Corning with those two boxcars ,যে ভাল লাগবে এটা দুই চার ছয় ঘন্টা সঙ্গে Corning ফিরে পেতে দুই ঘন্টা ছয় ঘন্টা নিতে হবে,O O O O B-number B-number B-time-duration I-time-duration O O O O O O O O O O,Corning boxcars
+okay ,ঠিক আছে,O O,
+okay ,ঠিক আছে,O O,
+um ,একটি,O,
+okay I see yep and uh so that but that alright ,ঠিক আছে আমি yep এবং দেখুন তাই যে কিন্তু ঠিক আছে,O O O O O O O O O O O,
+um we can load the uh now we can we have we can have three engines in Corning at the same time right ,um আমরা এখন আপনি লোড করতে পারেন আমরা আমাদের একই সময়ে সঠিক সময়ে Corning মধ্যে তিন ইঞ্জিন থাকতে পারে,O O O O O O O O O O O O O O O B-number O O O,engines Corning
+yes ,হাঁ,O,
+okay so by the time that E one gets to Corning with its three boxcars it gonna be um ,আচ্ছা তাই ই যখন তিনটি বক্সকারের সাথে কর্ণফুলি করতে আসে তখন এটি হতে পারে,O O O O B-number O O O O O O O O O,E one Corning boxcars
+four am ,চারটা,B-time,am
+four okay ,চার ঠিক আছে,B-number O O,
+so we can just we can just take those or load those that be five um five am and then take them back and that seven am ,তাই আমরা কেবলমাত্র সেগুলি নিতে পারি অথবা যারা পাঁচ পঞ্চম বা পাঁচটা লোড করতে পারি এবং তারপর তাদের ফিরিয়ে নিতে পারি এবং সেটি সাতটা,O O O O O O O O B-time O O O O O O O O O O O O O O B-time,am am
+yep ,হাঁ,O,
+um but the one that gonna take the longest time is the one we really have to be concerned about right ,um কিন্তু দীর্ঘতম সময় নিতে হবে যে এক সত্যিই আমরা সঠিক সম্পর্কে উদ্বিগ্ন হতে হবে,B-number O O O O O O O O O O O O O O,
+yeah ,হাঁ,O,
+and that gonna that get back exactly at nine ,এবং যে যে ঠিক নয় ফিরে ফিরে পেতে হবে,O O O O O O O O O,nine
+so so wait a minute so at seven say at seven am ,তাই সাত মিনিটে সাত মিনিটে তাই এক মিনিট অপেক্ষা করুন,O B-time O O O O O O O O,minute am
+right it uh the one that takes the longest is the one that goes down to Bath right ,ঠিক আছে  যেটি দীর্ঘতম সময় নেয় সেটি হ&#39;ল সঠিকভাবে বাথের নিচে যায়,O O O O O O O O O O O O,one one Bath
+right so and that one will get there at get if once it gets loaded at the orange warehouse ,ঠিক তাই এবং এটি কমলা কমপক্ষে গুদাম লোড একবার পায় যদি পেতে হবে,O O O O B-food O B-place O O O O O O,one
+that right ,সেটা ঠিক,O O,
+it by the time it gets back to Elmira it be nine ,এটি এলমির কাছে ফিরে আসে এটি নয়টি,O O O O O O B-number,Elmira
+that right ,সেটা ঠিক,O O,
+okay so let just make sure we donot uh donot have any cars going in uh opposite directions we not we donot okay fine ,ঠিক আছে তাই নিশ্চিত হোন যে আমরা আপনাকে কোন বিপরীত নির্দেশে কোনও গাড়ি চালাতে দিচ্ছি না আমরা না ঠিক আছে ঠিক আছে।,O O O O O O O O O O O O O O O O O O O O O O,
+I think we all set ,আমি মনে করি আমরা সব সেট,O O O O O O,
+so so let see the the one boxcar coming from Avon ,তাই আসুন আসন থেকে আসা এক বক্সকারকে দেখি,O O O O O B-number O O,boxcar Avon
+right ,অধিকার,O,
+takes three I sorry the one engine from Avon takes three boxcars ,আমি তিনজনকে এভন থেকে এক ইঞ্জিন নিয়ে তিনটি বক্সকার নিতে চাই,O O O O B-number O O B-number O O O,engine Avon boxcars
+yep ,হাঁ,O,
+to Elmira so that three ,এলমির কাছে তিনটা,O O B-number,Elmira
+uh though the engine that going to Bath takes two boxcars that two more ,ওহ  যদিও ইঞ্জিন যা বাথে যাচ্ছে সে দুটি বক্সকারকে আরও দুটি করে নেয়,O O O O O O O B-number O O O O O,engine Bath boxcars
+and then the the first engine that took the boxcars from Elmira ,এবং তারপর প্রথম ইঞ্জিন যে Elmira থেকে boxcars গ্রহণ,O O O O O O O B-item O,engine Elmira
+that the shortest trip ,যে সংক্ষিপ্ত ট্রিপ,O O O,
+mm-hm ,MM-এইচএম,O,
+takes another two so that seven yep that work ,অন্য দুই লাগে যে সাত yep যে কাজ,O B-number O O B-number O O O,
+alright ,ঠিক হ্যায়,O O,
+okay ,ঠিক আছে,O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+alright we have to ship two boxcars of bananas and one boxcar of oranges to Dansville using only one engine ,ঠিক আছে  আমরা কেবল এক ইঞ্জিন ব্যবহার করে কলাসের দুটি বক্সকার এবং কমলাগুলির একটি বক্সকার জাহাজে পাঠাতে হবে,O O O O B-number O O O O B-number O O O O O O O O,boxcars bananas boxcar oranges Dansville engine
+and have that has to be the shipment must be unloaded by one pm so that gives us thirteen hours to do all that ,এবং যে চালান হতে হবে এক অপরাহ্ন দ্বারা আনলোড করা আবশ্যক যাতে যে সব কিছুর জন্য আমাদের তের ঘন্টা দেয়,O O O O O B-time O O O O O O O O O O O O I-time-duration O,pm thirteen
+okay ,ঠিক আছে,O O,
+um I think maybe using engine E one and taking the take making the trip to um Dansville ,um আমি সম্ভবত ইঞ্জিন ই এক ব্যবহার করে এবং um Dansville ট্রিপ তৈরীর গ্রহণ মনে,I-vehicle-name O O O O O O O O O O O O O O,engine E Dansville
+and then to pick up the three boxcars ,এবং তারপর তিন boxcars নিতে,O O B-number B-item O,
+okay ,ঠিক আছে,O O,
+and then that takes what three hours ,এবং তারপর যে তিন ঘন্টা লাগে,O O O B-time-duration I-time-duration O,
+takes ,লাগে,O,
+well three hours one way ,ভাল তিন ঘন্টা এক উপায়,O B-time-duration I-time-duration B-number O,
+and okay and then to get back to the bananas service is six to load is seven ,এবং ঠিক আছে এবং তারপর কলা পরিষেবা ফিরে পেতে ছয় লোড সাত হয়,O O O O O O O O O B-number O B-number O,bananas
+alright we wanna be loading two at the banana warehouse but ,ঠিক আছে আমরা কলা গুদামে দুটি লোড করতে চাই,O O O B-food O B-number O O O,warehouse
+that okay it takes only one hour to load ,ঠিক আছে এটা লোড করতে মাত্র এক ঘন্টা লাগে,O O O O O O B-time-duration O O,hour
+right ,অধিকার,O,
+you just have to load them in parallel ,আপনি শুধু সমান্তরাল তাদের লোড আছে,O O O O O O,
+okay ,ঠিক আছে,O O,
+so that um seven hours and then three back is ten ,যাতে um সাত ঘন্টা এবং তারপর তিন ফিরে দশ হয়,O O B-time-duration I-time-duration O O B-number O B-number O,
+seven hours ,সাত ঘণ্টা,B-time-duration O,hours
+so we have three to work with um and then uh it one to Corning ,তাই আমাদের তিনটি um সঙ্গে কাজ করতে এবং তারপর এটি Corning একটি,O O B-number B-number O O O O O O O O,Corning
+one hour to Corning yeah ,এক ঘন্টা কর্ণপাতের হ্যাঁ,B-time-duration O O O,hour Corning
+okay oh this this I donot know if this is gonna work now ,ঠিক আছে ওহ এই আমি এখন কাজ করতে হবে জানি না,O O O O O O O O O O O,
+well we only need two boxcars of bananas right ,ভাল আমরা শুধুমাত্র ডান কলা দুটি boxcars প্রয়োজন,O O O O O B-number B-item O,bananas
+right ,অধিকার,O,
+so we could just we donot have to wait for them to be unloaded we just unhitch them ,তাই আমরা কেবল তাদের জন্য অপেক্ষা করতে হব না  তাদের আনলড করার জন্য আমরা কেবল তাদের আনহচ করতে পারি,O O O O O O O O O O O O O O O O O O O,
+oh okay ,ওহ ঠিক আছে,O O O,
+and then take the remaining boxcar down to ,এবং তারপর অবশিষ্ট boxcar নিচে নিতে,O O O B-item O O,
+okay ,ঠিক আছে,O O,
+right to ,ডান পার্শ্বে,O O,
+Corning ,Corning ,O,Corning
+Corning ,Corning ,O,Corning
+yeah ,হাঁ,O,
+and that uh ,এবং ওহ,O O,
+and that takes one two three hours with the loading ,এবং যে লোডিং সঙ্গে এক দুই তিন ঘন্টা লাগে,O O O O B-time-duration I-time-duration I-time-duration I-time-duration O,
+okay ,ঠিক আছে,O O,
+oh what and then we have to unload right ,ওহ কি এবং তারপর আমরা অধিকার আনলোড করতে হবে,O O O O O O O O O,
+or unload them ,অথবা তাদের আনলোড,O O O,
+right so that gonna be ,ঠিক তাই যে হতে হবে,O O O O O,
+that four hours ,যে চার ঘন্টা,O B-time-duration I-time-duration,
+so how long did it take us to get ,তাই এটা কতক্ষণ আমাদের পেতে,O O O O O,
+I think it think that gonna add up to fourteen let see um Avon to pick up the three and get back to Avon is six right to load is is seven ,আমি মনে করি মনে হয় যে চৌদ্দটি পর্যন্ত যোগ করা যাক um Avon কে তিনটি বাছাই করা এবং এভন এ ফিরে আসার ছয়টি অধিকার সাতটি,O O O O O O B-number O O O O O O O B-number O O O O O O O B-number O B-number,Avon Avon
+right and then ,ঠিক আছে এবং তারপর,O O O O,
+and then back is ten ,এবং তারপর ফিরে দশ,O O O B-number,
+okay and then ,ঠিক আছে এবং তারপর,O O O O,
+then we then we need four hours in order to be able to to get to Corning load and get back and then and then unload ,তারপর আমরা Corning লোড পেতে এবং ফিরে পেতে এবং তারপর আনলোড করতে সক্ষম হতে যাতে আমরা চার ঘন্টা প্রয়োজন,O O O O O O O O O O O O O O O O B-time-duration I-time-duration O,Corning
+right ,অধিকার,O,
+so that that one hour more than we ,তাই যে আমাদের চেয়ে এক ঘন্টা আরো,O O O O B-time-duration O O,hour
+than we have ,আমরা আছে,O O,
+than we have ,আমরা আছে,O O,
+okay so ,ঠিক আছে  তাই,O O O,
+maybe ,হতে পারে,O O,
+engine E one was maybe it was the best thing ,ইঞ্জিন ই এক সম্ভবত এটি ছিল সেরা জিনিস,O O I-vehicle-name O O O O O,engine E
+um ,একটি,O,
+see if we try with ,আমরা চেষ্টা করে দেখুন,O O O O,
+cause we have to mm maybe we try like taking two boxcars of er well taking one boxcar would be sufficient ,কারণ আমরা মিমি করতে পারব হয়তো আমরা ই বক্সের দুটি বক্সার নিতে চাই  এক বক্সকার যথেষ্ট পরিমাণে গ্রহণ করব,O O O O O O O O O B-number O O O B-number O O O O O,boxcars boxcar
+when and if we took or no wait here here we go ,কখন এবং যদি আমরা এখানে থাকি বা না থাকি তবে আমরা যাই,O O O O O O O O O O O O,
+oh let go down to Bath ,ওহ বাথ যেতে নিচে যান,O O O O O,
+I ,আমি,O,
+yeah ,হাঁ,O,
+yeah ,হাঁ,O,
+if if we take um let see because we have to we have to get the bananas too ,যদি আমরা um নিতে পারি তবে দেখতে হবে কারণ আমাদেরও কলাগুলি পেতে হবে,O O O O O O O O O O B-food O O,
+yeah ,হাঁ,O,
+so this we have to get to Avon somehow ,তাই এই যেকোনভাবে আমরা Avon পেতে আছে,O O O O O O O,Avon
+yeah I think you I think you right yeah let stick with E one ,হ্যাঁ আমি মনে করি আপনি আমার মনে হয় হ্যাঁ হ্যাঁ ই সঙ্গে লাঠি যাক,O O O O O O O O O O O O O O,E one
+uh E one ,ওহ ই,O O,E one
+right because it takes us to get from Elmira to get from Elmira to Dansville ,ঠিক কারণ এটি এলমির থেকে এলান্সার থেকে ড্যানসভিল পর্যন্ত পেতে আমাদের নিয়ে আসে,O O O O O O O O O O O O O,Elmira Elmira Dansville
+mm-hm ,MM-এইচএম,O,
+it gonna take us three hours ,এটা আমাদের তিন ঘন্টা নিতে হবে,O O B-time-duration I-time-duration O O,
+okay ,ঠিক আছে,O O,
+oh let see yeah and then another three hours to Avon ,ওহ হ্যাঁ এবং তারপর Avon অন্য তিন ঘন্টা দেখতে দিন,O O O O O O B-time-duration I-time-duration O O,Avon
+and we have to get there like you said for the bananas and that so that takes six hours so it the same ,এবং আপনাকে সেখানে যেতে হবে যেমন কলাগুলির জন্য বলা হয়েছে এবং তাই ছয় ঘন্টা সময় লাগে তাই এটি একই,O O O O O O B-food O O O O O B-time-duration I-time-duration O O O O O,
+alright ,ঠিক হ্যায়,O O,
+as just using E one ,শুধু ই এক ব্যবহার হিসাবে,O O I-vehicle-name O O,E
+oh we can take care of the oranges right off quick ,ওহ আমরা দ্রুত ডান বন্ধ কমলা যত্ন নিতে পারেন,O O O O O O O O O,oranges
+oh that that ,ওহ যে যে,O O O,
+right on on the way ,ঠিক পথে পথে,O O O,
+that a good point that a good point let do yeah you right ,যে একটি ভাল বিন্দু একটি ভাল বিন্দু হ্যাঁ আপনি অধিকার যাক,O O O O O O O O O O O,
+okay so why donot we take um take two boxcars from or well actually it really doesnot matter ,ঠিক আছে তাই আমরা um নিতে দুই Boxcars নিতে না না আসলে আসলে এটা সত্যিই ব্যাপার না,O O O O O O B-number B-item O O O O O O O O O,
+we just pick up the boxcars at at uh Elmira with engine E two and taking them to the to Corning ,আমরা শুধু ই-এলিমিরা এ ইঞ্জিন ই দুটি দিয়ে বক্সকারগুলি বাছাই করি এবং তাদেরকে কার্নিং এ নিয়ে যাই,O O O O O O I-vehicle-name O O O O O O O O O O,boxcars Elmira engine E Corning
+right ,অধিকার,O,
+and load them up and that what total of three hours ,এবং তাদের লোড এবং যে তিন ঘন্টা মোট লোড,O O O O O B-time-duration I-time-duration O O,
+yep ,হাঁ,O,
+and then take those and then go to Dansville ,এবং তারপর যারা নিতে এবং তারপর ড্যান্সভিল যান,O O O O O O O O,Dansville
+so that uh let see and that one more hour ,যাতে আপনি ও যে এক ঘন্টা আরো দেখতে দিন,O O O O B-time-duration O O O O,hour
+and ,এবং,O,
+yeah and we can we can ,হ্যাঁ এবং আমরা আমরা করতে পারেন,O O O O O O,
+drop off at the ,এ বন্ধ ড্রপ,O O O,
+drop off that boxcar and take well yeah drop off the boxcar of ,যে boxcar বন্ধ ড্রপ এবং ভাল বক্সার অফ ড্র ড্রপ,O B-item O O O O O O O O,
+and then take two empty ones ,এবং তারপর দুটি খালি বেশী নিতে,O O B-number O O O,
+right two empty ones down to to Avon ,ডান দুই খালি নিচে এভন যাও,O B-number O O O O,Avon
+and pick up the the bananas ,এবং কলা নিতে,O O O,bananas
+right ,অধিকার,O,
+now how long is that let see ,এখন কতক্ষণ দেখা যাক,O O O O,
+okay so Elmira to Corning is two and loading is three and to Dansville is four ,ঠিক আছে তাই এলমীরা কর্নিংয়ের দুইটি এবং লোডিং তিনটি এবং ড্যানসভিল চারটি,O O O O O B-number O O B-number O O B-number,Elmira Corning Dansville
+yep ,হাঁ,O,
+okay so that and then we done with the oranges ,ঠিক আছে যে তারপর এবং তারপর আমরা কমলা সঙ্গে সম্পন্ন,O O O O O O O O O O,oranges
+yeah and then eight to Avon right ,হ্যাঁ এবং তারপর আট Avon ডান,O O O B-number O O,Avon
+and then we go ,এবং তারপর আমরা যেতে,O O O O,
+three to ,তিন থেকে,B-number O,
+well it only three that right okay so it ,ভাল এটা ঠিক তাই ঠিক যে তিনটি,O O O O O O B-number,
+yeah right right so three to Avon and back again so and back again will be seven ,হ্যাঁ ঠিক ডান তাই তিন এভন এবং ফিরে আবার তাই আবার ফিরে সাত হবে,O O O O B-number O O O O O O O B-number O,Avon
+right ,অধিকার,O,
+with the with the loading ,লোড সঙ্গে সঙ্গে,O O O,
+then eight to unload ,তারপর আট আনলোড,O B-number O,
+okay ,ঠিক আছে,O O,
+right so it eight plus four twelve hours ,ঠিক তাই এটি আট প্লাস চার বারো ঘন্টা,O O O B-number O B-number B-time-duration I-time-duration,
+so we be just right ,তাই আমরা ঠিক অধিকার,O O O O,
+so that be perfect ,যাতে নিখুঁত হতে,O O O,
+okay ,ঠিক আছে,O O,
+yeah actually we a bit early ,হ্যাঁ আসলে আমরা একটু বিট,O O O O O,
+we a little little better ,আমরা সামান্য একটু ভাল,O O O O,
+yeah okay ,হ্যাঁ ঠিক আছে,O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes okay I looking to ship three boxcars of bananas and three tankers of OJ to Bath ,হ্যাঁ ঠিক আছে আমি কলা তিনটি বক্সকার এবং ওজে তিনটি ট্যাঙ্কার জাহাজে পাঠাচ্ছি,O O O O O B-number O O O O O O O,boxcars bananas tankers OJ Bath
+okay so I have boxcars in Elmira and tankers in Corning right ,ঠিক আছে তাই আমি Elmira মধ্যে Boxcars এবং Corning ডান ট্যাঙ্কার আছে,O O O O O O B-item O O O O O,Elmira tankers Corning
+mm-hm ,MM-এইচএম,O,
+and I need to where are the bananas oh the bananas so I have an engine in Avon but not a boxcar ,ও কলাগুলির কলা দরকার কোথায়  তাই আমার এভন ইঞ্জিন আছে কিন্তু বক্সকার নয়,O B-food O O O O O O O O O O O,engine Avon boxcar
+so would I have to take an engine and then go to Bath and pick up a boxcar and then come back how long is that from ,তাই আমাকে একটা ইঞ্জিন নিতে হবে এবং তারপর বাথে যেতে হবে এবং বক্সকার নিতে হবে এবং তারপর থেকে ফিরে আসা হবে,O O O O O O O O O O O O O O O O O O O O O,engine Bath boxcar
+so Avon to Bath is four hours ,তাই বাথ এভন চার ঘন্টা,O O O B-time-duration I-time-duration,Avon Bath
+okay and I donot have any time limit so I suppose it doesnot really matter ,ঠিক আছে এবং আমি কোন সময় সীমা আছে তাই আমি মনে করি এটা সত্যিই ব্যাপার না,O O O O O O O O O O O O O O O O,
+it twelve now and okay so I go to three box oh I only have two there oh okay sorry I go to Dansville ,এখন বারোটা এবং ঠিক আছে তাই আমি তিনটি বাক্সে যাই  ওহে আমার দুজনই আছে ওহ ঠিক আছে আমি ড্যান্সভিলে যাই,O B-number O O O O O B-number O O O O O O O O O O O O,box two Dansville
+and pick up three boxcars how long is that ,এবং তিন boxcars যে পর্যন্ত কত বাছাই করা,O B-number B-item O O O O O,
+that three hours ,যে তিন ঘন্টা,O B-time-duration I-time-duration,
+okay so I go to Dansville pick up the three boxcars with my engine ,ঠিক আছে তাই আমি ড্যান্সভিলকে আমার ইঞ্জিনের সাথে তিনটি বক্সকার পছন্দ করি,O O O O O O O O B-number O O O,Dansville boxcars engine
+now where am I going I going to Bath okay and then I fill it up with bananas those three boxcars how long does that take ,এখন আমি কোথায় যাচ্ছি আমি বাথ ঠিক আছে যাচ্ছি এবং তারপর আমি তিনটি বক্সকারের কলা দিয়ে এটি পূরণ করব কতক্ষণ সময় লাগবে,O O O O O O O O O O O O B-number O O O O O O O O O,Bath bananas boxcars
+uh filling takes one hour ,ওহ ভর্তি এক ঘন্টা লাগে,O O B-time-duration O O,hour
+okay filling so that another hour three one four and then I just ship those to Bath ,আচ্ছা ভর্তি হও  আরেক ঘণ্টা তিনটি চার  তারপর আমি শুধু বাথ পাঠাই,O O O O O B-number O O O O O O,hour one four Bath
+okay ,ঠিক আছে,O O,
+and that four hours you said ,এবং যে চার ঘন্টা আপনি বলেন,O O B-time-duration I-time-duration O O,
+mm-hm ,MM-এইচএম,O,
+and then three tankers of OJ ,এবং তারপর ওজে তিন ট্যাঙ্কার,O O O B-number O,tankers OJ
+uh so I go from Corning to Elmira which is how long ,ওহ তাই আমি সির্নিং থেকে এলিমিরা যাব আর কত দিন,O O O O O O O O O O,Corning Elmira
+Corning to Elmira is two hours ,সিগারেট থেকে এলমির দুই ঘণ্টা,O O O B-time-duration O,Corning Elmira hours
+okay with my tankers fill up my tankers which takes uh an hour ,ঠিক আছে আমার ট্যাঙ্কাররা আমার ট্যাঙ্কারগুলি পূরণ করে যা এক ঘন্টা সময় নেয়,O O O B-vehicle O O O O O O O O O,hour
+yes ,হাঁ,O,
+okay and then drive from Elmira to Bath ,ঠিক আছে এবং তারপর Elmira থেকে বাথ ড্রাইভ,O O O O O O O O,Elmira Bath
+yes ,হাঁ,O,
+and that should complete the task I would think ,এবং যে আমি মনে করি কাজটি সম্পন্ন করা উচিত,O O O O O O O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes okay I looking to ship one boxcar of bananas one boxcar of oranges and one tanker of OJ to Bath all by noon today and it is twelve midnight ,হ্যাঁ ঠিক আছে  আমি আজকের দুপুরের মধ্যে কলাগুলির এক বক্সকার  কমলা এক বক্সকার ও ওজে এক ট্যাঙ্কার জাহাজে পাঠাচ্ছি এবং বারোটা মধ্যরাত,O O O O O B-period-of-day O B-food B-number O O O O O O O B-vehicle O O O B-time B-period-of-day,boxcar boxcar oranges OJ Bath
+so let see one boxcar of bananas okay well I suppose one boxcar of oranges well to Bath hm ,তাই কলাগুলির এক বক্সকার দেখতে দাও ঠিক আছে আমি বাথ হ্যামের মত কমলাগুলির এক বক্সকার মনে করি,O B-food B-number O O O O O O O O O O O O O O,boxcar boxcar oranges Bath
+okay well I guess I just take my engine from Avon to Dansville which is three hours ,আচ্ছা ঠিক আছে  আমি অনুমান করছি যে আমি আমার ইঞ্জিনকে অ্যাভন থেকে ডান্সভিলে নিয়ে যাচ্ছি যা তিন ঘন্টা,O O O O O O O O O O O O O O O O B-time-duration I-time-duration,engine Avon Dansville
+and pick up two boxcars ,এবং দুই boxcars নিতে,O B-number B-item O,
+um go back where should we okay go from Dansville to Corning which is how long two hours ,উম ফিরে যাবেন আমরা ডান্সভিল থেকে কার্নিং পর্যন্ত যাব ঠিক কত ঘন্টা যাব,O O O O O O O O O O O I-time-duration O,Dansville Corning two
+Dansville to Corning is one hour ,Cansville থেকে Corning একটি ঘন্টা,O O O O O,Dansville Corning one hour
+one hour um then fill up one of the boxcars with oranges and ,এক ঘন্টা um তারপর কমলা সঙ্গে boxcars এক পূরণ করুন,B-number O O O O O B-item O O O,hour oranges
+um there are oranges at Corning ,um Corning এ কমলা আছে,O O O O O,oranges Corning
+there are ,সেখানে,O,
+oh no sorry there are yeah ,ওহ কোন দুঃখিত আছে হ্যাঁ আছে,O O O O O O,
+okay ,ঠিক আছে,O O,
+right and um hm then I guess is it faster to go from Corning to Avon or from Corning like through Bath or through Dansville is my question ,ডান এবং um Hm তারপর আমি এটা Corning থেকে এভন থেকে বা Corning থেকে বাথ মাধ্যমে বা ডানসভিল মাধ্যমে যেতে দ্রুত এটা আমার প্রশ্ন,O O O O O O O O O O O O O O O O O O O O O O O O,Corning Avon Corning Bath Dansville
+okay it faster to go to from Corning to Avon through Dansville that takes four hours ,ঠিক চার ঘন্টা সময় লাগে Dansville মাধ্যমে Corning থেকে এভন থেকে দ্রুত যেতে,O B-time-duration I-time-duration O O O O O O O O O O,Corning Avon Dansville
+okay ,ঠিক আছে,O O,
+okay so I go back the the way I came and then fill up the second car with bananas ,ঠিক আছে তাই আমি ফিরে আসার পথে ফিরে যাই এবং তারপর কলা দিয়ে দ্বিতীয় গাড়িটি ভরা,O O O O O O O O O O O O O B-order O O,car bananas
+wait I not keeping track of the time am I ,আমি সময় আমি ট্র্যাক রাখা না অপেক্ষা করুন,O O O O O O O O,
+okay that three hours to Dansville it twelve midnight now so it three in the morning another hour ,ঠিক আছে যে ডান্সভিলে তিন ঘণ্টা এটি বারো মধ্যরাত্রি তাই এখন তিন ঘন্টা সকালে অন্য ঘন্টা,O O O O B-number O O B-time B-period-of-day O O O I-time-duration O O O,Dansville morning hour
+mm-hm one hour to Corning ,এমএম-এইচএম এক ঘন্টা সিগারেট,O B-time-duration O O,hour Corning
+okay one hour Corning that four in the morning an hour to load right ,ঠিক আছে এক ঘন্টা কর্নিং যে সকালে চার ঘন্টা সঠিক লোড একটি ঘন্টা,O O B-time-duration O O O O B-number O O O O O,hour Corning morning hour
+one hour to load yep ,Yep লোড এক ঘন্টা,O O B-time-duration O,hour
+that five in the morning I still have plenty of time and then and then it four hours back ,যে সকালে পাঁচটি এখনও আমি প্রচুর সময় এবং তারপর এবং এটি চার ঘন্টা আগে আছে,O O B-number O O O O O O O O B-time-duration I-time-duration O O,morning
+four hours back ,চার ঘন্টা আগে,B-time-duration I-time-duration O,
+so where was I five nine in the morning one hour to load that ten in the morning right ,তাই সকালে আমি পাঁচটা নই  এক ঘণ্টার সকাল 10 টার দিকে,O O O B-number O B-time-duration O B-period-of-day O O O,nine hour ten
+mm-hm ,MM-এইচএম,O,
+and then how many hours to Bath from Avon ,এবং তারপর এভন থেকে বাথ কত ঘন্টা,O O O O O O O,Bath Avon
+um Bath from Avon is four ,এভন থেকে বাথ চারটি,O O O B-number,Bath Avon
+oh then we not gonna make it by twelve are we um ,ওহ  তাহলে আমরা বারোটি করে যাব না আমরা um,O O O B-time O O O O O,
+hm ,HM,O,
+you have to ,তোমাকে করতেই হবে,O O O,
+oh I can go I can go from Avon pick up the two boxcars right ,ওহ আমি যেতে পারেন আমি Avon থেকে যেতে পারেন দুটি boxcars ডান নিতে,O O O O O O O O O B-number B-item O O,Avon
+and then go to Corning ,এবং তারপর Corning যান,O O O O,Corning
+well no it doesnot make any sense either way anyway then so we a little late ,ভাল না এটা কোন ভাবেই কোনো উপায় তোলে না যাইহোক তারপর আমরা একটু দেরী,O O O O O O O O O O O O O O,
+and would the ,এবং হবে,O O,
+so what your task it to take one boxcar of bananas one boxcar of oranges ,তাই আপনার টাস্ক এটা কলা এক boxcar নিতে কমলা একটি boxcar,O O O O O B-number B-item O O O O,bananas oranges
+and one tanker of OJ to Bath to the I can take a tanker from Corning to Elmira in how many hours ,এবং ওজে থেকে বাথের এক ট্যাঙ্কার আমি কার্নিং থেকে এলমিরা পর্যন্ত একটি ট্যাঙ্কার কত ঘন্টার মধ্যে নিতে পারি,O O O O B-number B-vehicle O O O O O O O O O O O O,OJ Corning Elmira
+Corning to Elmira takes two hours ,সিমিং থেকে এলমির দুই ঘন্টা লাগে,O O O B-time-duration I-time-duration O,Corning Elmira
+so two load one hour and then from Elmira to Bath ,তাই দুই ঘন্টা এক ঘন্টা এবং তারপর Elmira থেকে বাথ থেকে,O B-number O B-time-duration O O O O O O O,hour Elmira Bath
+Elmira to Bath is four hours ,Elmira বাথ চার ঘন্টা হয়,O O B-time-duration I-time-duration O,Elmira Bath
+it four hours so um two three so we can get that there by seven in the morning ,এটা চার ঘন্টা তাই um দুই তিন তাই আমরা সাত সকালে যে সেখানে পেতে পারেন,O B-time-duration I-time-duration O O B-number I-number O O B-time O O O O O,morning
+then that not a problem but I donot see how I can get the boxcar of bananas and the boxcar of oranges to Bath by twelve if we gotta go all over the place to pick up the boxcars ,তাহলে সেটা কোন সমস্যা নয় কিন্তু আমি দেখতে পাচ্ছি না যে  আমি বক্সারগুলি বাছাই করার জন্য সর্বত্র যেতে হলে বারান্দায় কলা এবং বক্সারের কম্বার বক্সার পেতে পারি।,O O O O O O O O O O O O O O O O O O O O O O O O O O O,boxcar bananas boxcar oranges Bath twelve boxcars
+is it possible to get one and ,এটা এক পেতে এবং সম্ভব,O B-number O O O,
+maybe you could start with a different engine ,হয়তো আপনি একটি ভিন্ন ইঞ্জিন দিয়ে শুরু হতে পারে,O O O O O O O O O,engine
+different engine yeah ,বিভিন্ন ইঞ্জিন হ্যাঁ,O O O,engine
+you donot have to start in Avon I suppose ,আপনি আমার মনে হয় এভন শুরু করতে donot আছে,O O O O O O O O O,Avon
+yeah I guess so well okay so I start in Elmira with one engine and the two boxcars ,হ্যাঁ আমি তাই ঠিক আছে ঠিক তাই আমি Elmira একটি ইঞ্জিন এবং দুটি boxcars সঙ্গে শুরু,O O O O O O O O O O O O B-number B-item O O,Elmira one engine
+mm-hm ,MM-এইচএম,O,
+okay and then I can drive straight to Corning ,ঠিক আছে এবং তারপর আমি সরাসরি Corning যাও চালাতে পারেন,O O O O O O O O O O,Corning
+mm-hm ,MM-এইচএম,O,
+from Elmira which is how many hours again ,Elmira থেকে আবার কত ঘন্টা হয়,O O O O O O,Elmira
+Elmira to Corning is two hours ,এলমির থেকে কার্নিং দুই ঘণ্টা,O O O B-time-duration O,Elmira Corning hours
+two hours so that two in the morning one hour to load ,দুই ঘন্টা যাতে সকালে দুই ঘন্টা এক ঘন্টা লোড,B-number I-time-duration O O O O B-time-duration O O,morning hour
+mm-hm ,MM-এইচএম,O,
+and then four hours from Corning to Avon right ,এবং তারপর চার ঘন্টা Corning থেকে Avon ডান,O O B-time-duration I-time-duration O O O O,Corning Avon
+four hours from Corning to Avon yes ,Corning থেকে Avon হ্যাঁ চার ঘন্টা,O O O O B-time-duration I-time-duration,Corning Avon
+okay so that was three in the morning seven in the morning an hour to load ,ঠিক আছে  তাই সকাল সাড়ে সাতটার দিকে সকালে এক ঘণ্টা লোড,O O O B-period-of-day O O O O O O O,three seven
+that eight in the morning and then four hours oh that okay then that works and then we make it by twelve ,যে সকালে আট এবং তারপর চার ঘন্টা ওহ ঠিক আছে যে কাজ করে এবং তারপর আমরা বারো দ্বারা এটি করা,O O B-number O O B-time-duration I-time-duration O O O O O O O O O B-time O O O,morning
+um how are you getting the orange juice ,উম তুমি কিভাবে কমলা রস পাচ্ছো?,O O O B-food I-food O,
+oh well I I already said that that was um that was to um take a tanker from Corning to to Elmira which is an hour an hour to load ,ওহ ওয়েল ২ য় ইতিমধ্যেই বলেছিল যে um কে ছিল র্নিং থেকে কার্নিং থেকে এলমির পর্যন্ত একটি ট্যাঙ্কার যা লোড করার জন্য একটি ঘন্টা,O O O O O O O O O O O O O O O O O B-vehicle O O O O O O,Corning Elmira hour hour
+no Corning to Elmira is two hours ,Elmira কোন Corning দুই ঘন্টা হয়,O O O B-time-duration I-time-duration O,Corning Elmira
+two hours oh okay ,দুই ঘন্টা ওহ ঠিক আছে,B-time-duration I-time-duration O O O,
+so that and then an hour to load which is makes it uh three in the morning ,তাই যে এবং তারপর একটি ঘন্টা লোড হয় তা সকালে আপনি তিনটি তোলে,O O O O O O O O O O O B-number O,hour morning
+and then four hours to Bath correct ,এবং তারপর চার ঘন্টা সঠিক বাথ,O O B-time-duration I-time-duration O O,Bath
+right well why donot you keep the whole ,ঠিক আছে কেন আপনি পুরো রাখা donot না,O O O O O O O O,
+I cannot separate it ,আমি এটা আলাদা করতে পারবেন না,O O O O O O,
+well you could but it be faster just you have to start with the engine well either in Elmira or Avon right ,ভাল আপনি কিন্তু এটি দ্রুত হতে পারে শুধু আপনি ভাল Elmira বা Avon ডান ইঞ্জিন দিয়ে শুরু করতে হবে,O O O O O O O O O O O O O O O O O O O,engine Elmira Avon
+right ,অধিকার,O,
+and then you have to get to the oranges and then back to the orange juice factory ,এবং তারপর আপনি কমলা এবং তারপর কমলা রস কারখানা ফিরে পেতে আছে,O O O B-food O O O I-food B-place O O O,oranges
+I have to bring the oranges to the orange juice factory ,আমার কমলা কমলা কমলার ফলের কারখানায় আনতে হবে,O B-food O O O O O O,oranges juice factory
+I believe so ,আমি তাই বিশ্বাস করি,O O O O,
+donot they have oranges there ,তারা সেখানে কমলা আছে donot না,O O O O O O,oranges
+I think you have to ,আমি আপনাকে আছে মনে হয়,O O O O O,
+I have to ,আমাকে করতে হবে,O O O,
+okay this is getting complicated ,ঠিক আছে এই জটিল হচ্ছে,O O O O O,
+so I have to not only but no my my problem is to get a boxcar of bananas a boxcar of oranges and one tanker of orange juice to Bath ,তাই আমাকে শুধু না করতে হবে তবে আমার কোন সমস্যা নেই কলাগুলির একটি বক্সকার কমলা একটি বক্সকার এবং স্নানের রসের এক ট্যাঙ্কার পান করা।,O O O O O O O O O O O B-food O O B-food O O O O O B-number B-vehicle O O,boxcar boxcar oranges juice Bath
+it doesnot say they all have to arrive at the same time or all have to go together ,এটা তারা সবাই একই সময়ে পৌঁছাতে হবে না বা একসঙ্গে যেতে হবে বলে না,O O O O O O O O O O O O O O,
+right but it ,ডান কিন্তু এটা,O O O,
+but they just have to be there by noon ,কিন্তু তারা দুপুর নাগাদ সেখানে থাকতে হবে,O O B-period-of-day O O O O,
+okay so let go through your plan ,ঠিক আছে তাই আপনার পরিকল্পনা মাধ্যমে যেতে দিন,O O O O O O O O,
+okay ,ঠিক আছে,O O,
+so what your plan ,তাই আপনার পরিকল্পনা কি,O O O O,
+my plan is to go well first we work on the orange juice ,আমার পরিকল্পনা ভাল যেতে আগে আমরা কমলা রস কাজ,O O O O O O B-food I-food O,
+okay ,ঠিক আছে,O O,
+I have a tanker in Corning ,আমি Corning মধ্যে একটি ট্যাঙ্কার আছে,O O O O B-vehicle O,Corning
+mm-hm ,MM-এইচএম,O,
+I drive the tanker from Corning to Elmira ,আমি কার্নিং থেকে এলমিরা পর্যন্ত ট্যাঙ্কার চালাচ্ছি,O O O O O B-vehicle O,Corning Elmira
+you cannot drive the tanker without an engine ,আপনি একটি ইঞ্জিন ছাড়া ট্যাঙ্কার ড্রাইভ করতে পারবেন না,O O O O B-vehicle O O O O,engine
+a tanker ,একটি ট্যাঙ্কার,O B-vehicle,
+the tanker needs an engine ,ট্যাঙ্কার একটি ইঞ্জিন প্রয়োজন,B-vehicle O O O,engine
+I thought a tanker was just truck or is it a ,আমি একটি ট্যাঙ্কার শুধু ট্রাক ছিল নাকি এটি একটি,O O B-vehicle O O O O O O,truck
+it one of those round things that gets pulled by an engine ,এটি একটি ইঞ্জিন দ্বারা টানা পায় যে বৃত্তাকার জিনিস এক,O O O O O O O O O B-number,engine
+oh with it part of the train oh I see okay and then that that why I was confused ,ওহ  ট্রেনের অংশে ওহ  আমি ঠিক আছে দেখেছি এবং তারপরেও আমি কেন বিভ্রান্ত ছিলাম,O B-vehicle O O O O O O O O O O O O,
+okay so we start in ,ঠিক আছে তাই আমরা শুরু,O O O O O,
+start in Elmira ,Elmira শুরু,O O,Elmira
+Elmira with two boxcars in we go to Corning and we pick up a a tanker ,এলমির দুটি বক্সকারের সাথে আমরা কর্নিংয়ে যাব এবং আমরা এএ ট্যাঙ্কার তুলি,O B-number O O O O O O O O B-vehicle O,Elmira boxcars Corning
+mm-hm ,MM-এইচএম,O,
+and then we go back to Elmira ,এবং তারপর আমরা Elmira ফিরে যান,O O O O O O,Elmira
+okay ,ঠিক আছে,O O,
+um so it two hours there two hours back that four hours fill up an hour that five in the morning ,দুই ঘন্টা আগে দু ঘন্টা আগে চার ঘণ্টা সকাল পাঁচটার দিকে এক ঘন্টা ভরা,B-time-duration I-time-duration O O O O B-time-duration O B-period-of-day B-time-duration O O O O,hour
+well if you gonna make orange juice you have to pick up orange juice it in Corning in order to make orange juice ,ভাল  কমলা রস তৈরি করতে হলে কমলা জুসকে কমলা জুস নিতে হবে,O B-food I-food O O O O O O O O O,Corning
+I have to pick up oranges and then for them to make orange juice I have to bring them the oranges ,আমাকে কমলাগুলি বাছাই করতে হবে এবং তারপর তাদের কমলা রস তৈরি করতে হবে  আমাকে তাদের কমলাগুলি আনতে হবে,O B-food O O O O O O O I-food O O O O O O O O,oranges oranges
+exactly ,ঠিক,O,
+okay so ,ঠিক আছে  তাই,O O O,
+so ,সুতরাং,O,
+okay um picking up an engine and two boxcars in Elmira I going to Corning picking up a tanker an hour for loading ,ঠিক আছে আমি এলিমির একটি ইঞ্জিন এবং দুটি বক্সকার পিকিং করছি আমি কার্নিংকে ট্যাঙ্কার লোড করার জন্য এক ঘন্টা বাছাই করতে যাচ্ছি,O O O O O O O B-number O O O O O B-vehicle O O O O O O O O,engine boxcars Elmira Corning hour
+mm-hm ,MM-এইচএম,O,
+so that three in the morning ,তাই যে সকালে তিন,O O O B-time,morning
+so ,সুতরাং,O,
+three in the morning ,সকালে তিন,O B-time,morning
+and then from Corning to Elmira it another two hours that five ,এবং তারপর কর্নিং থেকে এলমীরা পর্যন্ত পাঁচ ঘণ্টা বাকি,O O O O O O B-number O O,Corning Elmira two hours
+another hour to load that six ,আরেক ঘণ্টা যে ছয় লোড,O O O B-number O,hour
+okay ,ঠিক আছে,O O,
+and then I drive from Elmira back to Corning ,এবং তারপর আমি Elmira থেকে Corning ফিরে ড্রাইভ,O O O O O O O O,Elmira Corning
+okay ,ঠিক আছে,O O,
+I guess I could ,আমি অনুমান করতে পারি,O O O O,
+you could filled up two for the price of one ,আপনি এক মূল্যের জন্য দুই ভরাট করতে পারে,O B-number O O B-number O O O,
+fill the ,পূর্ণ কর,O O,
+okay so I done that ,ঠিক আছে তাই আমি যে কাজ,O O O O O O,
+so ,সুতরাং,O,
+you already done that fine ,আপনি ইতিমধ্যে যে জরিমানা সম্পন্ন,O O O O O,
+okay so I go straight to Avon and I get the bananas ,ঠিক আছে তাই আমি সরাসরি অ্যাভন যেতে পারি এবং আমি কলা পেতে পারি,O O O O O O O O O O O O O,Avon bananas
+so that another ,তাই অন্য যে,O O O,
+four ,চার,B-number,
+four hours is that right okay ,চার ঘন্টা ঠিক আছে ঠিক আছে,B-time-duration I-time-duration O O O O,
+and then another hour for loading are you keeping track of what time it is or should I ,এবং তারপর লোড করার জন্য অন্য ঘন্টা আপনি কি সময় বা ট্র্যাক রাখা উচিত,O O O O O O O O O O O O O O,hour
+um so should we should be at eleven I think ,um তাই আমরা এগারো এ মনে করা উচিত,O O O B-number O O O O,
+eleven but that that doesnot give enough still doesnot give us enough time to get to Bath right ,এগারো কিন্তু যথেষ্ট যে দেয় না এখনও ডান বাথ পেতে যথেষ্ট সময় দেয় না,B-number O O O O O O O O O O O O O,Bath
+cause it what another three hours or four hours ,এটা কি অন্য তিন ঘন্টা বা চার ঘন্টা কারণ,O O O B-time-duration I-time-duration O B-time-duration O O,
+right ,অধিকার,O,
+so we cannot make it in time then it be late ,তাই আমরা সময় দেরি করতে পারছি না এটা দেরি হয়ে যাবে,O O O O O O O O O O O,
+well maybe we could use separate engines ,ভাল হয়তো আমরা পৃথক ইঞ্জিন ব্যবহার করতে পারে,O O O O O O O O,engines
+okay yeah I suppose fine ,ঠিক আছে হ্যাঁ আমি অনুমান,O O O O O,
+alright so I can send them out both at the same time right ,ঠিক আছে তাই আমি একই সময়ে উভয় তাদের আউট পাঠাতে পারেন,O O O O O O O O O O O,
+right ,অধিকার,O,
+both engines can go at the same time ,উভয় ইঞ্জিন একই সময়ে যেতে পারেন,O O O O O O,engines
+okay so one engine will go to do what I just said and just do the orange juice right ,ঠিক আছে তাই এক ইঞ্জিন আমি যা বলেছি তা করতে হবে এবং শুধু কমলা জুস ঠিক করে দেবে,O O O B-number O O O O O O O O O B-food I-food O O O,engine
+right so it will go from Corning to Bath at the end ,ঠিক তাই এটি শেষ পর্যন্ত Corning থেকে বাথ যেতে হবে,O O O O O O O O O O,Corning Bath
+right ,অধিকার,O,
+okay ,ঠিক আছে,O O,
+right and then the other engine will go with the two boxcars and do what I said ,ডান এবং তারপর অন্য ইঞ্জিন দুটি boxcars সঙ্গে যেতে হবে এবং আমি কি বলেন,O O O O O B-number B-item O O O O O O O,engine
+you know by going from Elmira to Avon oh Elmira stopping in Corning and then oh ,আপনি এলমির থেকে এভন ওহ এলিরা কর্নিংয়ে রওনা হয়ে ওহ এবং তারপর ওহ,O O O O O O O O O O O O O,Elmira Avon Elmira Corning
+no the other engine can start at Avon go to Dansville back to Avon and pick up the bananas and go to Bath ,এভন এ কোনও ইঞ্জিন শুরু করতে পারবেন না ডেভনভিলে ফিরে এভন এ যান এবং কলাগুলি বাছাই করে বাথ এ যান,O O O O O O O O O O O O O O B-food O O O O O,engine Avon Dansville Avon Bath
+that time oh start at but it okay yeah should I I mean that fine with me ,যে সময় ওহ শুরু কিন্তু হ্যাঁ ঠিক আছে উচিত দ্বিতীয় মানে আমার সাথে জরিমানা,O O O O O O O O O O O O O O,
+oh actually no it ,ওহ আসলে এটা কোন,O O O O,
+I think that would be ,আমি যে হতে হবে মনে হয়,O O O O O O,
+okay so what you final plan ,ঠিক আছে তাই আপনি চূড়ান্ত পরিকল্পনা কি,O O O O O O O,
+okay first off I using both engines from Elmira ,ঠিক আছে আমি প্রথম অ্যালমিরা থেকে ইঞ্জিন ব্যবহার করে বন্ধ,O O O O O O O O O O,engines Elmira
+okay ,ঠিক আছে,O O,
+one is gonna go by itself and pick up one tanker of can I carry oranges in tankers ,এক নিজেই যেতে হবে এবং ট্যাঙ্কার মধ্যে কমলা বহন করতে পারে এক ট্যাঙ্কার নিতে হবে,B-number O O O O B-vehicle O O O O O O O O O,oranges tankers
+no ,না,O,
+then I cannot do that then ,তারপর আমি যে তারপর করতে পারেন না,O O O O O O O,
+you can take boxcars with you at there are boxcars available at Elmira ,এলমির এ বক্সকারগুলি পাওয়া যায় সেখানে আপনার সাথে বক্সকারগুলি নিতে পারেন,O O O O O O O O O O O,boxcars boxcars Elmira
+three right two well I guess alright and then I pick up another one on the way ,তিনটি ডান দুই আমি ভাল অনুমান এবং তারপর আমি পথে অন্য এক নিতে,B-number O B-number O O O O O O O O B-number O,
+alright so each engine has one boxcar I go to Corning one of the engine goes picks up a they both fill up with oranges that another hour ,ঠিক আছে তাই প্রতিটি ইঞ্জিনের একটি বক্সকার আছে যা আমি কার্নিংয়ের কাছে যাচ্ছি ইঞ্জিনের একটি ইঞ্জিন যা তারা উভয় কমলা দিয়ে ভরাট করে আর এক ঘন্টা,O O O O O O O O O O O O O O O O O O O O O O O O B-number O,engine boxcar engine oranges hour
+okay so we at three in the morning ,ঠিক আছে তাই আমরা সকালে তিন এ,O O O O O B-number O,morning
+right ,অধিকার,O,
+okay ,ঠিক আছে,O O,
+so and then one of the engines heads back to Elmira ,তাই ইঞ্জিনের একটি এলমির কাছে ফিরে আসে,O O O O O O O,one engines Elmira
+okay ,ঠিক আছে,O O,
+that ,যে,O,
+five am ,পাঁচটা,B-time,am
+five am and then loads picks up a tanker ,পাঁচ মিনিট এবং তারপর লোড একটি ট্যাঙ্কার আপ লাগে,B-time O O O O O B-vehicle O O,am
+alright ,ঠিক হ্যায়,O O,
+and then and then fills up with orange juice ,এবং তারপর এবং তারপর কমলা রস দিয়ে ভরাট,O O O O B-food I-food O O,
+so that six am ,তাই যে ছয় am,O O B-time I-time,
+okay and then go straight from Elmira to Bath ,ঠিক আছে এবং তারপর Elmira থেকে বাথ সরাসরি যেতে,O O O O O O O O O,Elmira Bath
+that ten am ,যে দশটা,O B-time,am
+yes and ,হ্যাঁ এবং,O O,
+so at ten am we have one tanker of OJ at Bath ,তাই দশ টা বাথ এ আমাদের এক ট্যাঙ্কার আছে,O B-time O O O O B-number B-vehicle O,am OJ Bath
+right ,অধিকার,O,
+okay ,ঠিক আছে,O O,
+okay and so the other engine which has one boxcar ,ঠিক আছে এবং তাই অন্য ইঞ্জিন যা একটি boxcar আছে,O O O O O O O O B-item O,engine one
+mm-hm ,MM-এইচএম,O,
+goes so we have just one tanker okay goes to goes from Elmira to Dansville ,তাই আমরা শুধু এক ট্যাঙ্কার ঠিক আছে Elmira থেকে ড্যান্সভিল থেকে যায় যায়,O O O B-number B-vehicle O O O O O O O O,Elmira Dansville
+okay so it gets there at three donot you want to pick up oranges on the way ,ঠিক আছে তাই তিনটি donot এ আপনি পায়ের পাতার মোজাবিশেষ বাছাই করতে চান,O O O B-number O O O O O O O O O,oranges
+oh yes that right I sorry stop at Corning pick up oranges ,ওহ হ্যাঁ যে অধিকার আমি দুঃখিত Corning সিরাজ বাছাই বন্ধ করুন,O O O O O O O O O O O,Corning oranges
+okay ,ঠিক আছে,O O,
+okay that ,ঠিক আছে যে,O O O,
+okay so it four ,ঠিক আছে তাই চার,O O O B-number,
+that four oh plus stop in Dansville pick up a boxcar ,যে Dansville চার ওহ প্লাস স্টপ একটি boxcar নিতে,O O B-number O O O O B-item O,Dansville
+okay that doesnot take any time ,ঠিক আছে যে কোনো সময় নেয় না,O O O O O O O,
+okay and then go straight to Avon ,ঠিক আছে এবং তারপর সোজা এভন যান,O O O O O O O,Avon
+that seven am ,যে সাত am,O B-time I-time,
+uh load for an hour eight am and then drive from Avon to Bath ,ওহ এক ঘন্টা আট ঘন্টা এবং তারপর এভন থেকে বাথ ড্রাইভ,O O O B-time O O O O O O O,am Avon Bath
+Avon to Bath twelve ,বার্ন বার্ন এভন,O O O,Avon Bath twelve
+twelve ,বার,O,twelve
+okay ,ঠিক আছে,O O,
+okay then that complete,ঠিক আছে তারপর যে সম্পূর্ণ,O O O O O,
+okay yes I looking to ship three boxcars of bananas to Bath and two tankers of OJ to Dansville ,ঠিক আছে হ্যাঁ আমি কলা থেকে তিন বক্সকারে বাথ এবং ওজির দুই ট্যাঙ্কারকে ড্যান্সভিলে পাঠাচ্ছি,O O O O O O B-number O O O O B-number O O O,boxcars bananas Bath tankers OJ Dansville
+all deliveries must be made before noon okay ,সব deliveries দুপুর ঠিক আগে করা আবশ্যক,O O B-period-of-day O O O O,
+so three boxcars of bananas to where ,তাই কলা তিন বক্সকার যেখানে,O O B-number O O,boxcars bananas
+Bath ,স্নান,O,Bath
+mm-hm ,MM-এইচএম,O,
+and two tankers of OJ to Dansville ,এবং ওজির দুই ট্যাঙ্কার ড্যানসভিল,O O B-number O O,tankers OJ Dansville
+okay ,ঠিক আছে,O O,
+so okay let start with our bananas ,তাই ঠিক আছে আমাদের কলা দিয়ে শুরু করা যাক,O O O O O O O O O,bananas
+okay we have an engine ,ঠিক আছে আমরা একটি ইঞ্জিন আছে,O O O O O O,engine
+mm-hm ,MM-এইচএম,O,
+mm how do I want to do this alright I try this way and see if it works ,মিমি কিভাবে আমি এই ঠিক করতে চাই আমি এই ভাবে চেষ্টা করে দেখুন এবং এটি কাজ করে দেখুন,O O O O O O O O O O O O O O O O O O,
+we have an I pick up use my engine in Avon ,আমরা একটি অ্যাভন আমার ইঞ্জিন ব্যবহার কুড়ান আছে,O O O O O O O O,engine Avon
+okay ,ঠিক আছে,O O,
+and go to Dansville ,এবং ড্যানসভিল যান,O O O,Dansville
+okay it takes three hours ,ঠিক আছে এটা তিন ঘন্টা লাগে,O O O B-time-duration I-time-duration O,
+pick up boxcars ,Boxcars নিতে,B-item O,
+okay ,ঠিক আছে,O O,
+all three of them and then go back ,তাদের তিনটি এবং তারপর ফিরে যান,O B-number O O O O,
+another three hours so it six am ,অন্য তিন ঘন্টা তাই ছয় am,O B-time-duration I-time-duration O B-time I-time,
+right load ,সঠিক লোড,O O,
+mm-hm ,MM-এইচএম,O,
+three cars of ,তিনটি গাড়ি,B-number O,
+so it seven am ,তাই এটা সাত am,O O B-time I-time,
+so that an hour ,যাতে এক ঘন্টা,O O O,
+and then drive to Bath that eleven right ,এবং তারপর বাথ ড্রাইভ যে এগারো ডান,O O O O O B-number O,Bath
+that eleven am ,এগারোটা,B-time,am
+okay and now we have to at the same time leaving at twelve I guess I have two tankers need two tankers of OJ to Dansville ,ঠিক আছে এবং এখন আমাদের বারোজন এ চলে যেতে হবে। আমার মনে হয় আমার দুটি ট্যাঙ্কার ওজির দুই ট্যাঙ্কার দরকার আছে।,O O O O O B-time O O O O O O O O B-number O O O O O O,tankers tankers OJ Dansville
+okay so I start in Corning with two tankers ,ঠিক আছে তাই আমি দুটি ট্যাঙ্কার সঙ্গে Corning মধ্যে শুরু,O O O O B-number O O O O O,Corning tankers
+you need an engine ,আপনি একটি ইঞ্জিন প্রয়োজন,O O O O,engine
+oh I need an engine and I need boxcars okay alright so I start in Elmira ,ওহ আমি একটি ইঞ্জিন প্রয়োজন এবং আমি boxcars ঠিক আছে ঠিক তাই আমি Elmira শুরু,O O O O O O O B-item O O O O O O O,engine Elmira
+okay ,ঠিক আছে,O O,
+with how many boxcars do I need to make two tankers ,দুই ট্যাঙ্কার তৈরি করতে কত বক্সকার দরকার,B-number O O O O O O,boxcars tankers
+two ,দুই,B-number,
+two okay start with one engine in Elmira and two boxcars ,দুটি ঠিক আছে Elmira এবং দুটি boxcars এক ইঞ্জিন দিয়ে শুরু,B-number O O O O O B-item B-number O O O,engine Elmira
+mm-hm ,MM-এইচএম,O,
+and then I go to Corning two hours ,এবং তারপর আমি দুই ঘন্টা Corning যেতে,O O O B-time-duration I-time-duration O O,Corning
+okay so it two am ,ঠিক আছে  তাই দুপুর,O O O O,two am
+yeah right uh load the oranges ,হ্যাঁ ঠিক আছে আপনি কমলা লোড,O O O O O O,oranges
+three am ,তিনটা,B-time,am
+and pick up two tankers which doesnot take time ,এবং সময় নিতে না যা দুটি ট্যাঙ্কার আপ নিতে,O O O O O B-number O O O,tankers
+right ,অধিকার,O,
+right ,অধিকার,O,
+mm-hm ,MM-এইচএম,O,
+and then back to Elmira that ,এবং তারপর ফিরে Elmira যে,O O O O O,Elmira
+five am ,পাঁচটা,B-time,am
+five am and I get two fill my two tankers with orange juice six am right ,পাঁচ মিনিট এবং আমি দুজনকে আমার দুই ট্যাঙ্কারকে কমলা ছুটি দিয়ে ছুঁয়ে ফেলি,B-time O O O O O B-number O B-food O O O O,am tankers juice six am
+mm-hm ,MM-এইচএম,O,
+and then I go directly from Elmira to Bath ,এবং তারপর আমি সরাসরি Elmira থেকে বাথ যান,O O O O O O O O,Elmira Bath
+Elmira to Bath is ten am ,এলমির কাছে বাথ হয় 10 টা,O O O O O O,Elmira Bath ten am
+ten am okay that should do it ,দশ ঠিক আছে যে এটা করা উচিত,B-time O O O O O O,am
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes I must ship two boxcars of bananas and two boxcars of oranges to Dansville ,হ্যাঁ  আমি কলাস এবং দুই ড্যান্সভিলের কমলার দুটি বক্সকার অবশ্যই জাহাজে পাঠাতে হবে,O O O O B-number O O O O O O O O,boxcars bananas boxcars oranges Dansville
+and all this must arrive there by ten am ,এবং এই সব দশ টা দ্বারা সেখানে পৌঁছাতে হবে,O O O B-time O O O O O,am
+okay ,ঠিক আছে,O O,
+okay alright I gonna start I guess I have two boxes of bananas ,আচ্ছা ঠিক আছে আমি শুরু করবো আমার অনুমান আছে যে আমার দুটি কলা আছে,O O O O O O O O O O O B-number O O,boxes bananas
+two boxcars and two boxcars of oranges okay I gonna start actually with my oranges ,দুই boxcars এবং কমলা দুটি boxcars ঠিক আছে আমি আমার কমলা সঙ্গে আসলে শুরু করতে হবে,B-number B-item O O O O O O O O O O O O O O,oranges oranges
+okay ,ঠিক আছে,O O,
+and leave Elmira ,এবং Elmira ছেড়ে,O O O,Elmira
+mm-hm ,MM-এইচএম,O,
+twelve am ,বারোটা,B-time,am
+okay ,ঠিক আছে,O O,
+um one engine and two boxcars ,um এক ইঞ্জিন এবং দুটি boxcars,B-number O O O B-number B-item,engine
+okay ,ঠিক আছে,O O,
+go to Corning ,Corning যান,O O,Corning
+okay ,ঠিক আছে,O O,
+and um load so that uh three am ,এবং um লোড যাতে আপনি তিন ঘন্টা am,O O O O O B-time O I-time,
+three am ,তিনটা,B-time,am
+and then go to Dansville ,এবং তারপর ড্যানসভিল যান,O O O O,Dansville
+okay so that four am ,ঠিক আছে  তাই চারটা,O O O B-time,am
+four am okay and that my two boxcars of oranges ,চার ঠিক আছে এবং যে কমলা আমার দুটি boxcars,B-time O O O O O O B-number B-item,am oranges
+and okay then I guess I use my other my other engine in Avon ,এবং ঠিক আছে তাহলে আমি আমার Avon অন্য আমার ইঞ্জিন ব্যবহার অনুমান,O O O O O O O O O O O O,engine Avon
+mm-hm ,MM-এইচএম,O,
+and I will go to Bath which is four hours ,এবং আমি বাথ যেতে যা চার ঘন্টা,O O O O O B-time-duration I-time-duration,
+okay ,ঠিক আছে,O O,
+is that four hours ,যে চার ঘন্টা,O B-time-duration I-time-duration,
+that four hours ,যে চার ঘন্টা,O B-time-duration I-time-duration,
+hm I donot think that gives me enough time how how long is it the same distance to Bath and Dansville ,এইচএম আমি মনে করি না যে আমাকে যথেষ্ট সময় দেয় কিভাবে এটি বাথ এবং ড্যানসভিলের দূরত্ব কত দূর,O O O O O O O O O O O O O O O O O O,Bath Dansville
+no Dansville only three hours ,কোন ড্যান্সভিল শুধুমাত্র তিন ঘন্টা,O O O B-time-duration I-time-duration,Dansville
+okay then I will go to Dansville ,ঠিক আছে তাহলে আমি ডান্সভিলে যাব,O O O O O O,Dansville
+okay ,ঠিক আছে,O O,
+pick up two boxcars ,দুই boxcars নিতে,B-number B-item O,
+so that ,তাই যে,O O,
+three am ,তিনটা,B-time,am
+and then go back ,এবং তারপর ফিরে যান,O O O O,
+okay ,ঠিক আছে,O O,
+to Avon ,এটা এভন,O O,Avon
+that six am ,যে ছয় am,O B-time I-time,
+that six am ,যে ছয় am,O B-time I-time,
+so my bananas ,তাই আমার কলা,O O O,bananas
+seven am ,সাতটা,B-time,am
+and then go back to Dansville which is ten am ,এবং তারপর ফিরে দশসভিল যা ডান্সভিল ফিরে যান,O O O O O O O O,Dansville ten am
+ten am ,দশ টা,B-time O,am
+okay ,ঠিক আছে,O O,
+do you have all that ,আপনি যে সব আছে,O O O O,
+mm-hm ,MM-এইচএম,O,
+okay that it ,ঠিক আছে যে এটা,O O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes um I like to ship two boxcars of bananas to Corning um ,হ্যাঁ um আমি কার্নিং um কে কলা দুটি বক্সার জাহাজ করতে চান,O O O O O O O B-number O O O O,boxcars bananas Corning
+let see ,চল দেখি,O O,
+how long does it take to get um an engine from Avon to Dansville and then back carrying two boxcars ,এভন থেকে ড্যানসভিল পর্যন্ত একটি ইঞ্জিন পেতে এবং তারপর দুটি বক্সকার বহন করার জন্য এটি কতক্ষণ সময় নেয়,O O O O O O O O O B-number O O O O O O O O,engine Avon Dansville boxcars
+uh seven no six hours ,ওহ সাত সাত ছয় ঘন্টা,O B-number O B-time-duration I-time-duration,
+okay six hours and then how long to fill the two boxcars with bananas and ship it to Bath ,ঠিক ছয় ঘন্টা এবং তারপর কলা দিয়ে দুই বক্সকারগুলি পূরণ করতে কত দিন লাগবে এবং এটিকে বাথে পাঠানো হবে,O B-time-duration I-time-duration O O O O B-number O O O O O O O O O O O,boxcars bananas Bath
+uh five hours ,ওহ পাঁচ ঘন্টা,O B-time-duration I-time-duration,
+okay let do that ,ঠিক আছে যে যাক,O O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes um let see ,হ্যাঁ um দেখা যাক,O O O O,
+how long will it take to transport um hm an engine to Corning ,Corning এ একটি ইঞ্জিন um এইচএম পরিবহন করতে কতক্ষণ লাগবে,O O O O O O O O O O,engine Corning
+to pick up a tanker and then back to Elmira ,একটি ট্যাঙ্কার নিতে এবং তারপর Elmira ফিরে,O B-vehicle O O O O O,Elmira
+uh which engine would you like to take ,তুমি কোন ইঞ্জিনটি নিতে চাও?,O O O O O,engine
+how about the faster one ,কিভাবে দ্রুত এক সম্পর্কে,O O B-number O,
+alright there an engine in Elmira ,ঠিক আছে Elmira একটি ইঞ্জিন,O O O O O,engine Elmira
+yeah ,হাঁ,O,
+it will take two hours to Corning ,এটা Corning দুই ঘন্টা সময় লাগবে,O O B-time-duration I-time-duration O O,Corning
+mm-hm ,MM-এইচএম,O,
+uh and I sorry you said pick up a boxcar and go to Bath ,ওহ আমি দুঃখিত এবং বললাম  একটা বক্সকার বাছাই করে বাথ নিয়ে যাও,O O O O O O O O O O O O,boxcar Bath
+no I said uh pick up a tanker and go back to Elmira ,না আমি বললাম তুমি একটা ট্যাঙ্কার তুলো এবং এলমির কাছে ফিরে যাও,O O O O O B-vehicle O O O O O O,Elmira
+ah uh that will be four hours total ,ওহ  যে চার ঘন্টা মোট হবে,O O B-time-duration I-time-duration O O,
+okay and how long would it take it then to deliver that tanker of OJ to Avon ,ঠিক আছে এবং এটি কতক্ষণ লাগবে তারপর ওজির সেই ট্যাঙ্কারটি এভনকে সরবরাহ করবে,O O O O O O O O O O O O O,tanker OJ Avon
+you like to make out orange juice in Elmira and deliver it in Avon uh that would take seven hours ,আপনি Elmira মধ্যে কমলা রস আউট করতে এবং এটি Avon u মধ্যে প্রদান করতে চান যে সাত ঘন্টা সময় লাগবে,O O O B-food I-food O O O O O O O O O O O B-time-duration I-time-duration O O,Elmira Avon
+okay so that eleven hours for the uh entire thingy um ,আচ্ছা এগারো ঘন্টার জন্য তোমার পুরো জিনিস,O B-time-duration I-time-duration O O O O,
+are you picking up oranges in Corning ,আপনি Corning মধ্যে কমলা আপ বাছাই করা হয়,O O O O O O O O,oranges Corning
+no I I picking up a tanker in Corning to go back to Elmira to fill it with orange juice ,না দ্বিতীয়টি কর্নিংয়ের ট্যাঙ্কারটি বাছাই করার জন্য এলমির কাছে ফেরার জন্য কমলা জুস দিয়ে ভরা,O O O O O O O O O O O B-food I-food O O,tanker Corning Elmira
+okay do you have oranges in Elmira ,ঠিক আছে আপনি Elmira মধ্যে কমলা আছে,O O O O O O O,oranges Elmira
+there an OJ factory ,সেখানে একটি ওজে কারখানা,O O O B-place,OJ
+you need oranges to make orange juice ,আপনি কমলা রস করতে কমলা প্রয়োজন,O B-food I-food O O O,oranges
+okay then how if I take an engine along with a boxcar over to Corning ,ঠিক আছে তাহলে কিভাবে আমি কার্নিংয়ের উপর একটি বক্সকারের সাথে একটি ইঞ্জিন নিতে পারি,O O O O O O O O O O O O O O,engine boxcar Corning
+mm-hm ,MM-এইচএম,O,
+add a tanker on ,উপর একটি ট্যাঙ্কার যোগ করুন,O O B-vehicle O O,
+mm-hm ,MM-এইচএম,O,
+fill the uh boxcar with oranges and bring it back to Elmira to have it turned into juice ,কমলা সঙ্গে uh boxcar পূরণ করুন এবং এটি রস পরিণত পরিণত এটি এলমির ফিরে আনা,O O O B-item O O O O I-food O O O O O O,oranges Elmira
+and drop off the drop off the boxcar fill the tanker with orange juice and deliver it to Avon ,এবং boxcar ড্রপ বন্ধ ড্রপ কমলা রস সঙ্গে ট্যাঙ্কার পূরণ এবং এভন এটি প্রদান,O B-item O O O B-food I-food O B-vehicle O O O O O,Avon
+that will take twelve hours ,যে বারো ঘন্টা সময় লাগবে,O B-time-duration I-time-duration O O,
+okay and can I have something else going on concurrently ,ঠিক আছে এবং আমি একযোগে যাচ্ছে অন্য কিছু থাকতে পারে,O O O O O O O O O O,
+yes ,হাঁ,O,
+okay uh I need to ship a boxcar of bananas to Corning um ,ঠিক আছে  আমি কার্নিং um কে একটি বক্সার জাহাজ জাহাজ জাহাজ প্রয়োজন,O O O O O O O O O O O O,boxcar bananas Corning
+okay how about the engine from how how long would it take to take the engine from Avon to Dansville and also from Avon to Bath ,ঠিক আছে ইঞ্জিনটি কিভাবে এভন থেকে ড্যানসভিল পর্যন্ত এবং ইঞ্জিন থেকে বাথ পর্যন্ত ইঞ্জিনটি নিতে কতক্ষণ লাগবে?,O O O O O O O O O O O O O O O O O,engine engine Avon Dansville Avon Bath
+uh three hours to from Avon to Dansville and four hours from Avon to Bath ,অ্যাভন থেকে ড্যানসভিল থেকে তিন ঘন্টা এবং অ্যাভন থেকে বাথ পর্যন্ত চার ঘণ্টা,O O O O B-time-duration I-time-duration O O O O O B-time-duration O,Avon Dansville Avon Bath
+okay let take the engine from Avon to Dansville pick up a boxcar ,ঠিক আছে  এভন থেকে ড্যানসভিল থেকে ইঞ্জিনটি বক্স বক্সারটি নিতে দিন,O O O O O O O O O O O,engine Avon Dansville boxcar
+bring it back to Avon to pick up bananas and then deliver it to Corning ,কলাগুলি বেছে নেওয়ার জন্য এভন এটিকে আবার আনুন এবং তারপরে সিঙ্কিং এ সরবরাহ করুন,B-food O O O O O O O O O O O O O,Avon Corning
+alright ,ঠিক হ্যায়,O O,
+would you like to know how long that will take ,আপনি কত দিন লাগবে তা জানতে চান,O O O O O O O,
+yes ,হাঁ,O,
+uh ,আহ,O,
+by the shortest route it would take eleven hours ,সবচেয়ে ছোট রুট দ্বারা এগারো ঘন্টা সময় লাগবে,O O O O B-time-duration I-time-duration O O,
+okay and it was uh how long was the trip from Avon to Dansville and back to Avon ,ঠিক আছে এবং এটি ছিলো কতদিন থেকে অ্যাভন থেকে ড্যানসভিল এবং ফিরে এভন ভ্রমণ,O O O O O O O O O O O O O O,Avon Dansville Avon
+there ,সেখানে,O,
+three hours each way ,তিন ঘন্টা প্রতিটি উপায়,B-time-duration I-time-duration O O,
+okay ,ঠিক আছে,O O,
+hm ,HM,O,
+so that would get it in by three ,যাতে তিন দ্বারা এটি পেতে হবে,O B-number O O O O,
+um ,একটি,O,
+it three am or three pm ,তিন টা বা তিন টা,B-time O O O O,am pm
+oh hold on ,ওহ ধরে রাখা,O O O,
+oh it three pm yeah that fine ,ওহ  এটা তিন টা হ্যাঁ হ্যাঁ,O O B-time O O O,pm
+then it fine ,তারপর এটা জরিমানা,O O O,
+okay ,ঠিক আছে,O O,
+okay let go with that route ,ঠিক আছে যে রুট দিয়ে যেতে দিন,O O O O O O O,
+okay ,ঠিক আছে,O O,
+I am now finished ,আমি এখন সমাপ্ত,O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes I like to determine the maximum number of boxcars of oranges ,হ্যাঁ আমি কমলা এর boxcars সর্বাধিক সংখ্যা নির্ধারণ করতে চান,O O O O B-item O O O O O,oranges
+that I can get from that I can get to Bath by seven am ,যে থেকে আমি পেতে পারেন আমি সাত সকাল বাথ পেতে পারেন,O O O O O O B-time O O O O,Bath am
+um let see ,um দেখা যাক,O O O,
+how long it take an engine to go from Elmira to Corning ,Elmira থেকে Corning পর্যন্ত যেতে কতক্ষণ ইঞ্জিন লাগবে,O O O O O O O O,engine Elmira Corning
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+okay um ,ঠিক,O,
+then let let send one engine with two boxcars to Corning to pick up oranges ,তারপর কমলা বাছাই করতে কার্নিংকে দুটি বক্সকার দিয়ে একটি ইঞ্জিন পাঠাতে দিন,O O O O O B-number O O O O O O,one engine boxcars Corning oranges
+then down to Bath how long would that take ,তারপর বাথ নিচে কতক্ষণ যে নিতে হবে,O O O O O O O,Bath
+five hours ,পাঁচ ঘন্টা,B-time-duration I-time-duration,
+okay and how long to take an engine from the other engine from Elmira to Corning to Dansville to pick up three boxcars ,ঠিক আছে এবং এলমির থেকে কার্নিং পর্যন্ত ড্যান্সভিল থেকে অন্য ইঞ্জিন থেকে তিনটি বক্সকার বেছে নিতে কতক্ষণ লাগবে?,O O O O O O O O O O O O B-number O O O O O,engine engine Elmira Corning Dansville boxcars
+uh three hours ,ওহ তিন ঘন্টা,O B-time-duration I-time-duration,
+three hours from Elmira to Dansville ,Elmira থেকে ড্যান্সভিল তিন ঘন্টা,O O O B-time-duration I-time-duration,Elmira Dansville
+correct ,ঠিক,O,
+okay and then back to Corning ,ঠিক আছে এবং তারপর Corning ফিরে,O O O O O O,Corning
+that another hour ,যে অন্য ঘন্টা,O O O,hour
+another hour and then to fill that with oranges and deliver it to Bath ,অন্য ঘন্টা এবং তারপর কমলা সঙ্গে যে পূরণ এবং বাথ এটি প্রদান,O O O O O O O O O O O O,oranges Bath
+uh would take another three hours so a total of seven hours ,উহা আরও তিন ঘণ্টা সময় নিয়ে সাত ঘণ্টা নেবে,O O B-time-duration O O O B-time-duration O O,hours hours
+okay and it was five hours for the Elmira Corning Bath engine ,ঠিক আছে এবং এলমির কর্নিং বাথ ইঞ্জিনের জন্য পাঁচ ঘন্টা ছিল,O O O O O O O O B-time-duration I-time-duration O,Elmira Corning Bath engine
+correct ,ঠিক,O,
+and how long from Bath to Corning ,এবং কতদিন থেকে বাথ থেকে কর্নিং,O O O O O O,Bath Corning
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+okay and the engine from Avon to Dansville is three hours ,ঠিক আছে এবং এভন থেকে ড্যানসভিলের ইঞ্জিন তিন ঘন্টা,O O O O O O O B-time-duration I-time-duration,engine Avon Dansville
+uh yes ,হ্যাঁ হ্যাঁ,O O,
+okay and from Avon to Bath is four hours ,ঠিক আছে এবং এভন থেকে বাথ চার ঘন্টা,O O O O O O B-time-duration I-time-duration,Avon Bath
+correct ,ঠিক,O,
+okay let take um the Avon engine to Bath to pick up the two boxcars ,ঠিক আছে  দুই বক্সকারগুলি বাছাই করার জন্য অ্যাভন ইঞ্জিনটিকে বাথ এ নিয়ে আসুন,O O B-number O O O O O O O O O O,Avon engine Bath boxcars
+mm-hm ,MM-এইচএম,O,
+and head up to Corning to pick up oranges and deliver it to Bath ,এবং কমলা আপ বাছাই কমলা আপ এবং বাথ এটি প্রদান,O O O O O O O O O O,Corning oranges Bath
+okay that a total of uh nine hours ,ঠিক আছে যে মোট নয় ঘন্টা,O O O O O I-time-duration,nine
+ooh it is ,ওহ এটা,O O,
+mm-hm ,MM-এইচএম,O,
+okay well looks like that would get me anywhere so I guess I just be doing the two engines from Elmira ,ঠিক আছে ভালো লাগছে যে আমাকে কোথাও পেতে পারে তাই আমি অনুমান করছি যে আমি শুধু এলিমির দুটি ইঞ্জিন করছি,O O O O O O O O O O O O O O O O O B-number O O,engines Elmira
+okay ,ঠিক আছে,O O,
+um you could take an engine from Avon through Dansville to Corning ,um আপনি ড্যানসভিল থেকে কার্নিং পর্যন্ত এভন থেকে একটি ইঞ্জিন নিতে পারে,O O O O O O O O O O O O,engine Avon Dansville Corning
+those boxcars have already been picked up by the one from Elmira ,সেই বক্সকারগুলি ইতোমধ্যে এলমিরার কাছ থেকে তুলে নেওয়া হয়েছে,O O O O O O O O O,boxcars one Elmira
+ah correct okay ,আহ ঠিক ঠিক আছে,O O O O,
+I am now finished ,আমি এখন সমাপ্ত,O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes I would like to ship two boxcars of oranges to Elmira to be turned into two tankers of OJ ,হ্যাঁ আমি এলজেরাতে কমলার দুই বক্সকারগুলি জাহাজের দুই ট্যাঙ্কারে পরিণত করতে চাই,O O O O B-number O O O O O O O,boxcars oranges Elmira tankers OJ
+and to ship it to from Elmira to Avon ,এবং এটি Elmira থেকে Avon থেকে জাহাজ,O O O O O O O,Elmira Avon
+um let see ,um দেখা যাক,O O O,
+now how long does it take um an engine at Elmira to bring the two boxcars to Corning and fill them with oranges and bring them back to Elmira ,এখন এলমিরার ইঞ্জিনটি কার্নিংয়ের কাছে দুটি বক্সকার আনতে আর কমলা দিয়ে ভরাট করে এটিকে এলমির কাছে ফিরিয়ে আনবে।,O O O O O B-number O O O O O O O O O O O O,engine Elmira boxcars Corning oranges Elmira
+five hours ,পাঁচ ঘন্টা,B-time-duration I-time-duration,
+five hours okay and then to take the orange juice over the shortest route from Elmira to Avon ,পাঁচ ঘন্টা ঠিক আছে এবং তারপর এলমির থেকে অ্যাভন পর্যন্ত সবচেয়ে ছোট রুটে কমলা জুস নিতে,B-time-duration I-time-duration O O O O O O O O O O O B-food I-food O,Elmira Avon
+uh that would be six hours plus time for making the orange juice it a total of seven hours ,ওরে কমলা জুস তৈরির জন্য ছয় ঘন্টা প্লাস সময় হবে সাত ঘন্টা,O B-food I-food O O B-time-duration I-time-duration O O O B-time-duration O,
+okay that gets it there on time I now finished ,ঠিক আছে যে এখন সময় আমি এটা শেষ পায়,O O O O O O O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes I planning a round trip from Avon to Elmira um ,হ্যাঁ আমি এভন থেকে এলমিরা um থেকে একটি বৃত্তাকার ট্রিপ পরিকল্পনা,O O O O O O O O O O O,Avon Elmira
+on the way I need to take three boxcars of bananas and deliver each to Bath Corning and Elmira ,পথে আমাকে তিনটি বাক্সকার কলা নিতে হবে এবং প্রতিটিকে বাথ কার্নিং এবং এলমিরাতে পাঠানো হবে,O O B-number O O O O O O O O O O O O,boxcars bananas Bath Corning Elmira
+um so how long does it take to go from Avon to Dansville to pick up three boxcars ,তাই এভন থেকে ড্যানসভিল থেকে তিন বক্সকার পর্যন্ত নিতে কতক্ষণ লাগবে?,O O O O O B-number O O O O O,Avon Dansville boxcars
+bring it back to Avon and load them with bananas ,এভন এটিকে ফিরিয়ে আনুন এবং কলা দিয়ে লোড করুন,O O O O O O O O O,Avon bananas
+seven hours ,সাত ঘণ্টা,B-time-duration O,hours
+seven hours okay um ,সাত ঘন্টা ঠিক আছে,B-time-duration I-time-duration O O,
+then head to Bath to drop off um one boxcar ,তারপর um একটি boxcar বন্ধ ড্রপ বাথ মাথা,O B-number O B-item O O O O,Bath
+is four hours ,চার ঘন্টা,B-time-duration I-time-duration,
+oh uh ,ওহ!,O,
+five hours including unloading the cargo ,পণ্যসম্ভার unloading সহ পাঁচ ঘন্টা,B-item O O B-time-duration I-time-duration,
+doesnot have to be unloaded just dropped off ,আনলড করা আছে শুধু বন্ধ বাদ দেওয়া হয়েছে,O O O O O O O O,
+then four hours ,তারপর চার ঘন্টা,O B-time-duration I-time-duration,
+okay then to Corning to drop off another uh boxcar ,ঠিক আছে তারপর Corning অন্য uh boxcar ড্রপ,O O O O O O B-item O,Corning
+that another two hours ,যে অন্য দুই ঘন্টা,O O B-time-duration I-time-duration,
+okay and from there um actually okay when at Bath uh does it take how much extra time does it take to um add on the two available boxcars ,ঠিক আছে এবং সেখান থেকে um আসলে বাস্তবে ঠিক আছে যখন বাথ উহে এটি কতটুকু সময় নেয় এটি um কে দুটি উপলব্ধ বক্সকারগুলিতে যুক্ত করে।,O O O O O O O O O O O O O O O O O O O O B-number O O O O,Bath boxcars
+no time ,কোন সময়,O O,
+okay so let add those two on and when at Corning um load those two empty boxcars with oranges ,ঠিক আছে তাই দুইটি যোগ করুন এবং যখন Corning um এ কমলাগুলির সাথে দুটি খালি বক্সকার লোড করুন,O O O B-number O O O O O O O O O O O O O O,Corning boxcars oranges
+okay it will add one more hour for loading the oranges ,ঠিক আছে এটি কমলা লোড করার জন্য আরও একটি ঘন্টা যোগ করা হবে,O O O O O O O O O O O O O,one oranges
+okay so it seven to pick up the bananas ,ঠিক আছে  তাই সাতটি কলা বেছে নিতে হবে,O O O B-number O O O O,bananas
+correct ,ঠিক,O,
+four to drop off at Bath ,চার বাথ এ ড্রপ বন্ধ,B-number O O O O,Bath
+right ,অধিকার,O,
+and another two ,এবং অন্য দুই,O O B-number,
+to go to Corning ,Corning যেতে,O O,Corning
+and ,এবং,O,
+and one more hour to load the oranges ,এবং কমলা আরো লোড এক ঘন্টা,O O O O B-number O,oranges
+okay ,ঠিক আছে,O O,
+um and from there let go to Elmira drop off the last boxcar of bananas and uh turn the oranges into orange juice ,um এবং সেখান থেকে এলমীরা কলাগুলির শেষ বক্সকার ড্রপ করতে দাও এবং কমলা কমলার কমলারে পরিণত করুন।,O O O O O B-food O O O O O O B-food O O O O,Elmira boxcar oranges juice
+okay that will take a total of three hours ,ঠিক আছে যে তিন ঘন্টা মোট নিতে হবে,O O O B-time-duration I-time-duration O O O,
+okay and it doesnot take time to load two tankers onto the train at Corning ,ঠিক আছে এবং কার্নিং এ ট্রেনে দুটি ট্যাঙ্কার লোড করতে সময় লাগবে না,O O O O O O B-number O O O O O O,tankers train Corning
+no ,না,O,
+okay then we will also have the tankers on there ,ঠিক আছে তাহলে আমরা সেখানে ট্যাঙ্কার আছে,O O O O O O O,tankers
+okay ,ঠিক আছে,O O,
+um then once the OJ is turned into well once the oranges are turned into orange juice and loaded into the tankers ,াম তারপর একবার কমলা একবার কমলা হয়ে যায় একবার কমলা কমলা রসে পরিণত হয় এবং ট্যাঙ্কারগুলিতে লোড হয়,O O O B-food O O O O O O O O O O O O O O,OJ oranges juice tankers
+um take the shortest route back to Avon ,um Avon ফিরে সংক্ষিপ্ততম রুট নিতে,O O O O O O,Avon
+that will take six hours and it goes via by way of Corning and Dansville ,যে ছয় ঘন্টা সময় লাগবে এবং এটি Corning এবং ড্যানসভিল মাধ্যমে পথে যায়,O B-time-duration I-time-duration O O O O O O O O O O,Corning Dansville
+okay and what the total time ,ঠিক আছে এবং মোট সময় কি,O O O O O O,
+twenty two hours no twenty three hours ,২২ ঘণ্টা ২২ ঘন্টা নয়,O O O I-time-duration O,twenty two twenty three
+okay that finishes in the time required I now finished ,ঠিক আছে যে শেষ সময় আমি শেষ এখন শেষ,O O O O O O O O O,
+hello can I help you ,হ্যালো আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes I need to transport two boxcars of oranges and one tanker of orange juice to Avon and there are some time constraints ,হ্যাঁ আমি কমলা দুটি বক্সার এবং কমলা জলের এক ট্যাঙ্কার এভনকে পাঠাতে হবে এবং কিছু সময় সীমাবদ্ধতা রয়েছে,O O B-food B-number O O O O B-number B-vehicle O O O O O O O O,boxcars oranges juice Avon
+um I need to get the oranges to Elmira by seven am ,াম আমি সকাল সাড়ে সাতটায় এলমিরার কমলা পেতে চাই,O O O O O O O O O,oranges Elmira seven am
+um so how long it take to take an engine and two boxcars of or and two boxcars to Corning to pick up oranges ,াম তাই কমলা বাছাই করতে কার্নিংয়ের ইঞ্জিন এবং দুটি বক্সকার এবং বা দুটি বক্সকারগুলি নিতে কতক্ষণ লাগবে,O O O O O O O O B-number O O O O O O O O,engine boxcars boxcars Corning oranges
+and take it back to Elmira along with a tanker ,এবং একটি ট্যাঙ্কার বরাবর এটি Elmira ফিরে নিতে,O O B-vehicle O O O O O,Elmira
+the fastest time would be taking an engine and boxcars from Elmira and that would take four hours round trip including attaching the tankers ,দ্রুততম সময় এলিমিরা থেকে একটি ইঞ্জিন এবং বক্সকার গ্রহণ করবে এবং ট্যাঙ্কারগুলিকে সংযুক্ত করার সাথে সাথে চার ঘন্টার রাউন্ড ট্রিপ লাগবে,O O O O O O O O O O O O O O O O B-time-duration I-time-duration O O O,engine boxcars Elmira tankers
+okay so that get the oranges to Elmira by seven ,ঠিক আছে  যাতে এলিমির কমলা থেকে কমলা সাতটা করে,O O O O O O O B-number O,oranges Elmira
+it an additional hour to load the oranges in Corning so it will take five hours total and will arrive by seven ,এটি কর্ণিংয়ের কমলাগুলি লোড করার জন্য একটি অতিরিক্ত ঘন্টা যাতে এটি মোট পাঁচ ঘন্টা সময় নেয় এবং সাতটি নাগাদ পৌঁছাবে,O O O O O O O O I-time-duration O O O B-time-duration O O O O B-number O O,oranges Corning
+okay um so that you said it was six hours ,ঠিক আছে  তাই বলেছিলে ছয় ঘণ্টা,O O O O B-time-duration O,hours
+five hours ,পাঁচ ঘন্টা,B-time-duration I-time-duration,
+five hours okay and okay so I turn one of the orange one of the um boxcars of oranges into orange juice at Elmira ,পাঁচ ঘন্টা ঠিক আছে এবং ঠিক আছে তাই আমি কমলাগুলির একটি াম বক্সকারগুলি এলমিরার কমলা জলে পরিণত করি।,B-time-duration I-time-duration O O O O O O O B-food O O O O O O O O,one one boxcars oranges juice Elmira
+and then I head back to Corning with um one boxcar full of oranges one tanker full of orange juice and one empty boxcar ,এবং তারপর আমি সিঙ্গলিংয়ের সাথে ফিরে এসেছিলাম কমলা দিয়ে পূর্ণ এক বক্সার  কমলার রসের এক ট্যাঙ্কার এবং একটি খালি বক্সকার,O O O O O O O B-food O O B-number O O O O B-vehicle O O O O,Corning boxcar oranges juice boxcar
+and then load the last um um the last boxcar with oranges how long does that take ,এবং তারপর শেষ um um লোড কমলা সঙ্গে শেষ boxcar যে কত সময় লাগবে,O O O O O O O O O B-item O O O O,oranges
+um including making the orange juice it takes four hours ,কমলা রস তৈরি করে চার মিনিট সময় লাগে,B-food I-food O O B-time-duration O O O,hours
+okay and then how at what time will I arrive at where am I going at Avon ,ঠিক আছে এবং তারপর আমি কোন সময় এ পৌঁছাবো যেখানে আমি এভন যাচ্ছি,O O O O O O O O O O O O O,Avon
+from Corning ,Corning থেকে,O O,Corning
+yeah via the Dansville and Bath route ,হ্যাঁ Dansville এবং বাথ রুট মাধ্যমে,O O O O O O,Dansville Bath
+uh four hours via Dansville six hours via Bath ,আপনি চার ঘন্টা Dansville মাধ্যমে ছয় ঘন্টা বাথ মাধ্যমে,O B-time-duration I-time-duration O O B-time-duration O O O,Dansville Bath
+okay so what times would I be arriving ,ঠিক আছে  তাহলে আমি কখন আসব?,O O O O O O,
+uh nine one one pm via Dansville and uh and three pm via Bath ,আপনি 9 নং এক একসঙ্গে Dansville এবং উহ এবং বাথ মাধ্যমে তিন বিকাল মাধ্যমে,O O O B-time O O O O O O O B-time O O,nine pm Dansville pm Bath
+okay then let do it via the Bath route and we get there at three pm as scheduled I now finished,আচ্ছা তারপর বাথ রুট এর মাধ্যমে এটি করা যাক এবং আমি এখন শেষ পর্যন্ত নির্ধারিত নির্ধারিত তিন টায় সেখানে পৌঁছেছি,O O O O O O O O O O O O O O O O B-time O O O,pm
+hi can I help you ,ওহে আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yeah hi I need to take a transport of a tanker of orange juice to Avon by three pm this by three pm this afternoon ,হ্যাঁ  আমি এই বিকেলে বিকেলে তিন টা নাগাদ অ্যাভনকে কমলা জলের ট্যাঙ্কারের ট্রান্সপোর্ট নিতে চাই,O O O O O B-time O O O B-food O B-vehicle O O O,juice Avon pm pm afternoon
+okay ,ঠিক আছে,O O,
+alright so what do we have here we have three tankers available in Corning ,ঠিক আছে তাই আমরা এখানে কি আছে আমরা তিনটি ট্যাঙ্কার Corning পাওয়া যায়,O O O O O O O O B-number O O O O,tankers Corning
+and the orange juice is in Elmira ,এবং কমলা রস Elmira হয়,O B-food I-food O O,Elmira
+so we have to get from Corning to Elmira first how long is it how long is the trip there by tanker ,তাই আমাদের প্রথমে কার্নিং থেকে এলমিরাতে যেতে হবে প্রথমে কতটুকু ট্যাঙ্কারের যাত্রা,O O O O O O O O O O B-vehicle O,Elmira
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+two hours so how long will it take to fill the tanker with orange juice ,দুই ঘন্টা তাই কমলা রস সঙ্গে ট্যাঙ্কার পূরণ করতে কতক্ষণ লাগবে,B-time-duration I-time-duration O B-food I-food O B-vehicle O O O O,
+one hour ,এক ঘন্টা,B-time-duration O,hour
+one hour so that three hours total two hours back to Corning right ,এক ঘন্টা যাতে তিন ঘন্টা মোট দুই ঘন্টা ফিরে Corning ডান,B-time-duration I-time-duration O B-time-duration O O B-time-duration O O O O,hour Corning
+um yes ,একটি হ্যাঁ,O O,
+so ,সুতরাং,O,
+it five hours so far ,এটা পাঁচ ঘন্টা পর্যন্ত,O B-time-duration I-time-duration O,
+actually the if you trying to fill how many tankers three ,আসলে আপনি যদি তিনটি ট্যাঙ্কার পূরণ করতে চেষ্টা করছেন,O O O B-number O O O O O,tankers
+no just one transport ,না শুধু একটি পরিবহন,O O O O,one
+oh just one okay ,ওহ ঠিক এক ঠিক আছে,O O B-number O O,
+mm-hm ,MM-এইচএম,O,
+okay ,ঠিক আছে,O O,
+just one okay so it five hours now that we back at Corning ,শুধু এক ঠিক তাই পাঁচ ঘন্টা এখন যে আমরা Corning এ ফিরে,O B-number O O B-time-duration I-time-duration O O O O O O,Corning
+yes ,হাঁ,O,
+is it it is faster to go from Corning to Dansville correct and then to Avon ,এটা কি কর্নিং থেকে ড্যান্সভিলে সঠিক এবং তারপর এভন থেকে দ্রুত যেতে হয়,O O O O O O O O O O O O O,Corning Dansville Avon
+um let see yes to Dansville and and Avon is faster ,াম Dansville এবং হ্যাঁ Avon দেখতে হ্যাঁ দ্রুত,O O O O O O O O,Dansville Avon
+okay so at the time now it will be five am in the morning how late would it be to get to Dansville ,ঠিক আছে  তাই এখন সকাল 5 টায় ড্যানসভিলের কাছে কত দেরী হবে,O O O O B-period-of-day O O O O O O O,five am Dansville
+okay five am at Corning then six am at Dansville um ,ঠিক আছে পাঁচটা সকাল সকাল সন্ধ্যা 6 টার দিকে ড্যানসভিল াম,O O B-time O O O O O O O O,am Corning six am Dansville
+mm-hm ,MM-এইচএম,O,
+nine am at Avon ,নয়ন এভন এ,O O O,nine am Avon
+okay and it seems like the task will be completed way before three pm thank you ,ঠিক আছে এবং দেখে মনে হচ্ছে যে কাজটি শেষ হওয়ার তিন মিনিটের আগেই শেষ হবে,O O O O O O O O O O B-time O O O O,pm
+hi can I help you ,ওহে আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+yes hi system ,হ্যাঁ হাই সিস্টেম,O O O,
+I need to uh ship one boxcar of bananas and one boxcar of oranges and one tanker of orange juice to Bath ,আমাকে একটা কলা বাক্স এবং কমলার এক বক্সার এবং কমলা জলের এক ট্যাঙ্কার স্নান করতে হবে,O B-number O O O B-food O O O O O O B-vehicle O O O,boxcar bananas boxcar oranges juice Bath
+all these commodities must be in Bath by noon and it already midnight alright so first let let deal with the boxcar full of bananas ,এই সমস্ত পণ্য দুপুরের মধ্যে বাথ হতে হবে এবং এটি ইতিমধ্যে মধ্যরাত ঠিক আছে তাই প্রথমে কলা পূর্ণ বক্সকার মোকাবেলা করা যাক,O O O B-period-of-day O O O O O O O B-period-of-day O O O O O O O O O O,Bath boxcar bananas
+um the banana warehouse is in is in Avon ,um কলা গুদাম Avon হয়,O B-food B-place O O,Avon
+and the boxcars um the nearest available boxcars are in Dansville ,এবং boxcars um নিকটতম পাওয়া boxcars ড্যান্সভিল হয়,O B-item O O O O O O,Dansville
+right ,অধিকার,O,
+so we have to take an engine from Avon to Dansville in order to pick up the boxcar returning pick up the bananas ,তাই আমরা এভন থেকে ড্যানসভিল থেকে ইঞ্জিনটি নিতে চাই  যাতে বক্সারটি তুলে নেওয়ার জন্য কলাগুলি বেছে নেওয়া যায়,O O O O O O O O O O O O O O B-food O O O,engine Avon Dansville boxcar
+so how far is the distance between Avon and Dansville ,এভন এবং ড্যানসভিলের মধ্যে দূরত্ব কত দূর,O O O O O O O,Avon Dansville
+three hours ,তিন ঘণ্টা,B-time-duration O,hours
+okay so the engine will go to Dansville and pick up a boxcar how long will it take to hitch up ,ঠিক আছে তাই ইঞ্জিন ড্যানসভিলে যাবে এবং একটি বক্সকার তুলবে কতক্ষণ এটি হিট আপ নিতে হবে,O O O O O O O O O O O O O O O O,engine Dansville boxcar
+uh no time at all ,ওহ কোন সময়ে,O O O,
+okay so we hitch up that and come straight back that six hours right ,ঠিক আছে তাই আমরা যে কুড়ান এবং সরাসরি যে ছয় ঘন্টা সোজা ফিরে আসা,O O O O O O O O O B-time-duration I-time-duration O O O,
+right ,অধিকার,O,
+okay oh my goodness and we will fill it full of bananas how long will it fill take to fill one thing boxcar of bananas ,ঠিক আছে  ওহে আমার কল্যাণে এবং আমরা কলাগুলি পূর্ণ করে দেব কতটুকু তা পূরণ করবে কেলেসের এক বাক্স বাক্সার পূরণে,O O O O O O O B-food O O O O O O O O B-number O O O,boxcar
+one hour ,এক ঘন্টা,B-time-duration O,hour
+okay so one hour and we will leave from Avon to Bath immediately ,ঠিক আছে এক ঘন্টা এবং আমরা অবিলম্বে বাথ থেকে ত্যাগ করব,O O B-time-duration O O O O O O O O,hour Avon Bath
+what time will we get into Bath ,আমরা বাথ মধ্যে কি সময় পেতে হবে,O O O O O O O,Bath
+starting at midnight um ,মধ্যরাত um শুরু,B-period-of-day O O,
+mm-hm ,MM-এইচএম,O,
+three hours six hours seven hours um eleven am ,তিন ঘণ্টা ছয় ঘণ্টা সাত ঘণ্টা um এগারো,B-time-duration O B-time-duration O B-time-duration O O B-time,hours hours hours am
+eleven am okay ooh what time does it and how okay eleven am that just fine we have to be in by noon ,এগারোটা ঠিক আছে ওহ কি সময় করে এবং ঠিক কতোটা ঠিক আছে 11 টা ঠিক আছে যে দুপুরের মধ্যেই আমাদের থাকতে হবে,B-time O O O O O O O O O O O O O O O O B-period-of-day O O O O,am am
+okay now let deal with the boxcar of oranges ,ঠিক আছে এখন কমলা এর boxcar সঙ্গে চুক্তি করা যাক,O O O O O B-item O O O O,oranges
+orange warehouse is in Corning there three tankers available but they for some reason want a boxcar ,কমলা গুদামে তিনটি ট্যাঙ্কার পাওয়া যায় তবে তারা কোন কারণে একটি বক্সকার চান,B-food O B-number O O O O O O O O O O,warehouse Corning tankers boxcar
+so we gonna have to get a boxcar and let take engine number three ,তাই আমরা একটি boxcar পেতে এবং ইঞ্জিন নম্বর তিন নিতে হবে,O O O B-item O O O O I-vehicle-name O O,engine
+okay ,ঠিক আছে,O O,
+is there is one engine or engine two or three which one faster ,এক ইঞ্জিন বা ইঞ্জিন দুটি বা তিনটি যা দ্রুত একটি,B-number O O O I-vehicle-name O I-vehicle-name O O O,engine engine
+they equally fast ,তারা সমানভাবে দ্রুত,O O O,
+equally fast okay let take engine number three hitch one of the boxcars and leave for Corning that one hour is that ,ঠিক একইভাবে দ্রুত ঠিক আছে ইঞ্জিন নম্বরটি তিনটি হিট বক্সকারগুলির মধ্যে একটি করে নিতে এবং কার্নিংয়ের জন্য এক ঘন্টা যে ছেড়ে চলে যেতে,O O O O O O O I-vehicle-name O O O O O O O O O B-time-duration O O O O O,engine boxcars Corning hour
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+two hours okay two hours to Corning and we will fill it with um oranges and that takes one hour ,দুই ঘণ্টা দুই ঘন্টা কার্নিং ঠিক আছে এবং আমরা um কমলা দিয়ে এটি পূরণ করব এবং এটি এক ঘন্টা সময় নেয়,B-time-duration O O I-time-duration O O O O O B-time-duration O O O O O O O O O O O,Corning oranges hour
+yes ,হাঁ,O,
+okay so we got three hours total now and into Bath immediately we what time would we have ,ঠিক আছে তাই আমরা এখন তিন ঘন্টা মোট পেয়েছিলাম এবং স্নান মধ্যে অবিলম্বে আমরা কি সময় হবে,O O O O O B-time-duration I-time-duration O O O O O O O O O O,
+it will take two hours so that be a total of five hours ,দুই ঘণ্টা সময় লাগবে যাতে মোট পাঁচ ঘন্টা,B-time-duration O O O O O B-time-duration I-time-duration,
+five hours okay five hours seems fine because that will put us in at five am this morning if we leave now right ,পাঁচ ঘণ্টা ঠিক পাঁচ ঘণ্টা জরিমানা বলে মনে হচ্ছে কারণ এখন সকাল পাঁচটার দিকে আমাদের সরিয়ে দেওয়া হবে যদি আমরা এখনই চলে যাই,B-time O O O O O O O O O O B-period-of-day O O O O O O O O O O O,hours hours am
+yes ,হাঁ,O,
+okay now we still have to deal with now we still have to deal with our tanker of orange juice ,ঠিক আছে এখন আমরা এখনও মোকাবেলা করতে হবে আমাদের এখনও কমলা রস আমাদের ট্যাঙ্কার মোকাবেলা করতে হবে,O O O O O O O O O O B-food I-food O B-vehicle O O O,
+alright ,ঠিক হ্যায়,O O,
+um the tankers are only in available in Corning so to get the orange juice we have to go to Elmira which is two hours ,ঙ ট্যাঙ্কাররা শুধুমাত্র সিগারেটে পাওয়া যায় যাতে কমলা জলের জন্য আমাদের এলমির যেতে হয় যা দু ঘন্টা,O B-vehicle O O O O O B-food O O O O O O O B-time-duration I-time-duration,Corning juice Elmira
+and how long will it take to fill a tanker full of orange juice ,এবং কমলা রস পূর্ণ একটি ট্যাঙ্কার পূরণ করতে কতক্ষণ লাগবে,O B-food I-food O O B-vehicle O O O O,
+one hour ,এক ঘন্টা,B-time-duration O,hour
+okay that three hours right there turn around come directly back to Corning that two more that five hours and it one hour to Bath or two ,ঠিক আছে  তিন ঘণ্টার ঠিক কাছাকাছি ঘুরে ফিরে সিগারেট ফিরে আসছে যে দুই ঘন্টা পাঁচ ঘন্টা এবং বাথ বা দুই ঘন্টা,O O B-time-duration I-time-duration O O O O O O O O B-number O B-time-duration O O O O O O,Corning one hour Bath
+two hours ,দুই ঘন্টা,B-time-duration I-time-duration,
+okay seven hours total ,ঠিক আছে সাত ঘন্টা মোট,O O B-time-duration I-time-duration O,
+but you donot have an engine at Corning to move the tanker ,কিন্তু ট্যাঙ্কারটি সরাতে কার্নিংয়ের একটি ইঞ্জিন নেই,O O O O O O O,engine Corning tanker
+I didnot I was aware that the tankers had to be ,আমি জানতাম না ট্যাঙ্কারদের থাকতে হবে,O O O B-vehicle O O,
+yes they have to have an engine ,হ্যাঁ তারা একটি ইঞ্জিন আছে,O O O O O,engine
+they have to have an engine these are not trucks okay first why donot we take the engine from Elmira ,তাদের ইঞ্জিন থাকতে হবে এই ট্রাকগুলি ঠিক আছে না কেন প্রথমে আমরা এলিমিয়ার ইঞ্জিনটি গ্রহণ করি না,O O O O O B-vehicle O O O O O O O O O O O,engine engine Elmira
+alright ,ঠিক হ্যায়,O O,
+and the ,এবং,O,
+you mean engine E two ,আপনি ইঞ্জিন ই দুই মানে,O O O I-vehicle-name O,engine E
+yes let take engine E two from Elmira and to Corning pick up the tanker come back to Elmira ,হ্যাঁ এলিরা থেকে ইঞ্জিন ই দুই নিতে এবং কার্নিং থেকে ট্যাঙ্কারটি নিতে এল্মিরা ফিরে আসুন,O O O O O I-vehicle-name O O O O O O O O O,engine E Elmira Corning tanker Elmira
+and fill it full of orange juice come back and then to Bath what time do we have then ,এবং কমলা রস পূর্ণ এটি ফিরে পূরণ করুন এবং তারপর আমরা সময় আছে কি স্নান,O B-food I-food O O O O O O O O O O O O,Bath
+let see that five hours after filling it with orange juice and then from Elmira to Bath um seven eight nine hours ,দেখা যাক যে কমলা জলের সাথে পাঁচ ঘণ্টা পরে এলমির থেকে বাথ উম পর্যন্ত সাত আট নয় ঘণ্টা,O O O B-food O O B-time-duration O O O O O O O B-number B-number O O,hours juice Elmira Bath nine hours
+so if we start at um midnight you should be in at nine am ,তাই যদি আমরা um মধ্যরাত্রি থেকে শুরু করি তবে আপনার সকাল 9 টা হওয়া উচিত,O O O O B-period-of-day O O O O O O O O O O,nine am
+mm-hm ,MM-এইচএম,O,
+um but you got both engine E three and engine E two on the same track between Elmira and Corning at the same time and that would work ,um কিন্তু আপনি একই সময়ে এলমির এবং কর্নিংয়ের একই ট্র্যাকে ইঞ্জিন ই তিনটি এবং ইঞ্জিন ই দুটি পেয়েছেন এবং এটি কাজ করবে,O O O O O O O O O O O O I-vehicle-name O O O I-vehicle-name O O O O O,engine E engine E Elmira Corning
+correct okay so what we gonna have to do is we gonna have to import an engine for either one ,ঠিক আছে ঠিক আছে তাই আমাদের যা করতে হবে তা হলো আমাদের জন্য একটি ইঞ্জিন আমদানি করতে হবে,O O O O O O O O O O O O O O O O O O,engine one
+actually an engine can carry um a boxcar and a tanker at the same time ,আসলে একটি ইঞ্জিন একই সময়ে একটি বক্সকার এবং ট্যাঙ্কার বহন করতে পারে,O O O O O O O O B-vehicle O O O,engine boxcar
+well would that be handy okay ,ভাল যে ঠিক আছে ঠিক হবে,O O O O O O,
+so what we do is the boxcar of bananas which is coming from Avon is that correct ,তাই আমরা যা করি তা হল অ্যাভন থেকে আসা কলাগুলির বক্সকার যে সঠিক,O O O O O O O O O B-food O O O,boxcar Avon
+we are picking up an we picking up a boxcar in Dansville coming back getting the bananas right ,আমরা ড্যান্সভিলের একটি বক্সকার বাছাই করতে পেরেছি  যা ডানদিকে কলা পেয়ে ফিরে আসছে,O O O O O O O O O O O O O,boxcar Dansville bananas
+on our way instead of going directly into Bath ,পরিবর্তে বাথ মধ্যে সরাসরি যাচ্ছে আমাদের পথে,O O O O O O O,Bath
+mm-hm ,MM-এইচএম,O,
+could we go on to Corning and pick up a tanker ,আমরা Corning যেতে এবং একটি ট্যাঙ্কার নিতে পারে,O O O O O B-vehicle O O,Corning
+wait wait wait okay so so this is engine E one that you talking about that went to ,অপেক্ষা অপেক্ষা অপেক্ষা ঠিক আছে তাই এই ইঞ্জিন ই এক যে আপনি যে সম্পর্কে কথা বলা গিয়েছিলাম,O O O O O O O O O I-vehicle-name O O O O O O O,engine E
+engine E one goes to Dansville to get a boxcar right ,ইঞ্জিন ই একটি বক্সকার অধিকার পেতে ডানসভিল যান,O O O O O O O O,engine E one Dansville boxcar
+right ,অধিকার,O,
+and then it comes back and fills full of bananas ,এবং তারপর এটি ফিরে আসে এবং কলা পূর্ণ ভরাট,O O O O O O O O O,bananas
+right ,অধিকার,O,
+instead of going to Bath how about if it went to Corning ooh how about this it can go into Bath drop off the bananas ,স্নান করার পরিবর্তে কিভাবে এটি Corning ooh এ গিয়েছিল সে সম্পর্কে কিভাবে এটি বাথ ড্রপের মধ্যে যেতে পারে,O O O O O O O O O O O O O O O O O O,Bath Corning Bath bananas
+and then go to Corning pick up a tanker ,এবং তারপর Corning যান একটি ট্যাঙ্কার নিতে,O O O O O B-vehicle O,Corning
+go to Elmira and fill the tanker full of orange juice ,Elmira যান এবং কমলার রস পূর্ণ ট্যাঙ্কার পূরণ করুন,O O O B-food I-food O B-vehicle O O,Elmira
+this may be taking too much time cause you already you got it oh alright so instead of going to Dansville you just gonna go straight to Bath alright that skips some time ,এটি অনেক বেশি সময় নিতে পারে কারণ আপনি ইতিমধ্যেই এটি পেয়েছেন তাই ওহ ঠিক আছে  তাই ড্যান্সভিলে যাবার পরিবর্তে আপনি সরাসরি সোজা বাথের দিকে যাবেন যা কিছু সময় বাদ দেয়,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O,Dansville Bath
+right ,অধিকার,O,
+so what we doing now is we got we got our engine one in the banana warehouse ,তাই এখন আমরা যা করছি তা হল আমরা পেয়েছিলাম আমাদের ইঞ্জিন কলা কলা গুদামে,O O O O O O O O O O O B-food O O,engine one warehouse
+mm-hm ,MM-এইচএম,O,
+first it has to go to Dansville because it needs a boxcar then it comes back to Avon that two hours right ,প্রথমে এটি ড্যানসভিলে যেতে হবে কারণ এটি একটি বক্সকারের দরকার  তারপর এটি এভনকে ফিরে আসে যা দুই ঘন্টা সঠিক,O O O O O O O O O O O O O O O O B-time-duration I-time-duration O,Dansville boxcar Avon
+uh it six hours to Dansville so that um excuse me it three hours to Dansville so that six hours total ,এটা ছয় ঘন্টা ড্যানসভিলের কাছে যাতে আমি তাকে তিন ঘণ্টা ডান্সভিলে তিন মিনিটের জন্য মাফ করে দিতে পারি যাতে ছয় ঘন্টা মোট,O B-time-duration I-time-duration O O O O O B-time-duration O O O O O O O O O O O O O,Dansville Dansville
+ooh ,Ooh,O,
+okay and now it fills the bananas and it goes to Bath ,ঠিক আছে এবং এখন এটি কলা ভরাট করে এবং এটা বাথে যায়,O O O O O O O O O O O O,bananas Bath
+okay ,ঠিক আছে,O O,
+now how what time is it now it at eleven am right ,এখন এগারোটা ঠিক এখন কেমন আছে?,O B-time O O O O,am
+six um six seven eight nine ten yeah eleven am ,ছয় াম ছয় সাত আট নয় নং দশ আগার এ,B-number O O I-number I-number O O I-number O O,nine eleven am
+alright it drops off the bananas ,ঠিক আছে এটা কলা বন্ধ ড্রপ,O O O O O O,bananas
+mm-hm ,MM-এইচএম,O,
+ooh doesnot work it too much time ,ওহ এটা খুব বেশি সময় কাজ করে না,O O O O O O O O,
+yes it takes an hour to unload the bananas so ,হ্যাঁ তাই কলা আনলোড করতে এক ঘন্টা লাগে,O O O O O O O O,bananas
+the bananas will just be in underneath the neck okay so now the bananas are a different issue let just deal with the oranges ,কলাগুলি ঠিক গলায় নিচে থাকবে তাই এখন কলাগুলি একটি ভিন্ন সমস্যা  সামঞ্জস্যের সাথে সামঞ্জস্য করতে দিন।,B-food O O O O O O O O O O O O O O O,oranges
+alright oranges we have to get an engine for it so we go to Elmira and we get engine number two ,ঠিক আছে কমলাগুলি আমাদের জন্য একটি ইঞ্জিন পেতে হবে তাই আমরা এলিমিরা যাব এবং আমরা ইঞ্জিন নম্বর দুই পেতে পারি,O O O O O O O O O O O O O O O O O I-vehicle-name O O,oranges engine Elmira engine
+we come back to Corning and we will ,আমরা Corning ফিরে আসা এবং আমরা হবে,O O O O O O O,Corning
+now wait who who going to Elmira so you starting with engine E two at Elmira ,এখন Elmira যা যাচ্ছে  তাই আপনি অপেক্ষা Elmira এ ইঞ্জিন ই দুটি দিয়ে শুরু,O O O O O O O O O O O I-vehicle-name O O,Elmira engine E Elmira
+okay yes that right ,ঠিক আছে হ্যাঁ যে অধিকার,O O O O O,
+engine at okay engine at Elmira comes to Corning and it gets tanker oh and it brings with it a boxcar ,Elmira ঠিক আছে ইঞ্জিন এ কার্নিং আসে এবং এটি ট্যাঙ্কার ওহ পায় এবং এটি একটি boxcar সঙ্গে এটি নিয়ে আসে,O O O O O O O O O B-vehicle O O O O O B-item O O O O,engine engine Elmira Corning
+okay ,ঠিক আছে,O O,
+okay ,ঠিক আছে,O O,
+so from Elmira to Corning with boxcar we then we fill up the boxcar with oranges ,তাই অ্যালমিরা থেকে কর্নারিং বক্সকারের সাথে আমরা তারপর কমলা দিয়ে বক্সকারটি পূরণ করি,O O O O O O O O O O O O O,Elmira Corning boxcar boxcar oranges
+okay ,ঠিক আছে,O O,
+and then hm we how about we go back to Elmira and then fill up with the orange ooh no no no gracious gracious bad bad move ,এবং তারপর আমরা কিভাবে এলমির কাছে ফিরে যাব এবং তারপরে কমলা ওহের সাথে ভরা থাকি না কোনও অনুগ্রহপূর্বক খারাপ খারাপ পদক্ষেপ না।,O O O O O O O O O O B-food O O O O O O O O O O O,Elmira
+how about this we get the engine we get a boxcar oh that all we can do go to Elmira I mean go to Corning fill with oranges come back fill with orange juice and then go all the way down ,এভাবেই আমরা ইঞ্জিন পাই  আমরা একটি বক্সকার পাই  ওহ  আমরা যা করতে পারি এলিমিরাতে যাচ্ছি  আমি বলতে চাচ্ছি যে সির্নিং দিয়ে কমলাগুলি পরিবেশন করে কমলা কমলা দিয়ে আবার ভরাট করুন এবং তারপর সব পথ নিচে যান।,O O O O O O O O O O O O O O O O O O O O O B-food O O O O O O O O O O O O O O,engine boxcar Elmira Corning oranges juice
+yes ,হাঁ,O,
+okay what that ,ঠিক আছে যে কি,O O O O,
+but you can you can carry more than one boxcar if you worried about the oranges as well ,কিন্তু আপনি কমলা সম্পর্কে চিন্তিত হলে আপনি একাধিক বক্সকার বহন করতে পারেন,O O O O O O O O O O O O,one boxcar oranges
+oh no I only need one one boxcar ,ওহ না আমি শুধুমাত্র এক এক boxcar প্রয়োজন,O O O O B-number O B-item O,
+okay ,ঠিক আছে,O O,
+okay ,ঠিক আছে,O O,
+and um what time will that get us into Bath ,এবং um কি যে বাথ মধ্যে আমাদের পেতে হবে,O O O O O O O O O,Bath
+okay so it so engine E two goes to Corning that two hours fills up that three am goes to Elmira ,ঠিক আছে তাই এভাবে ইঞ্জিন ই সি কর্নিং চলে যায় যে দুই ঘন্টা ভর্তি হয়ে যায় তিন মিনিটে এলমির কাছে,O O O O O O O O O O O B-time-duration I-time-duration O O O B-time O O O,engine E Corning am Elmira
+with tanker ,ট্যাঙ্কার সঙ্গে,B-vehicle O,
+um with the tanker okay um ,ট্যাঙ্কার ঠিক আছে um,B-vehicle O O O,
+that five am and now you load up with orange juice so that six am ,যে পাঁচ মিনিট এবং এখন আপনি কমলা রস সঙ্গে লোড যাতে ছয় am,O B-time O O O O B-food I-food O O O B-time I-time,
+mm-hm ,MM-এইচএম,O,
+and now we have to get to Bath ,এবং এখন আমরা বাথ পেতে হবে,O O O O O O,Bath
+so through Corning at eight am and then to Bath at ten am ,তাই সকাল 8 টার দিকে কর্নিং এর মাধ্যমে এবং তারপর সকাল 10 টা বাথ,O O O O O O O O O O O O O O,Corning eight am Bath ten am
+okay thank you very much sounds like a plan ,ঠিক আছে একটি পরিকল্পনা মত খুব শোনাচ্ছে,O O O O O O O,
+great thank you ,মহান ধন্যবাদ,O O,
+hi can I help you ,ওহে আমি কি আপনাকে সাহায্য করতে পারি,O O O O O O O,
+hi system ,হাই সিস্টেম,O O,
+I need to ship two boxcars of bananas and one boxcar of oranges to Dansville by noon using only one engine for some unknown reason ,আমি কিছু অজানা কারণের জন্য শুধুমাত্র এক ইঞ্জিন ব্যবহার করে ড্যান্সভিলে কলা এবং একটি বক্সারের কমলার দুটি বক্সকার জাহাজে পাঠাতে হবে।,O O O O O O B-number O O O O O O O O O B-number O O O O,boxcars bananas boxcar oranges Dansville noon engine
+it is now midnight and the shipload must be unloaded by one pm so we got some serious time restrictions here ,এটি এখন মধ্যরাত্রি এবং শাইপলড এক বিকেলের মধ্যে আনলোড করা উচিত তাই আমাদের এখানে কিছু গুরুতর সময় সীমাবদ্ধতা রয়েছে,O O B-period-of-day O O B-time O O O O O O O O O O O O O,pm
+firstly we need to get um two boxcars from Dansville that the closest right ,প্রথমত আমরা ডান্সভিল থেকে um দুই boxcars যে নিকটতম অধিকার পেতে প্রয়োজন,O O O O O B-number B-item O O O O O,Dansville
+between from Avon ,Avon মধ্যে মধ্যে,O O O,Avon
+oh you trying to where are you trying to get Avon ,ওহ আপনি চেষ্টা করছেন যেখানে আপনি Avon পেতে চেষ্টা করছেন,O O O O O O O O O O,Avon
+yes ,হাঁ,O,
+yeah ,হাঁ,O,
+okay ,ঠিক আছে,O O,
+because that where the banana warehouse is ,কারণ যেখানে কলা গুদাম হয়,O O B-food B-place O,
+alright ,ঠিক হ্যায়,O O,
+okay we need to get two boxcars so why donot we go to Dansville and pick up two boxcars ,ঠিক আছে আমাদের দুটি বক্সকার পেতে হবে তাই কেন আমরা ড্যান্সভিলে যাই না এবং দুটি বক্সকার পছন্দ করি না,O O O B-number O O O O O O O O O O O O O O O,boxcars Dansville boxcars
+uh which engine did you want to use ,তুমি কোন ইঞ্জিন ব্যবহার করতে চাও,O O O O O O,engine
+engine number one ,ইঞ্জিন নম্বর এক,O O I-vehicle-name,engine
+okay ,ঠিক আছে,O O,
+actually why donot we pick up all three boxcars ,আসলে কেন আমরা তিনটি boxcars নিতে না donot,O O O B-number B-item O O O,
+alright ,ঠিক হ্যায়,O O,
+and we come back to Avon and we will fill them with two of them with bananas ,এবং আমরা এভন ফিরে আসি এবং আমরা তাদের দু&#39;জনকে কলা দিয়ে পূরণ করব,O O O O O O O O O O O O O,Avon two bananas
+okay ,ঠিক আছে,O O,
+ooh but actually I got even a better idea ,ওহ কিন্তু আসলে আমি এমনকি একটি ভাল ধারণা পেয়েছিলাম,O O O O O O O O O,
+well instead of that let go from let instead of going straight back to um the banana warehouse let take it to from Dansville to Corning fill it with the oranges in one of the boxcars ,এর পরিবর্তে ছেড়ে দেওয়া যাক পরিবর্তে ফিরে um যেতে যাচ্ছে কলা গুদাম এটি Dansville থেকে Corning থেকে এটা নিতে বক্সার এক কমলা সঙ্গে এটি পূরণ করুন,O O O O O O O B-number O O B-food B-place O O O O O O O O O O O O O O,Dansville Corning oranges boxcars
+okay ,ঠিক আছে,O O,
+and then we go back to Avon and fill it with the two fill it up with the two other boxcars of um bananas ,এবং তারপর আমরা এভন ফিরে যান এবং দুইটি এটি um কলা দুটি অন্যান্য boxcars সঙ্গে এটি পূরণ সঙ্গে পূরণ করুন,O O O O O O O B-number O O O O O B-item O O O O O O,Avon bananas
+alright did you want to go through Dansville on the way back ,ঠিক আছে আপনি ফিরে পথে Dansville মাধ্যমে যেতে চান,O O O O O O O O O,Dansville
+right ,অধিকার,O,
+okay ,ঠিক আছে,O O,
+on the way back right ,ফিরে ডান পথে,O O O,
+and then we will come hm okay and then okay on the way back to Dansville we drop off the oranges ,এবং তারপর আমরা ঠিক আছে এইচএম আসতে হবে এবং তারপর ড্যান্সভিল ফিরে উপায় ঠিক আছে আমরা কমলা বন্ধ ড্রপ,O O O O O O O O O O O O O O O O O O O,Dansville oranges
+uh drop off the oranges at ,ওরে কমলা বন্ধ ড্রপ,O O O O,oranges
+Dansville ,Dansville,O,Dansville
+at Dansville ,ড্যানসভিল এ,O O,Dansville
+okay let me make sure I doing this right um right ,ঠিক আছে আমি নিশ্চিত যে আমি এই ডান um ডান করছেন,O O O O O O O O O O O,
+so you ,তাই তুমি,O O,
+and then okay now we only have now we only have two we have all three open boxcars ,এবং তারপর ঠিক আছে এখন আমরা শুধুমাত্র এখন আমরা শুধুমাত্র দুটি আছে আমরা তিনটি খোলা boxcars আছে,O O O O O O O O O O B-number O O B-number O B-item O,
+uh ,আহ,O,
+maybe we could even drop a boxcar just leave it and go to Avon fill up with the bananas and come back to Dansville ,সম্ভবত আমরা একটি বক্সকার ড্রপ করতে পারতাম শুধু এটিকে ছেড়ে ছেড়ে এভনকে কলা দিয়ে ভরা এবং ড্যানসভিলে ফিরে আসি,O O O O O O O O O O O O O O O O O O O,boxcar Avon bananas Dansville
+you trying to get you trying to get all of the um bananas and the oranges to Avon is that right ,আপনি সমস্ত um কলা এবং Avon এ কমলা পেতে চেষ্টা করার চেষ্টা করছেন যে অধিকার,O O O O O O O O O O O O O O O,bananas oranges Avon
+no to Dansville ,না ড্যান্সভিল,O O,Dansville
+no ,না,O,
+to Dansville okay ,ড্যান্সভিলকে ঠিক আছে,O O O,Dansville
+okay yep we need two we need two boxcars full of bananas and one boxcar full of oranges to Dansville by noon ,ঠিক আছে  হ্যাঁ  আমাদের দুইজনকে কলা দিয়ে পূর্ণ দুটি বক্সকার এবং ড্যানসভিলকে দুপুরের খাবারে পূর্ণ একটি বক্সকার দরকার।,O O O O O O O O B-number O O O B-period-of-day O O O O O,boxcars bananas one boxcar oranges Dansville
+okay ,ঠিক আছে,O O,
+using only one engine ,শুধুমাত্র একটি ইঞ্জিন ব্যবহার করে,O O O O O,one engine
+okay ,ঠিক আছে,O O,
+which should be a problem so now our time let figure out our time ,যা এখন আমাদের সময় আমাদের সময় চিন্তা যাক একটি সমস্যা হওয়া উচিত,O O O O O O O O O O O O,
+got our engine it goes to Dansville and picks up all three or it it only needs to pick up one really ,আমাদের ইঞ্জিন পেয়েছে এটি ড্যানসভিলে যায় এবং তিনটি বাছাই করে বা এটি কেবল একটিকেই বেছে নিতে হবে,O O O O O O O B-number O O O O O O O O O,engine Dansville one
+okay ,ঠিক আছে,O O,
+at this time and goes to Corning ,এই সময় এবং Corning যায়,O O O O O,Corning
+okay ,ঠিক আছে,O O,
+fills up with the oranges what time is it now ,এখন কম সময় কমলা সঙ্গে পরিপূর্ণ,O O O O O O,oranges
+so let see gets to Dansville at three am gets to Corning at four am and by the time it filled up it five am ,তাই দেখি তিন মিনিটে ড্যানসভিলের কাছে চার মিনিটে কর্ণফুলি হয়ে যায় এবং সময়টা পাঁচ মিনিট পর্যন্ত ভরা,O O B-time O O O B-time O O O O O O B-time O O O,Dansville am Corning am am
+okay drops off the oranges at six am at Dansville ,ঠিক আছে ছয়টায় ড্যান্সভিল এ কমলা বন্ধ করে দেয়,O O O O O O O O O,oranges six am Dansville
+yes ,হাঁ,O,
+and then it goes ,এবং তারপর এটা যায়,O O O O,
+but it takes an hour to to get the oranges out of the um boxcars so it seven am when it leaves ,কিন্তু um boxcars থেকে কমলা পেতে একটি ঘন্টা লাগে তাই এটি ছেড়ে যখন এটি সাত,O O B-item O O O O O O O O O O O B-time,oranges am
+okay ,ঠিক আছে,O O,
+okay can we unhitch the boxcar and just leave it there and pick up hitch up two others ,ঠিক আছে আমরা boxcar unhitch করতে পারেন এবং শুধু সেখানে এটি ছেড়ে এবং দুই অন্যদের আপ কুড়ান নিতে পারেন,O O O B-item O O O O O O O O O B-number O O O O O,
+yes ,হাঁ,O,
+okay let do that and save us some time ,ঠিক আছে যে কাজ এবং কিছু সময় আমাদের সংরক্ষণ করুন,O O O O O O O O O O,
+okay ,ঠিক আছে,O O,
+so we um unhitch the boxcar and hitch up two others and leave immediately for Avon ,তাই আমরা boxcar unhitch এবং দুই অন্যদের আপ কুড়ান এবং অবিলম্বে জন্য ছেড়ে চলে যেতে,O O B-item O O B-number O O O O O O O O O,Avon
+okay ,ঠিক আছে,O O,
+with just two boxcars fill it full of bananas and come right back to Dansville ,শুধু দুটি বক্সকারের সাথে এটি কলাগুলি পূর্ণ করে এবং ডানসভিলে ফিরে আসুন,O B-number O O O B-food O O O O O O,boxcars Dansville
+alright so three hours to get to Avon that nine am you filling two boxcars so that eleven am and then you going straight back to Dansville so that two in the afternoon when you arrive ,ঠিক এভারে যাওয়ার জন্য তিন ঘন্টা যাবৎ নয়টি বক্সার আপনি ভর্তি করছেন তাই এগারো মিনিট এবং তারপর আপনি সরাসরি ডান্সভিলে যাচ্ছেন যাতে দুপুরে দুপুরে পৌঁছাতে পারেন,O O O O B-time-duration I-time-duration O B-time O O O O O B-time O O O O O O O O O O O O,Avon am two boxcars am Dansville two
+mm-hm ,MM-এইচএম,O,
+oh gracious not good for time ,ওহ দয়ালু সময় জন্য ভাল না,O O O O O O,
+okay well we gonna have to do the oranges on another thought cause that didnot take us long so we have to do the bananas first ,ঠিক আছে  আমাদেরকে আরেকটি চিন্তাধারার উপর কমলাগুলি করতে হবে যা আমাদের দীর্ঘ সময় নেয়নি তাই আমাদের প্রথমে কলা করতে হবে।,O O O O O O O O O O O O O O O O O O O O,oranges bananas
+okay ,ঠিক আছে,O O,
+okay ,ঠিক আছে,O O,
+so let start with the bananas we go from Avon to Dansville with engine number one ,তাই আমরা কলা থেকে শুরু করি এভন থেকে ড্যানসভিল এ ইঞ্জিন নম্বর এক দিয়ে,O O O O O O O O O O O O B-number O,bananas Avon Dansville engine
+we get two boxcars return to Avon fill boxcars with bananas and go to Dansville and drop off ,আমরা দুই boxcars ফিরে এভন কলা সঙ্গে boxcars পূরণ করুন এবং ড্যান্সভিল যান এবং ড্রপ বন্ধ,O B-number B-item O O O O O O O O O O O O O,Avon bananas Dansville
+okay ,ঠিক আছে,O O,
+yes ,হাঁ,O,
+okay so that all done by nine am ,ঠিক আছে যে সব নয় নং দ্বারা সম্পন্ন,O O O O O O O O,nine am
+but it takes two hours to fill the boxcars ,কিন্তু boxcars পূরণ করতে দুই ঘন্টা লাগে,O B-item O O B-time-duration I-time-duration O,
+to fill them ,তাদের পূরণ করতে,O O O,
+so it eleven am when they get back to Dansville ,তাই তারা যখন ডান্সভিলে ফিরে আসে তখন এগারোটা হল,O O O O O O O B-time O,am Dansville
+that no problem we just unhitch the boxcars in Dansville hitch on one the last remaining boxcar ,যে কোন সমস্যা আমরা শুধু শেষ অবশিষ্ট boxcar এক Dansville হিট মধ্যে boxcars unhitch,O O O O O O O B-item B-number O O O B-item O,Dansville
+okay ,ঠিক আছে,O O,
+at eleven am go to Corning which is an hour away ,এগারোটার দিকে কার্নিং যেতে যা এক ঘন্টা দূরে,B-time O O O O O O O,am Corning hour
+mm-hm ,MM-এইচএম,O,
+fill it with the with the oranges and return to Dansville by one pm ,কমলা সঙ্গে এটি পূরণ করুন এবং এক বিকেলে ড্যান্সভিল ফিরে,O O O O O O B-time O O O,oranges Dansville pm
+if you leave Dansville at eleven am ,যদি আপনি ড্যান্সভিল এগারো এ চলে যান,O O O B-time O O O,Dansville am
+mm-hm ,MM-এইচএম,O,
+uh you be at Corning by noon and then it takes an hour to fill the tankers so that be uh one pm and then you want to get back to Dansville so that be two pm when you arrive ,আপনি দুপুরের মধ্যে কার্নিং এ থাকবেন এবং তারপরে ট্যাঙ্কারগুলি পূরণ করতে এক ঘণ্টা সময় লাগবে যাতে আপনি এক বিকেলের মধ্যে থাকেন এবং তারপর আপনি ড্যানসভিলে ফিরে যেতে চান যাতে আপনি পৌঁছাতে দুপুর আনতে পারেন,O B-period-of-day O O O O O O B-vehicle O O B-time O O O O O O O O O O O O O O O O O O O O O O,Corning pm Dansville two pm
+oh gracious they not making this easy are they okay it gonna have to be a different engine wish I thought of this to begin with ,ওহে দয়া করে তারা এটিকে সহজ করে না বলে তারা ঠিক আছে যে এটি একটি ভিন্ন ইঞ্জিন হতে হবে।,O O O O O O O O O O O O O O O O O O O,engine
+it engine number two let take ,এটা ইঞ্জিন নম্বর দুই নিতে নিতে,O O O B-number O O,engine
+alright ,ঠিক হ্যায়,O O,
+we take we take let say one it doesnot make a difference how fast a train goes with one or two ,আমরা আমরা এক বা দুই সঙ্গে একটি ট্রেন কিভাবে দ্রুত একটি পার্থক্য না একটি এক পার্থক্য না বলে নিতে,O O B-number O B-number O O B-vehicle O O O O O O O O O O O,
+no ,না,O,
+okay ,ঠিক আছে,O O,
+no ,না,O,
+let just take both take both boxcars from engine number two from Elmira and let drive to Corning ,উভয়ই এলমির থেকে ইঞ্জিন নম্বর দুটি থেকে বক্সকারগুলি নিতে এবং ড্রাইভকে কার্নিং করতে দিন,O O O O O B-number O O O O O O O O,boxcars engine Elmira Corning
+alright ,ঠিক হ্যায়,O O,
+fill one of them full of oranges it a two hour jaunt between Elmira and Corning right ,এদের মধ্যে একটি অরঞ্জার পূর্ণ ভরাট করুন  এটি এলমিরা এবং কর্নিংয়ের ডানদিকে দুই ঘন্টা জাটা,O O O O O O O O O O O O B-time-duration O O,one oranges hour Elmira Corning
+yes ,হাঁ,O,
+okay one hour it three hours full and then to Dansville ,ঠিক আছে এক ঘণ্টা তিন ঘন্টা পূর্ণ এবং তারপর ড্যানসভিল,O O B-time-duration O B-time-duration I-time-duration O O O O,hour Dansville
+okay ,ঠিক আছে,O O,
+okay and we will unhitch the one filled ,ঠিক আছে এবং আমরা পূরণ ভরাট করা হবে,O O O O O O O O,one
+okay ,ঠিক আছে,O O,
+and we will hitch up another empty one from Dansville ,এবং আমরা ড্যানসভিল থেকে আরেকটি খালি এক হিট আপ হবে,O O O O O O B-number O O O,Dansville
+okay ,ঠিক আছে,O O,
+and we will go to Avon ,এবং আমরা এভন যেতে হবে,O O O O O,Avon
+alright ,ঠিক হ্যায়,O O,
+okay what time is it ,ঠিক আছে কি সময় এটা,O O O O O,
+so let see it uh two hours to Corning um three am by the time get the boxcars filled ,তাই আসুন দেখি দুই ঘন্টা কার্নিং াম থেকে তিন টা পর্যন্ত বক্সকারগুলি ভরা,O O O B-time-duration I-time-duration O O O B-time O O O O,Corning am boxcars
+then um four am when you get to Dansville and three hours to Avon that seven am ,তারপর um চার am আপনি Dansville পেতে এবং তিন ঘন্টা এভন যে সাত am,O O B-time I-time O O O O B-time-duration I-time-duration O O B-time O,Dansville Avon
+mm-hm ,MM-এইচএম,O,
+okay it seven am fill the both both up so that nine am by the time they both filled ,ঠিক আছে  সাতটা দুটোই ভরাট করি যাতে করে তারা দুজনে ভরা হয়,O O B-time O O O O O O O O O,am nine am
+right ,অধিকার,O,
+and return to Dansville ,এবং Dansville ফিরে,O O O,Dansville
+great and you get there at midnight ,মহান এবং আপনি মধ্যরাতে সেখানে পেতে,O O O O O O,midnight
+at noon ,দুপুরে,O,noon
+noon excuse me ,দুপুরে আমাকে অজুহাত দাও,O O O O,noon
+there we go we did it ,সেখানে আমরা গিয়েছিলাম,O O O,
