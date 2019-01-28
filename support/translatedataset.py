@@ -1,7 +1,7 @@
 from google.cloud import translate
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="intent.json"
-translate_client = translate.Client()
+#os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="intent.json"
+#translate_client = translate.Client()
 class TranslateDataset:
     def __init__(self,dataset_url,dataset_out_url):
         self.dataset_url=dataset_url
