@@ -7,7 +7,6 @@ Created on Tue Jan 22 12:22:09 2019
 """
 
 #complete dictionary and word embedding to all datasets present in data
-import datetime
 import io
 import numpy as np
 class EmbeddingDictionary:
@@ -21,7 +20,7 @@ class EmbeddingDictionary:
     
     def create_embedding(self,word2id,embedding_file,dim):
         fin = io.open(embedding_file, 'r', encoding='utf-8', newline='\n', errors='ignore')
-        embedding_matrix=np.zeros((len(word2id)+1,300),dtype=float)
+        embedding_matrix=np.zeros((len(word2id),dim),dtype=float)
         for line in fin:
             tokens = line.rstrip().split(' ')
             if(tokens[0] in word2id):
@@ -32,6 +31,8 @@ class EmbeddingDictionary:
     def create_dictionary(self,train):
         word2id={}
         id2word={}
+        word2id['OVW']=0
+        id2word[0]='OVW'
         index=1
         for line in train:
             for word in line.split():
