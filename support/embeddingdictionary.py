@@ -40,7 +40,28 @@ class EmbeddingDictionary:
                     word2id[word]=index
                     id2word[index]=word
                     index=index+1
+        word2id['<PAD>']=index
+        id2word[index]='<PAD>'
         return word2id,id2word
+    def encode_sequence(self,word2id,sent,max_length):    # take a group of sentence and return numpy matrix
+        sequence=[]
+        for line in sent:
+            ret_line=[]
+            len_line=max_length-len(line.split())
+            for word in line.split():
+                if(word in word2id):
+                    ret_line.append(word2id[word])
+                else:
+                    ret_line.append(word2id['OVW'])
+            while(len_line>0):
+                ret_line.append(word2id['<PAD>'])
+                len_line=len_line-1
+            sequence.append(ret_line)
+        return np.asarray(sequence,dtype='int')
+    
+    
+    
+        
         
         
         

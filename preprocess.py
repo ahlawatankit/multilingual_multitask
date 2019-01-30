@@ -52,3 +52,10 @@ obj.save_dict_char(char2id,id2char,'./dictionary/english/charlevel/')
 print('*** Saving English Embedding *****')
 obj.save_embedding(embd,'./embeddings/english/fasttext/')
 obj.save_embedding(embd_char,'./embeddings/english/char/')
+
+##### end ########
+
+
+
+
+
