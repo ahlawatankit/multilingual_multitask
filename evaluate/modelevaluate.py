@@ -23,5 +23,5 @@ class ModelEvaluate:
                 arr.append(a)
         return arr
     def f1(self,pred,actual):
-        return f1_score(flatten(self,actual),flatten(self,pred), average = 'weighted')
+        return f1_score(self.flatten(actual),self.flatten(pred), average = 'weighted')
         
