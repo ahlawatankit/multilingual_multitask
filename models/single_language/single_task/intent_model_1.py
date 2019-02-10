@@ -5,6 +5,7 @@ Created on Wed Jan 30 12:24:11 2019
 
 @author: student
 """
+
 from support.modelsupport import ModelSupport
 import numpy as np
 from keras import regularizers
@@ -21,7 +22,6 @@ UNIT1=64
 UNIT2=128
 optimizer = Adam(0.0002, 0.5)
 losses = 'categorical_crossentropy'
-
 class HCNN:
     def build_model(self,char_embedding,word_embedding,NUM_CLASS,MAX_WORD=100,MAX_CHAR_WORD=26,config_charCNN=CharCNN_config,config_wordCNN=wordCNN_config):
         #character CNN implemention
