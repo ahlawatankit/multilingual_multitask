@@ -46,6 +46,14 @@ intents=intent_obj.read_intent('ATIS','english')
 intent2id,id2intent=intent_obj.build_dict(intents)
 obj.save_dict(intent2id,'./datasets/ATIS/english/','intent2id.npy')
 obj.save_dict(intent2id,'./datasets/ATIS/english/','id2intent.npy')
+intents=intent_obj.read_intent('Frames_data','english')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/Frames_data/english/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/Frames_data/english/','id2intent.npy')
+intents=intent_obj.read_intent('Trains_dataset','english')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/Trains_dataset/english/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/Trains_dataset/english/','id2intent.npy')
 ############end########################
 
 
