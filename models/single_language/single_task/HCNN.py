@@ -79,7 +79,7 @@ class HCNN:
             losses=losses/batches
             accuracy=accuracy/batches
             if(len(_accuracy)>0 and _accuracy[len(_accuracy)-1]< accuracy):
-                graph.save('HCNN.h5')
+                graph.save('./models/single_language/single_task/HCNN.h5')
             print('loss after ',ep,'epochs is ',losses)
             print('Training Acuracy ',accuracy)
             _loss.append(losses)
@@ -88,10 +88,10 @@ class HCNN:
     def test_model(self,graph,X_word,X_char,Y):
         if self.CHAR_LEVEL:
             pred=graph.predict([X_char,X_word])
-            return ModelEvaluate.accuracy('',Y,pred),ModelEvaluate.f1('',Y,pred)
+            return ModelEvaluate.accuracy(Y,pred),ModelEvaluate.f1(Y,pred)
         else:
             pred=graph.predict(X_word)
-            return ModelEvaluate.accuracy('',Y,pred),ModelEvaluate.f1('',Y,pred)
+            return ModelEvaluate.accuracy(Y,pred),ModelEvaluate.f1(Y,pred)
             
         
         

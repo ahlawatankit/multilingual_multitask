@@ -10,6 +10,7 @@ from support.embeddingdictionary import EmbeddingDictionary
 from support.intent import intent
 from support.charembedding import Charembedding
 from keras.utils import to_categorical
+import sys
 import numpy as np
 class SStrainer:
     def __init__(self,dataset,language,task,embed_type,model_name,char_level=False):
@@ -58,6 +59,31 @@ class SStrainer:
             obj=HCNN()
             graph=obj.build_model(self.char_embedding,self.word_embedding,len(self.task2id),self.char_level)
             loss,accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)))              
+            test_acc,test_f1=obj.test_model(graph,self.test_X,self.test_char_X,self.test_Y)
+            #writing results in ./result
+            print("writing results in ./result")
+            fp=open('./results/'+self.dataset+'_'+self.language+'_'+self.task+'.txt')
+            fp.write("********Loss and Accuracy history*******\n")
+            fp.writelines(loss)
+            fp.writelines(accuracy)
+            fp.writelines('********test accuracy, and f1 ***********')
+            fp.writelines(test_acc)
+            fp.writelines(test_f1)
+            fp.close()
             return loss,accuracy
-        
+if __name__== "__main__":
+    dataset=input("Enter Dataset name")
+    language=input("Enter language")
+    task=input("Enter task name")
+    embed_type=input("Enter embedding name such as fasttext or word2vec")
+    model_name=input("Enter model name   find in model directory")
+    if(int(input("want to use character embedding press 1 otherwise 0"))==1):
+        char_level=True
+    else:
+        char_level=False
+    obj=SStrainer(dataset,language,task,embed_type,model_name,char_level)
+    obj.prepare_data()
+    obj.run_model()
+    del obj
+    print("Completed ")        
         
