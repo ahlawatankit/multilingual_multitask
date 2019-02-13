@@ -4,13 +4,14 @@ Created on Tue Feb 12 22:33:31 2019
 
 @author: HP
 """
+import sys
+import os
 from trainerhelp import Trainerhelp
 from support.cleandata import CleanData
 from support.embeddingdictionary import EmbeddingDictionary
 from support.intent import intent
 from support.charembedding import Charembedding
 from keras.utils import to_categorical
-import sys
 import numpy as np
 class SStrainer:
     def __init__(self,dataset,language,task,embed_type,model_name,char_level=False):
@@ -72,12 +73,12 @@ class SStrainer:
             fp.close()
             return loss,accuracy
 if __name__== "__main__":
-    dataset=input("Enter Dataset name")
-    language=input("Enter language")
-    task=input("Enter task name")
-    embed_type=input("Enter embedding name such as fasttext or word2vec")
-    model_name=input("Enter model name   find in model directory")
-    if(int(input("want to use character embedding press 1 otherwise 0"))==1):
+    dataset=input("Enter Dataset name ")
+    language=input("Enter language ")
+    task=input("Enter task name ")
+    embed_type=input("Enter embedding name such as fasttext or word2vec ")
+    model_name=input("Enter model name   find in model directory ")
+    if(int(input("want to use character embedding press 1 otherwise 0 "))==1):
         char_level=True
     else:
         char_level=False
