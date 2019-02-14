@@ -40,6 +40,7 @@ class HCNN:
         embed_word_out = Embedding(word_embedding.shape[0], word_embedding.shape[1], weights=[word_embedding],trainable=False, mask_zero = False)(word_input)
         if self.CHAR_LEVEL:
             embed_word_out=concatenate([char_out,embed_word_out],axis=-1)
+        
         CNN_list=[]
         for num_filter,filter_size in config_wordCNN:
            x=Conv1D(num_filter, filter_size,padding='same',activation='tanh')(embed_word_out)
