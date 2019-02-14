@@ -46,8 +46,8 @@ class HCNN:
            CNN_list.append(MaxPooling1D(pool_size=2)(x))
         concat_in=concatenate(CNN_list,axis=-1)
         flat_in=Flatten()(concat_in)
-        flat_in=Dropout(0.5)(flat_in)
-        intent_out = Dense(units=UNIT1, activation='relu', kernel_initializer='he_normal')(flat_in)
+        flat_in=Dropout(0.7)(flat_in)
+        intent_out = Dense(units=UNIT2, activation='tanh', kernel_initializer='he_normal')(flat_in)
         intent_out=Dropout(0.5)(intent_out)
         intent_out = Dense(units=NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='intent_out')(intent_out)
         if self.CHAR_LEVEL:
@@ -88,10 +88,12 @@ class HCNN:
     def test_model(self,graph,X_word,X_char,Y):
         if self.CHAR_LEVEL:
             pred=graph.predict([X_char,X_word])
-            return ModelEvaluate.accuracy(Y,pred),ModelEvaluate.f1(Y,pred)
+            pred=np.argmax(pred,axis=1)
+            return ModelEvaluate.accuracy('',Y,pred),ModelEvaluate.f1('',Y,pred)
         else:
             pred=graph.predict(X_word)
-            return ModelEvaluate.accuracy(Y,pred),ModelEvaluate.f1(Y,pred)
+            pred=np.argmax(pred,axis=1)
+            return ModelEvaluate.accuracy('',Y,pred),ModelEvaluate.f1('',Y,pred)
             
         
         

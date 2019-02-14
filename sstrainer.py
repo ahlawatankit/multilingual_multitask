@@ -59,19 +59,18 @@ class SStrainer:
             from models.single_language.single_task.HCNN import HCNN
             obj=HCNN()
             graph=obj.build_model(self.char_embedding,self.word_embedding,len(self.task2id),self.char_level)
-            loss,accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)))              
+            loss,accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),300)              
             test_acc,test_f1=obj.test_model(graph,self.test_X,self.test_char_X,self.test_Y)
             #writing results in ./result
             print("writing results in ./result")
-            fp=open('./results/'+self.dataset+'_'+self.language+'_'+self.task+'.txt')
+            fp=open('./results/'+self.dataset+'_'+self.language+'_'+self.task+'.txt','w')
             fp.write("********Loss and Accuracy history*******\n")
-            fp.writelines(loss)
-            fp.writelines(accuracy)
-            fp.writelines('********test accuracy, and f1 ***********')
-            fp.writelines(test_acc)
-            fp.writelines(test_f1)
+            fp.writelines(str(loss)+'\n')
+            fp.writelines(str(accuracy)+'\n')
+            fp.writelines('********test accuracy, and f1 ***********\n')
+            fp.writelines(str(test_acc)+'\n')
+            fp.writelines(str(test_f1)+'\n')
             fp.close()
-            return loss,accuracy
 if __name__== "__main__":
     dataset=input("Enter Dataset name ")
     language=input("Enter language ")
