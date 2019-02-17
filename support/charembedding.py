@@ -23,6 +23,8 @@ class Charembedding:
         id2char[index]='<PAD>'
         return char2id,id2char
     def create_embedding(self,char2id,dim):
+        if len(char2id)>dim:
+            dim=len(char2id)
         embedding_matrix=np.zeros((len(char2id),dim),dtype=float)
         for word,index in char2id.items():
             embedding_matrix[index][index]=1.0

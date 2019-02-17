@@ -1,0 +1,3762 @@
+O O O O O O O
+B-time I-time
+O
+O O O O O O O B-time I-time O
+O
+O O O B-time O O O B-vehicle O B-item O O O O O O O O
+O O
+O O O O O B-time I-time O O
+O O
+O
+O O O O O O O O O O O O O O O O O O O
+B-time I-time
+O O O O B-number B-item I-item O O O O O O O
+B-time I-time
+B-time I-time
+O B-time I-time O O O O O O B-number B-item I-item O O O O O O O O O O
+O O
+B-time I-time
+B-time O
+O O O O O O O B-number O O O O O O O
+O
+O O O B-number O
+O O O O O
+O O O O O
+O
+O O O O O O O O O O O O
+O
+O O O O O O O
+O O O O O B-number O O
+O O O O O O O
+O O O O
+O
+O O O O O O O O O O O O O
+O
+O O O O O O O O O O O O O O O O O O B-vehicle O O O
+O O O O I-vehicle-name
+O O
+O O
+O
+O O O
+O O
+O O O O O O O O O O O O O O
+O O
+O
+O O O O O O O O
+O
+O O O O O O O
+O
+O O O O O O
+O
+O O
+O O O O O O O O
+O
+O O
+O O O O O O O
+O O O O O O O O O O
+O O O O O O O O O O O O
+B-number B-vehicle-name
+O O
+O O O O O O
+O O O O O O O O O O O O O O O
+O O
+O O
+O O
+O O B-number O O O O
+O O
+O O O O O O B-number
+O O O B-number O
+O O
+O
+O O
+O O O O O
+O
+O O O
+O
+O O O
+O O B-time I-time O O
+O O O O O O O
+O O O O O
+O
+O
+O O
+O O O O O O O O O O O O O O O O
+O O
+O O O
+O O
+O O O
+O O O O O O B-time I-time O O
+O O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O O O
+O O O O O O O O O O O O O O O B-vehicle O O O O O O O O O O B-number O O O O
+O O
+O
+O O
+O I-vehicle-name
+O
+O O O O O O O O O O O O O O O O O O O O O O O O
+O
+O B-vehicle O O B-time I-time O O
+O O
+O O O O O
+O O O O
+O O O O
+O O O O O O O O O O O O O O O B-time I-time O
+O O O O O O
+O O
+O O O O O O
+O O O O O O O O O O
+O O O B-time O O O O
+O O O
+B-number
+O O O O
+B-number
+O O B-number O
+O O
+O
+O O
+O O O O O O O
+O O
+O O O B-food O I-food O B-number B-vehicle O B-number
+B-item
+O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O
+O O
+O
+O
+O O B-number O O
+O O
+O O O O B-food O I-food O O O O
+O
+O O
+O O O O
+O O
+O O O O O O
+O O O O B-number O O O O O O O O O O O O O O O O
+O O
+B-food O I-food O O O B-time O O O O
+O O O O O O O B-time I-time O O O O O O O B-food O I-food O B-vehicle O
+O O O O O
+O
+B-food O I-food O O O O O B-vehicle I-vehicle O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O
+O
+O O O O O O O O O O B-vehicle I-vehicle O O
+O O O O B-vehicle I-vehicle O B-food O O O O O O O O I-food O O O O O O O O O O O O
+O O O O
+O
+O O O B-vehicle O O
+O
+O O O O
+O O
+O O
+O O O O O O
+O O O O O B-time I-time O O O B-number O
+O O O
+O O O O
+O O O O O O
+O O
+O
+O O
+O O O O O O O B-number O O O O
+O O O O O O B-time I-time O O
+O O O O O O O O O O O O O
+O O O O O O O B-time I-time O O O O O O O B-time O O
+O O
+O O O O O O O
+O O O O O O O O O O O O B-food O I-food O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O
+O O O O O O O
+O O O
+O O O O O B-number O O O O O
+O
+O O O
+O O O O O O O B-number O O O B-number O O O O O O B-food O I-food O O O O O O
+O
+O B-number O O O
+O O O O O B-number O O O
+O O O O
+O O B-number O O O O O
+O
+O O O
+O O O O O B-number O O O O
+O O O O O O O
+O O
+O O O O O O O
+O B-time O
+O O O O O B-number O O O O O
+O O
+O O
+O O O O O O B-number O O
+O
+O O
+O O O B-number O O O O O O O
+O O
+O O
+O O O
+O O O
+O O
+O O
+O
+O O
+O O
+O O O O B-number O O
+O I-vehicle-name
+O I-vehicle-name O
+O O O O B-vehicle O O O I-vehicle-name O O O
+O O O O O O
+O
+O O
+O O O O B-number O O
+O B-number O O O O
+O
+O O
+O O O O
+O O O O O B-time I-time O O O O O O B-number O O O
+O O B-number O O
+O O B-number
+O O O O O O O O O
+O O O O O O O O O
+O O
+O
+O B-time I-time O O O O O O O O O B-time O O O O
+O
+O
+O O
+O O O O
+O O O O
+O O O B-number O O O O O
+O
+O B-number O O
+O
+O O O O
+O O
+O O O O
+O O O O O B-time I-time O O
+O O
+O O O B-time O O O
+O O O O O O O O O O B-number O O O O B-vehicle O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O O O O O O O O O O
+O O
+O O O
+O O O O O O O O
+O
+O O O O O O O
+O O O O O
+O O O O O O O
+O
+O
+O O B-food O O O O O O O O O O O O O B-time O O O O
+O O
+O O O O O
+O B-time O O O O O O O O O O O O
+O O O O O B-number O O
+O O O O O O O O O B-time O O O O O O O
+O
+O O O O O B-food O I-food O O O O
+O O O B-vehicle I-vehicle O O O O O O O O O O O
+O O
+O O O
+O O O O O O O O O
+O
+O O O
+O O O O O O O O B-number O O O O O O O O
+O O
+O
+O O O O O O O O O O O O O O O
+O
+O O O O O O O O O
+O O
+O O O O O O O O O O O
+O O O O O O O O O O O
+O O
+O
+O O O O O O O
+O O O
+O O O
+O O O O O O O O O B-number O B-number O O O O O O O O O O O O O O O O O O O O O O O O O B-food O I-food O O O O
+O
+O
+O O
+O O O O O O O O O B-number O O O O O
+O
+O O O
+O O
+O
+O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O
+O O O O O O O
+O
+O O O O O B-food O I-food O O O O O O
+O O O
+O
+O
+O O O O O O O
+O
+O O O O
+O
+O O
+O O O O O
+O B-food O O
+O
+O O O O O O
+O
+O O O O O B-time I-time O
+O O
+O
+O
+O O O O O O O O
+O O O O O O
+O O O O O O O
+O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O
+O O O O O O O O O O O O
+O
+O O
+O O O O O O O I-vehicle-name O O O
+O O O O O O O O O O O
+O O O
+O O O O O O O O O O O O O O O O O O O
+O O
+O
+O
+O O O O O O O
+O O O O B-time I-time O O O O O
+O O O O I-vehicle-name
+O
+O
+O O O B-vehicle I-vehicle O
+O
+O O O O O O O O O O O O
+O O O O O O O O
+O
+O O O B-time I-time O O O O O O O O O O O O
+O O O O I-vehicle-name O I-vehicle-name O O O O O O O O O O O O O O O O O O O O O O
+O O O O O
+O O
+O O O O B-time O O O
+O O
+O O
+O O O O O
+O O
+O O O O O O O
+O O O O O O O
+O O O O O O O O O O O
+O O O O O
+O
+O O
+O O O B-food O I-food O O
+B-vehicle O O O O
+O
+B-food O I-food O O O O O O
+O O O O O O O O O O
+O
+O
+O
+B-food O I-food O O O O O O O O
+O O O O O O O O O O
+O O O O O O O O O O O
+O
+O O
+O O O O O O O
+O O O
+O O O O B-vehicle I-vehicle O O O
+O
+O
+O
+O O O O O O B-time O O O
+O
+O O
+O O O
+O O
+O O O O O O I-vehicle-name O O O
+O
+O O O O O
+O
+O O O O O O O O
+O
+O O
+O O O O
+O O O O O
+O O O O O O O
+O O
+O
+O O O O O
+O O O O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O B-time O O O O O O
+O O
+O
+O B-time I-time
+O
+O O O O O
+O O O O O B-time I-time O O O
+O
+O O O O O O O O O O O O
+O O B-time I-time O O O O O
+O
+O O O O O O B-time I-time
+O
+O O O O O
+O
+O O
+O O O O O O O
+O O
+O O O O O O O
+O O O O B-time O O O O
+O O
+O
+O O O O B-number O O O O
+O
+O O O O O O O
+O O
+O O O O O O B-time I-time O O O O O
+O
+O O O O O
+O
+O O
+O O O
+O O O O O O
+O O
+O O O
+O
+O O
+O O
+O O
+O O O O B-time I-time O
+O
+O O O O O O O O O O O B-time I-time O
+O O
+O O O O
+O O O B-time I-time O B-time O O
+O O O O O O O
+O O O O O O O
+O O O B-number O O O
+O O O O O O
+O O O O O
+O O O O O O O
+O
+O O O O
+O O O O O B-time I-time O O O
+B-time I-time
+O O
+O O O O O O
+O O
+O
+O O O O O O O O O B-time I-time O O
+O
+O O O
+O O
+O
+O
+O O O O O O O O
+O B-time I-time
+O B-number O O O O O O
+O O O O B-number O O O O
+O O
+B-number O O O O
+B-number
+O O
+O B-number I-time O O O O O O O O
+O O B-time I-time O O O O O O O
+O O O O O B-time I-time O O O O B-time O
+O O O O O O O O O O O O
+O O O O O O O O O O O O
+O
+O O O O O O
+O
+O O
+O O O O O O O O O O O O O O O O O
+O O O O O O O B-time I-time O O
+O
+O O O O O O O O O O O O O O O
+O
+O O O
+O
+O O
+O O O O O O O O O O O O O
+O
+O I-vehicle-name O O O
+O O
+B-time I-time
+B-time I-time O O O O O O O
+O
+B-time I-time O O O O O O O O O O
+O
+B-time I-time O
+O O O O O
+O
+O O B-number O O O O O O
+O O
+O O O O O O
+O O O O O O O O O O O O
+O O O B-time I-time B-time O O O
+O B-time I-time O O
+O O B-number
+O O O O O O
+O
+O O O O O O
+B-number O O
+O B-number
+O O
+O O
+O
+O
+O
+O O O O O O
+O
+O
+O
+O O O O O O O
+O O O
+O O O O O O O
+O O O O O O O O O O O
+O
+O O O O O O O O O
+O
+O B-time I-time
+O B-time I-time
+B-time I-time
+O
+O B-time O
+O
+O
+O B-time I-time O O O O O O O O O O O O
+O O O O O O O O
+O B-number O
+O O O B-number O O O O O O O O O O
+B-number
+O
+O O O O O O O O O O O
+O
+O
+O O O
+O O O O O O O O
+O O
+O O
+O O O O
+O O
+O O
+O B-time I-time
+B-time I-time
+B-time I-time O O O
+O O
+O O O
+O O O O O
+O
+O O O O B-time I-time
+O
+O O O O O O B-time I-time O O O O O
+O
+O O O O B-time I-time O O O O O O O
+O
+O O O O O O O
+O
+O O O B-time I-time
+O O O
+O O O O
+O O O O B-time O O
+O O O O O B-number O O
+O
+O O O O O O O O O I-vehicle-name O O O O O
+O O
+O B-time I-time
+O O O O B-vehicle O O O O O O O O O O O O O
+O
+O O O O B-time I-time O O O
+O
+O O O B-number O O O O O O O
+O O O O O B-food O I-food O O O O O O O O O O O O O
+O O O
+O O O O O B-number O O
+O O
+O B-number O O B-vehicle O O O O
+O
+O
+B-food O O O O O O O O O O O O O O
+O
+O O O B-time I-time O B-time O O O O B-place O O O
+O
+O O
+O O O O O O O O O O O O O O O
+O
+O
+O O O
+O
+O O
+O O B-vehicle O O O O O
+O
+O O
+O O O O O
+O
+O O B-vehicle O O
+O
+O O O O O O O O O O B-vehicle O O O O
+O O O
+O
+O O O O O
+O
+O O O
+O O
+O O O O O O O O O O O O
+O O
+O O
+O O O O
+O O O O
+O O
+O
+O O B-time O B-time I-time O O O O O
+O O
+O O O O O O O O O O O
+O
+O O O O B-vehicle O O O O O O O O O O
+O O O
+O O O O O O
+O
+O O
+O
+B-number
+B-time O O I-time
+B-number
+O O O O O O O O B-number O O O O O O O O O O O B-number O
+O
+O O O O O O O O
+O O O B-time O O
+O O I-vehicle-name O O O O O
+O
+O O O O I-vehicle-name O
+O O I-vehicle-name O O O O
+O
+O O O O O
+O O
+O O O O
+O
+O
+O O O O O O O O
+O O O O B-time O O O
+O
+O
+O O O O O
+O O
+O O O O O O
+O O
+O O
+O
+O O B-food O O O O O O
+O O O O O O O O O O O O
+O
+O O O O O O O O O O
+O O O O O O O
+O
+O O O O O O O O O O
+O O
+O O O O
+O O
+O O O O O O O O O
+O
+O B-time I-time O O O O
+O
+O O
+O O O O O O O O O O B-time I-time O O O O B-number O O
+O O O O
+O O O O O O O O O O
+O O
+O O
+O O O O O O B-time O
+O
+O
+O O
+O O
+O O O O
+O O O B-number O O O O O O O O
+O O O O O O O
+O O
+O O O O O B-food O I-food O O O O O O O O O O
+O O
+O
+O O O B-number O O O O
+O
+O O I-vehicle-name O O O O O
+O
+O O O O O O O O O O O O O O O O
+O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O O O O O B-number O O O O O O
+O O
+O
+O O O O O
+O
+O O O O O O O
+O O O
+O O
+O
+O O O O O O O O O O O O
+O O O
+O
+O O I-vehicle-name O
+O O O O O O O O O O O O O
+O O O O O
+O O O O O I-vehicle-name O O O
+O O
+O O
+O O O O O B-time I-time O O O O I-vehicle-name O O O O O O O O O O O O
+O
+O O O
+O O O
+O O O O O O
+O
+O O O O O O O O O O O O O O O O O O
+O
+O O O O O
+O O O O O O O
+O
+O O O O O
+O O O O O O
+O O O O O O B-number O O O O O O O O
+O O
+O
+O
+O O
+O O
+O B-time I-time O O O O O O B-number
+O
+O O O O O B-number O O O O O O O B-time I-time B-number O
+O
+O O O O O O O O
+O O
+O O O O O O O O
+O O O O O O O O
+O
+O O O O O B-number O O O O
+O
+O O
+O O O O O O O O O
+O O O O O O
+O O O O O O O
+O O O
+O O
+O
+O O O O O O O O O O
+O O B-vehicle O O O O
+O
+O
+O
+O O O O O O
+B-number O
+O O
+O O
+O O
+O
+O O O O
+O O
+O O O O O O O O O O
+O O
+O O O O O O O
+O
+O O O O O O O
+O O
+O O O O
+O
+O O O O O O O O O O O
+O O O O O O O B-food O I-food O O O O O O O O O
+O
+O O O O O
+O O
+O O O O O O O O O O O O B-time I-time O
+O
+O
+O O
+O O O O O O
+O O
+O O O O O O B-vehicle O O B-number O O O
+O
+O O
+O O
+O
+O
+O O O O O O
+O O
+O O O O O O
+O O
+O O
+O O O O O O O O O O O
+O
+B-food O I-food O O O
+O O O O O O B-food O I-food O O O
+O
+O O O O O B-time O B-food O I-food O O
+O O O O O O O O O B-time I-time O O O O O O O
+O
+O O
+O
+O O
+O O
+O O O O O O B-vehicle I-vehicle O O O O O O O O O O O
+O O O O O O O O
+O
+O O O O O O O
+O
+O
+O O
+O
+O
+O O O
+O O
+O
+O O O O O O O
+O
+O B-time I-time
+O
+O O
+O O
+O
+O
+O
+O O O O
+O O O O O
+O O
+O
+O O O O O
+O
+O
+O O O
+O O O O
+O O O O B-time I-time O
+O O O O O O O O B-number O O O O O O O O O
+O
+O O O O
+O O
+O O O O O O
+O
+O O
+O O O O O O O O O O B-vehicle O O O O O
+O
+O
+O O O O O O O
+O
+O O O
+O
+O
+O O
+O O O
+O
+B-number O O
+O O
+O O O O O O O
+O O O O
+O
+O O O O O O O O O O
+O
+O
+O
+O O O O O O
+O O
+O O O O O
+O O O O O O O O O O
+B-time I-time
+O O O O O O
+O O
+O O O
+O
+O
+O B-food O I-food O O O O O O
+O
+O O O O
+O
+O O O O O O O
+O O B-time O O O O O
+O O O O O O O O O O O O
+O O O O O O O O O O O
+O
+O
+O
+O O B-vehicle I-vehicle O O
+O
+O O O O O O B-food O I-food B-vehicle O O O O
+O O O O
+O O O O O O
+O O O O O O O O O O O O O O O O O
+O
+O
+O
+O O O O O O O O O O O
+O
+O O O O O O O
+O O O O O O
+O O O O O O
+O O
+O
+O O O
+O
+O
+O O O O O
+O
+O O O O O O O O O B-food O I-food O
+O
+O B-item O I-item O B-vehicle O O O
+O
+O
+O O O O
+O
+O
+O O O
+O
+O
+O O O O O
+O
+O O O O O O O O O
+O
+O B-time O O O O
+O O O O O O O
+O
+O O
+O O O O O O O
+O O
+O O O O B-vehicle O B-food O I-food O O O
+O
+O O
+O O O O O
+O O O O O O O O O O
+O O
+O O O O I-vehicle-name O O O O O O O O O O O O O O
+O O O O O O O
+O O
+O O O O O O O
+O
+O O
+O O B-food O I-food O O O O O O O O
+O O O
+O
+O O O O
+B-time I-time
+O O O O O O O O
+O O O O O O O
+O B-time O
+B-time I-time
+O O O O O O O O O O
+O O
+B-time O
+O
+O
+O O O O O
+O O O O O O O O
+O O O O O O O O O O O
+O
+B-time I-time
+O O O O O O O O O
+O O O O O O O O O O O
+O
+O
+O
+O O
+O O
+O O O O O B-number B-item O
+O
+O
+O O O O O O
+O O
+O B-time I-time
+O O O O O O O O O O
+B-time O
+O O O O
+B-time I-time
+B-time O
+O
+O O
+O O
+O O O O O O
+O O
+O O O
+B-time I-time
+O O O O O O O O O O O
+O O
+O O O O O O
+O O O O O O O
+O O O O O O O O O O O O O O B-number B-vehicle O O O O
+O
+O
+O O O O B-item O I-item O
+O O
+O O
+O O O O O B-time I-time O O
+O
+O O
+O O O O O O
+O
+O
+O
+O B-time O O
+O
+O O B-time O O
+O
+O B-time O O
+O O
+O O O O O O O
+O
+O
+O O O O O O O O O B-number B-vehicle O O O O
+O O O O O B-number B-vehicle O O O O
+O O O
+O O
+O O
+O O
+O O O O O O
+O
+O O O B-vehicle O O O O
+B-number
+B-number
+O O O
+O O
+O O O
+O O
+O O O B-number B-vehicle O O O O
+O O
+O B-number O
+O O
+O O O O O
+O O
+O O O O B-number B-vehicle O O O O
+O O
+O O O O
+O O
+O O B-vehicle O O
+O O
+O B-number
+O O O B-vehicle O O O
+O O O O O B-number B-vehicle O O O
+O O O O O O O O O B-food I-food O B-number B-vehicle O O O
+O O
+O
+O O O O O O O O O
+O O
+O O O O O O O O O O O O O O O O
+O O
+O O O O
+O O O O O
+B-food O I-food O O O
+O O B-time O
+O O O O O
+O
+O O
+O B-food O I-food O O O O O O O O O O O B-vehicle O O O O O O O O
+O O O B-time O O O O O O O O O O O O O O O O
+O
+O O B-time I-time O B-number B-vehicle O O O O O O O
+O O
+O O B-time O O
+O O O O O O O O
+O O O O O B-time-duration I-time-duration O O O O B-time O O
+O
+O O
+O O
+O O O O O O O O O O O B-time-duration I-time-duration
+O
+O B-time-duration I-time-duration O O O B-food O I-food O O O
+O O
+O O O O O O O O O O
+O O
+O
+O
+O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O B-time O O O O O O O O O O
+O O O O O O
+O O
+O
+O O O O B-time-duration I-time-duration O O O O O
+O O
+O O O O B-time-duration I-time-duration O O
+O O O O O B-time-duration I-time-duration O O O O O O O O O
+B-time-duration I-time-duration O O O
+O
+O O O O O O O O B-time-duration I-time-duration O O O O
+O
+O
+O
+O O
+O O B-time-duration I-time-duration O O
+O
+O O O O O O O O
+O O
+O O O O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O
+O O O O O O O
+O
+O O O O O
+O O
+O O O O
+O O
+O O
+O O
+O O B-food O I-food O O
+O O
+O O B-time O O O O
+O O O
+O O O O O B-time O O O O O O O
+O O O O O O
+O
+O O O O O O B-time O O O
+O
+B-time-duration I-time-duration
+B-time-duration I-time-duration
+O O
+O
+O O O O
+O
+O O
+O O O B-time-duration I-time-duration O O
+B-time-duration I-time-duration O O O
+O O O O O O O O
+B-time O
+O O O B-time O O O O
+O O
+O O O O O O O O O O O O O O O O
+O O
+O O O O O O
+O O O O O O O
+O
+O O
+O O O O O O
+O O O
+B-time-duration I-time-duration O O
+O O B-number O O O O B-vehicle O O O O O
+O O
+O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O
+O
+O O
+O O
+O O O O O O O O O O O O O O O O O O O O O O O O
+O O O B-time-duration I-time-duration O O
+O
+O O O O O O O
+O O
+O O O
+O O
+O
+O O
+O O O
+O O
+O
+B-number O O O O O O
+O B-time-duration O O
+O O
+O
+O B-number O
+B-time O
+O O B-time O O
+O O O O O O O O O B-time O O
+B-time O O
+O
+O
+O
+O O O O O O O O
+O
+O
+O O O O
+O
+O
+O O
+O
+O
+O O O
+O O O O O O O
+O O O O O O O
+O
+O O
+O O O O O
+O O
+O O O
+O O O O O O O O O O O O O O O
+O O O
+O
+O
+O
+O O O O O O O O O O
+O O O
+O
+O
+O O
+O O
+O
+O
+O O O O O O O
+O O O
+O
+O
+O O O O O O B-number O O O O O
+O
+O
+O O
+O
+O
+O O O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O
+O
+O
+O O O
+O
+O O
+O O O O O O O O O O B-time-duration I-time-duration O
+O O O O O O O O O O O
+O O O O O
+O O O B-time O O O
+O O O O O O O O O O O O O O O O O O O O O
+O O O
+O O O O O O O
+O
+O O O O O B-number O
+O
+O B-time O O O O
+O
+O O
+O
+O O O O O O O O O O O O
+O O O O O O O O O O O O
+O O
+O O O O O
+O O O O O O O O O O O O O O O O O
+O O O O O
+O
+O O O O O O O B-number O O O O O O O
+O
+O O O O O O
+O O
+O O O O O O O
+O O O O O
+O
+O O O O O O O O O O O O O O O O O O O O O
+O O
+O O B-time-duration I-time-duration
+O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O
+O O O O O O O O O O O O O
+O O O O
+O B-time O O O O O O
+O O O O
+O
+O B-time-duration I-time-duration O
+O
+O O
+O O O O O O O O O O O O
+O O
+O O O O B-time O O O O
+O O
+O
+O O
+O
+O O
+O
+O O B-time O O
+O O O O O O O O O O O O B-time O O
+O
+O O O O O O O B-time O O
+O O O O O O O O O O O O
+O O
+O O O O O O O O O
+O
+O O O
+O O O O O O O
+O O
+B-time-duration I-time-duration
+O O O O B-time-duration I-time-duration O
+O
+O O O O O B-time-duration O O O
+O
+O B-time-duration I-time-duration
+O
+O O
+O O O O O
+O O
+B-number O O O O O O O O O O
+B-number O O O
+O O
+O O O O O
+O O O B-time O
+O O O
+O O O
+O
+O O
+O
+O O O O O O O O B-time-duration I-time-duration O O O
+B-time-duration I-time-duration
+O O O O O O
+O O O O O O O O
+O
+B-time-duration O O O
+O O O O
+O O O O
+O
+O
+O O O O O O O O O O O O O O O O
+O O
+O O
+O O
+O O O O O O O O B-time-duration I-time-duration O O
+O O O
+O O
+O
+O O O O O O B-time-duration I-time-duration O O O O O O B-time-duration O O O O B-time-duration O O
+O
+O
+O
+O O B-food O O O O O O O O O O
+O O O O O O O B-time O O
+O
+O O
+O O O O O
+O O O O O B-time-duration O B-time-duration I-time-duration O O O
+O O O O O O B-time O O O O
+O B-time-duration O B-time-duration B-time-duration I-time-duration I-time-duration I-time-duration O
+O O O O O O O O O O O O
+O O O
+O O O O O O O
+O
+O O
+B-place O O O O O I-food O
+O O O O O O O B-number O O O O
+O O
+O O
+O
+O O
+O O
+O O O B-number O O
+O O O O O
+O O O O O O O O O O O O O O O O B-time O O O
+B-time
+B-time
+O O B-time O O
+B-time
+O O
+O O O O O O O O
+O O O
+O B-number O
+O O O B-number O O
+O O
+O
+O O O O O O O O
+O O O O O O O O O
+O O O O O O O I-vehicle-name O B-time O O O O O O B-time O O O
+O O O O O O
+O O O O O O O
+O O O O
+O O
+O
+O O O O O O
+O
+O O
+O O
+O O O O
+O O
+O O
+O B-number O O O O O
+O O
+O O O O O
+O O O O B-time O O O O O O O O O
+O
+O O
+O O O O
+O O O O B-time O O O O O
+O
+O O O O O
+O B-time O
+O O O O O O O
+O O O B-time O O
+O O
+O B-number O
+O O
+O O
+O O O O
+O O O O O O O
+B-time-duration B-food O I-food O O O O O O O
+O O
+O
+O O O O O I-vehicle-name O O O
+O O O O
+O O
+O O O B-time O O
+O O O O O O O O O O O
+O O O O B-time O O
+O O O B-number
+O O O O O O O O O
+O B-number O
+O O O O O O O O O O O O O O O O O O O O
+O O O O
+O O B-time O O
+O O O O B-food O I-food O O O O O O O
+O O O B-time O
+O O O O O O O O
+O O
+O O O O O
+O
+O O
+O O O
+O O O O O
+O O O B-food O I-food O B-number O O O
+O O
+O
+O
+O O O O
+O
+O O O O O O
+O O
+O O O O O O O
+O
+O O O O
+O O
+O O
+O O O O
+O
+O O
+O O
+O O O O O
+O O B-number O O O O
+O
+O
+O O
+O O
+O O O O O O O O O O O O
+O O O O O O O
+O O
+O O O O
+O O O O O B-time O O O O
+O O
+O O O O O
+O O
+O O O O O
+O O O O
+O O O O O O O O O O O
+O
+O O
+O O
+O
+O O
+O O O O O O O O O O O O O O O O O
+O
+O O O O O O B-number O O O
+O O O O B-number O O O O O O O O
+O O O O O O O O O
+O
+O O
+O
+O O
+O
+O O O O O O O O O O
+O
+O O O O O O O B-number O O O O O
+O O
+O O O O O O O O B-number B-vehicle O O B-number O O O
+O O O O O B-number O O
+O O O O O O O O
+O O B-number O B-vehicle O O O
+O
+O O
+O O O O
+O O O O
+O O B-time O O O
+O O
+O O O O O
+O O O O B-number O O O O O O O O O O
+O
+B-food O I-food O
+O
+O O O O O O O
+O O O
+O O O O
+O B-time O O O O
+O
+O O O O
+O O O
+O O
+O O O O
+O
+O O
+O O O O O O O
+O
+O O O O
+B-number O O
+O O
+O O O O O O O O
+O O O O O B-time O O O O
+O O
+O O O O O O O B-time O O O
+O O O
+O O O B-time O O
+O O O O O
+O B-time O O
+O O O O
+O O O
+O O O O O O O
+O O
+O
+O O B-food O I-food O B-number B-vehicle O O O O
+O O
+O O O O O O O O O O O O
+O O
+O O
+O O O O O O O O O O O
+O O O O
+O O
+O O O O
+O
+O B-number O
+B-number O
+O
+O O
+O O
+O O O O O O
+O O
+O
+B-time O O O
+O O O B-number O O
+O O O O O O O B-time-duration I-time-duration O O
+O
+O O
+O
+O
+O
+O O O O O B-vehicle O O O O O O
+O O O O O
+O O
+O
+O O B-number B-vehicle O O O
+O O O
+O O O O
+O B-number B-vehicle O O O O O O O O
+O O O O O O O O O B-vehicle O O O O
+O O
+O O O O O O O
+O O
+O B-number O O O
+O O
+O
+O O O B-number O O
+O O O O O O O
+O O
+O O O O O O O O O
+O O
+O
+O O O O O O O O
+O O
+O O O
+O O
+O
+O
+O O O
+O
+O O
+O O O
+O O O O O O O O O O B-number O O
+O
+O O O B-number O O O O O O O O O
+O O O O O B-number O
+O O O O
+O
+O O O O O O B-vehicle O O O O
+O O
+O O
+O O O O B-vehicle O B-number O O O
+O O O B-food O I-food B-vehicle O O O O
+O O B-food O I-food O O O O B-vehicle O O O O
+O O
+O O
+O
+O
+O O O O O O B-time O O O
+O B-food O I-food O O O
+O O
+O
+O O B-time O O O
+O O O O O O
+O O B-number O
+B-number B-vehicle O B-food O I-food O
+O O O O O O O O O O O O O O O O
+O
+O O
+O O O
+O O O O O O O O O O O
+O O
+O O
+O O O O O O O O
+O
+B-number B-vehicle O O
+B-food
+O
+O
+O
+O O B-time O O
+O
+O O O
+O
+O O O O O O
+O
+O
+O O O
+O O O O O O O O
+O O
+O
+O O B-number O O
+O O
+O O
+O O O O O O O O
+O O
+O O
+O B-number O O B-vehicle O O
+O O
+O
+O O O O O O O O O B-food O I-food O B-vehicle O O O O O O O O O O O
+O
+O O O O O O B-vehicle O O O O O O O O O
+O O
+O O
+O O O O O
+O
+O O O O B-number B-vehicle O O O O O O O O O O O
+O O
+O
+O O O O O O O B-number B-vehicle O O
+O O O B-number O B-vehicle O
+O
+O O
+O
+O O O O O O O
+O O
+O O O O O O O O
+O O
+O O O
+O O
+O O
+O O O O O O O O O O
+O O
+O
+O
+O O
+O O O O O O O
+O O
+O O O O O
+O O O
+O O O O O O O O
+O O
+O O
+O O O O O O O B-vehicle O
+O
+O O B-vehicle O
+O O
+O O
+O
+O O O O O O O O O O O O
+O O O O O O O O
+B-food O I-food O B-vehicle O O O
+O
+O O
+O O
+O O O O O O O O O O
+O O O O O O O O O O O O
+O
+O O
+O O O O O
+O
+O O
+O O
+O O
+O O
+O O
+O O
+O O O O B-vehicle O O O O O O O O O
+O O O O O O B-vehicle O O O O O O O O O O O B-food O I-food O O O
+O
+O O O O O O O O O B-vehicle O O O O
+O O O O O O O O O O O O O O O O O
+O O
+O O
+O O O
+O O
+O B-time O O O O
+O O
+O O
+O O O O O O O O O O O O
+O O O O O O O
+O O
+O O
+O O
+O O O O O O
+O O
+O O
+O
+O O
+O O O
+O
+O O
+O O O
+O O O O O O O O O O O O O
+O O O O O O O O
+O
+O O O O O O O O O
+O O O O O O O O
+O O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O
+O O O I-vehicle-name O O O O
+O
+O B-time-duration I-time-duration
+O O
+O
+O O
+O O
+O O O O O O O
+O O
+O O O O O O O O O O O O
+O
+O O
+O B-number O O O O O O
+O O
+O O O O O O
+O O
+O O B-number B-food O O O O O
+O O
+O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O
+O O O O O O O I-vehicle-name O O O
+O O
+O O
+O
+O O O O O O
+O
+O
+O O O O O O O O O O
+O O
+O O O O O O O O
+O O
+O B-number O O O
+O O
+B-time-duration O
+O O O O O O B-number O O O O
+O O
+O O O O O O O B-number O O O O O
+O
+O
+O O O B-number O O O O O O O
+O O
+O O O O O O O O O
+O O
+O O O O O O O O B-time O O
+O O O O O O O O O O O O O
+O O
+O O
+O O
+O O
+O O O B-number O O O O O O O O O O
+O O
+O O O B-number O O O O O
+O O O O O O O O O O O O O O O O O
+O O O O O O O O O
+O O O
+O O O O O O O O
+O O
+O O
+O O
+O O O O O O O O O O
+O O O O
+O
+O O O O O O O O
+O
+O
+O O O O O O O O O O O O O O O O O O
+O O
+O O
+O O
+O O O O O O B-time-duration I-time-duration
+B-time-duration I-time-duration
+O O B-time-duration I-time-duration O
+O O O O O O O O O O O O O O O
+O O O O O O
+O
+O O O O O O O
+O O
+O O
+O O
+O O
+O O
+O O O O O O O O O O O O
+O
+O
+O B-time-duration I-time-duration
+B-time-duration I-time-duration
+O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O
+O O
+O O
+O O
+O O O O O O O O O O O
+O
+O
+O B-number O O
+O O O O
+O O O O O O
+O
+O O O O O O O
+O O
+O O
+O O
+O O O O O O
+O
+O O O O O
+O O O O O O O O O O O O O O O O
+B-time B-number O O O O O
+O O
+O O O O O O O O O O O O O O
+O
+O B-number O B-number O O O O
+O O O O O O O O O O
+O O O O O O O O
+O O
+O O O O B-number O O O O O
+O O
+O O O O I-vehicle-name O O O O O O
+O
+O
+O O
+O O
+O O O O O O O
+O O O O O O O O O
+O O O
+O O O O
+O O O O O O O O O O O O O B-time-duration I-time-duration O
+O O
+O O O O O O O O O O O O O O O O O O O O O O O O
+O
+O O B-number O O O O O
+O O
+O O O B-number O O O O O O O
+O O
+O
+O O
+O O O O O O O
+O O O O O O O
+O O O O O O O O O
+O O O O O O O O
+O O O O O O O O O O O O O
+O O
+O O
+O O O O O I-vehicle-name O O O
+O
+O O
+O O O O O O O O O B-vehicle O O O
+O O B-vehicle O O O
+B-number O
+O O
+O O
+O O O O
+O O O O O
+O O B-number B-vehicle O O O O O O
+O O
+O O O O B-number O O O
+O O
+O B-vehicle O O O O O O O
+O O
+O O O O O O O O O O O O O O O O
+O O O O O O O O O
+O O B-vehicle O O O
+O
+O O
+O O O O O O O O O O
+O O O O O O O O O O O
+B-vehicle O B-time O O O O O O O O O O O
+O
+O O O O O O O O O O O
+O O O O O O O O
+O
+O O O O O
+O O O O O O O O O O B-time-duration I-time-duration O O O O
+O O O B-number I-time-duration O O O O O O O O O O O
+O O
+O
+O
+O O O O O O O O
+O O O O O O O O O O O
+O O
+O O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O
+O O O O O O O O O O B-time-duration I-time-duration O O O B-time O O O O O O O B-time-duration O O O O O
+O O
+O O B-time-duration I-time-duration O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O O O O O B-time-duration I-time-duration O O O O O O
+O O
+O O
+O O O B-time-duration O O O O O O O O O I-time-duration O O O O O O O O O O O O O O O O O
+O B-time O O O O O O
+O O O O B-time I-time-duration O O O O O O O O O O O O O O O O O O
+O O O O O O O
+O O
+O O O O O O
+O O O O O
+O B-food O I-food O O O
+O O O O O O O O O O
+O O O O O
+B-number
+O B-food O I-food O O B-number B-vehicle O O O O O O O O O O O
+O O O O O
+O O O O O O B-number O O O
+O O O O O O O O O O O O O O
+O O O O O O O O O B-number O O O O
+O O B-food O I-food O O O O O O B-number O O O O O
+O O
+O O O O O O O O O O O O O O B-vehicle O O O O O O O O O O O O
+O
+O
+O
+O O O O O O O O O O O O
+O
+O O
+O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O
+O B-food O I-food O O O O O O
+O O B-food O I-food O O O O O O O
+O O B-date-relative I-date-relative O O O O O
+O O O O
+O O O O O O O O O
+O O O O O
+O O O O O O O O O
+O O
+O O O O O O O O
+O B-time-duration I-time-duration O
+O O O O O O O O O O O O O
+O
+O O O O O
+O O
+O O O O O O O O
+O O O O O O O O
+B-time-duration I-time-duration
+O O
+O O
+O O O B-number
+O O
+O B-number O
+O O O O B-food O I-food O O O O O O O O
+O O O O B-vehicle O O O
+O O O B-time-duration I-time-duration O O O O B-vehicle O B-food O I-food O O
+O O O O O O O O O B-time-duration I-time-duration O
+O O
+O
+O
+O O O
+B-time-duration I-time-duration
+O O O O O O O O O O O O O O O
+O O B-time-duration I-time-duration
+O O O O O O O O O O O O O O O O O O O B-time-duration I-time-duration O O O O O O
+O O O O O O
+B-time O O O O O O
+O
+B-time-duration I-time-duration O
+O O B-time-duration I-time-duration O
+B-time-duration I-time-duration O O O O B-time-duration O O
+O O O O O O O O O O B-vehicle O O O
+O O O B-vehicle O O O B-food O I-food O
+B-food O I-food O O B-vehicle O O O O O O O O O B-time-duration I-time-duration O O
+O O B-vehicle O O O O O O O
+O O O B-time-duration I-time-duration O
+O O O O
+B-time-duration I-time-duration
+O O O O O
+O B-time-duration I-time-duration
+O O O O
+O O O O O O O B-time-duration I-time-duration O O
+O O O O
+O O O O
+O O O O O O O O
+B-time-duration I-time-duration
+B-time-duration I-time-duration
+O O O B-number O O O O O O
+O O O
+O B-number O O B-time-duration I-time-duration
+O O O O O O O B-number O O O O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O
+O O O O O O O
+O O O O O
+O O
+O
+O O O O O O
+O B-time-duration I-time-duration
+O
+O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O O O
+O O
+O O O O O O O
+O B-time-duration I-time-duration
+O O O
+B-time-duration I-time-duration O O O O
+O
+O
+O O O O O O O O B-time-duration I-time-duration O O O
+O
+O O
+O O O O O O O O O O O
+O O B-number B-vehicle O O O O O B-food O I-food O O
+O O
+O O O O O B-food O I-food O O B-number O O
+B-number
+O O O O O
+O
+O
+O
+O
+O O O O O
+O O O O B-food O I-food O O O O O O O O B-time-duration I-time-duration O O
+O
+O O B-time-duration I-time-duration
+O O B-time-duration I-time-duration O
+O
+O
+O O O O O O O O
+O O
+O O O O O O O O
+O O B-number B-vehicle O O O O O O O O O B-food O I-food O O
+O O B-vehicle O B-time-duration I-time-duration O O
+O B-time-duration I-time-duration
+B-time-duration O O
+O
+O
+B-time-duration I-time-duration
+B-time-duration I-time-duration
+O O O O
+O
+O O O O O O O O
+O O
+O O O I-time-duration O O O B-time-duration O O O
+O B-time-duration
+O O B-time-duration I-time-duration O O
+O
+O O O O O O O O O O O
+B-number B-vehicle O O O O O
+O
+O B-number
+O O B-time-duration I-time-duration O O O O O O O O O O O B-vehicle O O O O O O O O O O O O O
+O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O O O
+O O O O
+O O O O O O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O
+O
+O O O O O O O O O O O O O O O O O O O O O O
+O O B-number O O O O O B-number B-item O O O O O O O B-number O O O O O O O O O
+O B-number O O O O O O
+O B-time-duration I-time-duration
+O O O B-time-duration O O O
+O O
+O O B-time-duration I-time-duration O
+O
+O O O B-vehicle O O O O O O O O O O O O O
+O
+O
+O O O O O O O O O O
+O O O O O O O O
+O B-number O O
+O
+O O O O
+O O
+O O
+O O O O O O O O O O O O O O O
+O O O O O B-time-duration O
+B-period-of-day B-number O O O O O O O O O O B-time-duration I-time-duration O
+B-time-duration I-time-duration O
+O
+O O O O B-number O
+O O O O B-number O O O O O O O
+O
+O O O
+O O O O O
+O O O O O O O O O O O O O O O O O
+O O
+B-time-duration I-time-duration O O B-number I-number O O B-period-of-day B-number O O O O O O
+O O O B-number O O O O
+O O O O O O O O O O O
+O O O
+O O O O O O O O O O
+O
+O O O O O O O O O O O O
+O
+O O O O O O O O
+B-number I-time-duration O O B-period-of-day B-time-duration O O O O O
+O
+O B-period-of-day B-time O O B-time-duration I-time-duration O O O O O O O O O O O O B-time O O O
+O O B-food O I-food O O O O
+B-time-duration I-time-duration O O O
+O O O O O O O O O O O O O B-period-of-day B-time O O O
+O O B-time-duration I-time-duration O O O O O
+O O O O O O O O O
+O O O O O O
+O
+O O O O
+O O O O O
+O O O O O O O
+O O O
+O O O O O O O
+O O O O O O O O O O O O O O O O O O O
+O O O O
+O O O O O O O
+O O O O O O O
+O O
+O O O O O
+O O O O O O O O O O B-food O I-food O O O O
+O O
+O O O O O B-vehicle O
+O
+O O O O B-vehicle O O O
+O B-vehicle
+B-vehicle O O O O O O
+O O O O B-vehicle O O O O O O O
+O O O O O O B-number O O O O O O O O
+O O B-vehicle O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O
+O
+O O O O O O O
+O O
+O O B-time-duration I-time-duration O O O O O B-time-duration O O O O O B-period-of-day B-number O
+O O O O O B-food O I-food O O O O O O O O O O O O O O O O O O
+O O
+O O O O O
+O
+O
+O B-period-of-day O B-number O
+O
+B-period-of-day O B-number
+O B-number O O O O O O O O
+O O
+O O
+O O O O O O O O
+O B-number O O O O B-number O O O
+O
+O O O O O O
+O
+O O O O O O
+O O
+B-number
+B-time-duration I-time-duration O O O
+O O O O O O O O O O O O O O O O O O O O O O O
+O O O B-number O O O O O O
+B-number O O O O O O O O O O O O O O O O O O
+O O O O O O B-time-duration I-time-duration O B-time-duration O O O
+O
+O O O O O O O O O O O O O O
+O O O O O O O O O
+O O O O O O O
+O O O O O O O O O O O O O O O
+O
+O O O O O O O O O
+O O B-number O O O O O O O O O O B-food O I-food O O O
+O
+O O
+O O O O O O O O O O O O O O O O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O O O
+O O
+O
+O O O O O O
+B-number O B-number O O O O O O O O O O O O B-number O O O
+O O O O B-period-of-day O B-time O
+O
+O O
+O O
+O
+B-time O
+O B-time O O O O B-vehicle O O O
+O O
+O O B-food O I-food O O
+O B-time O
+O B-time O
+O O
+O
+O O
+O
+O O O O B-number O O O O O O O O O O O O
+O O
+O O O
+O O O O B-number
+O O O O O O O O
+O O O O O O O O
+O B-time O
+B-time
+O O
+O O O O O
+O O O O O O O
+O
+O
+O O
+O O O O O O O O O O
+O O O O O O O
+O
+O O O O O O O O O O O O O O O O O O O O O O O O O O
+O O
+O O O
+O O B-time-duration I-time-duration O O
+O O
+O O
+O O O O O O O
+O O B-time-duration I-time-duration O O B-time O O
+O O
+O
+O B-number B-vehicle
+O O B-time O O
+O O O
+O O O B-number O O O O O O O
+O B-time O
+O O O O B-number B-vehicle O O O O O O O
+O O O O O O
+O O
+O B-vehicle O O O B-number O O O O O
+B-number
+O
+O O O B-time-duration I-time-duration O O O
+O O O O B-time O O
+O O O O O O O
+B-time O
+O B-number O O O O O O
+O
+O
+O
+O O O O O
+B-time O
+O
+B-time O O O O O O
+O O O O O O O O
+O O O B-time O O O O O O
+O O
+O O
+O O O O O
+O
+B-time O
+O O
+O O
+O O O
+O O
+O O O O O O O B-time O
+B-time O
+O O O O
+O O O B-time O
+O
+O O O O O O B-time-duration I-time-duration O O
+O O
+O B-time-duration I-time-duration O
+O B-time-duration I-time-duration
+O O O B-time-duration I-time-duration
+O O O O O O
+O O
+B-number O O
+O
+B-time O
+O O O O
+O O
+O O O
+O B-time O
+O B-time O
+O O O
+O O B-time
+O O
+O O O O O O
+O
+O O O O
+O O O O O O O O
+O O
+O B-number O B-time-duration I-time-duration
+O B-time-duration I-time-duration
+O O O
+O O O O O O O O
+O O O
+B-time-duration I-time-duration
+O O B-food O I-food O O O B-time-duration I-time-duration O O O O O B-time-duration O
+O O O O O O O O O O O O O O
+O O O O O O O O O
+O O
+O B-food O I-food O O O
+B-time-duration I-time-duration
+B-time-duration O
+O
+O
+O O B-time-duration I-time-duration
+O O O O B-number B-vehicle O O O O O O O
+O B-number O O
+O O B-number O O
+O
+O O
+O B-number O O O O O B-time-duration I-time-duration O O O O O O O
+O
+O
+O O O O O O O B-time O O O O O O O O
+O O O O O O O
+O O
+O O O O O B-time-duration I-time-duration O
+O
+O
+O B-number O O O O O
+O
+O
+O O O O O O O O O O B-number O O O O O O
+O O
+O O O O O O B-number O O O O
+O B-food O I-food O B-number O O
+O
+B-number O O O B-number O O O O O
+O
+O O O
+O O O O O O O
+O
+O O
+O O
+O O
+O O
+O O O O
+O O O O O O O
+O O
+O
+O O O
+O
+O
+O O O O O O O O O O O O O
+O O
+O O O
+O O
+O B-time O O
+O O
+O O
+O O
+O O O
+O
+O O
+O B-time O O
+O O
+O O O
+O O O O O O O O O O O O O O O O
+O O
+O O O O
+O O
+O
+O
+O
+O O O O B-number
+B-number O O O O O O O
+O
+O O
+O O O
+O
+O O
+O O
+O O O
+O O O B-time O O
+O
+O O O
+O O O O O O O O O O O O O O O O O O O O O O O O B-vehicle O O O
+O
+O
+O
+O O O
+O
+O O
+O O
+O O
+O O O O
+O O O O O O
+O B-time O O
+O O O O O
+O O O O O O O
+O O O O O O O O O B-time O O O
+O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O
+O O
+O O
+O O B-time O O O O
+O O
+O O O O O O O O O O O O O O
+O O O
+O O
+O
+O
+O O O B-time O O O O
+O O
+O O
+O O O O O O O
+O O
+O O
+O O O
+O O
+O O
+O O
+O
+O
+O
+O
+O O
+O
+O O O O O O O O O
+O O O O O O O O O O O O O O O O O
+O
+O
+O O O O O O O O
+O
+O O O O O O O O
+O B-time O
+O O O O O O O O
+O
+O O
+O
+O
+O
+O O O O O O O
+O
+O
+O B-number O O O
+O O
+O
+O O O O O O O O
+O
+O O O O O O O O
+O O O O B-food O I-food O O B-vehicle O O
+O O B-food O I-food O B-vehicle O O O O O O O O O O
+O
+O
+O O O O O
+O
+O O
+O O
+O
+O O O O O O O O O
+O
+O
+O O O
+O
+O
+O O O O O
+O
+O
+O O
+O O O O O O O O O O
+O
+O O O
+O O
+O O
+O O B-vehicle
+O O B-vehicle
+O O
+O B-food O O O I-food O O O
+O
+O O B-food O I-food B-vehicle O O
+O
+O O O O O O O O O O O O O O O O
+O
+O O O
+O O
+O O O O O O O
+O O O O O O O O
+O
+O O O
+O O O B-food O I-food O O B-vehicle O O
+O
+O
+O O O O O
+O
+O O B-vehicle O O O O O O O O
+O O
+O O O I-vehicle-name O O O
+O O
+O O O O
+B-time O O O B-number B-vehicle O O O O
+O O O O
+O
+O O O O O B-vehicle O O O
+O B-number
+O O
+O O O O O O O
+O O O O O O O O O O O O
+B-time O
+O O O O O O O O O O O O
+O B-vehicle O O O O
+O O O
+O
+O O
+O
+O O
+O O
+O
+O O O O O O
+O O O O
+O O
+O O
+O O O O O O O O B-time-duration I-time-duration O O
+O O O O O
+O O O O O O O O B-time-duration I-time-duration O O
+O O O O B-vehicle O O O O O O O O O
+O
+O O B-food O I-food O O O O O O O
+B-time-duration O O O
+O O O B-vehicle O O O O O
+O O O B-time-duration O O O O
+O O
+O
+O O O O O B-vehicle O O O O O O
+O
+O O
+O O O
+O O B-time O O
+O
+O O O O
+O O O O O O O O O O
+O O
+O O O O O O
+O O O
+O O O O O O O
+O O O B-number O
+O
+O O O
+O
+O O O O
+O O O O O O O
+O
+O O
+B-time-duration I-time-duration
+O O O O O O O O O O O
+B-time O
+O O O O O
+O
+O O O O O O O
+O
+O O B-number
+B-food O I-food O O
+O
+O
+O O O
+O O
+O B-time O O
+O O
+O O B-number O O O O O O O
+O O O O O O O O O O O O
+O O O O O
+O O
+O
+O O O O O O O O O
+O O
+O O O O O O O
+O
+B-time O
+O O
+O B-number O O O
+O
+B-food O I-food O O B-number B-vehicle O O O
+O O O O O O O O O O O O O O
+B-number O O O O O B-vehicle O O O O O O O O O O O O
+O O O O B-number O O O O O O O O O
+O O O O O O O O O O I-vehicle-name O O O O O
+O O
+O O
+O O O O O O O O O
+O O
+O
+O O
+O O O O
+O O O O O O O O O O O O O
+O
+O O
+O
+O
+B-number O O O
+O O
+O O O O O
+O
+O O O O O
+O O O O B-number B-vehicle O O O O O
+O
+O O
+O O O O O O
+B-food O I-food O O O O
+O B-vehicle O O O O O O O
+O O B-food O I-food O O O O O O
+B-food O I-food O
+O O O O O O O O B-time O O O O O O
+B-time O
+O
+O O
+O O O O O O O O O O O O
+O O
+O O
+O
+O O O O O O O
+O O O O O B-number B-vehicle O O O
+B-food O I-food
+O
+O O O
+O O O O O
+O
+O O
+O O
+O O B-time O
+O
+O O
+O
+O O O O O O
+O O O O O O O O O O
+O O
+B-food O I-food O O O O O O O O O O O O
+O O O O O O O O O O O
+O O I-vehicle-name
+O O O
+O O O O O O O O O O O O O O O O O O O O O O
+O
+O
+O O O O O O O O O
+O O O
+O B-time O
+O
+O
+O O O O B-time O O O O
+O O
+O O O O B-number B-item O O O O O
+O
+O O O O O
+O O
+O
+O O O O
+O
+O O O O B-number O O O O O
+O O O O O O O O O O O O O O O O B-number O O O O O
+O O
+O O O O O O O O O O O O O
+O
+O O O O O O O O O
+O
+O
+O O O O B-food O I-food O O O O O O O
+O O O O O O
+O
+O O
+O
+O O O O O O O O O O O O O O O O O
+O
+O
+O O O
+O O O O O O O O O O O O
+O
+O O
+O O O O
+O O
+O
+O
+O O O O O O O O O
+O O
+O O
+O O
+O O
+O O O O O B-food O I-food O O O O O O O O O
+O
+O O O O
+O O O B-time O O
+O O O O O O O O O O O O O
+O O O O O O O O B-food O I-food O O
+O
+O O O
+O O O O O O
+O O O O O O O O O
+O O
+O O
+O O B-number B-vehicle O O
+O O O O O O O O O O O O O O
+O O O O O O
+O O
+O O O O O O O
+O O
+O
+O O O O O O O O O O O O O O O O O O
+O O
+B-time-duration I-time-duration O
+B-time-duration I-time-duration
+O
+O O O O O
+O O O B-number
+O O B-time-duration I-time-duration O
+O O O O O O O O O O
+O O O
+O
+O B-time-duration I-time-duration
+B-time-duration I-time-duration O O O B-time-duration O
+O O O O O O O O O O
+O O O O O B-number
+O
+O O O O
+O O
+O O O O O O O O O O O O O O O O O O O O O B-vehicle O B-item O O O O O O O O O O B-time-duration O O O O
+O O
+O O O O B-time O O O O O O O O B-time-duration I-time-duration O O
+O O O O O B-period-of-day B-number O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O O O O O
+O O O O O O O
+O O O O O O O O O I-vehicle-name
+O O
+B-number O O O O O
+O O
+O O O
+O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O
+O
+O O
+O O
+O O O
+O B-number O O O O O O O O
+O
+O O O
+O O O O O
+O O O O O O O O O O O O O O B-number O O O
+B-number O O O
+O
+O O
+O O O O O O O
+O O O
+O O O O O O O O O O O O O O O O
+O O O O O O O B-time O O
+O
+O
+O O O O O
+O
+O
+O O B-time O
+O O O O O O O O O O O O O O O O B-number O O
+O
+O O O O B-time O O O O O O O O O O O O
+O O O O O O O O O
+O O O O
+O O O O O
+O
+O O B-time O O O
+O O O O O O O
+O O O O O O O
+O O O O O O O
+O O
+O
+O
+O
+O O O
+O B-number
+B-number O O O O O O O O O O O O
+B-time-duration I-time-duration
+B-time-duration I-time-duration
+O
+O O
+O
+O O
+O O O O O B-time-duration I-time-duration O O O
+O O B-number
+O O
+O O O O O O O O O
+O O
+O O O O O
+B-time O O O O
+O O
+O O O O O O O B-time-duration I-time-duration O O O O O
+O
+O O O B-time-duration I-time-duration O O O
+O
+O O O O O O
+B-number O O O B-time O O O
+O O O B-time O O O
+O
+O O O O O O O O O O O O
+O
+O
+O O O O O O B-time O O O O
+O O
+O O
+O O
+O I-vehicle-name O O
+O
+O O O O B-time O O O
+O
+O O O
+O O B-number O O O O
+O
+O O O O O O O O O O O O
+O
+O O O O O O O O
+O O
+O O O O O O O
+O O O O O
+B-time-duration I-time-duration
+B-time-duration I-time-duration O
+O O O O O O O O O O O O O O O B-food O I-food O O
+O O O O O O O
+O O O O
+B-time-duration I-time-duration
+O
+O O O O O B-number O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O
+O O O O O O O O O O
+O
+O O O O
+O O O O O O O O O O
+O O O O O O
+O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O
+O O I-vehicle-name O
+O O
+O O
+O B-time-duration O O O O
+O
+O O
+O O
+O O O O O B-number O O O O O
+O O O O O O O O B-number I-number I-number
+O O O O
+O O
+O O
+O O O O O
+O
+O O O O O O O
+O O O O
+O O
+O
+O O O O O O O O
+O O
+O O O O O
+O O
+O O O O O O O O O
+O O O O O O
+O
+O O
+O O O
+O O O
+O O O
+O
+O O
+O O O O O O O
+O O
+O O
+O
+O B-number O B-time O O O O
+O O
+O O O O O O O O O O O O O O O O O O O O
+O
+O O O
+O O O O O O O O O O O O O O O O O O O
+O O
+O O O O
+O O O O O O O O O O O O O O O
+O
+O O
+O
+O
+B-number O
+O O O O O O O
+O
+O B-number O O O I-vehicle-name O B-time O O O O O O O O O
+O O O O O O
+O O O
+O O O O O I-vehicle-name O O O O
+O O O O O O O B-number I-number O B-number I-number O O O O
+O O
+O
+O O O O O O
+O O O O O
+O O B-time O O O O
+O
+O
+O O O
+O O O O O O O
+O O O O O O O
+O O
+O O O O O
+O O O O
+O O O O O O O O O
+O
+O O O O O O B-time-duration I-time-duration O O O O O O O O O O O O O O B-time-duration O O O O
+O
+O O O O O O O O O
+O O
+O O O O O O O O O
+O O
+O O O O O O O O O
+O
+B-time-duration I-time-duration O O
+O O
+O O O O
+O O O O O O O O O
+O O O O O O O
+O O O O O O O O O O O O O
+O O O O O O O O O O
+O O O O
+O O O O O O
+O O O B-time-duration O O O O O
+O O O O O O O O O O
+O O O O O O O O O O O O O B-time-duration O O O O O O O
+O O O O O O O O O
+O O
+O O O O O O O
+O O
+O O
+O O
+O O O O O B-time-duration I-time-duration O
+O
+O O O O O O O B-vehicle O O O O O O O
+O O O
+O
+O
+O O O O B-food O I-food O O O O O O O O O
+B-time-duration O O O
+O
+O O O O O O O O O O O O O
+O O
+O O O O O O
+O O
+O
+O
+O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O
+O O O
+O O B-number O O O O O
+O O
+O
+O B-number O O O O B-number O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O
+O O O O O O O
+O O O O
+O O O O O
+O O
+O O
+O O O O O O O O O O O
+O O
+O O
+O O O
+O O B-number O O O
+O
+O O
+O
+O O O O O O O
+O O
+O
+O O O
+O O
+O O O O O O O O O O O B-vehicle O O O O O O O O O
+O O
+O O O O B-fromcity O O O O O O O O O O O O O O O
+O
+O O O O O O O O O O O O O O O O O
+O O
+O O
+O O
+O O O O O O O O
+O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O B-number O O O O
+O
+O O
+O O O O O O
+O O O O O O O O
+O O
+O O
+O O O O
+O O O O O O O O O O O
+O
+O B-time-duration I-time-duration O
+O O
+O O B-time O O O O
+O O O O O O O O O
+O
+O O O O B-time O O O O O
+O
+O O O O
+O
+O O
+O O O O O O O
+O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O
+O O O O O O O O
+B-time-duration O
+O O O O O O
+O O O O O O O O O
+O O O O O
+O
+O
+O O
+O O O O O O B-number O O O O O O O O
+O
+O
+O O O O O O O O O O B-time-duration O O O O O O O O O
+O O
+O O O O O O
+O O
+O O O
+O
+O O O O O O O O
+O
+O O O
+O
+O O O B-time O O O
+O O O
+O O
+O O
+O O O O O O O
+O O O O B-time O O O O O
+O
+O O O O O O
+O O B-time O O
+O O O O O
+O O O O O O
+O O O O O O
+O
+O O O O
+O O O O O
+O O O O O O O O O O
+O
+B-number O O O
+O
+O
+O
+O B-number O O O O O
+O O
+O O O O O O O B-number O O O O
+O O B-number O O O O O
+B-number O O O O O O O O O O O O O O
+B-time-duration I-time-duration
+O O O O O O O O O O O
+O
+O O O O O O O O
+O O
+O O O O O O O
+O O O O O O O O O O O O
+O O
+O B-number
+B-number O
+O
+O O O O O O O O
+O
+O O O O O O O O O O O O O
+O O O O O O O O O O O
+O O
+O O O O O O O
+O O O O O O O
+O
+O O O O O O O O O O O O O
+O O O O O
+O O O O O O
+O O O O O O
+O
+O O O O O O O O O O O O O O
+O
+O O O O O O O
+O O
+O O
+O O O O O O O O
+O O
+O
+O O O O O O
+O
+O O O O O O O
+O O
+O O B-number O O O
+O O O B-food O O O O O O
+O O O B-food O O O O O O
+O O O O O O O O O O O O O
+O O
+O O O O O O O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O O O O
+O
+O O
+O O O O O O O O O O
+O
+O O
+O O O O O O O O O
+O O O O O O O O O O
+O O O B-time O O O O O O O O O O O O O O O
+O O
+O
+O
+O O O O O O O O O O O O O
+O O B-time O O O O O O O O O O O
+O
+O O O O O
+O
+O O O O O O O O
+O O
+O O O O O B-time O O O O O O O O O O O O O O O O
+O
+O O
+O O O O
+O
+O O O O O O O O O O O
+O
+O O O O O O O O O
+O
+O O O O O O
+O O O O O O O O O O O O O O O O O O O O O
+O O
+O O O O O O O O O O O O B-number O
+O
+O O O O O O O
+O O O O O O O O O O O
+O O
+O
+O O B-food O O O O O O O O O O
+O O O O O O
+O O O
+O O O B-number
+O O
+O O
+O O O O
+O O
+O O O O B-vehicle O O O O
+O O
+O O O B-food O I-food O O
+O O O O O O O O
+O O O O O B-item O O O
+O O O O O O O O
+O O O B-number O O B-vehicle O O O O
+B-food O I-food O O
+O O
+O O
+O O
+O O O O B-number O O O
+O O
+O O
+O O
+O O B-number O O O O O
+O O O
+O O
+O O O
+O O O
+O O O O O O O O O O
+O
+O
+O O O O O O
+O O
+O O O O O O O
+O O
+O O O O O O O O O O O O
+O O
+O O
+O O O O B-number B-vehicle O O O O O
+O O O B-number B-vehicle O B-food O I-food O O O O
+O O O O B-number B-vehicle O O O O O O O
+O
+O O O O O O O
+O O O O O O
+O O O O
+O O O B-time O O O
+O O
+O
+O O O O O O O O O O O
+O
+O
+O O
+O O
+O O O O O O O O O O O O O O O O
+O
+O O O O O
+O B-time O O O O O O
+O O O O O O O O O O O O O
+O O O O B-number I-number I-number O O O O O O O O
+O O
+O
+O O
+O O
+O O O O B-time O O O O
+O O
+O O O O O O O
+O
+B-time-duration O
+B-time-duration I-time-duration O
+O O
+O O
+O O O B-time O O
+O O O O O O O O O O O O
+O
+O O O O O O O O O O O
+O O
+O O
+O O O O B-time O O
+O O
+O O O B-time O O O O
+O O
+O O O O O
+O
+O O O O O O O O
+O O O O B-time O O
+O
+O O O O
+O O O O O O O B-time-duration I-time-duration O O
+O O O O O O O B-number O O O O O O O O
+O
+O O O O O O O O O O
+O O O O
+O O O O O O O O I-time-duration O O O O O O B-time-duration O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O
+B-number I-number O B-number O O
+O O O O O O O B-number O O O
+O O O O O O O O O O B-number
+O O O O O
+O O
+O O O
+O
+O O O O O O O O O O O O O O
+O O
+O O O O
+O O
+O O O
+O O O O O O O B-vehicle O O O
+O O O O O O B-vehicle O B-number O O O O
+O O O B-number O O O O
+O O O O O
+O O
+O O
+O O
+O B-vehicle O O O O O O O O
+O O O O O B-food O I-food O O O O O O O
+O O
+B-time O O O O O
+O
+O O O
+O O
+O O
+O O O O O O O
+O O
+O O
+O
+O I-vehicle-name O O O
+O O O O O O O O O O O O B-order O O O O
+O
+O O
+O O
+O O
+O O O O O O O O
+O
+O O B-time O O O O
+O
+O O B-time-duration I-time-duration O O O
+O O O B-time O O O O O
+O O O O
+O O O O O O O O O
+O O
+O O O
+O
+O O
+O O O O B-time O O
+O O O O O O O O O O O
+B-time-duration I-time-duration O O O O O O O O
+O O O O O O O O O O O O
+O O O O O
+O O O
+B-time-duration I-time-duration
+B-time-duration I-time-duration O O O O O O
+O B-number O
+B-time O
+B-time O O O O O O O O O O O O
+O O
+O O O O O
+O O O B-food O I-food O O O O O O O O O O O O O
+O O O O
+O I-vehicle-name O O O O
+O O O O O O O O
+O O O O O
+O O O O O O O O
+O O O O O
+O O O O O O O
+O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O O
+O O
+O O
+O O O O O
+O
+O O O
+O O O O O
+O O
+O O O O O O O
+O O
+O O O O O O I-vehicle-name O O O O O O O O O O O
+O O B-time-duration I-time-duration O
+B-time-duration I-time-duration O
+O O
+O O
+O O
+O O
+O O O O O
+O O O O O O O O O O O
+O O O O
+O
+O B-time O
+O B-time O
+O
+O O O O O O O O O O O O O O
+O O O O
+O B-food O I-food O O O O O B-number O O O O
+O O B-food O I-food O O O O O O O O O O
+O
+O
+O O O O O O
+O O O
+O O
+O O O O O O O
+O O O
+O O
+O O O O O B-food O I-food O O O O O O O O O O O O O O O O O
+O O
+O O
+O O O B-number O O O O
+O O O O O O O O O
+O O O O O O
+O
+O O
+B-food O I-food O O O
+O O O B-time-duration I-time-duration O O O O O B-time O O
+O O O O O
+O O O O O O O
+O O O O O O O
+O O
+O O
+O O
+B-number O
+O
+O O
+O O O
+O B-number O O O O O
+O O O O O O O O O O O O O
+O O
+O O O O O O O O O O O O O O O O
+O
+O
+O O O O O
+O
+O
+B-number O
+O B-number O O O O
+O O
+O O O O O O O O O
+O O O O O B-vehicle O B-number O O
+O O
+O B-number O O O O O O O
+O
+O B-time-duration I-time-duration O
+O O O O B-number O O O O O B-number O O O O O O
+O O
+O O O B-number O O
+O O O O O O O I-vehicle-name O O O O
+O O I-vehicle-name
+O I-vehicle-name
+O O
+O O
+O B-time O O O O O
+O O O O O O O O O O O O O O B-number O O O
+O
+O O B-time O O O O O
+O
+B-number O O O O
+O
+O B-time O O
+O O O O O O O O O
+O O O
+O O
+B-number O O
+O
+O O O O O O O O O O O O O O B-time O O O
+O O O O O O B-time O O O O
+O
+O B-time-duration I-time-duration O
+O O O
+O O O O O O O O O O O O O O O O O O B-time-duration I-time-duration O B-time-duration O O O O
+O O O O O O O O
+O O O O O O O O O O B-time-duration I-time-duration O
+O
+O O O
+O O O O O B-time-duration I-time-duration
+O O O O O O O O O O O O O
+O O O B-number O O O
+O
+O O O O O O O O O I-vehicle-name O O O O O
+O
+O
+O O O O O
+O
+O O
+O O O O O O O O O O O O
+O O B-time O O
+B-time O
+O O O
+O
+O O O O O O
+O O O O O
+O O O O O O O O O O O O O O O O
+O O O O O O O
+B-number O O O
+O
+O O
+O
+O O O
+O O O O
+O O O O O O O O O O
+O O O
+O O O O
+O O
+O O B-time O O O O O O O B-time-duration I-time-duration O
+O O
+O O O O
+O
+O
+O O O O O O O
+O O O O O
+O O O O O O O O O O O O O
+O
+O O
+O O O O O O O O O O
+O O O O O O O O O O O O O O
+O
+O
+O O O O
+O O O
+O O O O O O O O O O O O
+O O O O
+O O
+O O O O O O O O O O
+O B-time-duration O O O
+O O O O O O O O O O O O
+O O O O B-time-duration I-time-duration I-time-duration I-time-duration I-time-duration O O
+O O O O
+O
+O O O O O O O
+O
+O O
+B-time O O O O O
+O
+O O
+O O
+O O O O O O O
+O O
+O O O O O
+O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O
+O
+O O O O O O O O O O O B-number O O O O O O O O
+O
+O O
+O O O O O O O O O
+O O
+O O O O O O O O O O O
+O O
+O O O O O O O
+O
+O O O O O B-time-duration I-time-duration O
+O
+O O O O O O O O B-time-duration I-time-duration
+O O
+O O O B-time-duration I-time-duration O O O O O
+O
+O B-number I-number I-number I-number O O O
+O O O O O
+O O O O O O
+O O O O O O I-number B-time-duration O O O O O I-time-duration
+O
+O O
+O O O O O O O O O O
+B-time O O O O O O O O O O
+O
+O
+O O O O O O O
+O O O O O O O O O
+O O O
+O
+O O O O O O
+O
+O O O
+O O O O O O O O O O O O O O
+O
+O O O O O O O O O O O O
+O
+O
+O O O O O O O B-number O O O O O O O
+O O O O O O O O O O O
+O O O
+O
+O O
+B-food O
+O O
+O O
+O
+O O
+O O O O O O
+O O O
+B-time-duration I-time-duration O O
+O
+O O O O O O O B-time-duration I-time-duration
+O
+O B-time-duration I-time-duration
+O
+O O O O O O O O O O
+O O
+B-time-duration I-time-duration O O B-time-duration O O O O B-time-duration O O O O
+O O
+O O O
+O O O
+O
+O
+B-time-duration I-time-duration O O O O O O O O O O O O O
+O
+O
+B-time-duration O O O O
+O
+B-time-duration I-time-duration O O O O B-time-duration O O O O O O
+O O
+O
+O O
+O O O O O O O
+O O O
+O O
+O O B-number O O O
+O O
+O B-number B-food O O O O
+B-number
+O
+B-food O I-food O O
+O
+O
+O O O
+O O O O O O
+O O O
+O O O O
+O O O O O
+O O O O O
+O O O O O
+O O O O
+O O O B-number O O O
+O O
+B-food O O O
+O O
+O O O O B-number O O O O O O
+O O O O O O O O O O O O O O O B-number O O O
+O O
+O O
+O O O O O O O O O B-number O O
+O O
+O O O O O O
+O
+O O O O O O O O O O O O O
+O O O O
+O B-number O O O O O
+O
+O O O O O O O O O O O O O O
+O O O
+O
+O O
+O
+O O
+O O O B-number O O O O
+O
+O O
+O
+O O O O O O B-time-duration I-time-duration O
+O O
+O O O O B-time-duration O
+O O
+O O O B-time-duration I-time-duration
+O O B-time-duration I-time-duration O O O O O O O B-number O O O O O O O
+O O
+O O O
+O
+B-time-duration I-time-duration O O
+O O
+O O B-number O O O O O O O O B-number
+O O
+B-number O B-time-duration I-time-duration I-time-duration O I-time-duration
+O
+O O O O O O O O O B-time-duration I-time-duration O O
+O
+O O O
+O O
+O O O O
+O O O
+O O O O
+O O O O O O O
+O
+O O O O O O O O
+O
+O O O B-time-duration I-time-duration O O O O O O O O B-time-duration O O O
+O O O O O
+B-time O O O
+O O O B-time-duration I-time-duration O
+O
+O O O O O O O O O B-number O O O O O O
+O
+O O O O B-number O
+O O O O O O O O O O O O O O O O O O O O O O O
+O O O O
+O O O
+O O
+O O O B-food O I-food O O O O B-number B-vehicle O O O O
+O O
+O O O
+O O O O
+O O O
+O
+O O O B-place O
+O
+O O B-vehicle O O O O O O O O O O O O
+O O O O O B-food O I-food O
+O O
+O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O O O O B-number O O O O O O O
+O O O O O
+O
+O
+O
+O
+O O O
+O
+O O O O O O O O
+O
+O O O O
+O O O O
+O O O O O O
+O O O O O O O O O O O O
+O
+B-number B-vehicle O O
+O O O O O O O O O O O O O O O
+O O
+O O O O O O O
+O
+O O O O O O O O O O O O B-time-duration I-time-duration O O B-time-duration O O
+O
+O O
+O
+O O O O O O O O O
+O O
+O O
+O O
+O O
+O O O O O O O
+O
+O O O
+O B-time O O
+O O
+B-time-duration I-time-duration
+O O
+O
+O
+O B-time-duration I-time-duration O
+O
+O O O
+O O
+O O O O O O B-time-duration I-time-duration
+O O
+O O O O O O B-number O O O O O O O O
+B-number
+O O O O
+B-number O O
+B-number O O O O O
+B-number O O O
+O O
+B-time-duration I-time-duration O O O O O O
+O
+O O O O O O O
+O O
+O
+O B-number O O O O O O O O
+O O O B-number O O O O O O O
+O B-time-duration I-time-duration
+O O
+O O
+O O O O O O B-time-duration I-time-duration O B-number O O O O
+O
+O
+O
+O O O O
+O O O O O O O O O
+O O O O O O B-time O O O O O
+O B-time O
+O O O O O O O B-number O O O O O
+O O
+B-time-duration I-time-duration O O O O B-time-duration O O
+O O O O O O O
+O O
+O O O O O O O
+O O
+O
+O O O
+O O
+O O O O O O O O O
+O B-time O O
+O O
+O O O O O O O O O O O O
+O O B-time-duration I-time-duration
+O O O O
+O
+B-time-duration I-time-duration
+O
+O
+O
+O O O O O O O B-number B-vehicle O O O B-number B-vehicle O O O
+B-number B-vehicle
+O O B-time-duration I-time-duration O O
+O B-number O O B-number B-time-duration I-time-duration O
+O O
+O O O
+O O O O O O B-time-duration O O O O O O
+O O O O O
+B-time-duration O O O
+O O O B-time-duration I-time-duration O O O
+O O B-time-duration I-time-duration
+O O
+O O O
+O O
+O O
+O O
+O B-time-duration I-time-duration
+O O O O O O O O O B-time-duration I-time-duration O O
+O
+O O O O O O O O O O O O
+B-time-duration O O O
+B-time-duration O
+O O O O O O O O O O O O B-number O O O O O O O O O O O O O O O O O O O
+O O
+O O O O O B-number O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O
+O B-time-duration I-time-duration
+O
+B-number O O
+O O
+O
+O O O O O O O O
+O O O O O B-food O O O O O
+O
+O O O O
+O
+O O O O O O O O O O O O
+O O
+O
+O O O O O O O O O
+O
+O
+O
+O O O O O O O O B-time-duration I-time-duration O
+O
+O O O
+O
+B-time-duration O O B-time-duration I-time-duration O O O O O
+O
+O B-time-duration I-time-duration

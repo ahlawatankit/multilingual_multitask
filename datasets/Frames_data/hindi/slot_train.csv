@@ -6334,7 +6334,7 @@ There is a third option from September 2nd to 7th free breakfast wifi and parkin
 Do any of these options interest you,इनमें से कोई भी विकल्प आपको रुचिकर लगता है,O O O O O O O O O,options
 the one at 4268 looks good,4268 में से एक अच्छा लग रहा है,B-budget_amount O O O O O O O,
 Would you like me to book it for you,क्या आप चाहेंगे कि मैं आपके लिए इसे बुक करूं,O O O O O O O O O O,book
-ya,,,
+ya,,O,third option September 2nd 7th free wifi 5512.62
 Your trip has been booked,आपकी यात्रा बुक हो गई है,O O O O O O,booked
 Have fun and thank you for using our services,मज़े करो और हमारी सेवाओं का उपयोग करने के लिए धन्यवाद,O O O O O O O O O O O,
 thanks,धन्यवाद,O,
@@ -7091,7 +7091,7 @@ Anyway I would better go and finish my work for the day,वैसे भी म�
 Thank you for the mini escape,मिनी भागने के लिए धन्यवाद,O B-hotel_name O O O,
 hello I id like to go to manaus from ciudad juarez 4600 $,हैलो  मैं आइडल से साईड में जाने के लिए पसंद करता हूं 4600 $,O O O O O O O O O O O O B-budget_amount B-budget_unit,manaus ciudad juarez
 Are you travelling alone,क्या आप अकेले यात्रा कर रहे हैं?,O O B-passenger_number.relative O O O O,
-ya,,,
+ya,,,Frankfurt Mellow Palms Resort class 8.86/10
 When would you prefer to travel,आप कब यात्रा करना पसंद करेंगे,O O O O O O,
 this week,इस सप्ताह,O O,
 What day would you like to leave,आप किस दिन छोड़ना चाहेंगे,O O O O O,
@@ -11145,7 +11145,7 @@ Cost is 892.82 for business class,बिजनेस क्लास के ल�
 and if I took my little nineteen hundo nest egg flew on over to Miami,और अगर मैं अपने छोटे उन्नीस हुंडो के घोंसले के अंडे को मियामी ले गया,O O O O O O O O O O O O O O O,Miami
 what might that look like,ऐसा क्या लग सकता है,O O O O O,
 Where do you want to leave from,आप कहां से छोड़ना चाहते हैं,O O O O O O,
-alas Seattle is what i call “home",अफसोस सिएटल है जिसे मैं &quot;होम&quot; कहता हूं,O O O O O O O O,Seattle
+"alas Seattle is what i call “home""",अफसोस सिएटल है जिसे मैं &quot;होम&quot; कहता हूं,O O O O O O O O,Seattle
 There is a 3.5 star hotel near the airport departing September 2nd and returning on the 10th,हवाई अड्डे के पास एक 3.5 सितारा होटल है जो 2 सितंबर को रवाना होता है और 10 तारीख को लौटता है,O O O B-distance_relative O B-hotel_rating I-hotel_rating O O O O O O O O O O O O O O O,airport September 2nd 10th
 1096.28 is the price for the business flight,1096.28 व्यावसायिक उड़ान के लिए मूल्य है,B-budget_amount O O O O O O,business flight
 Burlington to Busan,बर्लिंगटन से बुसान,O O O,Burlington Busan
@@ -14282,7 +14282,7 @@ Yes if you do not count my legions of groupies and stalkers,हाँ अगर 
 I have packages available ranging from September 2nd until the 17th,मेरे पास 2 सितंबर से लेकर 17 तारीख तक के पैकेज उपलब्ध हैं,O O O O O O O O O O O O O,packages September 2nd 17th
 Do you have a preference for your length of stay,क्या आपके पास अपनी लंबाई के लिए वरीयता है,O O O O O O O O O,
 I only prefer that you put me in the poshest hotel in town,मैं केवल यह पसंद करता हूं कि आप मुझे शहर के सबसे पॉश होटल में रखें,O O O O O O O O O O O O O O O O,
-I have several 4.0 star hotel options for you,मेरे पास आपके लिए कई 4.0 सितारा होटल विकल्प हैं,O O O O O B-hotel_rating I-hotel_rating O O O,options
+x,मेरे पास आपके लिए कई 4.0 सितारा होटल विकल्प हैं,O O O O O B-hotel_rating I-hotel_rating O O O,options
 Would you like me to narrow them down for you by amenities location or user review rating perhaps,क्या आप चाहते हैं कि मैं आपके लिए सुविधाएं स्थान या उपयोगकर्ता समीक्षा रेटिंग द्वारा उन्हें कम कर दूं,O O O O O O O O O O O O O O O O O O O,amenities
 4 star you are doing me dirty here but sure fine,4 स्टार तुम मुझे यहाँ गंदा कर रहे हो  लेकिन ठीक है,B-hotel_rating I-hotel_rating O O O O O O O O O O,
 which one is best rated by its guests,जो अपने मेहमानों द्वारा सबसे अच्छा दर्जा दिया गया है,O O O O O O O O O O,
@@ -14830,7 +14830,7 @@ The price on this flight/hotel bundle is $ 1504.38 USD via business class and th
 Should I get this all booked up for you,क्या मुझे यह सब आपके लिए बुक करवाना चाहिए,O O O O O O O O O,booked
 This is for two adults corrrect,यह दो वयस्कों के लिए सही है,O B-passenger_number B-passenger_type O O O O,
 That is correct 2 adults,यह सही है 2 वयस्क,O O O B-passenger_number O,adults
-ya,,,
+ya,,,Golden Crown Hotel Sanctuary September 8th 17th
 All taken care of,सभी का ख्याल रखा,O O O O,
 tyty,Tyty,O,
 I need you to book me a trip to San Antonio please,मुझे जरूरत है कि आप मुझे सैन एंटोनियो कृपया एक यात्रा बुक करें,O O O O O O O O O O O O O,book San Antonio

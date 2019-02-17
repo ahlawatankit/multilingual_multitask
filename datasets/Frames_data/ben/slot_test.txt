@@ -1,0 +1,3852 @@
+O O O O O O
+O O O O O
+O O O O
+O O O O B-number O O O
+O O O O O O
+O O O O O O B-number O O
+O O O O O O
+O O O O O O O B-number O O O
+O O B-trip_duration.relative O O O O O
+O O O O B-trip_inclusions O O O
+O O O O
+O O O O O O O
+O
+O O O O O O O O B-amenities_cost.relative B-amenities_type B-meal_description O O B-amenities_type O
+O O O O O O O O O
+O O O
+O O O O O
+O O O O O O O O O O O
+O O O O
+O O O O O O O O O O O O O
+O O O O B-passenger_number.relative
+O O O O O B-hotel_rating I-hotel_rating O O
+O O
+B-budget_amount O O O O B-budget_amount O O B-flight_class O O O O
+O O B-flight_class O O O O O
+O O O O O
+O O O O O O O O
+O O O O B-to_loc.city_name O O O O O O O
+O O O O O
+B-place B-distance_relative O B-hotel_rating I-hotel_rating O B-trip_duration I-trip_duration O O O O
+O O O
+O O O B-hotel_rating I-hotel_rating O O
+O B-hotel_rating I-hotel_rating O O O O O O O O
+O O O O O O O O O O
+O O O O O O O
+O O O
+O O
+O B-period_of_day
+O O O O B-relationship_type O B-passenger_number B-passenger_type O O
+O O O O O
+O O O
+O O O O
+O
+O O O B-occasion_type O
+O O O O O O O
+O O B-budget_amount O
+O O O O O B-budget_amount O O O O O O O
+O O O O O
+O O O O O O O O
+O
+O O O O O O
+O O O
+O O O O O O O B-option O
+O B-trip_inclusions O
+O O O O O O O O O O
+O O O O
+O O O O O
+O
+O O O O B-trip_duration O O B-place O O B-place B-distance_relative O B-hotel_rating I-hotel_rating O O O
+O O O
+O O B-place B-distance_relative O O O B-hotel_rating I-hotel_rating O O
+O O B-trip_duration O B-trip_duration O O O
+O O O O O
+O O O
+O O B-place O O B-hotel_rating I-hotel_rating O O O O O B-trip_duration I-trip_duration O O
+O O O
+O O
+O O O O O O
+O O O O O O O O B-confirmation_type O O O O O
+O O O
+O
+O O O O O O O O O
+O
+O O B-passenger_type O
+O
+O O O O O
+O O O O O B-date_relative O
+O O O O
+O O B-relationship_type O O O O O B-budget_amount O O O O
+O O O O O
+O O O O O O O O
+O B-trip_duration I-trip_duration O B-trip_duration I-trip_duration O B-to_loc.city_name O O O O
+O O O O O O
+O O B-trip_duration I-trip_duration O O O O
+O O O O B-guest_rating O O B-amenities_cost.relative B-meal_description O O O B-amenities_type O O
+O O O O
+O O O B-trip_duration O O O O O
+O O O
+B-budget_amount O
+O B-trip_duration I-trip_duration O O O O B-cost_relative
+O O O O O O
+O B-passenger_number B-passenger_type O
+O O O B-trip_duration I-trip_duration O B-book O
+O O O O O
+O O O O O O O O O
+O O
+O O O O B-relationship_type O O O O O O O
+O O O O B-relationship_type
+O O
+O
+O
+O O O O O
+B-trip_duration I-trip_duration B-trip_inclusions O O
+O
+O O O O
+O O O O O O O O O O O O O O O O O O O O O O O O
+O O O O O
+O O O O B-number O O O O O O
+O O O O O O O O
+O O O O
+O O O O O
+O O
+O O O
+O
+O O O O O
+B-budget_amount
+O O B-place O O B-hotel_rating I-hotel_rating O B-trip_duration O B-trip_duration O O O O O
+B-trip_duration O O O
+O O O O O O
+O B-amenities_cost.relative B-amenities_type O B-meal_description O B-amenities_type O O O O O O O O O
+O O O O O O O B-book O O
+O O O
+O B-budget_amount O O B-flight_class B-trip_inclusions O O B-budget_amount O O B-flight_class O O O O
+B-flight_class
+O
+O O O O
+O O O O O O O O O O O O O O O
+O O O O O O
+O B-hotel_rating I-hotel_rating O B-budget_amount O O O O B-amenities_cost.relative B-amenities_type B-amenities_type O B-meal_description O O
+O O O
+O O O O O O O O O O O O O O O O O O O O O O
+B-budget_amount O O O O B-meal_description O B-amenities_type O
+O O O O B-hotel_rating I-hotel_rating O O
+O
+O O O O O O O O
+O O O O O O O O O O B-book O O
+O
+O
+O O
+O O
+O B-trip_duration O B-amenities_cost.relative O O O O O O O O
+O O O O B-occasion_type B-book O O
+O O O
+O O O O O O O O
+O O O O
+O B-budget_amount O O
+O O O O O O
+O O O B-distance_relative O O
+O O B-passenger_number.relative O O O
+O O O B-passenger_number.relative O O O
+O
+O O O O O
+B-budget_amount O
+O O O O O O O O O
+O O B-trip_inclusions O
+O O O B-trip_duration O
+O
+O O O
+O O O O O O
+O O
+O O O O O O O O O
+B-place O O O O O O O O O
+O O O O O
+B-hotel_rating
+O O O O O O O O O
+O O O
+O O O
+O O B-place B-distance_relative
+O O O O O O
+O
+O O O O O B-passenger_number B-passenger_type O B-passenger_number O O
+O O O O O O O O O O
+O O O O O O O O O
+B-budget_amount
+O O O O O O
+O O O O O O O
+O O O O O
+O O O
+O O O O O O O O
+O O O
+O B-from_loc.city_name O O B-to_loc.city_name O
+O
+O B-trip_duration.month_name B-trip_duration.day_number O B-trip_duration.month_name B-trip_duration.day_number
+O O O O O O O
+O
+O O B-city_name O O
+O O O O
+O O O
+O O O O
+O O O O O
+B-trip_duration.day_number O B-trip_duration.day_number O B-date_relative
+O O O O O O O
+O O O O
+B-trip_duration.relative B-place O B-to_loc.city_name O O O
+O B-budget_amount O
+O O O O O O B-book O O O B-number O O O O O O O
+O O B-passenger_number B-passenger_type O O O O O
+O O O O B-passenger_number B-passenger_type O O O O O
+O O O O O O O
+O O O O O O B-book O O
+O O O O
+O O O O O O O O
+O
+O
+B-depart_date.day_number O O
+O O O O O
+O O O O O O O O O O O B-budget_amount O O
+O O O O O B-passenger_number B-passenger_type O O O O
+O O O O O O
+O O O O O O O O O O O O O
+O O O O O O O O O
+O O O O O O O O
+O O B-month_name O B-day_number
+O O O O O O B-budget_relative O O
+B-budget_amount B-passenger_number B-passenger_type O
+O B-hotel_rating I-hotel_rating B-place O O B-trip_duration I-trip_duration O O
+O O O O O B-option
+O O B-place O B-place B-distance_relative O B-hotel_rating I-hotel_rating O O
+O O B-trip_duration I-trip_duration O B-trip_duration O O O
+O O O O O O O O O
+O O O O O O O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O
+O O O O
+O O O O O O O O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O
+O O O O
+O B-trip_inclusions O O O O
+B-trip_duration.day_number O O B-trip_duration.day_number O O
+O O O O O B-trip_duration O
+O O O O B-trip_duration.day_number O O B-trip_duration.day_number O
+O O O O O O O O
+O O O B-budget_amount O B-flight_class O B-budget_amount
+B-flight_class O O O O
+O B-passenger_number O O O O
+O
+O O B-relationship_type O O B-trip_duration O O O
+O O O O
+O O O O O O O O O O
+O O B-number O O
+O B-passenger_number.relative O O O
+B-apology O
+O O O O
+O O O O O O
+O O B-budget_amount O O O O O
+O O O O O O
+O O O B-time_relative O
+O O O O O O
+O O O O O
+O O O O O O
+O O O O O O
+B-apology O O O O O O
+O O O O O O
+O O O O O O O O O O
+O
+O O
+O I-from_loc.city_name O O B-to_loc.city_name
+O O
+O O O O B-passenger_number.relative
+O O O
+O O O O O O
+O O O O O B-trip_inclusions
+O O O O
+O O O O O O
+O O O
+O O
+O O
+O B-flight_class O O O O O O
+O B-flight_class
+O
+O O O B-budget_amount O
+O O O B-book
+O O
+O O O O
+B-budget_amount
+O
+O O O O
+O O O O O O O
+O O O O
+O O
+O O O O
+O
+O O O B-guest_rating O O O O B-hotel_rating I-hotel_rating O B-trip_duration O B-occasion_type O O
+O O B-option O O O O
+O
+O O O B-place O O B-place O O
+O O
+O B-flight_class O O O
+O O O O O O O O O O O O O B-confirmation_type O O
+O O
+O O O B-relationship_type O O O O O O O O O O O O O O
+O O O O O
+O O O O
+O B-relationship_type O O O O O O O O O O O O
+O O O O O
+O O O O O O O B-budget_amount O O
+O O O O O O
+O O O O O
+O O
+O O O O
+O O B-place O O B-place B-distance_relative
+O O O O O O O O O O O
+O O O O O B-time_relative O O O O O O O
+O O B-trip_inclusions B-book O O
+O O B-occasion_type O O
+O O O O O O O O O
+O O O O O O O O O B-hotel_rating I-hotel_rating O O O
+O O O
+O O O O O O O O O B-book O O
+O B-budget_amount O O
+O O O O
+O O O O
+O O O O O O O O O
+O O O O O O O O
+O O O
+O O O O O O O
+O
+O
+O O O
+O O O O O O O O O O O O O
+O
+O O
+O
+O O O O
+O B-hotel_rating I-hotel_rating O O O O O O O O
+O O O O O
+O O O O O O O O
+O B-amenities_type B-amenities_type O B-meal_description B-trip_relative
+O O O O O O O O O O O O O O O O O O O O O O O O O O O B-apology
+O O O O O O O
+O O O O O O O
+O O O
+O O O B-trip_duration O B-trip_inclusions O O O O O O O O O O O O O O
+O O O O O O
+O O O O O
+O B-amenities_type O O B-meal_description O B-amenities_type O O
+O O O O O O B-flight_class O O O
+O O O I-flight_class O O O O
+O B-flight_class O O O O O
+O
+O O O
+O O O O O O O O O
+O O O O O
+B-passenger_number
+O O O B-place O O B-place B-distance_relative O O B-hotel_rating I-hotel_rating O O O O O
+O O O O O
+O O O O O B-hotel_rating I-hotel_rating O O O
+O O O
+O O B-trip_duration O O O O
+O B-book O B-time_relative O O O B-hotel_rating I-hotel_rating O O O O O
+O O
+O B-hotel_rating I-hotel_rating O B-place B-distance_relative O O O O O B-guest_rating
+O O O O O O O
+O O O O
+O O O O O O O
+O O O O O B-book O O
+O O O O O O O O O O
+O O O O O O O O O O
+O O
+O O O O
+O O
+O
+O O O
+O O
+O O O O
+O O O
+O B-trip_duration O O O O O O
+O O O
+O O
+O O O O O O O
+O O O O O O O
+O O B-place O B-place O
+O B-amenities_cost.relative B-meal_description O B-amenities_type O
+O O B-trip_duration.day_number O O B-trip_duration.day_number O
+O O O O O O O
+O O O O O B-book O O
+O
+O B-flight_class O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O O
+O O O O O O O
+O O O
+O O O O O O
+B-depart_date.day_number O O
+O O B-passenger_number.relative O
+O O O O O
+O O O O O O O
+O O B-time_relative O O
+O O O O O
+O O O O O O
+O O O O O O O
+O O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O O O O
+O O O O O O B-budget_unit B-budget_amount O O
+O O O O O O O O
+O O O O O O O
+O O O O O O O
+O O O O O O O
+O O
+O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O
+O O O O O O O O O O O O
+O O O O O
+O O O O O O
+O O O O
+O O O O O
+O
+O
+O O O O O
+O O O
+O
+O O
+O O O O O O O O
+O O O O
+O O
+O
+O O
+O O O O O O O
+O O O O O O O O
+O O O
+O O B-date_relative O O O O B-budget_amount O O O O O O O
+O O O O O B-date_relative O O O O
+O O O O O
+O O O
+O O O O O O B-number O O B-transport_type O O O
+O O O O O
+O O O O O O O O O O
+O O O O O O
+O O O O B-place O O B-place O B-hotel_rating I-hotel_rating O
+O B-trip_duration O O O O
+O O O B-trip_inclusions O O O O
+O O O O O O O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O
+O O
+O O O B-transport_type O O B-flight_class O O
+O O O B-budget_amount O O B-flight_class O O O
+O B-book O
+O O O
+O O O B-today_relative O O O O
+O O
+O O O O O B-person_type O O O O
+O O O O O O
+O O O O O B-budget_amount O O O
+O O O O O O
+O O O O O O
+O O O O O O O
+O O O
+O O B-place B-distance_relative O O
+O O O O B-place O
+O O O B-distance_relative
+O O O O O O O O O
+O O
+O O O O
+O O O B-place B-distance_relative O O O
+O O O O O O
+O O O O O O
+O O O B-number O O O O O O B-place B-distance_relative O
+O O O O O O O O O O O O O O O O O O O O
+O O O O O O
+O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O
+O O B-trip_inclusions O O O O O O O
+O O B-hotel_rating I-hotel_rating O B-amenities_cost.relative O O O B-amenities_type O O B-amenities_type
+O O O O O O O
+O O O O O
+O O
+O O
+O O O O O O O O O O
+O O O O
+O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O
+O O O O B-trip_inclusions O O O
+O O O O
+O B-flight_class O O
+O O O O O O O O
+O O O O
+O O O O O
+O O O O O O O O O B-confirmation_type O
+O O O O O O B-occasion_type O
+O
+O B-budget_unit B-budget_amount O B-trip_duration O B-occasion_type O
+O O O O
+O O O O O O O O O
+O O O B-trip_inclusions O O
+O B-trip_duration I-trip_duration B-trip_inclusions O
+O O O O B-hotel_rating I-hotel_rating B-place O O
+O O O O O B-option
+O O O O O O O O O O O B-book O O
+O O O O B-trip_duration O O B-book O O
+O O B-book O O
+O O O
+O O O O
+O O O O O O O
+O
+O O O B-relationship_type O O O O O O O O B-relationship_type O O
+O O O O O O
+O O O B-passenger_type O O O O
+B-passenger_number O B-relationship_type O O O O O O O O O O O O O O O B-budget_amount O O O O O O
+O O O O B-place O B-trip_duration O O O O
+O O O O O O
+O O B-hotel_rating I-hotel_rating O O O O O O O O
+O B-amenities_cost.relative B-amenities_type O B-amenities_type O
+O O O O
+B-budget_amount O B-relationship_type O
+O O O B-relationship_type O O B-option O O O O O O O O O
+O O O O
+O O O O O O O O
+O O O B-place B-distance_relative O O B-amenities_cost.relative B-amenities_type O O O
+O O O O O B-number O O O O O
+O O O O O O O O O O O O O O O O O B-time_relative O O B-relationship_type O O O O O O O O O O O
+O O O O O O
+O O O O O B-person_type O O O O B-book O O
+O O O O
+O B-passenger_number O O
+O O O O O O O O
+O B-apology O O O O O O O O
+O O O O O O O O
+O B-apology O O O O O O O
+O O O O O B-book O O O O O O O O
+O
+O O O
+B-passenger_number B-passenger_type
+O O O O O O O
+O O O O O O
+O O O O O
+B-trip_duration O B-trip_duration O
+B-trip_duration
+O O O O O
+O O O O O O O
+O B-amenities_cost.relative B-amenities_type B-amenities_type O B-meal_description O O B-hotel_rating I-hotel_rating O
+O
+B-budget_amount O
+O O O
+O B-flight_class O B-budget_amount O
+O O O O O O O O O O O O B-trip_inclusions O O O O
+O O O O B-book O O
+O O O O
+O O O O O O
+O O O O
+O
+O O O O
+O O
+O O B-passenger_type O O O
+O O O
+B-passenger_number B-passenger_type O B-passenger_number B-passenger_type
+O O O O O O
+B-budget_amount
+O O O O
+O O
+O O O O O O O O
+O O O O O
+O O O O O
+O O O B-place O O
+O O O B-place B-distance_relative
+O O O
+O O O B-trip_inclusions O O O O
+O B-book O
+O O O O B-trip_duration O B-trip_inclusions B-book O
+O O O
+B-budget_amount O
+O O O
+O O B-passenger_type O O O O
+O O O O
+O
+O O O B-relationship_type O O O
+O B-budget_amount O
+O O O O O O O O B-hotel_rating I-hotel_rating O O
+O B-place I-place O B-place O
+O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O
+O O O
+O O B-budget_amount O B-flight_class O B-budget_amount
+O O O O O O
+O O O
+O O O O O
+O O O O
+O O O O O O
+O O O O B-trip_inclusions O O B-trip_relative O O
+O O O B-trip_inclusions B-trip_relative O O
+O B-hotel_rating O O B-amenities_cost.relative B-amenities_type O
+O B-amenities_cost.relative B-meal_description O
+O
+O O O O O O O O O O
+O O O O O O O O B-book O
+O
+O O O O
+O O O O
+O O
+O O O O O
+O O O O O O
+O O O O O O O O
+O O O O
+B-budget_amount
+O O O O O
+O O O
+O O
+O O
+O O O O O O O O O O O O O O
+O O O O B-book O O
+O O B-confirmation_type O O O O
+O
+O
+O B-budget_amount O O O O O
+O O O O O O O O O
+O O O
+O O O O
+O O O O O O
+O O O O O O O O O
+O O B-place B-distance_relative O O B-hotel_rating I-hotel_rating O
+O O O O O O O
+O B-amenities_type O B-meal_description O B-trip_relative O O
+O O O O O O O O B-flight_class I-flight_class B-trip_inclusions O
+O O O
+O O O B-book O O
+O
+O O O O O
+O O O O O
+O O O O
+O B-passenger_number O O O
+O O O O O O O O O O O O O O O
+O O O O O O B-location_relative O O O
+O O O O O
+O B-apology O O O O O O O
+O O O O B-date_relative O O O
+O O O O O O O O
+O O B-trip_duration O O O O O
+O O O O
+O
+O B-number O O
+B-hotel_rating I-hotel_rating O B-trip_inclusions O O O O
+B-budget_amount O
+O O O O O O O O O O O B-place B-distance_relative O B-amenities_cost.relative B-meal_description O B-amenities_type O O
+O O O O
+O O
+O B-number B-hotel_rating I-hotel_rating O B-trip_duration O O O
+O O O O
+B-number O O O O O
+O O O O O O
+O O B-trip_inclusions O O O O
+O O O B-time_relative O O O
+O O O O O O
+O O O O O O O
+O O O O O
+O O B-return_date.day_number O O O O
+O O O O O O
+O O O O O O B-number O O O O O
+O O O O O
+O O O
+O O O
+O O B-place O B-place B-distance_relative O
+O O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O O O
+O O O O O O O O O
+O O O O
+O
+B-budget_amount O O O B-budget_amount O B-flight_class
+O O O O O
+O O O O O
+O O
+O O O O O O
+O O O B-passenger_type
+B-passenger_number B-passenger_type O B-passenger_number B-passenger_type
+B-city_name O O
+O O O B-relationship_type O O O B-book O O
+O O O O O
+O O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O O O
+O O B-relationship_type O O B-passenger_type O O O O
+O O O O O
+O O O O O O O O
+O O O O O O O O
+O O B-relationship_type O O O O O
+O
+O
+O O O O O
+B-budget_amount
+O O O O O
+O O O
+O B-amenities_cost.relative B-amenities_type O O B-place O B-place O
+O O O O O O
+O O O
+O O O O O
+B-transport_type O O O
+O O O O O O O O O B-flight_class O O
+O O O O O O O O
+O O O B-flight_class O O O O O O O O O O O O O O B-book
+O O B-flight_class O O O O O O
+O O O O O O O
+O O O
+O O O O O O O
+O O O B-date_relative O O O
+O
+O O O O O O O
+O O O
+O O O O O O O O
+O O O O O
+O B-budget_amount B-trip_inclusions O O O O O O O
+O O O
+O O
+O O O O O O O O O B-flight_class O O O
+O O O O
+O O O O O O O O
+O
+O O O O O B-relationship_type O O
+O O
+O O O O O O O O O O O O O
+O O O O O O O O O O O
+O O O O O
+O O O
+B-trip_duration O
+O O O O B-budget_amount O
+O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O B-hotel_rating O B-hotel_rating I-hotel_rating O O O O O O O O O
+O B-trip_inclusions O O O O O O
+O O O O O O O O O B-book O O B-relationship_type O O O
+O O O O O
+O O
+O O
+O O O O
+O O O O O O O
+O O O O O O O O O O O O
+O O O O O
+O O O
+O O O O O
+B-trip_inclusions O O O O O O O O
+O O O O O
+O B-trip_inclusions O O O B-passenger_type O O O O O O O
+O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O
+O O O O O O
+O O O B-activity O O O O
+O O O O O O O O
+O O B-place O
+O O O O B-place O O B-place O O
+O O O O B-book O O
+O O O O B-trip_inclusions O
+O O B-relationship_type
+O O O O O
+O O O O O O O O B-confirmation_type O O
+O
+O O
+O O O O O B-trip_inclusions O
+B-passenger_number B-passenger_type O
+O O O O
+O O O O O O
+O O O O
+O B-time_relative O O O
+O O O B-hotel_rating I-hotel_rating O
+O O O O O O O O
+O O O O B-hotel_rating I-hotel_rating O O O
+O O O O O
+B-hotel_rating I-hotel_rating O O O O O
+O B-guest_rating O
+O B-amenities_type B-meal_description O B-amenities_type
+O B-place O O O B-place B-distance_relative O
+O O O O O O B-guest_rating O O B-distance_relative O O O
+O O B-place B-distance_relative O B-amenities_cost.relative B-amenities_type O B-amenities_type O O O
+O O O B-time_relative O O O O
+O O
+O B-budget_amount O O
+O O O O O
+O O O O O B-date_relative O
+O O O O O O O O B-budget_amount O O O O
+O O O O O O
+O O O O
+O O
+O O B-trip_duration I-trip_duration O B-trip_duration O O O
+O O O O O O O
+O O O O O O O O
+O O O O
+O O B-amenities_type O B-amenities_type B-amenities_cost.relative O O O
+O O O
+B-trip_duration I-trip_duration B-trip_inclusions O O
+O B-budget_amount O O O O O O
+O
+O O O O O O O O O O
+O O O O O
+O O
+O O O B-location_relative O O O O O O O O O
+O O O O O
+O O O O O O O
+O O O O
+O O O O O O O O
+O O O O O O O
+O O B-trip_relative O O
+O O O O O O O
+O B-amenities_cost.relative O O O B-amenities_type O B-amenities_type O O O
+O O O B-budget_amount O O
+O O O O B-trip_duration.month_name O
+O O O O O O O
+O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O
+O O O B-book O O O
+O O O O B-period_of_day O O O
+O O
+O O O O O
+O O O O O
+O O O O O O
+O O O O O O
+O O O O O O O O O O O
+O O B-budget_amount O
+O O O O O O O O
+O O
+O O O O O O O O
+O O O O O
+O O O O O
+O B-number O O O
+O O O O
+O O O O
+O O O O O
+B-trip_duration O O O O
+O O O O O O O O O B-budget_amount
+O O O O O B-book O O
+O O O O
+O O O O O O O
+O O O O
+O O O O O O
+O O O O O
+O O O O O
+O O O O O O
+O O O B-passenger_number O O O O O O O
+O O O O O
+O B-budget_unit B-budget_amount O O
+O O O O O O O O B-occasion_type O O O O O
+O O O O O O
+B-hotel_rating O O O O O O O O O
+O B-hotel_rating I-hotel_rating O O O O
+O O O O O O
+O B-place O O
+O O O O
+O O B-place O O B-hotel_rating I-hotel_rating O O O O
+O B-guest_rating O O B-guest_rating O O O O O O O O O O
+O B-day_number O O O O O O O O
+O O O O O O O O O O B-flight_class O O O O O O O
+O O O O
+O O B-trip_inclusions O O O B-book O O
+O O O O O O
+O O O
+O
+O O O
+O O O O O O O O
+O O
+O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O
+O O O O O O
+O O O O O O O O B-budget_amount O O B-hotel_rating I-hotel_rating O O O B-trip_duration O B-trip_duration.relative O
+O O O
+O O O O O O O O O O O
+O O O
+O O B-amenities_cost.relative B-amenities_type O O
+O O O
+O O O B-place O B-place O O B-hotel_rating I-hotel_rating O O
+O B-budget_amount O
+O B-amenities_cost.relative B-amenities_type
+B-amenities_cost.relative B-amenities_type O B-amenities_type O O B-meal_description O
+O O O O
+B-trip_duration.day_number O O B-trip_duration.day_number O O
+O O O
+O O O O B-budget_amount O O B-flight_class O O B-budget_amount O O O O O
+O B-flight_class
+O O O O O O O O
+O B-today_relative O O O O
+O O O O
+O O O O
+B-budget_amount
+B-passenger_number.relative O
+O B-passenger_number O O
+O
+O O
+O O B-budget_amount O
+O
+O O B-passenger_number.relative
+O O O O O O O O O O O
+O O O O O O O O O O O
+O O O
+O O O
+O O
+O O
+O O O O
+O
+O O O O O O O O O
+O O O O
+O O O O O O
+O O O O O O O B-time_relative O O O O O O
+O O O O O O
+O O O
+O B-return_date.day_number O O O O O
+O O O O
+O O O O O
+O O
+O O
+O O O O O O O O O
+O O B-return_date.day_number O O
+O O
+O O B-trip_inclusions O B-hotel_rating I-hotel_rating O
+O O
+O O B-hotel_rating I-hotel_rating O O
+O O O
+O O O
+O O O
+O O O O O O O O O O B-hotel_rating I-hotel_rating O O O O
+O
+O O O O O O B-occasion_type O O
+O O O
+O O O O O
+O O
+O O O O O O O O O
+O O
+O O O O O O B-budget_amount O
+O B-occasion_type O O O O O O O O O O O
+O O O O
+O O O O B-trip_duration O O O O O
+O O O O O O O
+O O O O B-amenities_cost.relative B-amenities_type O B-meal_description O O O
+O O
+O O B-amenities_cost.relative B-amenities_type
+O O O
+O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O B-apology
+O O O B-number O O O O O
+O O O B-number O O O
+O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O O B-book O O
+O O O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O
+O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O
+O O O O O O O O
+O O O
+O O O O O B-book O O
+O O O O O O O O O O O O O O O
+O O O O
+O O O O O O
+O B-relationship_type O B-relationship_type O O B-passenger_type B-passenger_number O O
+O B-passenger_number O O B-passenger_number B-passenger_type
+O O O O O O O
+O O O O O O O O O
+O O O O O B-trip_duration O B-trip_inclusions B-budget_unit B-budget_amount O O
+O O O O O B-book O O
+B-hotel_rating I-hotel_rating O O O
+O O O
+O O O O O O O O
+O O B-number O O O O O O O B-guest_rating O O B-guest_rating
+O B-trip_duration O B-trip_inclusions O O O O
+O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O O B-number O O O O O O O O O O
+O O O O O O O
+O O O O B-budget_unit B-budget_amount O O O O O O O O
+O O O O O O O B-hotel_rating I-hotel_rating O O O O O O O
+O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O
+O O O O O O
+O O B-city_name O O O O
+O O O O
+O O
+O O O O O O O
+O O O O O
+O O O O
+O O O O O O
+O O O
+O O O O O O O O O B-amenities_type O
+O O B-place O B-place B-distance_relative
+O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O
+O O O O O
+O B-amenities_cost.relative B-amenities_type O B-amenities_type O
+O O O O
+O O O O O O
+O O O O O O O O O
+O B-hotel_rating I-hotel_rating O O B-trip_duration I-trip_duration O B-trip_duration O B-trip_inclusions O
+O O O O B-trip_duration O B-trip_inclusions O O O
+O O O O O
+B-flight_class O
+O B-time_relative B-confirmation_type O O
+O O O O O O O O O
+O O O O O O O
+O
+O O O O O B-trip_duration.month_name
+O O O O O O O
+O O O O O O O O O
+O O O O O O
+O O
+O O O O O O
+O O O O O
+O O O O O O
+O O O O O O O O
+O O O O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O
+O O O O O B-to_loc.city_name O O O O O
+O O
+O O O O O O
+O O O O O O O
+O O O O B-hotel_rating I-hotel_rating O O O O O O O O O O O B-activity O O B-distance_relative O
+O O O O O O O O
+O O O O O O O O B-time_relative O O O O O O O O O
+O O O
+O O O O O O O O
+O O O O B-city_name O O
+O O O O
+O O O O O O B-option O
+O O O O O O O O B-distance_relative
+O O O O O O
+O O O O O O O O O O O O O
+O O O
+O O O O O O O
+O O O O O O O O O
+O O B-occasion_type O O O O
+B-budget_amount
+O O O O O O O O O
+O O O B-date_relative O
+O O O
+O O O O O
+O O O
+O O O O O O O
+O O O O
+O O O O O
+O O O O O O
+O O B-passenger_number.relative O O O
+O B-passenger_number B-passenger_type
+O O O O O O O
+O O O O O
+O O O O O O O O O
+O O O O O
+O O O O O
+O O O O O O
+O O O B-flight_class O O O
+O O O O O O O O O
+B-passenger_number.relative O
+O
+O O O
+O O O O O
+O O O
+O O O O O O O
+O O O O O O O O O O O
+O O O O O O O O O O
+O B-passenger_number.relative O B-budget_unit B-budget_amount O O O O
+O B-depart_date.day_number O O O O O O
+O O B-trip_inclusions O O O O
+O O O O O O O O O O O O
+O O O O
+O O
+O O O O O O O O O O O O B-flight_class O O
+O O O B-time_relative O O O O B-confirmation_type O
+O
+O O
+O O O O O
+O O O B-budget_amount O O O
+O O O
+O B-meal_description O B-amenities_type O O B-place B-distance_relative O
+O O O O O O O
+O O O O
+O O O O O O O B-book
+O O O O O
+O O O
+O O O O O O
+O O
+B-passenger_number O O O O O O
+O O O O O O O O
+O O O O O O O O O O O O
+O O O B-hotel_rating I-hotel_rating O O O O O O O O O O O O O B-trip_duration O B-trip_inclusions O O
+O O O B-budget_amount O B-flight_class O O B-budget_amount O
+O O O O
+B-hotel_rating I-hotel_rating O O O O B-place O O
+O O O B-book O O
+O O B-from_loc.city_name O O B-to_loc.city_name I-to_loc.city_name O O
+O O O B-budget_amount O B-flight_class O O B-budget_amount
+O O O O
+O O O O O O O
+O O O
+O O O O O O O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O
+O O O O O
+O O O O O O O O
+O O O O
+O O O O O O O O O O O O O
+O B-city_name O O O O O O O O O O
+O O O O O O O
+O O O O O O
+O O O B-hotel_rating O B-hotel_rating I-hotel_rating O O O
+O O O I-city_name O O O O
+O O O O B-trip_inclusions O O
+O O O O O O
+O O B-place O
+O O O O O O O
+O O O O O O O O
+O O O O O
+O O
+O O O O O O
+O O O O
+O
+O O O O O O O O O O O O O
+O O O O O O O O
+O O O
+O B-apology O O O O O O O O
+O O O O
+O
+O O O O O O O
+O O B-passenger_type O O O O O B-relationship_type O
+O B-passenger_number B-passenger_type O B-passenger_number B-passenger_type O O O
+O O O O O O
+B-from_loc.city_name
+O O O O
+O O O O O O B-budget_amount.relative O O
+O O O O O
+O B-date_relative
+O B-from_loc.city_name O B-to_loc.city_name O O O B-trip_inclusions
+O O O O O
+O
+O O B-book O O
+O
+O O O O
+O B-confirmation_type O O O O O O O O O O
+O
+O
+O O O
+O O O O O O O
+O O O O O O O O O O O O
+O O O O O O O O O
+B-budget_amount
+O O O
+O O O O
+O O B-trip_duration O O O
+O O O O O
+O O B-amenities_type B-trip_relative O O
+O O O
+B-budget_amount O B-relationship_type O O O O B-flight_class I-flight_class O O O O
+O O O O O O O O O O
+O O O O O O O O
+O O O O
+O B-relationship_type
+O O O O
+O
+B-passenger_number O O O B-passenger_type O
+O O O O
+O O O O O
+O O O O O O
+O O O
+O B-budget_unit B-budget_amount
+O O O
+O O O O O O O O
+O O O O O
+O O B-place B-distance_relative O O B-amenities_cost.relative B-meal_description O B-amenities_type O
+B-flight_class B-transport_type O B-budget_amount O O O O B-budget_amount
+O O O O O O O B-book O
+O O O O O O
+O O O B-book O O O B-time_relative O O B-confirmation_type O
+O O O O
+O O B-person_type O O O O O B-book O
+O O O O O O O O O O
+O O O O O O O O O
+O O O O O
+B-budget_amount
+O O O O B-trip_duration O O O O
+O O B-person_type O O O O I-flight_class O O O O
+O O O
+O O O O O O
+O O O O O O
+O O B-place B-distance_relative O O O O
+O O O O O
+O O O O
+O O B-hotel_rating I-hotel_rating O B-place O O O
+O O O
+B-amenities_type B-meal_description O B-amenities_type O B-budget_amount B-trip_relative
+O O O O O O
+O O O O O O O
+O O B-place B-distance_relative O
+O B-meal_description O B-trip_inclusions B-trip_relative O O
+O O O O O O O O
+O B-amenities_type O B-amenities_type O B-trip_relative O O
+O O O O B-book O
+O B-trip_duration.day_number O O B-trip_duration.day_number O O
+O O O O O O
+O O O O O
+O B-relationship_type
+O O O O B-relationship_type O O O O O O B-passenger_number O O O
+O O B-relationship_type O B-number O
+O O O O O O O O O
+O O O O
+O O O O O
+O
+O
+O O O
+B-budget_amount O O O
+O O O O O O O O
+O B-budget_amount
+O O
+O O O O O O O O O O
+O B-passenger_number B-passenger_type O O B-passenger_number B-passenger_type
+O O O O O O
+O B-passenger_number O
+O I-from_loc.city_name O
+O O O O O
+O O O O O O O O
+O B-budget_amount O O
+O O O O O O O O O O O O
+O O O B-return_date.day_number B-return_date.month_name O B-depart_date.number O O O
+O O B-book O O
+O O O
+O O O O O O O B-place B-distance_relative O O O O O O O
+O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O
+O O O
+O O O O O O
+O O O O O
+O O B-meal_description B-amenities_type O B-amenities_type O
+O O B-trip_inclusions O O O
+O O O O B-flight_class O O O B-book O O O O O O
+O O O O O O
+O O O
+O O O O B-occasion_type O O O O O
+O O O O O
+O O O O O O
+O O O O O
+O B-passenger_number O B-passenger_number.relative
+O O O O O O
+O
+O O O O
+O O O O O O O O
+O O O O O
+O O O O O O O
+O O O O O O O O O O O
+O O O O O O
+O O O O
+O O O O B-time_relative O O
+B-trip_duration O O O O O O O O O
+O O O O B-book O
+O O O O O O O O
+O B-apology
+O O O O O O B-depart_date.day_number O O O O O
+O O O O O O O
+O O B-relationship_type O O O O
+O O O O O
+O O O O O O O
+O O O O
+O O O O B-book O
+O O O O O O O O O O O
+O O O O O O O
+B-today_relative O O
+B-budget_amount B-budget_relative O B-to_loc.city_name O O O
+O O B-location_relative O O O O
+O O O O O O
+O O O O O
+O O O O O
+O O O O O
+O O O O
+B-budget_amount
+O O O O
+O O O O
+O O O O O O O O
+O
+O B-passenger_number.relative O O O
+O O
+O O O
+B-passenger_number I-passenger_number B-passenger_type
+B-passenger_number O
+B-number O
+O O O O O O O O
+O O O O
+O O O O O O
+O B-budget_amount O
+O O O O O O O B-hotel_rating I-hotel_rating O
+O O O O O O O O O O O O
+O O I-city_name O O
+O O O O O O B-city_name O O O
+O O B-hotel_rating I-hotel_rating O B-place O B-place O
+O O O O O O O O O
+O O O O O O O O O O O O
+O O
+O
+O O O
+O O O O O
+O O O O O O O O O O O
+O O O O
+O O O O O O O O
+O O
+O O O O
+O O O O O O O O O O
+O O O O O B-book O
+O O O O O
+O O O O O O O O
+O O O O
+O B-budget_amount O O
+O
+O O B-relationship_type
+O O O O
+O B-budget_amount O O
+O O O O O O O O O
+O O B-apology O O O O O O
+O O O O O O O O
+O O O O O O
+O B-budget_unit B-budget_amount O O O
+O B-amenities_type O B-place O O
+O O B-passenger_number O O O O O
+O O O O B-relationship_type O O O O O
+O O O
+O O O O O
+O O O O O O O O O
+O O O O O O O O
+O O O O O
+O O O O O O O
+O O O O O O B-trip_inclusions O O O
+O O B-trip_duration O I-trip_duration B-place B-distance_relative O B-hotel_rating I-hotel_rating O
+O O O O O O O O O O O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O O
+O B-hotel_rating O O O
+O O
+O O B-hotel_rating I-hotel_rating O
+O O B-hotel_rating I-hotel_rating O O O
+O O O O O O
+O O O B-flight_class O O O B-hotel_rating I-hotel_rating O O O O O O
+O O B-budget_amount B-budget_unit O O O
+O O O O O O O O O O
+O O O O O
+O O O O B-time_relative O O O
+O O O O O O O O
+O O O O O O O
+O O B-amenities_type O
+O O O O O O O O O O O B-place O
+O O O O O O O O O O O O O O
+O O O O O B-book O
+O B-flight_class O O O O
+O O O O O O
+O O O O O O O O O O O O
+O O O B-time_relative O O O O O O B-confirmation_type O
+O O O O O O O O B-relationship_type O O O O O O O O O O O
+O O O O O
+O O O O
+O O O O
+O B-budget_unit B-budget_amount O O O O O O
+O O B-place I-place B-distance_relative O O O O
+B-flight_class B-trip_inclusions B-budget_amount O
+O O O O O O
+O O O O O
+O O O O O
+O O
+O O B-hotel_rating
+B-hotel_rating
+O O O B-budget_unit B-budget_amount O O O O O O O O O O O O O O
+O B-hotel_rating I-hotel_rating O O O O
+O O O O O B-trip_inclusions B-book O O O O O O O O O O B-hotel_rating I-hotel_rating O
+O O O O B-trip_inclusions O O O O O O
+O O O O O
+O
+O O O O O O
+O O O O O O B-time_relative O O
+O O O O O O O O
+O O O B-name O O O O
+O O O O O O O
+B-budget_amount O
+O O B-passenger_number.relative O
+O B-passenger_number O O
+O O O O O O B-trip_relative O O
+B-amenities_type O B-amenities_type O B-meal_description O B-budget_amount O O B-trip_relative O O
+O O B-passenger_number O
+O O
+O O O O O O O O O O
+O O O O O O O O
+B-trip_duration O B-trip_duration.relative O O O O O O O
+O O B-distance_relative O O O
+O O O O O O O O O O
+O O O O O O O O O O O O O O O O O
+O O O O O B-trip_duration.day_number O O B-trip_duration.day_number O O B-book O
+O O
+O O O O
+O O O O O O O O O
+O O O O O O O B-budget_amount O O
+O O O O O O O
+O B-city_name O O
+O O O O
+O O O O O O O O O O
+O O B-number O O O O O O O O
+O O O O O
+B-trip_duration I-trip_duration O O O
+O O B-amenities_type B-trip_inclusions O B-trip_relative O O
+O O O B-book O O
+O O O
+O O O B-place B-distance_relative O
+O O O O O O O
+O O O O O O O
+O O O O O O O O O
+O O O
+O O O O O
+O O B-book O O
+O O B-cost_relative
+O O O O B-occasion_type O O O O O B-book O
+O O O B-book O O O O O O
+O O
+O O O O B-cost_relative
+O O O
+B-budget_amount O
+O O B-trip_duration.relative O O O O O O
+B-trip_duration O
+O O O
+O O B-budget_unit O O O B-place B-distance_relative
+B-budget_amount O O O B-place B-distance_relative
+O O B-place O O O
+O O O O B-distance_relative O O
+O O O
+O B-place B-distance_relative O O
+O O O O
+O O O O
+O O O O O O O
+O O
+O O O
+O O O O
+O O O B-budget_amount O B-flight_class I-flight_class O B-budget_amount
+O O O O O O O O
+O O O O
+O O O O O O O
+O O O O
+O
+O O O O O O O O B-time_description O O O O O B-confirmation_type O
+O O O O O
+O O O O O
+O O O
+O O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O
+O
+B-passenger_type O B-amenities_cost.relative O B-amenities_type
+O O B-amenities_cost.relative B-meal_description
+O O O O O
+O O O
+O O B-confirmation_type O O
+O O O O O O O
+O O O
+O O
+O
+O
+O O O O
+O O O
+O O O O O O
+B-trip_duration.date O B-trip_duration.date
+B-passenger_number.relative O
+O
+O O O O
+O O O O O O B-number O
+O O B-place O B-place B-distance_relative O O B-guest_rating O O O O O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O
+O O O
+B-flight_class O B-budget_amount
+O O O
+O O O O O
+O O O
+O O O O O
+O
+O O O O
+O
+O O O O O O
+O O O O O O
+O O O O O O O
+O O O O O O O O O O
+O O B-passenger_number O O O O O B-book O
+O O O O O O
+O O O O O
+O O O O
+O O O O O
+O O O O O
+O O O O O O O O
+O O B-amenities_cost.relative B-meal_description O O B-amenities_type O O O
+O O O O O
+O O O O O O O O O B-budget_amount
+O O O B-today_relative O O O O
+O O
+O O O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O
+O O O O
+O O O O O O O O
+O O O O O
+B-passenger_number O O
+O B-passenger_number O
+O B-number O O O O B-flight_class O O O O
+O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-amenities_type O B-place O O O O B-number
+O O B-hotel_rating I-hotel_rating O O
+O O O O O O O O O O O
+O O B-hotel_rating I-hotel_rating O O O O B-amenities_type O O
+O O O O O O B-amenities_type O O O O O O O O O O O O
+O O O B-place B-distance_relative
+O O O O O O O O B-place B-distance_relative O B-amenities_cost.relative B-meal_description O B-amenities_type O O O
+O B-flight_class O O O O O O O O O O
+O
+O O O O O O O O O O O O O
+O O O O O
+O O O O O O O O O O O O O O O O O
+O B-budget_amount O O O O O O O
+O O O O O B-date_relative O
+O O O O O O O O O O O
+O O O O O O O O O
+O O B-budget_unit B-budget_amount O O
+O
+O O B-hotel_rating O
+O O O O
+O B-trip_duration O O O
+O O O O O O O O B-guest_rating O O O
+O O O B-book O O
+O O O O O O O O O O O O
+O O O O
+O O B-budget_amount O B-flight_class O B-budget_amount
+O O O O
+O B-flight_class O
+O O O O O O O
+O
+O O O O O O O B-number O O O
+O O O O O O O
+O O O O O B-place O O B-distance_relative O B-hotel_rating I-hotel_rating O
+O O B-trip_duration O O O O O O O
+O
+O B-amenities_type O B-meal_description B-trip_relative O O
+O O O O O O O O O
+O O O O O B-hotel_rating I-hotel_rating O
+O O O O O
+O O O O
+O
+O O O O
+O O O O O O O O O O O O O O O B-number O O O O O O O O O
+O O O O O
+O O O O O O O O O
+B-depart_date.day_number O O
+O O O O O
+O O O O O
+O O O O O O O O
+B-depart_date.day_number O O O
+O O O O O
+O O O O O O O O
+O O O O O O O O B-hotel_rating I-hotel_rating O
+O O O O O O
+O O O B-time_relative O O B-distance_relative O O
+O B-trip_inclusions O O O O
+O O O B-trip_inclusions O B-distance_relative O O
+O O O B-distance_relative O O O B-place O
+O O O O O O O O
+O O O O O O
+O
+O
+O O O O O O
+O B-today_relative O O O O B-relationship_type O O
+O O O O O O O
+O B-trip_inclusions O O O O O O O
+O O O O
+O
+O O O O O
+O O O O O O O
+O O O O O O O O O O
+O O B-date_relative O
+O
+O O O O O O O
+O O O O O O
+O O O O B-book O O
+O O O B-amenities_cost.relative B-meal_description O O O
+B-amenities_cost.relative B-meal_description O B-amenities_type O O B-amenities_type
+O O O O O O O O O
+O O O O O O
+O O B-place B-distance_relative O O O O O
+O B-place O O O O
+O O O O O O
+O O O
+O O O O
+O O O
+O O B-budget_amount O O O O O O B-transport_type O O O O O O O O B-transport_type O O O O O O O O O O O
+O O O O O
+O
+O O O O O O B-trip_duration O O O O
+O O O O O
+B-city_name O O O O O O O O O O O
+O B-amenities_cost.relative B-amenities_type O O B-amenities_type O
+O O O B-flight_class O O O O
+O O O O
+B-book B-city_name O O
+O B-flight_class O O
+O O O O O O
+O O O O O O O O O
+O O O O O
+B-trip_duration O O O O O O O O O
+B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O O B-place I-place I-place O O O O O O B-relationship_type O O O O B-activity O
+O B-place O O O O O O O O O
+O O B-guest_rating O O B-guest_rating O O O O O
+O O O O
+B-hotel_rating O O O O
+O O O O O O O O O O O O O O O O O
+O B-book O O
+O O O O O O O O O
+O O O
+O O O O O
+O
+O O O O B-distance_relative O O O O
+O O B-hotel_rating I-hotel_rating O O
+O O O O O O
+O O O O O O O O O
+O O O
+B-budget_amount B-passenger_number B-passenger_type O O O O
+O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O
+O O O O O O O
+O O O B-hotel_rating O
+O O O O O O O O O O O O O O
+O O O
+O B-hotel_rating O O
+O O B-book O
+O O B-flight_class O O O
+O O O O O O O O O O O O O O O O O O O O O
+O O
+O O B-passenger_number B-passenger_type O O
+O O O O
+O B-from_loc.city_name O
+O O O
+O B-amenities_cost.relative B-meal_description O O B-amenities_type O O O O B-hotel_rating I-hotel_rating O
+O O O O O
+O
+O O O B-place O
+O O O O
+O O
+B-amenities_cost.relative O
+O O B-amenities_cost.relative B-amenities_type O O B-amenities_type O O O
+O O O O B-hotel_rating I-hotel_rating O B-trip_duration O B-trip_inclusions B-book O
+O O O O B-number O O O O O O
+O O O O O O O
+O O O B-budget_amount O O O O O O O O O O O
+B-city_name O O O O
+O O O O O O O O O O B-hotel_rating I-hotel_rating O O O O O O
+O B-meal_description O B-amenities_type O O O
+O O O O O O B-guest_rating O O O O O B-number O O O O O O O O B-cost_relative O O O
+O O O
+O B-trip_inclusions O
+O
+O B-book O O
+O O O O O O O O
+O O B-confirmation_type O O O
+O O O O
+O O O O O O O O
+O O O O O O
+O O O O O
+O O B-place B-distance_relative O O O O O O O O
+O O O O O O
+O B-person_type O O O
+O B-distance_relative O O O O O B-place O
+O O O O O
+O O B-cost_relative O O O O O
+O O O O
+O B-city_name O O O
+O O O O B-time_relative O O O O O
+O O O O O O O O O O O O O
+O O O O O O O O O O O
+O O O O B-confirmation_type O O O O O
+O O O O
+O O O O O O B-trip_inclusions O O O B-from_loc.city_name I-from_loc.city_name O O O O B-trip_duration.day_number O B-trip_duration.day_number B-trip_duration.month_name O O O O O
+O O O O
+O O O O O O O O
+O O O O O B-flight_class I-flight_class O O O
+O O O O O O O B-place O
+O O O O
+O O O B-distance_relative O O O O
+O O
+O
+O O O O O O O
+O O O O O O O
+O O O O O O O O O O O O O B-budget_amount O O O O O O O O O
+O O O O B-number O O O O O
+O O O O
+O O O O
+O O O B-budget_amount
+O O O O O B-budget_amount O O
+O O O O O O O O O
+O O O B-passenger O B-from_loc.city_name O B-to_loc.city_name B-occasion_type B-trip_inclusions O O O O
+O O O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O O
+O O O O O B-to_loc.city_name O O O
+O O O O O O
+O
+O O O O
+O O B-trip_duration.day_number O B-trip_duration.day_number
+O O O O O O O O O O
+O O
+O O B-trip_duration O O O O
+B-city_name O O O
+B-city_name O O O
+B-guest_rating
+O O B-city_name O O
+O O O O O O O B-flight_class O O B-trip_inclusions O O O
+B-flight_class O
+O O O B-today_relative O O O O O
+O O O O
+O
+O O O O
+O
+O O B-hotel_rating I-hotel_rating B-hotel O O B-hotel_rating O O O O O O O O O O O O O
+B-hotel_rating I-hotel_rating O O O
+O
+O B-trip_inclusions O O O
+O O O B-book
+O O O O O O O
+O O O O O O O
+O
+O O O O O O
+O
+O B-apology O O O O O O O
+O
+O O O O O
+O O O O O O O
+B-passenger_number O O O O O O O
+O O O O O
+O B-budget_amount O
+O O O
+O O O
+O O O
+O O O B-passenger_number B-passenger_type O O O O
+B-passenger_number B-passenger_type O
+O
+O O B-book O O
+O B-budget_unit B-budget_amount O O B-number B-passenger O O O O O O O O O
+O O O
+O O O O
+O O O O O
+O O B-passenger_type O O
+O O B-budget_amount O B-flight_class I-flight_class O B-budget_amount
+O O O O B-flight_class O O O
+O O O O
+O
+O
+O B-budget_amount O B-depart_date.day_number
+O B-passenger_number.relative O O
+O O
+O O O
+O B-to_loc.city_name O
+O O B-hotel_rating O
+O O B-place B-distance_relative O O O O O O O O O B-amenities_cost.relative B-amenities_type O B-amenities_type O O O
+O O
+O B-hotel_rating I-hotel_rating B-hotel O
+O O O O O O
+B-hotel_rating O O B-book O O
+O O O O O
+O O O O O O O O O
+O O B-passenger_type
+O O O O
+O O O O
+O O O O O O
+O O O O
+O O O
+O O
+B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type
+O O O
+O O O
+B-trip_duration O O O O O O
+O B-budget_amount O O B-flight_class O O O O
+O O O
+O O
+O O O B-budget_amount O O
+O O O O O O O
+O B-passenger_number.relative
+O O B-hotel_rating O B-hotel_rating I-hotel_rating B-hotel O O
+O B-hotel_rating
+O O O O O O O O
+O O O O
+O O B-guest_rating O O O
+O O O O O O
+O B-place O O B-place B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O
+O O O O O
+B-flight_class O O B-budget_amount O O O
+O O O O
+O B-book O O
+O O O O O O O O O
+O O O O O O O O O
+O
+O O O O O O O
+O
+O O O O O O O O O O
+O O O O O O O O O O O O B-passenger O
+O B-amenities_type O
+O O O O O
+O O O O B-place O
+O O O B-hotel_rating I-hotel_rating O
+O O O
+O O O
+O O O O O O B-hotel_rating I-hotel_rating B-hotel B-book O O
+O B-amenities_type
+O O O O
+O
+O B-trip_inclusions O O O B-meal_description O
+O O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O B-guest_rating
+O O O O B-flight_class I-flight_class O O B-book O
+O B-flight_class I-flight_class O O O O O O O O
+O O O O O B-confirmation_type O O O O O
+O O O O O O O
+O O O O O O O O O O
+O O O
+O O B-budget_amount O O
+O O O O O O O O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O O
+O O O B-place O
+O O O O B-place B-distance_relative O O O O
+O O O
+O O O O B-place B-distance_relative O B-hotel_rating I-hotel_rating B-hotel O
+O O B-place B-distance_relative O O O
+O O O O O O O
+O O O B-place B-distance_relative O O
+O
+O B-trip_duration O O O O O O O O B-amenities_cost.relative B-amenities_type O O B-amenities_type O O O
+O O B-place O B-place O O O
+O O O O O
+O O O O O O O O
+O B-book O
+O O O
+O O O O O O O
+O B-today_relative O O
+O O B-from_loc.city_name O O O O
+O O O O
+O B-budget_amount O
+B-passenger_number.relative O
+O O
+O O O O O
+B-depart_date.day_number B-depart_date.month_name O O
+O B-place B-distance_relative O B-hotel_rating I-hotel_rating B-hotel
+O O O B-hotel_rating O
+O B-hotel_name O O O
+O O O O O O O
+O O O
+O O O O O O O O O O
+O O O O O O O O O O B-trip_inclusions
+O O O O O O
+O O O O
+O O O O O O O O O O O O O O O O O O O O O O O B-occasion_type B-book O O
+O B-passenger_number O O O B-passenger_type O O O O O O O O
+O O O O O
+O O O O B-budget_unit B-budget_amount O O O O O O B-occasion_type O O O O O O O O O O O O O
+O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O
+O O O O O O O O
+O B-place O B-amenities_cost.relative B-amenities_type O O O O O O
+O O O
+O O O O O
+O B-book O O
+O O O O B-book O O O O O O
+O O O O
+O O O O O O O
+O O O
+O
+O O O O O
+O O O O O
+O O O O
+O O O
+O O O
+O O O O O B-trip_duration O O O O O O
+O O O O O O
+O O O O O O O
+O
+O B-place O O O O O B-amenities_cost.relative O O O O
+O O O O O O O
+B-flight_class O O O B-budget_amount O
+O O O O O B-trip_inclusions O O O
+B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O O
+O O O O O O O O O O O O O
+O O O O O B-book O
+O O O O O
+O O
+O O O O O O
+O O O O O O
+B-passenger_number.relative O
+O O
+O O O O O
+O O
+O O O O
+O O B-hotel_rating I-hotel_rating
+O B-time_relative O O O O O
+O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O
+O B-place O O B-distance_relative O B-hotel_rating I-hotel_rating B-hotel
+O O O O O O O
+O O O O
+O O O O
+O
+O
+O O O O O O
+O O O O O
+O O
+O O O O O
+O O O O O O O
+O B-passenger_type O O B-relationship_type
+O O O O O O
+O O O O O O O O O O O O O O O
+O O O
+O O
+O O O O
+O O O
+O O O B-passenger_number B-passenger_type O B-passenger_number O O
+O O O O O
+O O O O O O B-passenger_type O O O O O O O O O O
+O O O O O O O O O O O O
+O O O O O O O O O O
+O O O O O O
+O O O
+O O O
+O O B-trip_inclusions
+O O
+O O B-book O O
+O O
+O O O O O
+O O O B-confirmation_type O
+O O O O O O
+O O O O O O
+B-passenger_number O O O O O O
+O O O O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O
+O
+O O O O O O O
+O B-trip_duration O O O O
+B-trip_duration O O O B-passenger_type O O O O O O O O O O B-activity O O B-amenities_type O O O O O
+O O
+O O O O O
+B-trip_inclusions B-amenities_cost.relative B-amenities_type O O B-meal_description O
+O O O B-passenger_type O O O O O
+O O B-place O O O O
+O O O O O O O O O B-book
+O O O O O O O O
+O O O O
+O O O B-passenger_type O B-relationship_type O O O
+O O O O O O O O O
+O O O O O O
+O O O O O O O O
+O O O O O O O O O O O O
+O O O O O O O O O O
+O O O O O O O O O O
+O B-trip_inclusions O B-amenities_cost.relative B-meal_description O B-amenities_type O
+O O O
+O O B-hotel_rating I-hotel_rating B-hotel O B-hotel_rating O O O O O O
+O O O O O O O O
+O B-hotel_rating I-hotel_rating O O O O
+O O B-passenger_type
+O O B-book O O
+O O O O O O O
+O O
+O B-passenger_number B-passenger_type O B-passenger_number B-passenger_type
+O O O O
+O O O O
+O O O O O O O O O O O
+O O O O O O O O
+B-trip_duration
+O O O B-book O O
+O O O O O O O
+O O O O O O O O O O
+O B-hotel_rating I-hotel_rating O O O O O O O O O O O O
+O O O
+O O O O O O O B-book O O O O
+O O O O O
+O B-apology O O O O O O B-trip_inclusions O O O
+O O O O O O O O B-trip_inclusions O O O
+O O O O O O O O O O O O O O O
+O O B-relationship_type O O O O O O O O O O O O O O O O O O O O O O O O
+O O O O O
+O O O O
+O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O
+O O B-trip_duration.day_number O B-trip_duration.day_number O O O O O
+O B-budget_amount O O O O
+O O O O O O O
+O O O O O I-guest_rating I-guest_rating O B-hotel_rating I-hotel_rating B-hotel
+O O B-place O B-place B-distance_relative O B-amenities_cost.relative O O O O B-amenities_type O O O
+O O O O O
+O O O O B-trip_inclusions O O
+B-trip_duration O
+O O B-hotel_rating I-hotel_rating O O O O O O O
+O O
+O B-budget_amount O O O O O O O O O O O O
+O O O O O
+O O
+O B-flight_class O B-book O O
+O O O O O O
+O B-flight_class B-book O
+O O O O O
+O O O O O O
+O O O O O O O
+O B-passenger_number B-passenger_type O B-passenger_number B-passenger_type O O
+O O O
+O O O
+O O O O O O O O O O O O
+O O B-trip_inclusions O O O
+O O O B-amenities_cost.relative B-meal_description O B-amenities_type O O O O O O B-guest_rating O O O O
+O B-place O B-place O O B-place O O O O O B-passenger_type O O B-activity O
+O O B-trip_inclusions O
+O O O O O O O B-confirmation_type O
+O
+O B-trip_duration O O B-to_loc.city_name O O
+O O O O O O O
+O O O O O O O
+O I-city_name
+O O O O O
+O O O O O O O O O O B-trip_inclusions O O O O O O O O O
+O O O O O O O O O O
+O O O O O O O B-meal_description O B-amenities_cost.relative B-amenities_type O O O
+O O B-transport_type O O O O O B-trip_relative O O
+O O O B-trip_inclusions O O
+O O O O O O O O O O O O B-book O O
+O B-flight_class O B-trip_inclusions O
+O O O O O O
+O O O O O O O O O
+O
+O O O O O O O
+B-budget_amount O O B-trip_duration O O O O O
+O O O O O O O O O O O O O O O O O
+O O O B-to_loc.city_name O O O O
+O O O O O O O O O O O O
+O O O O O O
+O O O B-trip_duration O O B-trip_duration O O O
+O O O O O O O O O O
+O O O O O O O O O
+O O O
+O O O O O O O O
+O O O
+O O O
+O O O O O O O O O O
+O O B-passenger_number O O
+O O O O
+O B-hotel_rating I-hotel_rating O O O O O O O O O O O O O O
+O O O O O O B-place O B-trip_relative O O
+O B-amenities_type O O
+O O O O
+O O O O
+B-flight_class O O O O O
+O O O O O O O O O O O O
+O
+O O O O O O
+O O O O B-confirmation_type O O O O O O O O O O O O O O O O O
+O
+O O O O O O O
+O O O O O O O
+O O O O O
+O O O O O O O
+O B-budget_unit B-budget_amount
+O O O O O O B-budget_amount O O O O O O O O O O O
+O O O O O
+O O O
+O
+O O O O O
+O O O O O O
+O O O O O O O
+O
+O O O O O O O
+O O O O O O
+O O O O O O O O
+O O O O O O O O
+O
+O O O O O
+O O O O O O O
+O O O O O O O O O O O
+O O O
+O B-hotel_rating O O O O O O O O O O O
+O O
+O O O O
+O O
+O O O O O O
+O O O O O O
+O B-today_relative O O O O O
+O O O O O O O O O O B-book
+O B-relationship_type
+O O
+O O O O
+O
+O O O
+O O O
+O O O O O O O O O O
+B-budget_amount
+O O O O O O O O O O
+O B-passenger_type O O O
+O O O O O O O O
+O O O O
+O O O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O O
+O O O O O O O O O O
+O
+O O O
+O O O O O O O O O
+O O O O O O O
+B-budget_amount
+O O O O
+O O O O
+O O O B-hotel_rating I-hotel_rating B-hotel O O O O B-trip_duration B-trip_duration O B-trip_duration O B-trip_inclusions O O O O
+O O O O O O O
+O O O O
+O O O B-hotel_rating I-hotel_rating O O
+B-flight_class O O
+O B-flight_class O O B-budget_amount O
+O O O B-book O O
+O O O
+O O O O
+O O O B-budget_amount O O O O O O O O O
+O O O O O
+O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O
+B-place O O B-place O O O O O O O O O O O O O O O
+O B-apology O O O O O O O
+O O O O O O O O O O O O O
+O O O B-apology O
+O O O O O O O O O O O
+O O
+O O O
+O O O
+O O O O O O O O O O
+O O O O
+O B-rating O O O O B-hotel_rating O O O
+O O O O
+B-flight_class I-flight_class O O O
+O O O O O
+O O O O O O
+O O O O B-hotel_rating O O
+O O O O O O O O
+O O
+B-flight_class O O
+B-budget_amount O
+O B-book O O O
+O O O O
+O
+O O O O O
+O O O
+O
+O O B-from_loc.city_name O O O
+O O O O
+O O O O O
+O B-budget_amount O O O O
+O O O O O O O
+O O O O O O
+O O O O O
+O B-meal_description O B-amenities_type O B-amenities_type O B-trip_relative O O
+O O O O O O B-book O O
+O
+O O O O O O
+O
+O O O O O B-occasion_type O O O O O
+O O O O O O O O O O O
+O O O O O O O O O O O O O O B-budget_amount O O O
+O O O O O O O O O O O O O O
+O O O O
+O O O O O O O O
+O O O O O
+O O O O B-distance_relative
+O O O B-book O O
+O O O O O O O O O O O O B-option
+O O B-trip_inclusions O O
+O O O O O O O
+O O O O O O O O O O O
+O O O B-trip_inclusions O O O O O O O
+O
+B-trip_duration O O B-from_loc.city_name O O O O
+O O O O
+O O O
+O O O O
+O O O
+O O O O O O O O
+B-budget_amount
+O O O B-option
+O
+O O O O O O O O
+B-flight_class O
+O O O
+O O O O O
+O O O O O
+O O B-budget_amount O
+O O O O O B-number O O
+O B-hotel_rating O O O O B-place B-distance_relative O O O O O O
+O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O
+O O O O
+B-hotel_rating
+O O O O O O O O
+O O O O O
+O O O O B-place B-distance_relative O B-hotel_rating I-hotel_rating B-hotel O O O O O O O O O B-amenities_cost.relative B-meal_description O O B-amenities_type O B-amenities_type
+O O O
+B-trip_inclusions O O O O
+O O O B-flight_class O O O
+O O O O
+O B-budget_amount O O
+O O O O O
+O O
+O O O O B-book O O
+O O O O O O O O O B-confirmation_type O O
+O
+O O O B-trip_duration.day_number O B-trip_duration.day_number
+O O O O O O O O
+O O O O
+O O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O
+O O O O
+O O O O O O
+O O O
+O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O
+O O O B-distance_relative
+O O O O B-place O
+O B-book O O
+O O O O O O O O
+O O O O O O O O
+O B-trip_inclusions O O O O O O O
+O O O O
+B-passenger_number O B-passenger_number B-passenger_type
+O
+O B-apology O
+O O O
+O O O O O O O O O O O B-relationship_type O O O O O O O
+O O O O O
+O O O O O O O B-relationship_type O O O O B-budget_amount O
+O B-amenities_cost.relative B-amenities_type O O B-meal_description O
+O O O O O O O O O O B-budget_unit B-budget_amount
+O O O O O O O O
+O O O O
+O O O B-guest_rating O B-guest_rating
+O O B-meal_description B-amenities_cost.relative O O O O B-amenities_type O
+O O O O O O O O O O
+O B-trip_duration O O
+O O O O B-flight_class O O O O O O O O O O O O O O B-budget_unit B-budget_amount
+O
+O O O O O
+O
+O
+O O O O O O
+O
+O O O O O O O
+O O O O O O
+O B-passenger_number O O O
+O
+O O O O O O
+O O O
+O O O O O O O O
+O B-hotel_rating I-hotel_rating O O O O O
+O O O O O
+O O O O O O O O O O
+O O O O O
+O O O O O
+O O O
+O O O O O B-trip_inclusions B-hotel_rating I-hotel_rating O O
+O O B-amenities_type O O O O O O O
+O O O B-amenities_type O
+O O O O O O O
+O B-trip_inclusions O O B-flight_class I-flight_class O O
+O O O O O B-book O O
+O O O O B-flight_class O O
+O
+O O O O O O O O O O
+O
+O B-apology O O O O O
+O O O O O O O
+O O O O O O O O O O
+O O O
+O O O O O O
+O O O O
+O O O O O O
+O O O O O O O O O O
+O O O O O O O
+O O B-place B-distance_relative O B-amenities_cost.relative B-meal_description B-amenities_type O B-amenities_type B-trip_relative O
+O B-trip_duration I-trip_duration O
+O
+O O O O B-budget_amount O O
+O O O O B-confirmation_type O O O O O O
+O O
+B-passenger_number B-passenger_type O
+O O O O
+O B-passenger_number B-passenger_type
+O O O O O O O
+O O O O O O O O B-day_relative O O O O
+O O O O O
+O O B-budget_amount O O O O O O
+O O O
+O O O O O O O
+O B-flight_class O O O O
+O O O O O O
+O O O O
+O O O O
+O O O O O
+O O O O O O O
+O
+O O O O O O O O O
+O O O O
+O O O O O O O B-distance_relative
+O B-trip_inclusions O O O
+O B-hotel_rating I-hotel_rating B-hotel O B-place O O O B-distance_relative
+O O O
+O O O
+O O O O O B-book O O O
+O
+B-today_relative O O O O O
+O O O B-apology O
+O O O O O O
+O
+O O O O O
+O O O O O O O
+O B-passenger_type
+O O O O O
+O O O B-book O O
+O
+O O O B-book O O
+O O O
+O O O O
+O O O O
+O O
+O O O
+O B-amenities_type B-meal_description O B-amenities_type B-trip_inclusions O O O O O B-place O O B-place B-distance_relative O
+O O B-trip_inclusions B-trip_duration O B-trip_duration O O O
+O O O
+O O O O B-trip_duration O B-trip_inclusions B-book O
+O O O O O O O O O
+O O O O O O O
+O O O O O O
+O B-day_relative B-time_description O O O O B-confirmation_type O
+O O O O
+O
+O B-trip_duration O B-occasion_type O
+O O O O O
+O
+O O O O O O
+O
+O O O O O
+O O O O O O O O
+O O O
+O B-distance_relative B-hotel_rating O O B-amenities_cost.relative B-meal_description O B-amenities_type O
+O O O
+O O O
+O O O O O O O
+O O O O O B-distance_relative O O O B-amenities_cost.relative B-meal_description B-amenities_type O B-amenities_type O
+O O
+O O O O O O O
+O B-flight_class I-flight_class O O
+O O O B-trip_duration I-trip_duration O O O O O
+O O O O
+O O O O O O
+O O O O O O
+O O
+O
+O O O
+O O B-place O B-place B-distance_relative O B-amenities_cost.relative B-meal_description O B-amenities_type O
+O
+O O O O B-flight_class I-flight_class O O
+O B-flight_class O O O B-budget_amount O O O O O O
+O B-book
+O O O O
+O
+O O O O O O
+O
+O O O O B-passenger_number B-passenger_type O B-passenger_number O B-passenger_type O O
+O
+O O O O O O O O O O O
+O O
+O O O O
+O O O O
+O O O O O O O
+O
+O O O O B-relationship_type O O B-hotel_name O O O O B-day_relative O O O O
+O O B-passenger_number O O B-passenger_number B-passenger_type O
+O O O O O O O O O
+O O B-relationship_type O O O O O O
+O O O O O O O O
+O O O O O O O O B-budget_amount O O O
+O O O O O O O O O O O
+O O O O O O
+O O O O O
+O O O B-budget_amount O O O O O O
+O O O O O O O O O O O
+O O O O O O
+O O O O O O O
+O O O O
+O O O
+O O O O O O O
+O O O O O O
+O O O O O O O O
+O O O B-trip_inclusions O
+O O O O O O
+O O O O O O
+O O O O O O O O
+O O O O O O
+O O O
+O O B-option O O B-relationship_type O O O O O O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O
+B-city_name O O
+O O
+O B-passenger_type
+O O O O O
+O O O
+O O O O
+O O B-trip_duration O
+O O O O O B-book O O
+O O O O O O O O O O B-book O O O
+O O O O O O O O
+O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O
+O O B-passenger_number B-passenger_type O O O B-book O O O
+O O O O O O
+O O O O O O B-budget_amount O
+O O O O O O O
+O O B-amenities_type O B-amenities_cost.relative B-amenities_type O O O B-place B-distance_relative O
+O
+O O O O O O O
+O O O O O
+O O O O O O O O
+O O
+O O O O
+B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O
+O O O O O B-trip_inclusions O O
+O B-flight_class O O
+O O O O O O
+O O O O O O B-book O
+O B-budget_amount O O O
+O
+O O O O
+O O O O O O O O O O O O O O
+O O O O O O
+O O O O O
+O O O O
+O B-passenger_type
+O O B-trip_duration O B-trip_duration I-trip_duration O O O O O O
+O O O O O O B-budget_amount O O
+O O O O
+O O O O O O O O O O O
+O O O O
+O O O O O O O
+O O O O O O
+O O B-trip_inclusions O O O O
+O O O O O O O O O O B-transport_type O
+O O O B-time_description O
+O O O O
+O O O O
+O B-transport_type O
+O O O
+O O O O
+O O O O B-book O
+O
+O O O O O
+O O O
+O O O O O O O O O O O
+O O O O O O O O O
+O
+O
+O O O O
+O
+O O
+O B-number O O O B-hotel_rating O O O O O O
+O O O O O O
+O
+O O O O O B-hotel_rating I-hotel_rating O O
+O O O O O O O
+O O O O O O O O
+O O O O O
+O B-number O B-person_type O O O O O
+O O O B-passenger_number B-passenger_type
+O O O O O
+O B-budget_unit B-budget_amount O O O
+O B-amenities_type B-meal_description O B-amenities_type O
+O O B-trip_inclusions O O
+O O O O
+O O O O O O O
+O O O O O O O O O B-activity
+O O O O O O
+O O O O O O O O O O O
+O O O
+O O O O B-budget_unit B-budget_amount O O O
+O O O O O O O O O O
+O O O O O O O O O
+O O O O O O O O O
+O O B-confirmation_type O O
+O O O O
+O O
+O O O
+O B-place B-amenities_cost.relative B-meal_description O B-amenities_type B-distance_relative B-hotel_rating O
+O O O O O O
+O O B-trip_duration O B-trip_inclusions
+O O O
+B-hotel_rating I-hotel_rating O O O
+O O O O O O O
+O O O B-book O
+O O O O O B-apology
+O O O O
+O O
+B-passenger_number
+O O O O O O
+O O O O O O B-hotel_rating I-hotel_rating O O O
+O O O O O O O
+O O O B-flight_class O O O O O
+O O O O O
+B-trip_duration.day_number B-trip_duration.month_name O O O O O
+O
+O O O O
+O B-budget_amount O
+O O O O O O O O O
+O O O O O O O O
+O O O O
+O O B-trip_duration B-trip_duration O B-trip_duration O O O O
+B-trip_duration
+O B-hotel_rating I-hotel_rating B-hotel O O O
+O O B-book O
+O O O O
+O
+O O O O O O
+O O O O O
+O O O O
+O O O O O
+O O O O
+O O O O
+O O O
+O O O
+O O O O O O O O
+O O
+O O O O O O
+O O O
+O O O O O O
+O B-amenities_type B-meal_description O B-amenities_type O O O
+O O O O O O O
+O O O O O
+O O O O O O O O
+O O B-hotel_rating I-hotel_rating B-hotel O O O O O O O O O O O O
+O O O B-book O O
+O O O O O
+O O O B-hotel_rating O O
+O O
+O O O O
+O O O O B-place O
+O O O O
+O O O O
+O O O O O O B-day_relative B-time_description O O O B-confirmation_type O
+O O O
+O O
+O O O O O O
+O B-passenger_type O O B-budget_amount O
+O O
+O O B-from_loc.city_name O O O
+O O O
+O O O B-to_loc.city_name O O
+O O O O O O O
+O O O O O O B-to_loc.city_name O O
+O O B-apology O O O
+O O O O O O O O O O O
+O O O O B-passenger_number B-passenger_type O O O O O O O
+O O O O O O O O O O O
+O O B-passenger_number B-passenger_type O B-budget_amount O O O O
+O O O O O O
+O O O O O O O
+O O O O O O B-occasion_type O B-relationship_type O O O O O O O B-trip_duration O O B-budget_amount O O O O O
+B-passenger_number B-passenger_type O
+O O O O O O O O
+O O O O O O O
+B-hotel_rating I-hotel_rating B-hotel O O O O
+B-guest_rating
+O O O O O O O O O
+O B-place O
+O O O O O O O O O
+O B-amenities_type O O O
+O O O O O B-trip_relative O O O O O O O
+O O B-hotel_rating I-hotel_rating O O O
+O O O O O O O
+O O O O B-hotel_rating I-hotel_rating B-hotel O
+O B-trip_inclusions O O O O O O
+O O O
+O O O O O O O O O O O B-book O
+O B-trip_inclusions O
+O O O O O
+O O O O O O
+O O O O
+O O O O O O
+O O O O
+O O O O
+O O O O O O O O
+O O
+O O O O O
+O O O B-place O B-place O O B-place B-distance_relative O B-hotel_rating I-hotel_rating B-hotel O
+B-trip_inclusions B-trip_duration O O O B-amenities_cost.relative B-meal_description O B-amenities_type O
+B-hotel_rating O O O O O
+B-hotel_rating O O O O O
+O O O O O O O O
+O O O O B-hotel_rating I-hotel_rating B-hotel O O O
+O O O O B-trip_inclusions O O
+O O
+O O O O O
+O O O O B-book O O
+O O O O
+O O
+O O O
+O O O O O O O O O O O
+O O O B-passenger_number O O O O
+O O O O O
+O O O O O O O O O O O
+O O O O O O
+O O O O O O O
+O
+O O O O O
+O O O O B-budget_amount O
+O O O O
+B-trip_duration O O
+O O B-meal_description B-amenities_type O O B-amenities_type O B-trip_inclusions O B-budget_unit B-budget_amount B-trip_relative O O
+O O O O O O O O
+O O O O O
+B-hotel_rating O O O
+O O O
+B-hotel_rating I-hotel_rating B-hotel O O
+O O O O O O O O O
+O O O
+O O O B-distance_relative O B-place O O O O O O
+O O B-guest_rating
+O O O O O B-book O O
+O B-flight_class O O O O O O O O O
+O O B-budget_amount O O
+O O O O O O
+O O O O O O
+O O
+O O O
+O O O O O O O O O O O O
+O O O
+O O O O O O O O O
+O O O O O
+O O B-distance_relative O O O O B-place O
+O O O O O O O O B-amenities_type O O O O O
+O O O O O O O O O O B-flight_class O O O B-book
+O O O O O O O O O O
+O
+O O O O O O O O O
+O O O O O O O O O
+O O O B-trip_duration.day_number O O B-trip_duration.day_number O O O
+O O O O O
+O O B-cost_relative
+O O O O
+O O O
+O O B-option O
+O O O O O
+O O B-flight_class O O O O O O
+O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O B-flight_class I-flight_class B-option O
+O O
+O B-budget_amount O O O O
+O O O O O
+O O O O O O
+O O O O O
+B-flight_class I-flight_class O O O O O
+O O O O O O
+O O O
+O O
+O B-budget_amount O O O B-person_type O O
+O O O O B-place O B-place O O B-distance_relative O O
+O O O O O
+O O O O O O O O
+O B-place B-distance_relative O O
+O O O O O O B-place B-distance_relative O O O
+O O O B-place O B-place B-distance_relative O
+O O O O O O
+O O O O
+O O O
+O O B-return_date.day_number O O
+O O B-budget_amount O
+O O O O O O B-book O
+O O O O O O O O
+O O O O
+O O O O
+O O O
+O O
+O O O O
+O O O O O O O O O O
+O O O O O
+O O O O O O O
+O O O O
+B-hotel_rating I-hotel_rating O O O
+O
+O B-trip_duration O O O
+O O
+O B-book O O
+O O O O O O
+O O B-trip_inclusions O O O O O
+O
+O O O O
+O O B-budget_amount O O O B-person_type O O O
+O B-hotel_rating O O O B-place B-distance_relative
+O O B-amenities_type O O
+O O O O O
+O O O O O O O O
+O O O
+O O O O O O
+O O O B-place O O B-place B-distance_relative O
+O O O B-place
+O O O O O O O O
+O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O
+O O B-place O B-place B-distance_relative
+O O O O B-distance_relative
+O O O O B-place O B-place B-distance_relative O
+O O O O B-distance_relative
+O O O O O O O O B-place O B-place B-distance_relative O O
+O O O O B-distance_relative
+O O O
+O O O
+O O
+O O O O O O O O O
+O O O O O O O O
+O O O O O O O O O
+O O O O O O O O
+O B-trip_duration.day_number O O B-trip_duration.day_number O O O O O O O O O O O O O O O
+O O O
+O O O O O O O O O O O O O O
+O O O O
+O O O O
+O O O O O O O
+O O O B-place O B-place O O O
+O O O O O
+O O O O O O
+B-flight_class O O O O O O O
+O O O O O O
+O O B-passenger_number O O O O
+O O O O O O
+O O O
+O O O O
+B-day_relative O O O O B-confirmation_type O O
+O O O O
+O O O
+O O O O O O
+O O O O O O
+O O O O O
+O O O O O O B-place O O O O O O B-distance_relative
+B-place O
+O O O B-book O
+O O O O O
+O O O O
+O B-trip_duration O B-occasion_type O
+O
+O O O O O O O O O O O O O O O O O
+O O O O O O
+B-hotel_rating O O O O O O O
+B-trip_inclusions O O
+B-trip_duration
+O O O B-trip_inclusions O O O O O
+O O O B-place B-distance_relative O B-hotel_rating I-hotel_rating B-hotel
+O O B-meal_description O B-amenities_type O O O O O O O O O O O O
+O O O B-trip_inclusions O O
+O O O O O O O
+O O O O
+O O B-flight_class O
+O O O O B-budget_amount O O O
+O O O B-book O
+O O O O
+O
+O O O O O
+O O O O O
+O O O O
+O O O O O
+O O O O O O
+O O O
+B-time_relative O O O O
+O O O O B-place O O B-place O
+O O
+O O O O
+O B-flight_class I-flight_class
+O O O O O O O O O
+O
+O O O O O O
+B-passenger_number O O B-passenger_number B-passenger_type
+O O O O O B-number O O O
+O B-hotel_rating O O O B-place O O B-hotel_rating I-hotel_rating O O O O B-distance_relative
+O O O O O O O O
+O O B-trip_inclusions O O O O
+O O O O B-trip_inclusions O O
+O O O O O O O O O B-place B-distance_relative O
+O O O O B-budget_amount O O O O
+O O B-confirmation_type O O O O O
+O O O O
+O
+O O
+O
+O O O
+O B-passenger_type
+O O O
+O O O O B-distance_relative O
+O O O O O O O O O
+O B-budget_amount O B-trip_inclusions B-book O O O O O O
+O
+O O O O O O
+O B-passenger_number.relative
+O
+O O O O
+O O O O O
+O O O B-budget_amount O O O O
+O O O
+O O O O O
+O O O
+O O O O
+O O O O O O O O O O O O O O B-trip_inclusions O O
+O O O O O O O O
+O O O O
+O O O
+O O B-budget_unit B-budget_amount O O O O O O O O O O
+O
+O O O O O O
+O O O O O
+O B-flight_class I-flight_class O O O O
+O O O B-trip_inclusions O O O O
+O O O O O
+O
+O O O
+O O
+O O O O O O O O
+O O O
+O O O B-passenger_number O O O O O
+O O O O O O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O B-budget_amount O
+O B-apology O O
+O B-budget_amount O O O O O O
+O O O O O O O O O O O B-distance_relative
+O B-amenities_type B-trip_relative O O O O O O O O O B-amenities_cost.relative O O O O
+O O O O O O
+O O O
+O O O O O O
+O B-flight_class I-flight_class O O
+B-budget_amount O
+O B-flight_class O O
+O O O O O B-confirmation_type O O O
+O O O
+O
+O O O
+O O O O O
+O O O O
+O O O O O
+O O O
+O O O O O O O O O O O O O B-passenger_type O
+O O
+O B-amenities_cost.relative B-trip_duration.day_number O B-trip_duration.day_number O
+O O O
+O O O O O O B-place O O O B-distance_relative O O
+O O O O O
+O O O O B-hotel_rating O O O
+O O B-hotel_rating I-hotel_rating O O O O O O O
+O O O O O O
+O O O O O O
+O
+O B-apology
+O O O O O O O
+O O O O O O
+O O B-trip_duration O O O O
+O O B-flight_class O O O
+O O O
+O
+O B-hotel_rating I-hotel_rating O
+O O O O
+O
+O O O B-hotel_rating O O
+O O O B-occasion_type O O B-hotel_rating I-hotel_rating B-hotel O O O O
+O O O O O O O O O O B-hotel_rating I-hotel_rating O O O O
+O B-budget_amount O
+O O O O O O O O O
+O O O O O O
+O O O O O O O O O
+O O O O O O O
+O O O O O O O O
+O O O O B-book O
+O
+O O O
+O O O O O O O B-flight_class O O O
+O O O O O O O B-confirmation_type O
+O O O O O O O
+O O
+O B-trip_inclusions O B-amenities_type O
+O O O O O O O O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O
+O O B-passenger_number O
+O O O B-hotel_rating I-hotel_rating O O
+O O B-hotel_rating O O O
+O O O O O
+O O O
+O O O O O O O
+O O O O O O O O O
+O O O O O O O O
+O B-hotel_rating I-hotel_rating B-hotel O B-place B-distance_relative O O O O B-guest_rating I-guest_rating O O
+O O O O O O O O
+O B-hotel_rating I-hotel_rating B-hotel O B-place B-distance_relative O O O O B-guest_rating I-guest_rating O O
+O B-trip_duration O B-trip_inclusions B-amenities_cost.relative B-meal_description O O B-amenities_type O
+O O O O O O O
+O B-trip_inclusions O O
+O B-trip_inclusions O O
+O O O O O O
+O O B-trip_inclusions B-book O O
+O O O O O O O O O O O O O
+O
+O O O O O O
+O O O O B-passenger_number O O O
+O O O
+O O
+O O O O O O O
+O O O O O O
+O O O O O O
+O
+O O O O O
+O
+O O O O O
+O
+O O O O O
+O
+O O O O O O
+O O O O O O O O
+B-budget_amount O
+O O O O O B-transport_type
+O
+O O O O O
+O B-trip_duration B-trip_duration O B-trip_duration I-trip_duration O O
+B-trip_duration
+O O
+O O O O B-book O O
+O O O B-book O O O O O O O O
+O O O
+O O O O
+O O O O O
+O B-passenger_type
+O B-passenger_number O O O O B-passenger_number B-passenger_type O O
+O O O O O O O O O O O B-budget_amount O O
+O O O O O B-trip_inclusions O O O O O O O O O O O O O O O O
+O B-number O O O B-hotel_rating O O O O O O O O O O
+O O O B-distance_relative O
+O B-passenger_type O O O O B-amenities_type O
+O O B-amenities_cost.relative B-amenities_type O
+O O O O O
+O O O O O
+O O O O O B-book
+O O O O O O O B-book O O O O
+O O O
+O O B-budget_amount O O O O O
+O O O O O O
+O
+O O O O O O
+O O O O O O O O
+O O B-passenger_type
+O O O O O B-trip.duration_relative O O
+O O O
+O B-flight_class O O O O O B-book
+O B-trip_inclusions O O O O
+O O O B-trip_inclusions O O O O B-confirmation_type O
+O O O O
+O
+O O O O O O
+O O O O O O
+O O O
+O O O O O O
+O O O
+O O O O O O O O O O O B-budget_amount O O O
+O O O B-trip_inclusions O O O B-budget_amount O O O O
+O O O O O O O O
+O O O O O O
+O O
+O O O O O O O O
+O B-passenger O O O O O O O
+B-passenger_number O O
+O O O O O
+O
+O O O O O O O O O
+O O O B-hotel_rating O
+O O B-trip_inclusions O
+O O O O O O
+O O O
+O O O O
+O O O
+O O O O O O O B-amenities_cost.relative B-amenities_type O O B-amenities_type O
+O O O O O O O
+O O O B-amenities_type O
+O O O O O O O O O O O O O O
+O
+O O O O O O O O
+O O O O
+O O O O O O
+O O O B-budget_amount O
+O O O O O
+O O O B-relationship_type O O O
+O O O O O
+O O O B-trip_inclusions B-book O
+O B-trip_inclusions O O O O
+O O O
+O
+O O O O
+O O O O O
+O O O O O O
+B-passenger_number B-passenger_type O O B-passenger_number O O
+O O O O O O O O
+O B-budget_amount O O O O O O O O O O O O O
+O O B-amenities_cost.relative B-amenities_type O O B-meal_description O O
+O O O O O O
+O O O O O
+O O O
+O O O O O O O O O O
+O B-amenities_cost.relative B-amenities_type O O B-amenities_type O
+O O O O O O O
+O O O B-hotel_rating O O O
+B-flight_class O O
+O O
+O O B-budget_amount O O
+O O O O B-book
+O O O O O O B-confirmation_type O O O O O
+O
+O B-passenger_number O O B-passenger_number B-passenger_type O
+O O O O O
+B-budget_amount
+O O O
+O O O O
+O O O O O O O O O B-hotel_rating I-hotel_rating B-hotel O O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O O
+O B-book O O
+O O O O O O O B-book O O
+O O B-trip_inclusions O O O O
+O B-trip_inclusions O O O O B-confirmation_type O
+O
+O O O
+O O O
+O O O
+O O O O O O O O O
+O O B-passenger_number.relative O
+O
+O O O O
+B-place O
+O O O
+B-amenities_cost.relative B-amenities_type O O B-amenities_type
+O B-flight_class O O O
+O O B-book O O
+O O O O O O O
+O O O O
+O O O O
+O
+O O O O O O
+O O O O O
+O O B-book O O
+O O O O O O O
+O O O O
+O O O O O O O O B-hotel_rating I-hotel_rating B-hotel B-hotel_name B-amenities_cost.relative B-amenities_type B-amenities_type O O O O B-meal_description O
+O O O O O O
+O O O O O
+O
+O O O O O O O O O O
+O O O O O O
+O O B-passenger_number
+O O B-book O O
+O O B-book O
+O O B-trip_inclusions O O O O O O
+O
+O O O O O O O
+O O O O O
+O O O O O O O O O
+O O O B-return_date.day_number O O O O O O
+B-hotel_rating O O O O
+O O O O O O O
+O O O
+O O O B-hotel_rating I-hotel_rating O
+O O B-place O B-hotel_rating I-hotel_rating O
+O O B-flight_class O O O O O
+O O B-passenger_number B-passenger_type O O O B-budget_amount O O
+O O O B-trip_inclusions O B-confirmation_type O B-book O
+O O O
+O O O O O O O O O O
+O O O O O O
+O O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O
+B-budget_amount O B-passenger_number O O B-passenger_number B-passenger_type
+B-trip_duration
+O B-trip_duration O B-trip_inclusions O O B-hotel_rating I-hotel_rating B-hotel O O B-amenities_cost.relative B-meal_description O B-amenities_type O O O O O
+O B-book O O
+O
+O O B-occasion_type O O O
+O
+O O O O O
+O B-trip_duration O B-occasion_type O
+O O O O O O O O O O
+O O O O O O O O O O
+O
+O O O O O
+B-trip_duration
+O O O O O
+O O O O O
+O O B-place O O O O O O B-hotel_rating I-hotel_rating B-hotel
+O O O O O O O
+O O O O
+O O O O
+O O O B-budget_amount O B-flight_class O B-budget_amount O
+O B-amenities_type B-meal_description O B-amenities_type B-trip_relative O O
+O B-book O O
+O O O O O O O O O
+O B-distance_relative O
+O O B-place
+O B-flight_class O O B-book O O
+O O O B-flight_class
+O O O O O O O O
+O O
+O O O O
+O O O O O O O
+O
+O O O O O O
+B-budget_amount O O O O O B-hotel_rating I-hotel_rating O O
+O O O O O
+O O O O
+O
+O O O O
+O O
+O O O O O O O
+O
+O O O
+O O O O O O O O O O O O O O O O O O
+O O O O
+B-hotel_rating I-hotel_rating B-hotel O O O O
+O O O B-hotel_rating O O O O B-place O O B-place B-distance_relative
+O O O
+O B-amenities_cost.relative B-amenities_type B-amenities_type O B-meal_description O
+O O O O O O O O O
+O B-hotel_rating I-hotel_rating O O O
+O B-amenities_cost.relative B-amenities_type O B-amenities_type O O
+O O O
+O B-hotel_rating I-hotel_rating O B-trip_inclusions O O O O O
+O O B-place B-distance_relative O B-amenities_cost.relative B-amenities_type O
+O O O
+O O O
+O O O B-trip_inclusions O B-book O O
+O
+O O O B-budget_amount O O
+O O B-book
+O O O O O O O O O O
+O
+O O O O O O O O
+O O O O
+O O O O O O O O
+O O O O
+O O O O O O O
+O O O O O
+O O O O O O O O O
+O B-trip_inclusions B-amenities_cost.relative B-amenities_type B-amenities_type O B-meal_description O O O
+O O O
+B-place O B-place O
+O O O O O O
+O O O O B-book O O
+O O O O O O O O O
+O O O O
+O O O O O O
+O O O O O O
+O O O O O O O O O
+B-passenger_number O
+O O O O B-hotel_rating I-hotel_rating O B-trip_duration O O O
+O O O O
+O B-amenities_cost.relative B-amenities_type O O B-amenities_type O B-place B-distance_relative O O
+O O O O O O O O
+O B-hotel_rating I-hotel_rating O O O
+O O O
+O O O
+O
+B-budget_amount O
+O O O
+O O O O O O O B-passenger_number.relative O
+O B-passenger_number.relative O O O B-budget_amount O
+O B-amenities_cost.relative B-meal_description O B-amenities_type O
+O B-book O O
+O O O
+B-book O O
+O O O O O O O O O
+O O O
+O O O O O O O O O
+O O B-hotel_rating I-hotel_rating B-hotel O O B-place B-distance_relative O B-amenities_cost.relative B-amenities_type O
+O O
+O O O O O O O O
+B-flight_class O O O
+O O O
+O
+O O O O O O O O
+O
+O B-today_relative O O O O O O
+O B-budget_amount O
+O O O O O O
+O O B-book O O
+O O O O O O O O
+O O O O O O O O
+O O O O O O O O O O O
+O O B-hotel_rating I-hotel_rating B-hotel O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O
+O O O O O O
+O O O B-distance_relative
+O O O B-place O O O O O O
+O O O B-trip_inclusions O O I-flight_class O
+O O
+O O O O O O O O
+O
+O O O O O B-trip_duration.day_number O B-trip_duration.day_number
+O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O
+O O O O O O O O O
+O O O O O
+O O O
+O O O O
+O O O O O O O
+O O O O
+O O O O
+O O O O O O O O O O O O O O
+O O O O O O B-amenities_type B-amenities_type O B-meal_description O O
+O O O O O O O O
+O O O O
+O O O O O O O B-book O
+O O O
+O
+O O O O O O
+O O O O O O O
+O O O O O O O O O
+O O O O O O O O
+O O O O B-distance_relative
+O O B-place O B-place B-distance_relative
+O O O O
+O O O O O O O O O O
+O O O O
+B-guest_rating O B-guest_rating O
+O O O O O O B-place O B-place O O O O O O
+O O O O O O O O O
+O B-amenities_cost.relative B-meal_description B-amenities_type O B-amenities_type O
+O O B-book O O
+O O O B-passenger_type O I-flight_class O B-flight_class O
+B-passenger_number B-passenger_type O O B-flight_class O
+O O O B-book
+O O O O O O O
+O O O
+O
+O O O O O O O O O O O
+O O O O O O B-trip_inclusions O
+O O O O
+B-trip_duration O B-trip_inclusions O O O O
+O B-book O O
+O
+O O B-trip_inclusions O O O O O O O O O B-confirmation_type O O O O
+O
+O O O O O O O O O O O
+O O O O O O O O O O O B-book O O O O O O O
+O O O O O O O
+O O O O O O O O
+O O O O O O O
+O O O O O O O
+B-trip_duration O
+O O O O O
+O O O O O O O O
+O O O O O
+O O O O O O
+O O B-place B-distance_relative O O O B-hotel_rating I-hotel_rating B-hotel O O
+O O O
+O O O
+O O O O O O O
+O O B-distance_relative
+O B-place
+O O O O O O O O O O O O O O
+O O O O
+B-trip_inclusions O O O O
+O B-amenities_type O B-meal_description O B-amenities_cost.relative O O O B-trip_inclusions B-trip_relative O O
+O O O O O O
+O O O O O O O O
+O O O O O
+O O O
+O O O O
+O O B-trip_duration O O O O
+O O O B-book O O
+O O B-trip_duration O O
+O O B-day_relative I-trip_duration O B-trip_duration O B-trip_inclusions O
+O O O B-trip_duration O B-trip_inclusions O O O O O
+O O O O O O O
+O O O O O O O B-day_relative O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O O
+O O O O O O O O O O
+O O O O O
+O O O B-passenger O O O O O
+O B-passenger_type
+O O O O O
+O O O O O O O O
+O
+O O O O O
+O O O O
+O
+O O O O O
+O
+O B-budget_amount O O O O
+O O
+O O O O O O O
+O O O O
+O O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
+O O O
+O O B-trip_inclusions O O
+O O O O O O O O O O O O O B-confirmation_type O O
+O O
+O O O
+O O O B-passenger_number B-passenger_type O O O O O O O O O O O B-transport_type O O O
+O O B-passenger_number B-passenger_type O B-passenger_number O B-passenger_type O
+O
+O O O O O O
+O O O O
+O O O O O O O O O O O O O
+O O O O
+O O O B-passenger_type O O O O O
+O O O O O O
+O O O O O O
+O O O O B-trip_inclusions B-trip_duration O
+O O O O
+O O O O O O O
+O O O B-budget_amount O B-flight_class O
+O B-flight_class O O B-passenger_type O O O O
+O O B-trip_inclusions O O O O O B-day_relative B-time_description O O O O B-confirmation_type O O O O O O O
+O
+O O O O O O
+O O O O
+O O O O O O
+O O O
+O O O O O O
+O
+O O O O
+O B-passenger_number.relative O O
+O O B-passenger_type
+O O O O O O
+O
+O O O O O O
+O B-amenities_cost.relative B-amenities_type O B-amenities_type O O O O B-guest_rating I-guest_rating O O
+O O O O O O B-trip_duration I-trip_duration B-trip_inclusions O
+O
+O O O O O O
+O
+O O O
+O O O O
+O O O O O
+O O O O O B-cost_relative O O O O
+O O O O O O
+O B-budget_amount O
+O O O O O
+O O O O O O O O O O O O
+O O O B-passenger O O O O O
+O O O O O B-relationship_type O O
+O O O O
+O O O O O O O O O O O O
+B-budget_amount O O O
+O O O O O O O
+O O O O O O O O O O B-flight_class O O O O
+B-flight_class O B-budget_amount O O O B-budget_amount
+O O O O
+O O O O O O O O O O O
+O O
+O O O O O
+O O O O
+O
+O B-passenger_number O O B-passenger_number B-passenger_type O
+O O O O O O O O
+O O O O O O O O O O O O O O O O
+O O O O O O O
+O O O O O O O O O O O O
+O
+O O O
+O O O O O O
+O
+O B-passenger_number.relative O O O
+O O O O O O B-hotel_name
+O B-passenger_number O O
+O O O O O O O O O O O O
+O O O O O O O
+O O O O
+B-apology O
+O O O O O O O O O O O O
+O O O O O O B-apology O O O O O
+O O
+O O O O
+O
+O O O O O O O O O O
+O O O
+O O O O O O O
+O O B-passenger_type
+O O O O O O O
+O O O O O
+O O O O O O O O O O
+O O O O O B-hotel_rating I-hotel_rating B-hotel B-trip_duration O B-trip_inclusions O
+O O O B-option O O
+O O O O O O
+O O O O
+O O O O O O O
+O O
+O O
+O O O O O O O O O O
+O O O O
+O O O O O O O
+O B-apology O O O O O O O
+O O O O O O O O O O O O O O O O O
+O B-apology O O O O O O
+O O O O O O O O O O O O O O B-trip_inclusions O O O O O O O O O
+O O O O O O
+O O O O
+O B-budget_amount O O O O O O
+O O O O O O O
+O B-trip_duration O B-trip_inclusions O O
+O O O O
+O O O O B-hotel_rating I-hotel_rating B-hotel O O B-place B-distance_relative
+O O
+O O O
+O O O O O
+O O O O B-trip_inclusions O O
+O O O O O O
+O O
+O O O O O O O O O O
+O O O O O O
+O O O O O O O O O O O
+O O B-relationship_type O O O
+O O O O
+O O O O O O
+O O O B-distance_relative O O O O O O B-place O O B-place O O B-amenities_cost.relative B-amenities_type O B-amenities_type O
+O O O O
+O O O O O
+O O O O O
+O O O O O O O O O O
+O O O B-confirmation_type O O
+O
+O B-passenger_type O O O O O
+O O O O O O O
+O O O B-passenger_number O O
+O O O O O O O O O
+O O O O O O O O O O
+O O O O O O O
+O O O O
+O O O O O O O O
+O O O O O O O
+O O O B-book O O O O
+O O O O O
+O O O O O O O O
+O O O O O O
+O O O
+O
+O O O B-budget_amount O
+O O O O O
+O O O O O O O B-trip_inclusions O O O O
+O O O O
+O O B-trip_duration I-trip_duration B-trip_inclusions O O
+O O O O B-trip_inclusions O O
+O O O O O O B-book O
+O O O O B-book O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O O O O O O O O
+O O O O O
+O
+O
+O O O O O O B-relationship_type O O O O O B-relationship_type O O O O O O O B-budget_unit B-budget_amount O O O O
+O B-passenger O O O
+O O O O
+O O O O
+O O O O O O O
+O
+O O O O O
+O B-trip_duration.day_number O O O
+O O O O O O O
+O B-budget_amount O O
+O B-apology O O O
+O O B-budget_amount O O O O
+O O O O O
+O O
+O O O O
+O
+O O B-apology O O O O
+O O O O O O
+O O O O
+O O O O O O O O O
+O O O O O O
+B-passenger_number B-passenger_type B-passenger_number B-passenger_type
+O O O
+O O O O O O O O
+O O O O O O O O O O O O O B-amenities_cost.relative B-amenities_type O B-meal_description O O B-amenities_type O O
+O O O O O O O O O O O O O O O O O
+O O B-option O O O O
+O O O O O B-hotel_rating I-hotel_rating B-hotel O O O
+O O O O O O B-book O O
+O O O O
+O O O O O O O
+O
+O O
+O O O O O O
+O O O O O
+O O B-flight_class O
+O B-budget_amount O O
+O O O O O O O
+B-depart_date.day_number O B-depart_date.day_number
+B-passenger_number.relative O
+O O O O O B-passenger_type O O O O O O B-day_relative O O O O O O O B-budget_unit O O
+O O O O O O O O O O
+O O O O O O O O O O O O O O
+O O O O O B-passenger_number B-passenger_type O O O O O
+O O O O
+O O O O O O O
+O B-budget_amount O O O
+O O O O O O B-trip_inclusions O
+O
+O O O O O O B-trip_inclusions O
+O B-amenities_cost.relative B-meal_description O O B-amenities_type O
+O B-budget_unit B-budget_amount O
+O O O O
+O O O O O B-budget_amount O O O O O O O O O O O O O
+O O B-budget_amount O O O O O B-trip_inclusions O O
+O O O O O O O O O O O O O
+O O B-place O B-guest_rating I-guest_rating O O O B-place O B-distance_relative O B-hotel_rating I-hotel_rating B-hotel
+O B-amenities_type B-trip_relative O O
+O O O
+O O O O O O O O
+O O O O O B-confirmation_type O O O O O
+O O
+O O
+O O O O
+O O O O O O O O O O O O
+O O O B-transport_type O O O O O O O
+O O
+O
+O O O O
+B-budget_amount O O O O O O O O O
+O O O O O O O O O O O
+O O B-trip_duration.day_number O O O B-number O O O B-occasion_type O O
+B-passenger_number.relative O
+O O O O
+O O O O O O O O O O O O O O O O O O B-occasion_type B-option O O
+O O B-distance_relative O O O O
+O O O O O O
+O O O O O O O O O
+O O O B-book O
+O O
+O O O O O O O B-confirmation_type O
+O O O O O O O
+O
+O O O B-book O O B-day_relative O O O
+O O O O O O O O O O
+O O O O O O
+O B-trip_duration I-hotel_rating B-hotel B-hotel_rating O O O
+O O B-trip_duration.day_number O O B-trip_duration.day_number O
+O O O O O O O O
+O O O O O O O B-flight_class B-transport_type O O
+O O O O O O
+O O O B-flight_class O O O O O O O O
+O O O O O O O O O B-confirmation_type O O O O O
+O O O
+O O O O O O O
+O O O O O O O O O O
+O O O O O O
+O O O O O O O O O O
+O O O O O
+O O O O O O
+B-hotel_rating I-hotel_rating O O O O O
+O O O O O O
+O O O O O O O O O O O O
+O O O O O O O O
+O O O O O O
+O O O O B-confirmation_type O O O O O O
+O O
+O O
+O O O O O O O
+O
+O O O O
+B-budget_amount O
+O B-passenger O O O
+B-passenger_number.relative B-relationship_type O O O B-relationship_type
+O O O O O
+O O O O O
+O O O O O
+O O O O
+O
+O O O
+O O O O O O O O O O O O O O O O
+O O O O O O
+O
+O
+O O O O O O
+O O O O
+O O O O
+O
+O O O O O O
+O O O O O O
+O O O
+O O O O O O O O O O
+O O O O O
+O O O O O O O O O O O O O O
+O O O O O O
+O O O O O O O O O O O O O O O
+O O B-trip_inclusions O O B-book O
+O O O O O O O O B-budget_amount O O O O O
+O O O B-today_relative O O O O
+O O O O O O O O
+O O
+O O O O
+B-budget_amount
+O O O O O
+O O O O O O
+B-passenger_number.relative O
+O
+O B-number O O
+O O O O O O
+O O O B-order B-option O O O O
+O B-meal_description B-trip_relative
+O O
+O O O O O O O O O O
+O O O O O O
+O O O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O O O O O
+B-budget_amount O O O O O B-trip_inclusions O O
+O O O O O O O O O O O O
+O O O O O O
+O O O
+O O O O O
+O O O
+O O O O O O O O O O O
+B-passenger_type O O O O O B-place O O O O
+O O O O O O O O O O O
+O B-passenger_type B-amenities_cost.relative B-amenities_type O O O
+O O O O O O O O O O O
+O O O B-trip_inclusions B-budget_amount O O O O B-flight_class O O O
+O O O O O O O B-trip_inclusions O O
+O O O O O O B-book O
+O O O B-occasion_type O O O
+O
+O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O
+O O O O O O O O O O O O O
+O O O O O O O O O O O O O O O O
+O O O O O
+O O O O O
+O O O
+O O B-amenities_cost.relative B-amenities_type O B-meal_description O O O O O O B-amenities_cost.relative B-amenities_type O O
+O O O O O O O O
+O O O
+O O O
+O B-place O O B-place B-distance_relative O B-hotel_rating I-hotel_rating B-hotel
+O O O O O B-book O
+O O O O O O O O O O
+O O O O
+O O O O O O O O
+O O O
+O O O O O O O O O O O O
+O O
+O O O O O O O O O B-book
+O O
+O O
+O O O O O O O O
+B-date O O O O O O O O O O O O O O
+O O O O
+O O O O O
+O O O B-place
+O O O B-trip_duration I-trip_duration O O O O O O O O
+O B-amenities_cost.relative O O
+O O O O
+O O B-flight_class I-flight_class O O O O O O O
+O O O O
+B-flight_class O O B-budget_amount
+O O O O O O O O O O O
+O
+O O O O O
+O O O O O O O O O O O B-budget_amount O O
+O B-passenger_number.relative O O
+O O B-passenger_type
+O O O O O O
+O O O O O O
+O B-trip_relative O O
+O O B-amenities_type O B-amenities_cost.relative B-amenities_type O
+O O O O O
+O O B-budget_amount O O B-flight_class O O O O
+O O O
+O O O O O
+O O O O O O O O O O O O O O
+O O O O
+O O
+O O O O O
+O
+O O O O B-passenger_number.relative O O O
+O
+O O O O O
+O O B-budget_amount O O O O O
+O O O
+O O
+O O O O O O
+O
+O O O O O O O O O B-book O O
+O O O O O O
+O O O O
+B-budget_amount O O B-passenger_number
+O B-passenger_type
+O O B-relationship_type O O O O O O O B-number
+O O O O O O
+O B-book O O O O B-trip_duration O O O O O O O O O
+O O O
+O O O O O O O O O
+O O O O O
+O O O
+O
+O O O B-relationship_type O O O O O O O O O O O
+O
+O O O O O
+O
+O O O O
+O O O B-budget_amount O O O
+O O O O O
+O O O O O O
+O B-number O B-trip_duration O O O
+O B-budget_amount O O B-trip_duration O O O O O O O
+O B-amenities_cost.relative B-amenities_type B-meal_description O B-amenities_type O
+O O O O O O
+O O O O B-place O O O O
+O O O O
+O O O
+O O O B-book O O O O O O
+O O O
+O O O O O O O O O
+O O O O B-relationship_type O O
+O O O O O O
+O
+O O
+O O O O O O O
+O O O O O O
+O O O
+O
+O
+O O B-passenger_type O O O
+O O B-passenger_number
+O
+O O O O O O
+O O O
+O O O O O O O O
+O O O O O
+O O O O O O O O O O O O O O
+O O O O O O O O O O
+O O O O O O O O O O
+O O O O O O O O
+O O O
+O O O O
+O O O
+O O
+O O O O O B-budget_unit B-budget_amount
+O O O
+O O O O
+O O O O O O O
+O B-today_relative O O O
+O O O O O O O
+O
+O O O O
+O O O B-passenger_number.relative O O O
+O O O O O
+O O O O O O O O O O O O O
+O B-budget_amount O O O O
+O O O O
+O O O O O O
+O B-passenger_number O
+O
+B-budget_amount
+O O
+O
+O O O O O O O O O
+O O O O O
+O O O O O O O
+O O B-cost_relative O
+O O O O
+O B-cost_relative O O
+O B-cost_relative O O
+O O O O O O O
+O O O O
+O B-budget_unit B-budget_amount O O O
+O O O O O
+O O O O O O O O O B-book O
+O O O O O
+O O O O O O O O
+O O O O O
+O O O
+O
+O O O O
+O O O O
+O O O O O O O
+O O O O
+O O O
+B-guest_rating O B-trip_inclusions O
+O O O
+B-budget_amount O B-transport_type O O B-flight_class O O O B-budget_amount
+O O B-budget_amount O O O O O O O O O B-hotel_rating I-hotel_rating O O O
+O O
+O O B-trip_duration I-trip_duration B-trip_inclusions O O
+O O O
+O
+O O O O O O O O B-budget_amount O O O O
+O
+O O O O O O O O
+O
+B-passenger_number O O O O O O
+O B-passenger_type
+O B-passenger_number B-passenger_type
+O O O O O
+B-flight_class O O B-budget_amount O O O B-budget_amount
+O O O O O O O
+O O O O O O
+O O O O B-hotel_rating I-hotel_rating O O O B-hotel_name O O B-cost_relative
+O O O B-number O O B-budget_amount O O O
+O
+O O O O O O O O O O O
+O O O B-depart_time.time O
+O O B-passenger_type O O O
+O O O O O O O
+O O O O O O
+O O O O O O O O O O O O O B-confirmation_type O O O O O
+O O O O
+O O
+O O O O O B-relationship_type O O O O O O
+O O O B-trip_inclusions O O O O
+O O O O O
+O O O O O O O O
+O O O O
+O O O O O O O O O
+O O O O O O O
+O O O O B-book O O O
+O O O O O O O O O O O O O O O O O
+O O O O B-hotel_rating O B-hotel_rating I-hotel_rating B-hotel O
+O O O O O
+O O O O O O O
+O O B-trip_inclusions O O O O O
+O O O O B-flight_class O O O
+O O O O B-flight_class O O O O O O
+O O B-trip_inclusions O O O O O O O O O O
+O O O O O O
+O O O O O
+O O O O B-relationship_type O O O B-book O O O O O O O O
+O O O O O O
+O O O O O O O
+B-passenger_number O O B-passenger_number B-passenger_type O O
+O O O O O O O O
+O O O O O
+O O B-trip_duration.day_number O O B-trip_duration.day_number O
+O B-relationship_type O O B-budget_amount O
+O O O O O O O O O O I-flight_class
+O O O B-book O
+O O O
+O O O
+O
+O O

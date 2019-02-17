@@ -54,6 +54,37 @@ intents=intent_obj.read_intent('Trains_dataset','english')
 intent2id,id2intent=intent_obj.build_dict(intents)
 obj.save_dict(intent2id,'./datasets/Trains_dataset/english/','intent2id.npy')
 obj.save_dict(intent2id,'./datasets/Trains_dataset/english/','id2intent.npy')
+
+
+############hindi##############
+intents=intent_obj.read_intent('ATIS','hindi')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/ATIS/hindi/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/ATIS/hindi/','id2intent.npy')
+intents=intent_obj.read_intent('Frames_data','hindi')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/Frames_data/hindi/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/Frames_data/hindi/','id2intent.npy')
+intents=intent_obj.read_intent('Trains_dataset','hindi')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/Trains_dataset/hindi/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/Trains_dataset/hindi/','id2intent.npy')
+
+############## ben################
+
+intents=intent_obj.read_intent('ATIS','ben')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/ATIS/ben/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/ATIS/ben/','id2intent.npy')
+intents=intent_obj.read_intent('Frames_data','ben')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/Frames_data/ben/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/Frames_data/ben/','id2intent.npy')
+intents=intent_obj.read_intent('Trains_dataset','ben')
+intent2id,id2intent=intent_obj.build_dict(intents)
+obj.save_dict(intent2id,'./datasets/Trains_dataset/ben/','intent2id.npy')
+obj.save_dict(intent2id,'./datasets/Trains_dataset/ben/','id2intent.npy')
+del intent_obj
 ############end########################
 
 
@@ -71,7 +102,31 @@ obj.save_embedding(embd_char,'./embeddings/english/char/')
 
 ##### end ########
 
+#########building for hindi ############
+sent=obj.read_all('hindi')
+embd,embd_char,word2id,id2word,char2id,id2char=obj.dict_embed(sent,'cc.hi.300.vec',300,100)
+print('*** Saving hindi dictionary ***** ')
+obj.save_dict(word2id,'./dictionary/hindi/wordlevel/','word2id.npy')
+obj.save_dict(id2word,'./dictionary/hindi/wordlevel/','id2word.npy')    
+obj.save_dict(char2id,'./dictionary/hindi/charlevel/','char2id.npy')
+obj.save_dict(id2char,'./dictionary/hindi/charlevel/','id2char.npy')
+print('*** Saving English Embedding *****')
+obj.save_embedding(embd,'./embeddings/hindi/fasttext/')
+obj.save_embedding(embd_char,'./embeddings/hindi/char/')
 
+##### end ########
 
+#########building for ben ############
+sent=obj.read_all('ben')
+embd,embd_char,word2id,id2word,char2id,id2char=obj.dict_embed(sent,'cc.bn.300.vec',300,100)
+print('*** Saving ben dictionary ***** ')
+obj.save_dict(word2id,'./dictionary/ben/wordlevel/','word2id.npy')
+obj.save_dict(id2word,'./dictionary/ben/wordlevel/','id2word.npy')    
+obj.save_dict(char2id,'./dictionary/ben/charlevel/','char2id.npy')
+obj.save_dict(id2char,'./dictionary/ben/charlevel/','id2char.npy')
+print('*** Saving English Embedding *****')
+obj.save_embedding(embd,'./embeddings/ben/fasttext/')
+obj.save_embedding(embd_char,'./embeddings/ben/char/')
 
+##### end ########
 
