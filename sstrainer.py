@@ -40,8 +40,8 @@ class SStrainer:
         # char senetence encoding
         if self.char_level:
             obj=Charembedding()
-            self.train_char_X=obj.encode_sentence(self.char2id,self.train_X,18,90)
-            self.test_char_X=obj.encode_sentence(self.char2id,self.test_X,18,90)
+            self.train_char_X=obj.encode_sentence(self.char2id,self.train_X,25,90)
+            self.test_char_X=obj.encode_sentence(self.char2id,self.test_X,25,90)
         # word sentence encoding
         obj=EmbeddingDictionary()
         self.train_X=obj.encode_sequence(self.word2id,self.train_X,90)
@@ -57,9 +57,9 @@ class SStrainer:
     def run_model(self):
         if self.model_name=='HCNN':
             from models.single_language.single_task.HCNN import HCNN
-            obj=HCNN()
-            graph=obj.build_model(self.char_embedding,self.word_embedding,len(self.task2id),self.char_level)
-            loss,accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),300)              
+            obj=HCNN(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level)
+            graph=obj.build_model()
+            loss,accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),self.test_X,self.test_char_X,to_categorical(self.test_Y,len(self.task2id)),3)              
             test_acc,test_f1=obj.test_model(graph,self.test_X,self.test_char_X,self.test_Y)
             #writing results in ./result
             print("writing results in ./result")
@@ -72,6 +72,7 @@ class SStrainer:
             fp.writelines(str(test_f1)+'\n')
             fp.close()
 if __name__== "__main__":
+    print('***Single Language Single Task Trainer *********')
     dataset=input("Enter Dataset name ")
     language=input("Enter language ")
     task=input("Enter task name ")

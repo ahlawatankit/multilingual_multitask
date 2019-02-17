@@ -8,29 +8,27 @@ Created on Wed Jan 30 12:24:11 2019
 
 from support.modelsupport import ModelSupport
 import numpy as np
-from keras import regularizers
 from keras.models import Model
-from keras.layers import Dense, Input, Flatten, Dropout, concatenate, Concatenate,BatchNormalization,Activation
+from keras.layers import Dense, Input, Flatten, Dropout, concatenate,BatchNormalization,Activation
 from keras.layers import Conv1D, MaxPooling1D, Embedding, LSTM, add, TimeDistributed, Bidirectional, Lambda,Reshape
 from evaluate.modelevaluate import ModelEvaluate
 from tqdm import tqdm
-import math
 from keras.optimizers import Adam
 CharCNN_config=[[64,4],[64,5],[64,6]]
 wordCNN_config=[[256,3],[256,4],[256,5],[256,6]]
 UNIT1=64
 UNIT2=128
-optimizer = Adam(0.0002, 0.5)
+optimizer = Adam(lr=0.0001, beta_1=0.8, beta_2=0.8, epsilon=None, decay=0.9999, amsgrad=False)
 losses = 'categorical_crossentropy'
 class HCNN:
-    def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=18,config_charCNN=CharCNN_config,config_wordCNN=wordCNN_config):
+    def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,config_wordCNN=wordCNN_config):
         self.char_embedding=char_embedding
         self.word_embedding=word_embedding
         self.NUM_CLASS=NUM_CLASS
         self.CHAR_LEVEL=CHAR_LEVEL
         self.MAX_WORD=MAX_WORD
         self.MAX_CHAR_WORD=MAX_CHAR_WORD
-        self.config_CHARCNN=CharCNN_config
+        self.config_charCNN=CharCNN_config
         self.config_wordCNN=wordCNN_config
         self.dataset=dataset
         self.language=language
@@ -89,43 +87,71 @@ class HCNN:
             return graph
             
             
-    def train_model(self,graph,X_word,X_char,Y,epochs=50,batch_size=64):
-        _loss=[]
-        _accuracy=[]
-        for ep in tqdm(range(epochs)):
+    def train_model(self,graph,X_word,X_char,Y,X_word_test,X_char_test,Y_test,epochs=500,batch_size=64):
+        train_loss=[]
+        train_accuracy=[]
+        test_loss=[]
+        test_accuracy=[]
+        max_accuracy=0.0
+        for ep in range(epochs):
             kf=ModelSupport.get_minibatches_id('',X_word.shape[0],batch_size)
-            losses=0.0
-            accuracy=0.0
-            for bt,idx in kf:
+            batch_loss=0.0
+            batch_accuracy=0.0
+            batch_count=0
+            for bt,idx in tqdm(kf):
                 if self.CHAR_LEVEL:
                     X_train_char=X_char[idx]
                 X_train_word=X_word[idx]
                 Y_train=Y[idx]
                 if self.CHAR_LEVEL:
-                    l,a=graph.train_on_batch([X_train_char,X_train_word],Y_train)
+                    loss,accuracy=graph.train_on_batch([X_train_char,X_train_word],Y_train)
                 else:
-                    l,a=graph.train_on_batch(X_train_word,Y_train)
-                losses=losses+l
-                accuracy=accuracy+a
-            batches=math.ceil(X_word.shape[0] // batch_size)
-            losses=losses/batches
-            accuracy=accuracy/batches
-            if(len(_accuracy)>0 and _accuracy[len(_accuracy)-1]< accuracy):
-                graph.save('./models/single_language/single_task/HCNN.h5')
-            print('loss after ',ep,'epochs is ',losses)
-            print('Training Acuracy ',accuracy)
-            _loss.append(losses)
-            _accuracy.append(accuracy)
-        return _loss,_accuracy
+                    loss,accuracy=graph.train_on_batch(X_train_word,Y_train)
+                batch_loss=batch_loss+loss
+                batch_accuracy=batch_accuracy+accuracy
+                batch_count=batch_count+1
+            batch_loss=batch_loss/batch_count
+            batch_accuracy=batch_accuracy/batch_count
+            if self.CHAR_LEVEL:
+                test_loss_a,test_accuracy_a=graph.test_on_batch([X_char_test,X_word_test],Y_test)
+            else:
+                test_loss_a,test_accuracy_a=graph.test_on_batch(X_word_test,Y_test)
+            print('Training loss ',batch_loss+'\n')
+            print('Training Accuracy ',batch_accuracy+'\n')
+            print('Test loss ',test_loss_a+'\n')
+            print('Test Accuracy ',test_accuracy_a+'\n')
+            
+            if(test_accuracy_a>max_accuracy):
+                max_accuracy=test_accuracy_a
+                self.save_model(graph)
+            train_loss.append(batch_loss)
+            train_accuracy.append(batch_accuracy)
+            test_loss.append(test_loss_a)
+            test_accuracy.append(test_accuracy_a)
+        return train_loss,train_accuracy,test_loss,test_accuracy
+    def save_model(self,model):
+         model_path = './models/single_language/single_task/'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HCNN.json'
+         weights_path = './models/single_language/single_task'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HCNN_weights.hdf5'
+         options = {"file_arch": model_path,"file_weight": weights_path}
+         json_string = model.to_json()
+         open(options['file_arch'], 'w').write(json_string)
+         model.save_weights(options['file_weight'])
+        
     def test_model(self,graph,X_word,X_char,Y):
         if self.CHAR_LEVEL:
             pred=graph.predict([X_char,X_word])
             pred=np.argmax(pred,axis=1)
-            return ModelEvaluate.accuracy('',Y,pred),ModelEvaluate.f1('',Y,pred)
+            if self.task=='intent':
+                return ModelEvaluate.accuracy('',Y,pred)
+            elif self.task=='slot':
+                return ModelEvaluate.f1('',Y,pred)
         else:
             pred=graph.predict(X_word)
             pred=np.argmax(pred,axis=1)
-            return ModelEvaluate.accuracy('',Y,pred),ModelEvaluate.f1('',Y,pred)
+            if self.task=='intent':
+                return ModelEvaluate.accuracy('',Y,pred)
+            elif self.task=='slot':
+                return ModelEvaluate.f1('',Y,pred)
             
         
         
