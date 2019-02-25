@@ -14,11 +14,11 @@ from keras.layers import Conv1D, MaxPooling1D, Embedding, LSTM, add, TimeDistrib
 from evaluate.modelevaluate import ModelEvaluate
 from tqdm import tqdm
 from keras.optimizers import Adam
-CharCNN_config=[[64,4],[64,5],[64,6]]
-wordCNN_config=[[256,3],[256,4],[256,5],[256,6]]
+CharCNN_config=[[32,4],[32,5],[32,6]]
+wordCNN_config=[[128,3],[128,4],[128,5],[128,6]]
 UNIT1=64
 UNIT2=128
-optimizer = Adam(lr=0.0001, beta_1=0.8, beta_2=0.8, epsilon=None, decay=0.9999, amsgrad=False)
+optimizer = Adam(lr=0.0001, beta_1=0.8, beta_2=0.8, epsilon=None, decay=0.00009, amsgrad=False)
 losses = 'categorical_crossentropy'
 class HCNN:
     def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,config_wordCNN=wordCNN_config):
@@ -49,7 +49,7 @@ class HCNN:
             char_out=TimeDistributed(Flatten())(char_con)
         #Word CNN implementation
         word_input = Input(shape=(self.MAX_WORD,), dtype='int32',name='words_input')
-        embed_word_out = Embedding(self.word_embedding.shape[0], self.word_embedding.shape[1], weights=[self.word_embedding],trainable=True, mask_zero = False)(word_input)
+        embed_word_out = Embedding(self.word_embedding.shape[0], self.word_embedding.shape[1], weights=[self.word_embedding],trainable=False, mask_zero = False)(word_input)
         if self.CHAR_LEVEL:
             embed_word_out=concatenate([char_out,embed_word_out],axis=-1)
         
@@ -74,7 +74,7 @@ class HCNN:
             graph.summary()
             return graph
         elif self.task=='slot':
-            slot_in=Reshape((self.MAX_WORD,512))(concat_in)
+            slot_in=Reshape((self.MAX_WORD,256))(concat_in)
             slot_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(slot_in)
             slot_out=Dropout(0.1)(slot_out)
             slot_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='slot_out')(slot_out)
@@ -87,18 +87,22 @@ class HCNN:
             return graph
             
             
-    def train_model(self,graph,X_word,X_char,Y,X_word_test,X_char_test,Y_test,epochs=500,batch_size=64):
+    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=32):
         train_loss=[]
         train_accuracy=[]
         test_loss=[]
         test_accuracy=[]
         max_accuracy=0.0
-        for ep in range(epochs):
+        for ep in tqdm(range(epochs)):
             kf=ModelSupport.get_minibatches_id('',X_word.shape[0],batch_size)
+            kf_test=ModelSupport.get_minibatches_id('',X_word_valid.shape[0],batch_size)
             batch_loss=0.0
             batch_accuracy=0.0
+            batch_test_loss=0.0
+            batch_test_accuracy=0.0
+            batch_test_count=0
             batch_count=0
-            for bt,idx in tqdm(kf):
+            for bt,idx in kf:
                 if self.CHAR_LEVEL:
                     X_train_char=X_char[idx]
                 X_train_word=X_word[idx]
@@ -110,28 +114,40 @@ class HCNN:
                 batch_loss=batch_loss+loss
                 batch_accuracy=batch_accuracy+accuracy
                 batch_count=batch_count+1
+                #print(batch_count)
             batch_loss=batch_loss/batch_count
             batch_accuracy=batch_accuracy/batch_count
-            if self.CHAR_LEVEL:
-                test_loss_a,test_accuracy_a=graph.test_on_batch([X_char_test,X_word_test],Y_test)
-            else:
-                test_loss_a,test_accuracy_a=graph.test_on_batch(X_word_test,Y_test)
-            print('Training loss ',batch_loss+'\n')
-            print('Training Accuracy ',batch_accuracy+'\n')
-            print('Test loss ',test_loss_a+'\n')
-            print('Test Accuracy ',test_accuracy_a+'\n')
             
-            if(test_accuracy_a>max_accuracy):
-                max_accuracy=test_accuracy_a
+            for bbt,idx in kf_test:
+                if self.CHAR_LEVEL:
+                    X_test_char=X_char_valid[idx]
+                X_test_word=X_word_valid[idx]
+                Y_test=Y_valid[idx]
+                if self.CHAR_LEVEL:
+                    test_loss_a,test_accuracy_a=graph.test_on_batch([X_test_char,X_test_word],Y_test)
+                else:
+                    test_loss_a,test_accuracy_a=graph.test_on_batch(X_test_word,Y_test)
+                batch_test_count=batch_test_count+1
+                batch_test_loss=batch_test_loss+test_loss_a
+                batch_test_accuracy=batch_test_accuracy+test_accuracy_a
+            batch_test_loss=batch_test_loss/batch_test_count
+            batch_test_accuracy=batch_test_accuracy/batch_test_count
+            print('\nTraining loss ',batch_loss)
+            print('Training Accuracy ',batch_accuracy)
+            print('Test loss ',batch_test_loss)
+            print('Test Accuracy ',batch_test_accuracy)
+            
+            if(batch_test_accuracy>max_accuracy):
+                max_accuracy=batch_test_accuracy
                 self.save_model(graph)
             train_loss.append(batch_loss)
             train_accuracy.append(batch_accuracy)
-            test_loss.append(test_loss_a)
-            test_accuracy.append(test_accuracy_a)
+            test_loss.append(batch_test_loss)
+            test_accuracy.append(batch_test_accuracy)
         return train_loss,train_accuracy,test_loss,test_accuracy
     def save_model(self,model):
          model_path = './models/single_language/single_task/'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HCNN.json'
-         weights_path = './models/single_language/single_task'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HCNN_weights.hdf5'
+         weights_path = './models/single_language/single_task/'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HCNN_weights.hdf5'
          options = {"file_arch": model_path,"file_weight": weights_path}
          json_string = model.to_json()
          open(options['file_arch'], 'w').write(json_string)

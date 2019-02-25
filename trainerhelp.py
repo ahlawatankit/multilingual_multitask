@@ -50,5 +50,9 @@ class Trainerhelp:
             intent2id=np.load(os.path.abspath('./datasets/'+self.dataset+'/'+self.language+'/intent2id.npy')).item()
             id2intent=np.load(os.path.abspath('./datasets/'+self.dataset+'/'+self.language+'/id2intent.npy')).item()
             return intent2id,id2intent
+        elif self.task=='slot':
+            intent2id=np.load(os.path.abspath('./datasets/'+self.dataset+'/'+self.language+'/slot2id.npy')).item()
+            id2intent=np.load(os.path.abspath('./datasets/'+self.dataset+'/'+self.language+'/id2slot.npy')).item()
+            return intent2id,id2intent
 
         

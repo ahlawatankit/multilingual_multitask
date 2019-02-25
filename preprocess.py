@@ -9,6 +9,7 @@ from support.embeddingdictionary import EmbeddingDictionary
 from support.cleandata import CleanData
 from support.charembedding import Charembedding
 from support.intent import intent
+from support.slot import slot
 import os 
 import numpy as np
 class preprocess:
@@ -55,6 +56,21 @@ intent2id,id2intent=intent_obj.build_dict(intents)
 obj.save_dict(intent2id,'./datasets/Trains_dataset/english/','intent2id.npy')
 obj.save_dict(intent2id,'./datasets/Trains_dataset/english/','id2intent.npy')
 
+slot_obj=slot()
+slots=slot_obj.read_slot('ATIS','english')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/ATIS/english/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/ATIS/english/','id2slot.npy')
+slots=slot_obj.read_slot('Frames_data','english')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/Frames_data/english/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/Frames_data/english/','id2slot.npy')
+slots=slot_obj.read_slot('Trains_dataset','english')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/Trains_dataset/english/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/Trains_dataset/english/','id2slot.npy')
+
+
 
 ############hindi##############
 intents=intent_obj.read_intent('ATIS','hindi')
@@ -69,6 +85,20 @@ intents=intent_obj.read_intent('Trains_dataset','hindi')
 intent2id,id2intent=intent_obj.build_dict(intents)
 obj.save_dict(intent2id,'./datasets/Trains_dataset/hindi/','intent2id.npy')
 obj.save_dict(intent2id,'./datasets/Trains_dataset/hindi/','id2intent.npy')
+
+slots=slot_obj.read_slot('ATIS','hindi')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/ATIS/hindi/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/ATIS/hindi/','id2slot.npy')
+slots=slot_obj.read_slot('Frames_data','hindi')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/Frames_data/hindi/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/Frames_data/hindi/','id2slot.npy')
+slots=slot_obj.read_slot('Trains_dataset','hindi')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/Trains_dataset/hindi/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/Trains_dataset/hindi/','id2slot.npy')
+
 
 ############## ben################
 
@@ -85,6 +115,20 @@ intent2id,id2intent=intent_obj.build_dict(intents)
 obj.save_dict(intent2id,'./datasets/Trains_dataset/ben/','intent2id.npy')
 obj.save_dict(intent2id,'./datasets/Trains_dataset/ben/','id2intent.npy')
 del intent_obj
+
+slots=slot_obj.read_slot('ATIS','ben')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/ATIS/ben/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/ATIS/ben/','id2slot.npy')
+slots=slot_obj.read_slot('Frames_data','ben')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/Frames_data/ben/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/Frames_data/ben/','id2slot.npy')
+slots=slot_obj.read_slot('Trains_dataset','ben')
+slot2id,id2slot=slot_obj.build_dict(slots)
+obj.save_dict(slot2id,'./datasets/Trains_dataset/ben/','slot2id.npy')
+obj.save_dict(slot2id,'./datasets/Trains_dataset/ben/','id2slot.npy')
+del slot_obj
 ############end########################
 
 

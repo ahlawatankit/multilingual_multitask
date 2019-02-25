@@ -11,7 +11,9 @@ from support.cleandata import CleanData
 from support.embeddingdictionary import EmbeddingDictionary
 from support.intent import intent
 from support.charembedding import Charembedding
+from support.slot import slot
 from keras.utils import to_categorical
+
 import numpy as np
 class SStrainer:
     def __init__(self,dataset,language,task,embed_type,model_name,char_level=False):
@@ -21,6 +23,7 @@ class SStrainer:
         self.embed_type=embed_type
         self.model_name=model_name
         self.char_level=char_level
+        self.MAX_LENGTH=90
     def prepare_data(self):
         obj=Trainerhelp(self.dataset,self.language,self.task,self.embed_type,self.char_level)
         self.train_X,self.test_X,self.train_Y,self.test_Y=obj.load_data()
@@ -53,23 +56,29 @@ class SStrainer:
             self.train_Y=obj.encode_intent(self.train_Y,self.task2id)
             self.test_Y=obj.encode_intent(self.test_Y,self.task2id)
             del obj
-            
+        elif self.task=='slot':
+            obj=slot()
+            self.train_Y=obj.encode_slot(self.train_Y,self.task2id,self.MAX_LENGTH)
+            self.test_Y=obj.encode_slot(self.test_Y,self.task2id,self.MAX_LENGTH)
+            del obj
     def run_model(self):
         if self.model_name=='HCNN':
             from models.single_language.single_task.HCNN import HCNN
-            obj=HCNN(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level)
+            obj=HCNN(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level,self.MAX_LENGTH)
             graph=obj.build_model()
-            loss,accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),self.test_X,self.test_char_X,to_categorical(self.test_Y,len(self.task2id)),3)              
-            test_acc,test_f1=obj.test_model(graph,self.test_X,self.test_char_X,self.test_Y)
+            train_loss,train_accuracy,test_loss,test_accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),self.test_X,self.test_char_X,to_categorical(self.test_Y,len(self.task2id)),10)              
+            test_acc=obj.test_model(graph,self.test_X,self.test_char_X,self.test_Y)
             #writing results in ./result
             print("writing results in ./result")
             fp=open('./results/'+self.dataset+'_'+self.language+'_'+self.task+'.txt','w')
-            fp.write("********Loss and Accuracy history*******\n")
-            fp.writelines(str(loss)+'\n')
-            fp.writelines(str(accuracy)+'\n')
-            fp.writelines('********test accuracy, and f1 ***********\n')
+            fp.write("******** train Loss and Accuracy history*******\n")
+            fp.writelines(str(train_loss)+'\n')
+            fp.writelines(str(train_accuracy)+'\n')
+            fp.writelines('********test loss and accuracy history ***********\n')
+            fp.writelines(str(test_loss)+'\n')
+            fp.writelines(str(test_accuracy)+'\n')
+            fp.writelines('********final accuracy***********\n')
             fp.writelines(str(test_acc)+'\n')
-            fp.writelines(str(test_f1)+'\n')
             fp.close()
 if __name__== "__main__":
     print('***Single Language Single Task Trainer *********')
