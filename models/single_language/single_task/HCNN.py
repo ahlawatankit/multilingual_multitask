@@ -8,17 +8,18 @@ Created on Wed Jan 30 12:24:11 2019
 
 from support.modelsupport import ModelSupport
 import numpy as np
+import keras.backend as K
 from keras.models import Model
 from keras.layers import Dense, Input, Flatten, Dropout, concatenate,BatchNormalization,Activation
 from keras.layers import Conv1D, MaxPooling1D, Embedding, LSTM, add, TimeDistributed, Bidirectional, Lambda,Reshape
 from evaluate.modelevaluate import ModelEvaluate
 from tqdm import tqdm
 from keras.optimizers import Adam
-CharCNN_config=[[32,4],[32,5],[32,6]]
-wordCNN_config=[[128,3],[128,4],[128,5],[128,6]]
-UNIT1=64
+CharCNN_config=[[16,3],[16,4],[16,5]]
+wordCNN_config=[[256,2],[256,3],[256,4],[256,5]]
+UNIT1=512
 UNIT2=128
-optimizer = Adam(lr=0.0001, beta_1=0.8, beta_2=0.8, epsilon=None, decay=0.00009, amsgrad=False)
+optimizer = Adam(lr=0.001, beta_1=0.8, beta_2=0.85, epsilon=None, decay=0.0005, amsgrad=True)
 losses = 'categorical_crossentropy'
 class HCNN:
     def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,config_wordCNN=wordCNN_config):
@@ -34,6 +35,14 @@ class HCNN:
         self.language=language
         self.task=task
         self.model='HCNN'
+    def f1(self,y_true, y_pred):
+        true_positives = K.sum(K.round(K.clip(y_true * y_pred, 0, 1)))
+        possible_positives = K.sum(K.round(K.clip(y_true, 0, 1)))
+        recall = true_positives / (possible_positives + K.epsilon())   
+        predicted_positives = K.sum(K.round(K.clip(y_pred, 0, 1)))
+        precision = true_positives / (predicted_positives + K.epsilon())
+        return 2*((precision*recall)/(precision+recall+K.epsilon()))
+
     def build_model(self):
         #character CNN implemention
         if self.CHAR_LEVEL:
@@ -64,7 +73,7 @@ class HCNN:
         if self.task=='intent':
             flat_in=Flatten()(concat_in)
             intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
-            intent_out=Dropout(0.1)(intent_out)
+            intent_out=Dropout(0.3)(intent_out)
             intent_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='intent_out')(intent_out)
             if self.CHAR_LEVEL:
                 graph = Model(inputs=[char_input,word_input], outputs=intent_out)
@@ -74,15 +83,15 @@ class HCNN:
             graph.summary()
             return graph
         elif self.task=='slot':
-            slot_in=Reshape((self.MAX_WORD,256))(concat_in)
-            slot_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(slot_in)
+            slot_in=Reshape((self.MAX_WORD,512))(concat_in)
+            slot_out = Dense(units=UNIT1, activation='relu', kernel_initializer='he_normal')(slot_in)
             slot_out=Dropout(0.1)(slot_out)
-            slot_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='slot_out')(slot_out)
+            slot_out = Dense(units=self.NUM_CLASS, activation='sigmoid', kernel_initializer='he_normal',name ='slot_out')(slot_out)
             if self.CHAR_LEVEL:
                 graph = Model(inputs=[char_input,word_input], outputs=slot_out)
             else:
-                graph = Model(inputs=word_input, outputs=intent_out)
-            graph.compile(loss=losses,optimizer=optimizer,metrics=['accuracy'])
+                graph = Model(inputs=word_input, outputs=slot_out)
+            graph.compile(loss=losses,optimizer=optimizer,metrics=[self.f1])
             graph.summary()
             return graph
             
@@ -144,7 +153,7 @@ class HCNN:
             train_accuracy.append(batch_accuracy)
             test_loss.append(batch_test_loss)
             test_accuracy.append(batch_test_accuracy)
-        return train_loss,train_accuracy,test_loss,test_accuracy
+        return train_loss,train_accuracy,test_loss,test_accuracy,max_accuracy
     def save_model(self,model):
          model_path = './models/single_language/single_task/'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HCNN.json'
          weights_path = './models/single_language/single_task/'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HCNN_weights.hdf5'

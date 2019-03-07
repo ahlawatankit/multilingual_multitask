@@ -23,7 +23,7 @@ class SStrainer:
         self.embed_type=embed_type
         self.model_name=model_name
         self.char_level=char_level
-        self.MAX_LENGTH=90
+        self.MAX_LENGTH=50
     def prepare_data(self):
         obj=Trainerhelp(self.dataset,self.language,self.task,self.embed_type,self.char_level)
         self.train_X,self.test_X,self.train_Y,self.test_Y=obj.load_data()
@@ -43,12 +43,15 @@ class SStrainer:
         # char senetence encoding
         if self.char_level:
             obj=Charembedding()
-            self.train_char_X=obj.encode_sentence(self.char2id,self.train_X,25,90)
-            self.test_char_X=obj.encode_sentence(self.char2id,self.test_X,25,90)
+            self.train_char_X=obj.encode_sentence(self.char2id,self.train_X,25,self.MAX_LENGTH)
+            self.test_char_X=obj.encode_sentence(self.char2id,self.test_X,25,self.MAX_LENGTH)
+        else:
+            self.train_char_X=None
+            self.test_char_X=None
         # word sentence encoding
         obj=EmbeddingDictionary()
-        self.train_X=obj.encode_sequence(self.word2id,self.train_X,90)
-        self.test_X=obj.encode_sequence(self.word2id,self.test_X,90)
+        self.train_X=obj.encode_sequence(self.word2id,self.train_X,self.MAX_LENGTH)
+        self.test_X=obj.encode_sequence(self.word2id,self.test_X,self.MAX_LENGTH)
         del obj
         
         if self.task=='intent':
@@ -65,21 +68,27 @@ class SStrainer:
         if self.model_name=='HCNN':
             from models.single_language.single_task.HCNN import HCNN
             obj=HCNN(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level,self.MAX_LENGTH)
-            graph=obj.build_model()
-            train_loss,train_accuracy,test_loss,test_accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),self.test_X,self.test_char_X,to_categorical(self.test_Y,len(self.task2id)),10)              
-            test_acc=obj.test_model(graph,self.test_X,self.test_char_X,self.test_Y)
-            #writing results in ./result
-            print("writing results in ./result")
-            fp=open('./results/'+self.dataset+'_'+self.language+'_'+self.task+'.txt','w')
-            fp.write("******** train Loss and Accuracy history*******\n")
-            fp.writelines(str(train_loss)+'\n')
-            fp.writelines(str(train_accuracy)+'\n')
-            fp.writelines('********test loss and accuracy history ***********\n')
-            fp.writelines(str(test_loss)+'\n')
-            fp.writelines(str(test_accuracy)+'\n')
-            fp.writelines('********final accuracy***********\n')
-            fp.writelines(str(test_acc)+'\n')
-            fp.close()
+        if self.model_name=='HLSTM':
+            from models.single_language.single_task.HLSTM import HLSTM
+            obj=HLSTM(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level,self.MAX_LENGTH)
+        if self.model_name=='HGRU':
+            from models.single_language.single_task.HGRU import HGRU
+            obj=HGRU(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level,self.MAX_LENGTH)
+
+        graph=obj.build_model()
+        train_loss,train_accuracy,test_loss,test_accuracy,max_accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),self.test_X,self.test_char_X,to_categorical(self.test_Y,len(self.task2id)),250)              
+        #writing results in ./result
+        print("writing results in ./result")
+        fp=open('./results/'+self.dataset+'_'+self.language+'_'+self.task+'_'+self.model_name+'.txt','w')
+        fp.write("******** train Loss and Accuracy history*******\n")
+        fp.writelines(str(train_loss)+'\n')
+        fp.writelines(str(train_accuracy)+'\n')
+        fp.writelines('********test loss and accuracy history ***********\n')
+        fp.writelines(str(test_loss)+'\n')
+        fp.writelines(str(test_accuracy)+'\n')
+        fp.writelines('********final accuracy***********\n')
+        fp.writelines(str(max_accuracy)+'\n')
+        fp.close()
 if __name__== "__main__":
     print('***Single Language Single Task Trainer *********')
     dataset=input("Enter Dataset name ")

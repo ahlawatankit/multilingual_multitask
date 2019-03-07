@@ -1,0 +1,16 @@
+******** Intent train Loss and  Accuracy history*******
+[3.691551687625738]
+[0.7982104699581097]
+******** Slot train Loss and Accuracy history*******
+[0.8038424135973821]
+[0.12990683796763336]
+********Intent test loss and accuracy history ***********
+[5.15488692692348]
+[0.7797875617231641]
+********Slot test loss and accuracy history ***********
+[1.168439877718421]
+[0.3030571671468871]
+********final Intent accuracy***********
+0.7797875617231641
+********final Slot accuracy***********
+0.3030571671468871
