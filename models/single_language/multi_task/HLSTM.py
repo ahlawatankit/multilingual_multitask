@@ -8,7 +8,6 @@ Created on Wed Jan 30 12:24:11 2019
 
 from support.modelsupport import ModelSupport
 import numpy as np
-import keras
 from keras.models import Model
 from keras.layers import Dense, Input, Flatten, Dropout, concatenate,BatchNormalization,Activation
 from keras.layers import Conv1D, MaxPooling1D, Embedding, LSTM, add, TimeDistributed, Bidirectional, Lambda,Reshape
@@ -22,7 +21,7 @@ adam = Adam(lr=0.0001, beta_1=0.9, beta_2=0.9, epsilon=None, decay=0.0001, amsgr
 sgd =SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
 losses = 'categorical_crossentropy'
 class HLSTM:
-    def __init__(self,char_embedding,word_embedding,INTENT_CLASS,SLOT_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,lstm_hidden_size=256):
+    def __init__(self,char_embedding,word_embedding,INTENT_CLASS,SLOT_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,lstm_hidden_size=128):
         self.char_embedding=char_embedding
         self.word_embedding=word_embedding
         self.INTENT_CLASS=INTENT_CLASS
@@ -54,7 +53,7 @@ class HLSTM:
         embed_word_out = Embedding(self.word_embedding.shape[0], self.word_embedding.shape[1], weights=[self.word_embedding],trainable=True, mask_zero = False)(word_input)
         if self.CHAR_LEVEL:
             embed_word_out=concatenate([char_out,embed_word_out],axis=-1)        
-        seq_in=LSTM(self.lstm_hidden_size, activation='tanh', recurrent_activation='hard_sigmoid', kernel_initializer='random_uniform', recurrent_initializer='orthogonal',  kernel_regularizer=keras.regularizers.l2(10),return_sequences=True)(embed_word_out)
+        seq_in=LSTM(self.lstm_hidden_size, activation='relu', kernel_initializer='he_normal',return_sequences=True)(embed_word_out)
             
         flat_in=Flatten()(seq_in)
         intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
@@ -72,7 +71,7 @@ class HLSTM:
         graph.summary()       
         return graph    
             
-    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=32):
+    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=128):
         train_loss_IN=[]
         train_loss_SO=[]
         train_accuracy_IN=[]
