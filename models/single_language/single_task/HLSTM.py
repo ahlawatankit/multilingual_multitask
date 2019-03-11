@@ -18,11 +18,11 @@ from keras.optimizers import Adam,SGD
 CharCNN_config=[[16,3],[16,4]]
 UNIT1=128
 UNIT2=128
-optimizer = Adam(lr=0.001, beta_1=0.9, beta_2=0.88, decay=0.0001, amsgrad=False)
-sgd =SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
+adam = Adam(lr=0.001, beta_1=0.9, beta_2=0.88, decay=0.0001, amsgrad=False)
+sgd =SGD(lr=0.0001, decay=1e-5, momentum=0.95, nesterov=True)
 losses = 'categorical_crossentropy'
 class HLSTM:
-    def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,lstm_hidden_size=64):
+    def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,lstm_hidden_size=128):
         self.char_embedding=char_embedding
         self.word_embedding=word_embedding
         self.NUM_CLASS=NUM_CLASS
@@ -56,26 +56,26 @@ class HLSTM:
         if self.task=='intent':
             flat_in=LSTM(self.lstm_hidden_size, activation='relu', kernel_initializer='glorot_uniform',return_sequences=False)(embed_word_out)
             #flat_in=Dropout(0.1)(flat_in)
-            intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
+            intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='glorot_uniform')(flat_in)
             intent_out=Dropout(0.1)(intent_out)
-            intent_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='intent_out')(intent_out)
+            intent_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='glorot_uniform',name ='intent_out')(intent_out)
             if self.CHAR_LEVEL:
                 graph = Model(inputs=[char_input,word_input], outputs=intent_out)
             else:
                 graph = Model(inputs=word_input, outputs=intent_out)
-            graph.compile(loss=losses,optimizer=optimizer,metrics=['accuracy'])
+            graph.compile(loss=losses,optimizer=adam,metrics=['accuracy'])
             graph.summary()
             return graph
         elif self.task=='slot':
-            flat_in=LSTM(self.lstm_hidden_size, activation='tanh', recurrent_activation='hard_sigmoid', use_bias=True, kernel_initializer='glorot_uniform', recurrent_initializer='orthogonal', bias_initializer='ones', unit_forget_bias=True, kernel_regularizer=keras.regularizers.l2(0.01), dropout=0.3, recurrent_dropout=0.3,return_sequences=True)(embed_word_out)
-            slot_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
-            slot_out=Dropout(0.1)(slot_out)
-            slot_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='slot_out')(slot_out)
+            flat_in=LSTM(self.lstm_hidden_size, activation='relu', kernel_initializer='he_normal',return_sequences=True)(embed_word_out)
+            slot_out = Dense(units=UNIT2, activation='relu', kernel_initializer='glorot_uniform')(flat_in)
+            slot_out=Dropout(0.5)(slot_out)
+            slot_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='glorot_uniform',name ='slot_out')(slot_out)
             if self.CHAR_LEVEL:
                 graph = Model(inputs=[char_input,word_input], outputs=slot_out)
             else:
                 graph = Model(inputs=word_input, outputs=slot_out)
-            graph.compile(loss=losses,optimizer=sgd,metrics=['accuracy'])
+            graph.compile(loss=losses,optimizer=adam,metrics=['accuracy'])
             graph.summary()
             return graph
             

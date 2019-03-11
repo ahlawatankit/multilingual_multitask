@@ -18,7 +18,7 @@ from keras.optimizers import Adam,SGD
 CharCNN_config=[[16,3],[16,4],[16,5]]
 UNIT1=64
 UNIT2=128
-optimizer = Adam(lr=0.0001, beta_1=0.9, beta_2=0.9, epsilon=None, decay=0.0001, amsgrad=True)
+adam = Adam(lr=0.001, beta_1=0.9, beta_2=0.95, epsilon=None, decay=0.00001, amsgrad=True)
 sgd =SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
 losses = 'categorical_crossentropy'
 class HGRU:
@@ -54,32 +54,32 @@ class HGRU:
         if self.CHAR_LEVEL:
             embed_word_out=concatenate([char_out,embed_word_out],axis=-1)        
         if self.task=='intent':
-            flat_in=GRU(self.gru_hidden_size, activation='tanh', recurrent_activation='hard_sigmoid', use_bias=True, kernel_initializer='glorot_uniform', recurrent_initializer='orthogonal', bias_initializer='ones', kernel_regularizer=keras.regularizers.l2(0.2),  dropout=0.2,return_sequences=False)(embed_word_out)
+            flat_in=GRU(self.gru_hidden_size, activation='relu', kernel_initializer='he_normal',return_sequences=False)(embed_word_out)
             intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
-            intent_out=Dropout(0.1)(intent_out)
+            intent_out=Dropout(0.4)(intent_out)
             intent_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='intent_out')(intent_out)
             if self.CHAR_LEVEL:
                 graph = Model(inputs=[char_input,word_input], outputs=intent_out)
             else:
                 graph = Model(inputs=word_input, outputs=intent_out)
-            graph.compile(loss=losses,optimizer=optimizer,metrics=['accuracy'])
+            graph.compile(loss=losses,optimizer=adam,metrics=['accuracy'])
             graph.summary()
             return graph
         elif self.task=='slot':
-            flat_in=GRU(self.gru_hidden_size, activation='tanh', recurrent_activation='hard_sigmoid', use_bias=True, kernel_initializer='glorot_uniform', recurrent_initializer='orthogonal', bias_initializer='ones', kernel_regularizer=keras.regularizers.l2(0.2),  dropout=0.2, return_sequences=True)(embed_word_out)
+            flat_in=GRU(self.gru_hidden_size, activation='relu', kernel_initializer='he_normal', return_sequences=True)(embed_word_out)
             slot_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
-            slot_out=Dropout(0.1)(slot_out)
+            slot_out=Dropout(0.4)(slot_out)
             slot_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='slot_out')(slot_out)
             if self.CHAR_LEVEL:
                 graph = Model(inputs=[char_input,word_input], outputs=slot_out)
             else:
                 graph = Model(inputs=word_input, outputs=slot_out)
-            graph.compile(loss=losses,optimizer=optimizer,metrics=['accuracy'])
+            graph.compile(loss=losses,optimizer=adam,metrics=['accuracy'])
             graph.summary()
             return graph
             
             
-    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=32):
+    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=64):
         train_loss=[]
         train_accuracy=[]
         test_loss=[]
@@ -136,7 +136,7 @@ class HGRU:
             train_accuracy.append(batch_accuracy)
             test_loss.append(batch_test_loss)
             test_accuracy.append(batch_test_accuracy)
-        return train_loss,train_accuracy,test_loss,test_accuracy
+        return train_loss,train_accuracy,test_loss,test_accuracy,max_accuracy
     def save_model(self,model):
          model_path = './models/single_language/single_task/'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HGRU.json'
          weights_path = './models/single_language/single_task/'+self.dataset+'_'+self.language+'_'+self.task+'_'+'HGRU_weights.hdf5'

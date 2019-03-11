@@ -18,13 +18,14 @@ from keras.optimizers import Adam
 CharCNN_config=[[16,3],[16,4],[16,5]]
 UNIT1=64
 UNIT2=128
-optimizer = Adam(lr=0.0001, beta_1=0.9, beta_2=0.9, epsilon=None, decay=0.0001, amsgrad=True)
+adam = Adam(lr=0.001, beta_1=0.9, beta_2=0.95, epsilon=None, decay=0.00001, amsgrad=True)
 losses = 'categorical_crossentropy'
 class HGRU:
-    def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,gru_hidden_size=512):
+    def __init__(self,char_embedding,word_embedding,INTENT_CLASS,SLOT_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,gru_hidden_size=128):
         self.char_embedding=char_embedding
         self.word_embedding=word_embedding
-        self.NUM_CLASS=NUM_CLASS
+        self.INTENT_CLASS=INTENT_CLASS
+        self.SLOT_CLASS=SLOT_CLASS
         self.CHAR_LEVEL=CHAR_LEVEL
         self.MAX_WORD=MAX_WORD
         self.MAX_CHAR_WORD=MAX_CHAR_WORD
@@ -52,7 +53,7 @@ class HGRU:
         embed_word_out = Embedding(self.word_embedding.shape[0], self.word_embedding.shape[1], weights=[self.word_embedding],trainable=True, mask_zero = False)(word_input)
         if self.CHAR_LEVEL:
             embed_word_out=concatenate([char_out,embed_word_out],axis=-1)        
-        seq_in=GRU(self.gru_hidden_size, activation='tanh', recurrent_activation='hard_sigmoid', use_bias=True, kernel_initializer='glorot_uniform', recurrent_initializer='orthogonal', bias_initializer='ones', kernel_regularizer=keras.regularizers.l2(0.2),  dropout=0.2,return_sequences=False)(embed_word_out)
+        seq_in=GRU(self.gru_hidden_size, activation='relu', kernel_initializer='he_normal',return_sequences=True)(embed_word_out)
             
         flat_in=Flatten()(seq_in)
         intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
@@ -66,11 +67,11 @@ class HGRU:
             graph = Model(inputs=[char_input,word_input], outputs=[intent_out,slot_out])
         else:
             graph = Model(inputs=word_input, outputs=[intent_out,slot_out])
-        graph.compile(loss=losses,optimizer=optimizer,metrics=['accuracy'])
+        graph.compile(loss=losses,optimizer=adam,metrics=['accuracy'])
         graph.summary()       
         return graph    
             
-    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=32):
+    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=128):
         train_loss_IN=[]
         train_loss_SO=[]
         train_accuracy_IN=[]

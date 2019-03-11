@@ -74,6 +74,9 @@ class SStrainer:
         if self.model_name=='HGRU':
             from models.single_language.single_task.HGRU import HGRU
             obj=HGRU(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level,self.MAX_LENGTH)
+        if self.model_name=='HGAN':
+            from models.single_language.single_task.HGAN import HGAN
+            obj=HGAN(self.char_embedding,self.word_embedding,len(self.task2id),self.dataset,self.language,self.task,self.char_level,self.MAX_LENGTH)
 
         graph=obj.build_model()
         train_loss,train_accuracy,test_loss,test_accuracy,max_accuracy=obj.train_model(graph,self.train_X,self.train_char_X,to_categorical(self.train_Y,len(self.task2id)),self.test_X,self.test_char_X,to_categorical(self.test_Y,len(self.task2id)),250)              
