@@ -16,10 +16,10 @@ from evaluate.modelevaluate import ModelEvaluate
 from tqdm import tqdm
 from keras.optimizers import Adam
 CharCNN_config=[[16,3],[16,4],[16,5]]
-wordCNN_config=[[256,2],[256,3],[256,4],[256,5]]
+wordCNN_config=[[128,2],[128,3],[128,4],[128,5]]
 UNIT1=512
 UNIT2=128
-optimizer = Adam(lr=0.001, beta_1=0.8, beta_2=0.85, epsilon=None, decay=0.0005, amsgrad=True)
+optimizer = Adam(lr=0.0001, beta_1=0.90, beta_2=0.9, epsilon=None, decay=0, amsgrad=True)
 losses = 'categorical_crossentropy'
 class HCNN:
     def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,config_wordCNN=wordCNN_config):
@@ -73,7 +73,7 @@ class HCNN:
         if self.task=='intent':
             flat_in=Flatten()(concat_in)
             intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
-            intent_out=Dropout(0.3)(intent_out)
+            intent_out=Dropout(0.5)(intent_out)
             intent_out = Dense(units=self.NUM_CLASS, activation='softmax', kernel_initializer='he_normal',name ='intent_out')(intent_out)
             if self.CHAR_LEVEL:
                 graph = Model(inputs=[char_input,word_input], outputs=intent_out)
@@ -83,7 +83,7 @@ class HCNN:
             graph.summary()
             return graph
         elif self.task=='slot':
-            slot_in=Reshape((self.MAX_WORD,512))(concat_in)
+            slot_in=Reshape((self.MAX_WORD,256))(concat_in)
             slot_out = Dense(units=UNIT1, activation='relu', kernel_initializer='he_normal')(slot_in)
             slot_out=Dropout(0.1)(slot_out)
             slot_out = Dense(units=self.NUM_CLASS, activation='sigmoid', kernel_initializer='he_normal',name ='slot_out')(slot_out)
@@ -96,7 +96,7 @@ class HCNN:
             return graph
             
             
-    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=32):
+    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=128):
         train_loss=[]
         train_accuracy=[]
         test_loss=[]

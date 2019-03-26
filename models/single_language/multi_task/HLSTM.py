@@ -18,7 +18,7 @@ CharCNN_config=[[16,3],[16,4],[16,5]]
 UNIT1=64
 UNIT2=128
 adam = Adam(lr=0.0001, beta_1=0.9, beta_2=0.9, epsilon=None, decay=0.0001, amsgrad=True)
-sgd =SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
+sgd =SGD(lr=0.001, decay=1e-7, momentum=0.90, nesterov=True)
 losses = 'categorical_crossentropy'
 class HLSTM:
     def __init__(self,char_embedding,word_embedding,INTENT_CLASS,SLOT_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,lstm_hidden_size=128):
@@ -57,10 +57,10 @@ class HLSTM:
             
         flat_in=Flatten()(seq_in)
         intent_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(flat_in)
-        intent_out=Dropout(0.3)(intent_out)
+        intent_out=Dropout(0.4)(intent_out)
         intent_out = Dense(units=self.INTENT_CLASS, activation='softmax', kernel_initializer='he_normal',name ='intent_out')(intent_out)
         slot_out = Dense(units=UNIT2, activation='relu', kernel_initializer='he_normal')(seq_in)
-        slot_out=Dropout(0.3)(slot_out)
+        slot_out=Dropout(0.4)(slot_out)
         slot_out = Dense(units=self.SLOT_CLASS, activation='softmax', kernel_initializer='he_normal',name ='slot_out')(slot_out)
 
         if self.CHAR_LEVEL:

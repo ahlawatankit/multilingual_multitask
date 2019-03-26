@@ -13,22 +13,32 @@ from support.slot import slot
 import os 
 import numpy as np
 class preprocess:
-    def read_all(self,language):
-        sent= EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/ATIS/'+language+'/utterence_train.txt'))
-        sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/ATIS/'+language+'/utterence_test.txt')))
-        sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Frames_data/'+language+'/utterence_train.txt')))
-        sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Frames_data/'+language+'/utterence_test.txt')))
-        sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Trains_dataset/'+language+'/utterence_train.txt')))
-        sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Trains_dataset/'+language+'/utterence_test.txt')))
-        return sent
-    def dict_embed(self,sent,embedding_file,dim1,dim2):
+    def read_all(self,language,dataset=None,cross_lingual=False,language_1=None):
+        if(cross_lingual):
+            sent= EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/'+dataset+'/'+language+'/utterence_train.txt'))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/'+dataset+'/'+language+'/utterence_test.txt')))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/'+dataset+'/'+language_1+'/utterence_train.txt')))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/'+dataset+'/'+language_1+'/utterence_test.txt')))      
+            return sent
+        else:   
+            sent= EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/ATIS/'+language+'/utterence_train.txt'))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/ATIS/'+language+'/utterence_test.txt')))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Frames_data/'+language+'/utterence_train.txt')))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Frames_data/'+language+'/utterence_test.txt')))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Trains_dataset/'+language+'/utterence_train.txt')))
+            sent.extend( EmbeddingDictionary.read_file(self,os.path.abspath('./datasets/Trains_dataset/'+language+'/utterence_test.txt')))
+            return sent
+    def dict_embed(self,sent,embedding_file,dim1,dim2,embedding_2=None,cross_lingual=False):
          print('*** Parsing Data ****')
          sent1=CleanData.adding_tokens(self,sent)
          print('*** Building Vocab ***')
          word2id,id2word=EmbeddingDictionary.create_dictionary(self,sent1)
          char2id,id2char= Charembedding.create_dict(self,sent)
          print('*** Making Emnbedding ***')
-         embedding=EmbeddingDictionary.create_embedding(self,word2id,os.path.abspath(embedding_file),dim1)
+         if(cross_lingual):
+              embedding=EmbeddingDictionary.create_cross_embedding(self,word2id,os.path.abspath(embedding_file),os.path.abspath(embedding_2),dim1)
+         else:
+             embedding=EmbeddingDictionary.create_embedding(self,word2id,os.path.abspath(embedding_file),dim1)
          char_embedding=Charembedding.create_embedding(self,char2id,dim2)
          return embedding,char_embedding,word2id,id2word,char2id,id2char
     
@@ -174,3 +184,18 @@ obj.save_embedding(embd_char,'./embeddings/ben/char/')
 
 ##### end ########
 
+#multi lingual part
+
+######### hindi_ben  ############
+sent=obj.read_all('hindi','ATIS',True,'ben')
+embd,embd_char,word2id,id2word,char2id,id2char=obj.dict_embed(sent,'cross_hi.vec',300,100,'cross_bn.vec',True)
+print('*** Saving hindi ben dictionary ***** ')
+obj.save_dict(word2id,'./dictionary/hindi_ben_ATIS/wordlevel/','word2id.npy')
+obj.save_dict(id2word,'./dictionary/hindi_ben_ATIS/wordlevel/','id2word.npy')    
+obj.save_dict(char2id,'./dictionary/hindi_ben_ATIS/charlevel/','char2id.npy')
+obj.save_dict(id2char,'./dictionary/hindi_ben_ATIS/charlevel/','id2char.npy')
+print('*** Saving hindi  ben Embedding *****')
+obj.save_embedding(embd,'./embeddings/hindi_ben_ATIS/fasttext/')
+obj.save_embedding(embd_char,'./embeddings/hindi_ben_ATIS/char/')
+
+del obj

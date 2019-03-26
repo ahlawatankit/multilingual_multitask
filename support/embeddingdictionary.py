@@ -27,6 +27,21 @@ class EmbeddingDictionary:
                 embedding = [float(val) for val in tokens[1:]]
                 embedding_matrix[word2id[tokens[0]]] = np.asarray(embedding)
         return embedding_matrix
+    def create_cross_embedding(self,word2id,embedding_file,embedding_file_2,dim):
+        fin = io.open(embedding_file, 'r', encoding='utf-8', newline='\n', errors='ignore')
+        fin2 = io.open(embedding_file_2, 'r', encoding='utf-8', newline='\n', errors='ignore')
+        embedding_matrix=np.random.rand(len(word2id),dim)
+        for line in fin:
+            tokens = line.rstrip().split(' ')
+            if(tokens[0] in word2id):
+                embedding = [float(val) for val in tokens[1:]]
+                embedding_matrix[word2id[tokens[0]]] = np.asarray(embedding)
+        for line in fin2:
+            tokens = line.rstrip().split(' ')
+            if(tokens[0] in word2id):
+                embedding = [float(val) for val in tokens[1:]]
+                embedding_matrix[word2id[tokens[0]]] = np.asarray(embedding)
+        return embedding_matrix
              
     def create_dictionary(self,train):
         word2id={}

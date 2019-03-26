@@ -17,12 +17,12 @@ from tqdm import tqdm
 from keras.optimizers import Adam,SGD
 CharCNN_config=[[16,3],[16,4],[16,5]]
 UNIT1=64
-UNIT2=128
-adam = Adam(lr=0.001, beta_1=0.9, beta_2=0.95, epsilon=None, decay=0.00001, amsgrad=True)
+UNIT2=256
+adam = Adam(lr=0.0001, beta_1=0.9, beta_2=0.95, epsilon=None, decay=0.0001, amsgrad=True)
 sgd =SGD(lr=0.001, decay=1e-6, momentum=0.9, nesterov=True)
 losses = 'categorical_crossentropy'
 class HGRU:
-    def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,gru_hidden_size=128):
+    def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,gru_hidden_size=256):
         self.char_embedding=char_embedding
         self.word_embedding=word_embedding
         self.NUM_CLASS=NUM_CLASS
@@ -79,7 +79,7 @@ class HGRU:
             return graph
             
             
-    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=64):
+    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=32):
         train_loss=[]
         train_accuracy=[]
         test_loss=[]
