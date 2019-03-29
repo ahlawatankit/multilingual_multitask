@@ -20,7 +20,7 @@ CharCNN_config=[[16,3],[16,4],[16,5]]
 wordCNN_config=[[256,2],[256,3],[256,4],[256,5]]
 UNIT1=64
 UNIT2=129
-adam = Adam(lr=0.00001, beta_1=0.99, beta_2=0.95, epsilon=None, decay=0.000001, amsgrad=True)
+adam = Adam(lr=0.0001, beta_1=0.90, beta_2=0.95, epsilon=None, decay=0.0000001, amsgrad=True)
 sgd =SGD(lr=0.00001, decay=1e-6, momentum=0.95, nesterov=True)
 losses = 'categorical_crossentropy'
 class HLSTM:
@@ -62,6 +62,7 @@ class HLSTM:
             embed_word_out=concatenate([char_out,embed_word_out],axis=-1)
         
         concat_in=LSTM(self.lstm_hidden_size, activation='relu', kernel_initializer='he_normal',return_sequences=True)(embed_word_out)
+        concat_in=BatchNormalization()(concat_in)
         concat_in=Dropout(0.1)(concat_in)
         if self.CHAR_LEVEL:
             half_model=Model(inputs=[char_input,word_input], outputs=concat_in)
@@ -111,7 +112,7 @@ class HLSTM:
             
             
     def train_model(self,language_1_model,language_2_model,X_word_lang1,X_char_lang1,Y_IN_lang1,Y_SO_lang1,X_word_valid_lang1,X_char_valid_lang1,Y_IN_valid_lang1,Y_SO_valid_lang1,
-                    X_word_lang2,X_char_lang2,Y_IN_lang2,Y_SO_lang2,X_word_valid_lang2,X_char_valid_lang2,Y_IN_valid_lang2,Y_SO_valid_lang2,epochs=500,batch_size=128):
+                    X_word_lang2,X_char_lang2,Y_IN_lang2,Y_SO_lang2,X_word_valid_lang2,X_char_valid_lang2,Y_IN_valid_lang2,Y_SO_valid_lang2,epochs=500,batch_size=64):
         train_loss_IN_lang1=[]
         train_loss_SO_lang1=[]
         train_accuracy_IN_lang1=[]

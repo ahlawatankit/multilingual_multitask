@@ -87,6 +87,10 @@ class MMtrainer:
             from models.multi_language.multi_task.HLSTM import HLSTM
             obj=HLSTM(self.char_embedding,self.word_embedding,len(self.intent2id_lang1),len(self.slot2id_lang1),len(self.intent2id_lang2),len(self.slot2id_lang2),self.dataset,self.language1,self.language2,self.task,self.char_level,self.MAX_LENGTH)
             language_1_model,language_2_model=obj.build_model()
+        if self.model_name=='HGRU':
+            from models.multi_language.multi_task.HGRU import HGRU
+            obj=HGRU(self.char_embedding,self.word_embedding,len(self.intent2id_lang1),len(self.slot2id_lang1),len(self.intent2id_lang2),len(self.slot2id_lang2),self.dataset,self.language1,self.language2,self.task,self.char_level,self.MAX_LENGTH)
+            language_1_model,language_2_model=obj.build_model()
 
         train_loss_IN_lang1,train_accuracy_IN_lang1,train_loss_SO_lang1,train_accuracy_SO_lang1,test_loss_IN_lang1,test_accuracy_IN_lang1,test_loss_SO_lang1,test_accuracy_SO_lang1,max_accuracy_IN_lang1,max_accuracy_SO_lang1,train_loss_IN_lang2,train_accuracy_IN_lang2,train_loss_SO_lang2,train_accuracy_SO_lang2,test_loss_IN_lang2,test_accuracy_IN_lang2,test_loss_SO_lang2,test_accuracy_SO_lang2,max_accuracy_IN_lang2,max_accuracy_SO_lang2=obj.train_model(language_1_model,language_2_model,self.train_X_lang1,self.train_char_X_lang1,to_categorical(self.train_IN_Y_lang1,len(self.intent2id_lang1)),to_categorical(self.train_SO_Y_lang1,len(self.slot2id_lang1)),self.test_X_lang1,self.test_char_X_lang1,to_categorical(self.test_IN_Y_lang1,len(self.intent2id_lang1)),to_categorical(self.test_SO_Y_lang1,len(self.slot2id_lang1)),self.train_X_lang2,self.train_char_X_lang2,to_categorical(self.train_IN_Y_lang2,len(self.intent2id_lang2)),to_categorical(self.train_SO_Y_lang2,len(self.slot2id_lang2)),self.test_X_lang2,self.test_char_X_lang2,to_categorical(self.test_IN_Y_lang2,len(self.intent2id_lang2)),to_categorical(self.test_SO_Y_lang2,len(self.slot2id_lang2)),300)              
         #writing results in ./result

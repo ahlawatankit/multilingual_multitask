@@ -19,8 +19,8 @@ from keras.optimizers import Adam,SGD
 CharCNN_config=[[16,3],[16,4]]
 wordCNN_config=[[64,2],[64,3],[64,4],[64,5]]
 UNIT1=64
-UNIT2=129
-adam = Adam(lr=0.01, beta_1=0.9, beta_2=0.9, epsilon=None, decay=0.001, amsgrad=True)
+UNIT2=130
+adam = Adam(lr=0.0001, beta_1=0.97, beta_2=0.99, epsilon=None, decay=0.0000001, amsgrad=True)
 sgd =SGD(lr=0.001, decay=1e-6, momentum=0.95, nesterov=True)
 losses = 'categorical_crossentropy'
 class HCNN:
@@ -86,12 +86,12 @@ class HCNN:
         else:
             graph = Model(inputs=word_input, outputs=[intent_out,slot_out])
         mt={'intent_out':'accuracy','slot_out':'acc'}
-        graph.compile(loss=losses,optimizer=sgd,metrics=mt)
+        graph.compile(loss=losses,optimizer=adam,metrics=mt)
         graph.summary()       
         return graph
             
             
-    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=32):
+    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=64):
         train_loss_IN=[]
         train_loss_SO=[]
         train_accuracy_IN=[]
