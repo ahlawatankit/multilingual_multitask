@@ -23,7 +23,7 @@ class SStrainer:
         self.embed_type=embed_type
         self.model_name=model_name
         self.char_level=char_level
-        self.MAX_LENGTH=58
+        self.MAX_LENGTH=55
     def prepare_data(self):
         obj=Trainerhelp(self.dataset,self.language,self.task,self.embed_type,self.char_level)
         self.train_X,self.test_X,self.train_Y,self.test_Y=obj.load_data()
