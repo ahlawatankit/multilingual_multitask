@@ -17,8 +17,8 @@ from keras.optimizers import Adam,SGD
 CharCNN_config=[[16,3],[16,4],[16,5]]
 UNIT1=64
 UNIT2=128
-adam = Adam(lr=0.0001, beta_1=0.9, beta_2=0.9, epsilon=None, decay=0.0001, amsgrad=True)
-sgd =SGD(lr=0.001, decay=1e-7, momentum=0.90, nesterov=True)
+adam = Adam(lr=0.00001, beta_1=0.95, beta_2=0.99, epsilon=None, decay=0.000001, amsgrad=True)
+sgd =SGD(lr=0.00001, decay=1e-9, momentum=0.95, nesterov=True)
 losses = 'categorical_crossentropy'
 class HLSTM:
     def __init__(self,char_embedding,word_embedding,INTENT_CLASS,SLOT_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,lstm_hidden_size=128):
@@ -71,7 +71,7 @@ class HLSTM:
         graph.summary()       
         return graph    
             
-    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=128):
+    def train_model(self,graph,X_word,X_char,Y_IN,Y_SO,X_word_valid,X_char_valid,Y_IN_valid,Y_SO_valid,epochs=500,batch_size=64):
         train_loss_IN=[]
         train_loss_SO=[]
         train_accuracy_IN=[]
