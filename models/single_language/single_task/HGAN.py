@@ -42,7 +42,7 @@ class HGAN:
         # elemnt wise multiplication with normal distribution
         n_embedding=[]
         for vec in embedding:
-            e=np.random.normal(0,1,embedding.shape[1])
+            e=np.random.normal(-1,1,embedding.shape[1])
             new_vec=np.multiply(vec,e)
             n_embedding.append(list(new_vec))
             #print(np.linalg.norm(vec),np.linalg.norm(new_vec))

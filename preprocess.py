@@ -198,4 +198,16 @@ print('*** Saving hindi  ben Embedding *****')
 obj.save_embedding(embd,'./embeddings/hindi_ben_ATIS/fasttext/')
 obj.save_embedding(embd_char,'./embeddings/hindi_ben_ATIS/char/')
 
+######### hindi_ben  ############
+sent=obj.read_all('hindi','Trains_dataset',True,'ben')
+embd,embd_char,word2id,id2word,char2id,id2char=obj.dict_embed(sent,'cross_hi.vec',300,100,'cross_bn.vec',True)
+print('*** Saving hindi ben dictionary ***** ')
+obj.save_dict(word2id,'./dictionary/hindi_ben_Trains_dataset/wordlevel/','word2id.npy')
+obj.save_dict(id2word,'./dictionary/hindi_ben_Trains_dataset/wordlevel/','id2word.npy')    
+obj.save_dict(char2id,'./dictionary/hindi_ben_Trains_dataset/charlevel/','char2id.npy')
+obj.save_dict(id2char,'./dictionary/hindi_ben_Trains_dataset/charlevel/','id2char.npy')
+print('*** Saving hindi  ben Embedding *****')
+obj.save_embedding(embd,'./embeddings/hindi_ben_Trains_dataset/fasttext/')
+obj.save_embedding(embd_char,'./embeddings/hindi_ben_Trains_dataset/char/')
+
 del obj

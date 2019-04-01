@@ -16,10 +16,10 @@ from evaluate.modelevaluate import ModelEvaluate
 from tqdm import tqdm
 from keras.optimizers import Adam
 CharCNN_config=[[16,3],[16,4],[16,5]]
-wordCNN_config=[[128,2],[128,3],[128,4],[128,5]]
+wordCNN_config=[[64,2],[64,3],[64,4],[64,5]]
 UNIT1=512
 UNIT2=128
-optimizer = Adam(lr=0.0001, beta_1=0.90, beta_2=0.9, epsilon=None, decay=0, amsgrad=True)
+optimizer = Adam(lr=0.0001, beta_1=0.95, beta_2=0.99, epsilon=None, decay=0.000001, amsgrad=True)
 losses = 'categorical_crossentropy'
 class HCNN:
     def __init__(self,char_embedding,word_embedding,NUM_CLASS,dataset,language,task,CHAR_LEVEL=False,MAX_WORD=90,MAX_CHAR_WORD=25,config_charCNN=CharCNN_config,config_wordCNN=wordCNN_config):
@@ -96,7 +96,7 @@ class HCNN:
             return graph
             
             
-    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=128):
+    def train_model(self,graph,X_word,X_char,Y,X_word_valid,X_char_valid,Y_valid,epochs=500,batch_size=64):
         train_loss=[]
         train_accuracy=[]
         test_loss=[]
